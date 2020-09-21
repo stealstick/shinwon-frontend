@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="798" height="263" viewBox="0 0 798 263">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-680 -1129) translate(680 1129)">
+                <circle cx="59.5" cy="59.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="17" font-weight="bold">
+                    <tspan x="36" y="67">환자명</tspan>
+                </text>
+                <circle cx="228.5" cy="59.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="17" font-weight="bold">
+                    <tspan x="205.04" y="55">환자의</tspan> <tspan x="197.22" y="80">임상소견</tspan>
+                </text>
+                <path fill="#799FC5" d="M130 67.873h32.586c.552 0 1-.447 1-1 0-.265-.106-.52-.293-.707l-8.73-8.73-8.73-8.729c-.39-.39-1.023-.39-1.414 0-.187.188-.292.442-.292.707V59.5H130v8.373z"/>
+                <circle cx="399.5" cy="59.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="355.34" y="55">환자등록번호</tspan> <tspan x="364.012" y="79">(차트번호)</tspan>
+                </text>
+                <path fill="#799FC5" d="M297 67.873h32.586c.552 0 1-.447 1-1 0-.265-.106-.52-.293-.707l-8.73-8.73-8.73-8.729c-.39-.39-1.023-.39-1.414 0-.187.188-.292.442-.292.707V59.5H297v8.373z"/>
+                <circle cx="570.5" cy="59.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="541.06" y="67">담당의사</tspan>
+                </text>
+                <path fill="#799FC5" d="M472 67.873h32.586c.552 0 1-.447 1-1 0-.265-.106-.52-.293-.707l-8.73-8.73-8.73-8.729c-.39-.39-1.023-.39-1.414 0-.187.188-.292.442-.292.707V59.5H472v8.373z"/>
+                <circle cx="738.5" cy="59.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="706.46" y="55">성별,연령</tspan> <tspan x="694.34" y="79">주민등록번호</tspan>
+                </text>
+                <circle cx="738.5" cy="203.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="701.7" y="199">검사채취일</tspan> <tspan x="716.42" y="223">의뢰일</tspan>
+                </text>
+                <circle cx="570.5" cy="203.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="548.42" y="199">검체의</tspan> <tspan x="537.428" y="223">종류 및 양</tspan>
+                </text>
+                <path fill="#799FC5" d="M638 67.873h32.586c.552 0 1-.447 1-1 0-.265-.106-.52-.293-.707l-8.73-8.73-8.73-8.729c-.39-.39-1.023-.39-1.414 0-.187.188-.292.442-.292.707V59.5H638v8.373z"/>
+                <path fill="#799FC5" d="M637 207.873h32.586c.552 0 1-.447 1-1 0-.265-.106-.52-.293-.707l-8.73-8.73-8.73-8.729c-.39-.39-1.023-.39-1.414 0-.187.188-.292.442-.292.707V199.5H637v8.373z" transform="matrix(-1 0 0 1 1309 0)"/>
+                <circle cx="399.5" cy="203.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="361.384" y="199">임신정보 등</tspan> <tspan x="352.208" y="223">검체 채취 부위</tspan>
+                </text>
+                <path fill="#799FC5" d="M466 207.873h32.586c.552 0 1-.447 1-1 0-.265-.106-.52-.293-.707l-8.73-8.73-8.73-8.729c-.39-.39-1.023-.39-1.414 0-.187.188-.292.442-.292.707V199.5H466v8.373z" transform="matrix(-1 0 0 1 967 0)"/>
+                <circle cx="228.5" cy="203.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="191.2" y="199">기타항목별</tspan> <tspan x="198.56" y="223">참고사항</tspan>
+                </text>
+                <path fill="#799FC5" d="M295 207.873h32.586c.552 0 1-.447 1-1 0-.265-.106-.52-.293-.707l-8.73-8.73-8.73-8.729c-.39-.39-1.023-.39-1.414 0-.187.188-.292.442-.292.707V199.5H295v8.373z" transform="matrix(-1 0 0 1 625 0)"/>
+                <circle cx="59.5" cy="203.5" r="57.5" fill="#FFF" stroke="#E3EAF5" stroke-width="4"/>
+                <text fill="#233D57" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="44.28" y="211">내용</tspan>
+                </text>
+                <path fill="#799FC5" d="M127 207.873h32.586c.552 0 1-.447 1-1 0-.265-.106-.52-.293-.707l-8.73-8.73-8.73-8.729c-.39-.39-1.023-.39-1.414 0-.187.188-.292.442-.292.707V199.5H127v8.373z" transform="matrix(-1 0 0 1 289 0)"/>
+                <path fill="#799FC5" d="M732.934 125.787V123h10.249v2.787h4.98c.552 0 1 .448 1 1 0 .228-.078.448-.22.625l-10.023 12.513c-.345.431-.974.5-1.405.155-.057-.045-.109-.097-.155-.154l-10.053-12.512c-.346-.431-.278-1.06.153-1.406.178-.143.398-.22.626-.22h4.848z"/>
+            </g>
+        </g>
+    </g>
+</svg>

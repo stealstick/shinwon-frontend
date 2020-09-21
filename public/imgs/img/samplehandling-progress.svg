@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="801" height="99" viewBox="0 0 801 99">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#BBD9F7" d="M0 0L133 0 153.25 49.5 133 99 0 99z" transform="translate(-680 -935) translate(680 935)"/>
+                <path fill="#93C5F6" d="M153 0L293.594 0 315 49.5 293.594 99 153 99 174.406 49.336z" transform="translate(-680 -935) translate(680 935)"/>
+                <path fill="#64A4E3" d="M315 0L455.594 0 477 49.5 455.594 99 315 99 336.406 49.336z" transform="translate(-680 -935) translate(680 935)"/>
+                <path fill="#4488CB" d="M477 0L617.594 0 639 49.5 617.594 99 477 99 498.406 49.336z" transform="translate(-680 -935) translate(680 935)"/>
+                <path fill="#2867A6" d="M639 0L779.594 0 801 49.5 779.594 99 639 99 660.406 49.336z" transform="translate(-680 -935) translate(680 935)"/>
+                <text fill="#FFF" font-family="Exo2.0-ExtraBold, Exo 2.0" font-size="28" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="19" y="45">01</tspan>
+                </text>
+                <text fill="#FFF" font-family="Exo2.0-ExtraBold, Exo 2.0" font-size="28" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="193" y="45">02</tspan>
+                </text>
+                <text fill="#FFF" font-family="Exo2.0-ExtraBold, Exo 2.0" font-size="28" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="353" y="45">03</tspan>
+                </text>
+                <text fill="#FFF" font-family="Exo2.0-ExtraBold, Exo 2.0" font-size="28" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="517" y="45">04</tspan>
+                </text>
+                <text fill="#FFF" font-family="Exo2.0-ExtraBold, Exo 2.0" font-size="28" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="679" y="45">05</tspan>
+                </text>
+                <text fill="#FFF" font-family="AppleSDGothicNeo-ExtraBold, Apple SD Gothic Neo" font-size="18" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="19" y="72">blood culture</tspan>
+                </text>
+                <text fill="#FFF" font-family="AppleSDGothicNeo-ExtraBold, Apple SD Gothic Neo" font-size="18" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="193" y="72">SST</tspan>
+                </text>
+                <text fill="#FFF" font-family="AppleSDGothicNeo-ExtraBold, Apple SD Gothic Neo" font-size="18" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="351" y="72">Sod. Citrate</tspan>
+                </text>
+                <text fill="#FFF" font-family="AppleSDGothicNeo-ExtraBold, Apple SD Gothic Neo" font-size="18" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="517" y="72">Heparin</tspan>
+                </text>
+                <text fill="#FFF" font-family="AppleSDGothicNeo-ExtraBold, Apple SD Gothic Neo" font-size="18" font-weight="600" transform="translate(-680 -935) translate(680 935)">
+                    <tspan x="679" y="72">EDTA</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="250" viewBox="0 0 150 250">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-680 -680) translate(680 680)">
+                <rect width="150" height="250" fill="#F5F5F5" rx="4"/>
+                <text fill="#4488CB" font-family="Exo2.0-Black, Exo 2.0" font-size="30" font-weight="700">
+                    <tspan x="12" y="41">01</tspan>
+                </text>
+                <path fill="#EAEAEA" d="M148.301 1.66L0 146.5V246c0 2.21 1.79 4 4 4h142c2.21 0 4-1.79 4-4V2.374c0-.552-.448-1-1-1-.261 0-.512.103-.699.285z"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="13">
+                    <tspan x="31.912" y="182">검사의뢰서 작성</tspan> <tspan x="29" y="199">검체 채취 및 보관</tspan>
+                </text>
+                <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold">
+                    <tspan x="46" y="153">의뢰기관</tspan>
+                </text>
+                <g transform="translate(54 54)">
+                    <rect width="40.896" height="49.609" x="1" y="12.351" stroke="#000" stroke-width="2" rx="4"/>
+                    <rect width="18.778" height="4.703" x="12.394" y="9" fill="#FFF" stroke="#000" stroke-width="2" rx="1"/>
+                    <path fill="#ACACAC" d="M8.043 24.756H31.852999999999998V26.767H8.043zM8.043 34.81H31.852999999999998V36.821000000000005H8.043zM8.043 44.864H31.852999999999998V46.875H8.043z"/>
+                    <text fill="#64A4E3" font-family="NotoSansCJKkr-Black, Noto Sans CJK KR" font-size="40" font-weight="700">
+                        <tspan x="23.48" y="46.747">+</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

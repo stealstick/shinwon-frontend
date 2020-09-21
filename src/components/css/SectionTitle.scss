@@ -1,0 +1,31 @@
+.section-title-wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+    .section-title-kor{
+        font-family: NotoSansCJKkr;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        margin-right: 25px;
+    }
+    .section-title-eng{
+        font-family: NotoSansCJKkr;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #888888;
+    }
+}
