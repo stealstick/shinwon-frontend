@@ -6,7 +6,7 @@ const IntroductionSidebar = ({setNumber, selectedNum}) => {
         <div className={styles.sidebar}>
             <div className={styles.sidebar_title}>
                 <img src="imgs/img/test-guidance-gene.svg" alt="" className={styles.sidebar_title_img}/>
-                <div className={styles.sidebar_title_text}>검사센터</div>
+                <div className={styles.sidebar_title_text}>검사안내</div>
             </div>
             <div onClick={() => setNumber(1)} className={selectedNum===1 ? styles.sidebar_selected : styles.sidebar_content}>검사절차</div>
             <div onClick={() => setNumber(2)} className={selectedNum===2 ? styles.sidebar_selected : styles.sidebar_content}>검체취급</div>
