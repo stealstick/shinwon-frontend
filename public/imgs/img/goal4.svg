@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="116" viewBox="0 0 390 116">
+    <defs>
+        <path id="wawbva3b6a" d="M4 0h382c2.21 0 4 1.79 4 4v32H0V4c0-2.21 1.79-4 4-4z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-1090 -1037) translate(1090 1037)">
+                <rect width="390" height="116" fill="#F2F5F7" rx="4"/>
+                <g transform="translate(0 1)">
+                    <mask id="a205evwk2b" fill="#fff">
+                        <use xlink:href="#wawbva3b6a"/>
+                    </mask>
+                    <use fill="#A3B4C4" xlink:href="#wawbva3b6a"/>
+                    <path fill="#B2C1CF" d="M196.643 40.5c114.049 0 206.503-20.476 206.503-50.656 0-30.179-92.454-54.644-206.503-54.644C82.595-64.8-9.86-40.335-9.86-10.156c0 30.18 92.455 50.656 206.503 50.656z" mask="url(#a205evwk2b)"/>
+                    <path fill="#92ACC3" d="M48.202 35.936c167.111.828 277.417-11.22 330.918-36.143 53.5-24.924 74.84-24.924 64.02 0v47.89L48.203 52.2V35.936z" mask="url(#a205evwk2b)"/>
+                    <path fill="#89A0B4" d="M67.921 35.936c167.111.828 277.417-11.22 330.918-36.143 53.5-24.924 74.84-24.924 64.02 0v47.89L67.922 52.2V35.936z" mask="url(#a205evwk2b)"/>
+                </g>
+                <text fill="#363636" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="20" font-weight="400">
+                    <tspan x="80" y="81">마음이 따뜻하며 정직하기를</tspan>
+                </text>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Black, Noto Sans CJK KR" font-size="18" font-weight="700">
+                    <tspan x="125" y="27">The employeee</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

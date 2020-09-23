@@ -1,0 +1,71 @@
+.container{
+    width: 228px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .img_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 80px;
+        margin-bottom: 30px;
+        .img{
+
+        }
+    }
+    .text{
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        margin-top: 10px;
+    }
+}
+.gray{
+    background-color: #e7e7e7;
+}
+.white{
+    background-color: #ffffff;
+}
+.hover_container{
+    background-color: #1e72aa;
+    width: 258px;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .hover_title{
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #ffffff;
+        margin-bottom: 16px;
+    }
+    .hover_separator{
+        width: 48px;
+        background-color: #ffffff;
+        height: 2px;
+    }
+    .hover_text{
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+}

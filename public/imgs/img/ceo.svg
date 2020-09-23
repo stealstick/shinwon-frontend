@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="268" height="99" viewBox="0 0 268 99">
+    <defs>
+        <radialGradient id="m87ukahztb" cx="50%" cy="0%" r="100%" fx="50%" fy="0%" gradientTransform="matrix(0 1 -.70766 0 .5 -.5)">
+            <stop offset="0%" stop-color="#061F2E"/>
+            <stop offset="100%" stop-color="#234C6D"/>
+        </radialGradient>
+        <linearGradient id="aa4y6hjodd" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#4796B6" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#225D80" stop-opacity=".599"/>
+        </linearGradient>
+        <rect id="5f54jvh9ma" width="268" height="98" x="0" y=".755" rx="7"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-935 -822) translate(935 822)">
+                    <mask id="ebfgl9n5fc" fill="#fff">
+                        <use xlink:href="#5f54jvh9ma"/>
+                    </mask>
+                    <use fill="#234C6D" xlink:href="#5f54jvh9ma"/>
+                    <path fill="url(#m87ukahztb)" d="M259.538 0c-16.871 34.486-54.945 67.486-114.223 99-59.277 31.514-11.291 31.432 143.958-.245l4.683-95.5L259.538 0z" mask="url(#ebfgl9n5fc)"/>
+                    <path fill="url(#aa4y6hjodd)" d="M73.5 119.755c61.58 0 188.258-86.922 188.258-130 0-14.927-6.577-9.646-16.972-21.5-19.606-22.358-130.043-4.5-170.286-4.5-61.58 0-111.5 34.921-111.5 78 0 43.078 48.92 78 110.5 78z" mask="url(#ebfgl9n5fc)"/>
+                    <path fill="#FFF" fill-opacity=".169" d="M0 49.755C12.453 76.23 91.786 92.647 238 99c146.214 6.353 65.563 6.353-241.953 0L0 49.755z" mask="url(#ebfgl9n5fc)"/>
+                </g>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="11" transform="translate(-935 -822) translate(935 822)">
+                    <tspan x="59" y="80">Shinwon Medical Foundation</tspan>
+                </text>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="20" font-weight="bold" transform="translate(-935 -822) translate(935 822)">
+                    <tspan x="86" y="37">재단 이사장</tspan>
+                </text>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-935 -822) translate(935 822)">
+                    <tspan x="116" y="59">C.E.O</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

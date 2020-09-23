@@ -1,0 +1,93 @@
+.container{
+    margin-left: 60px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    width: 800px;
+    .greeting_top_wrapper{
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #dcdcdc;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .greeting_top_img{
+            width: 60%;
+        }
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+        width: 100%;
+        .greeting_title{
+            font-size: 30px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        .greeting_content_wrapper{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            .greeting_img_wrapper{
+                display: flex;
+                flex-direction: column;
+                width: 270px;
+                margin-right: 20px;
+                .greeting_img{
+                    width: 270px;
+                    height: 341px;
+                }
+                .greeting_img_text_wrapper{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    margin-top: 20px;
+                    .img_text{
+                        font-size: 15px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #000000;
+                    }
+                    .greeting_name{
+
+                    }
+                }
+            }
+            .greeting_content_text{
+                display: flex;
+                flex-direction: column;
+                width: calc(100% - 290px);
+                .greeting_content_text_title{
+                    font-size: 20px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #000000;
+                    margin-bottom: 10px;
+                }
+                .greeting_content_text_normal{
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.64;
+                    letter-spacing: normal;
+                    color: #4b4b4b;
+                }
+            }
+        }
+    }
+}

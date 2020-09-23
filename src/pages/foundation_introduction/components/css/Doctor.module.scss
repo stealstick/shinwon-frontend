@@ -1,0 +1,49 @@
+.container{
+    margin-left: 60px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    width: 800px;
+    .greeting_top_wrapper{
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #dcdcdc;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .greeting_top_img{
+            width: 60%;
+        }
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+        width: 100%;
+        .greeting_title{
+            font-size: 30px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        .doctor_subtitle{
+            font-size: 24px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #444444;
+            margin-top: 16px;
+            margin-bottom: 45px;
+        }
+        .doctor_img{
+            margin-bottom: 40px;
+        }
+    }
+}
