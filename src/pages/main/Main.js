@@ -10,8 +10,7 @@ function Main() {
         let slider_index = 2
         const interval = setInterval(() => {
             slider_index = slider_index % 3 + 1
-            console.log(slider_index)
-            //setSlider(slider_index)
+            setSlider(slider_index)
         }, 5000);
         return () => clearInterval(interval);
     }, []);
