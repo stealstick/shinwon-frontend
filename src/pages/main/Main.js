@@ -5,7 +5,9 @@ import MainHoverContent from './components/MainHoverContent'
 import styles from '../../css/Main.module.scss'
 
 function Main() {
+
     const [slider, setSlider] = useState(1)
+
     useEffect(() => {
         let slider_index = 1
         const interval = setInterval(() => {
@@ -14,6 +16,7 @@ function Main() {
         }, 5000);
         return () => clearInterval(interval);
     }, []);
+
     return (
         <Layout>
             <div className={styles.body_upper}>
@@ -22,7 +25,7 @@ function Main() {
                         <div className={styles.body_slide_bar + ' ' + styles.slide_bar_3} onClick={() => setSlider(3)}>
                             검사센터
                         </div>
-                        <div className={slider == 3 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
+                        <div className={slider === 3 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
                             <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider1.png')" }}>
                                 <div className={styles.white_box}>
                                     <div className={styles.sub_title}>
@@ -51,7 +54,7 @@ function Main() {
                         <div className={styles.body_slide_bar + ' ' + styles.slide_bar_2} onClick={() => setSlider(2)}>
                             검사절차
                         </div>
-                        <div className={slider == 2 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
+                        <div className={slider === 2 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
                             <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider2.png')" }}>
                             <div className={styles.white_box}>
                                     <div className={styles.sub_title}>
@@ -80,7 +83,7 @@ function Main() {
                         <div className={styles.body_slide_bar + ' ' + styles.slide_bar_1} onClick={() => setSlider(1)}>
                             질환별안내
                         </div>
-                        <div className={slider == 1 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
+                        <div className={slider === 1 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
                             <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider3.png')" }}>
                             <div className={styles.white_box}>
                                     <div className={styles.sub_title}>
