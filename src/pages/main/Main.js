@@ -9,7 +9,7 @@ function Main() {
     const [slider, setSlider] = useState(1)
 
     useEffect(() => {
-        let slider_index = 2
+        let slider_index = 1
         const interval = setInterval(() => {
             slider_index = slider_index % 3 + 1
             setSlider(slider_index)
