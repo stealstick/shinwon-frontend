@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './css/BloodCollection.module.scss'
+import SectionTitle from '../../../components/SectionTitle'
 
 const BloodCollection = () => {
     return(
@@ -127,6 +128,7 @@ const BloodCollection = () => {
                         <br/>
                         금식이 필요한 검사 (콜레스트렐, 혈당검사 등)가 처방된 환자인 경우 8시간 이상 공복을 유지하였는지 확인하여야 한다. 
                     </div>
+                    <img src="imgs/img/sub-num-table.svg" alt="" className={styles.sub_num_table}/>
                     <div className={styles.sub_num_text}>
                         특정 음식물(또는 약물)등의 섭취를 금해야 하는 검사 처방인지를 확인 후 채혈해야 한다. <br/>
                         채혈하기 전 환자에게 채혈 할 것을 설명해야 하며 환자의 이름을 물어서 확인한다.  <br/>
@@ -173,6 +175,163 @@ const BloodCollection = () => {
                 </div>
                 <div className={styles.tips_wrapper}>
                     <img src="imgs/img/blood-tips.png" alt="" className={styles.tips_img}/>
+                    <div className={styles.tips_bold}>
+                        구혈대(Tourniquet)을 상박둘레에 맨다. 구혈대는 한번만 잡아 당기면 잘 풀릴 수 있게 묶는다.<br/>
+                        채혈하고자 하는 위치에서 10cm 이상 떨어진 곳에 묶어야 한다. 
+                    </div>
+                    <div className={styles.tips_text}>
+                        육안적으로 확인하고 촉진으로 확인하여 적당한 정맥을 고른다. <br/>
+좀 더 쉽게 정맥이 부풀어 오르게 하려면 환자는 주먹을 몇 번 쥐었다 편다.  <br/>
+<br/>
+알코올 솜으로 여러 번 문질러 천자할 부위를 닦아내고 알코올이 마르도록 자시 내버려둔다.(30-60 seconds)  <br/>
+구혈대는 2분 이상 묶지 말아야 하며, 2분내 채혈을 마치지 못한 경우 구혈대를 풀었다 다시 묶어 주어야 한다.  <br/>
+구혈대를 6분 이상 둔 경우 아래와 같은 상황이 발생된다.  <br/>
+가) Hemoconcentration (혈액농축)  <br/>
+너무 오랫동안 구혈대(Tourniquet)를 묶거나 너무 세게 묶었을 경우  <br/>
+나) 구혈대(Tourniquet)를 6분 이상 묶었을 경우 :  <br/>
+Enzymes, bilirubin, albumin, total protein, cholesterol (6-10% 증가)  <br/>
+Triglyceride, iron, calcium, RBC, hemoglobin (3-6% 증가)  <br/>
+Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate (5% 감소)  <br/>
+다) 구혈대(Tourniquet)를 5분 묶었을 경우 : Cholesterol 5-20%증가  <br/>
+<br/>
+- 진공채혈관을 이용한 정맥천자  <br/>
+① 바늘(vacutainer needle)의 녹색부위를 왼속으로 잡고 오른손으로 위의 반투명한 뚜껑을 돌려 제거하면 <br/>
+&nbsp;&nbsp;&nbsp;adapter 속으로 들어갈 고무로 피막 된 짧은 바늘이 나타나는데, <br/>
+&nbsp;&nbsp;&nbsp;adapter의 좁은 쪽 입구로 돌려 끼워넣어 움직이지 않도록 고정시킨다.  <br/>
+② 진공채혈관을 고무뚜껑이 짧은 바늘 쪽으로 향하도록 adapter의 큰 쪽 입구를 통해 넣되 <br/>
+&nbsp;&nbsp;&nbsp;고무뚜껑이 바늘에 찔리지 않도록 느슨하게 둔다.  <br/>
+③ 주사기를 사용할 때와 같은 요령으로 정맥을 찾아 찌르면 감각으로 정맥에 바늘이 들어갔다는 것을 알 수 있으며, <br/>
+&nbsp;&nbsp;&nbsp;이때 주사기를 지지하던 요령으로 왼손을 사용하여 adapter 사이에 adapter를 끼우고 엄지손가락으로 <br/>
+&nbsp;&nbsp;&nbsp;진공채혈관을 작은 바늘 쪽으로 힘껏 밀어넣어 뚜껑이 바늘에 의해 뚫림과 동시에 혈액이 채혈관 안으로 채취된다.<br/>  
+④ 진공채혈관은 목적에 따라 적당한 압력으로 내압이 조정되어 있으므로 <br/>
+&nbsp;&nbsp;&nbsp;일정량의 혈액이 얻어지면 더 이상 혈액이 나오지 않는다.  <br/>
+&nbsp;&nbsp;&nbsp;따라서 이때 왼손은 그대로 두고 가볍게 채혈관을 adapter로부터 분리하면 된다.  <br/>
+⑤ 채혈을 더 할것이면 새로운 진공채혈관만 adapter 속으로 넣고 힘껏 밀어 주면 된다. <br/>
+&nbsp;&nbsp;&nbsp;채혈관을 10회 이상 뒤집어 항응고제가 섞이게 한다.  <br/>
+⑥ 채혈관은 반드시 labeling이 되어 있는 것을 사용하여야 하며 채혈되는 동안 이름을 확인 할 수 있어 <br/>
+&nbsp;&nbsp;&nbsp;매 튜브마다 확인해야 한다.  <br/>
+     <br/>
+- 주사기를 이용하여 채혈하는 경우  <br/>
+① 일반적으로 21G 바늘이 연결되어있는 주사기를 사용한다.  <br/>
+② 채혈하고자 하는 부위에서 3~5cm 아래쪽을 누르며 혈관을 팽팽히 당겨 고장시켜 찌르기 쉽게 하고<br/>
+&nbsp;&nbsp;&nbsp;환자의 불편함도 감소시킨다.  <br/>
+③ 알코올이 건조된 후 바늘의 사면을 위로하여 15℃정도로 약 1cm 정도 찌른다. <br/>
+&nbsp;&nbsp;&nbsp;만약 너무 깊게 찌르면 혈관벽이 천공될 위험이 있다.  <br/>
+&nbsp;&nbsp;&nbsp;만약 동맥천공이 의심되면 바늘을 재빨리 제거한 후 적어도 5분이상 출혈이 멈출 때까지 해당부위를 강하게 압박하고 <br/>
+&nbsp;&nbsp;&nbsp;담당의에게 즉시 연락한다.  <br/>
+④ 일반혈관의 경우 채혈관에 혈류가 유입되기 시작하면 곧바로 지혈대를 풀고 환자의 주먹을 펴도록 한다.  <br/>
+                    </div>
+                </div>
+                <div className={styles.sub_wrapper}>
+                    <div className={styles.sub_num_text}>검체가 많을 때 일반적인 튜브별 채혈하는 순서는 아래와 같다.</div>
+                    <div className={styles.sub_tube_wrapper}>
+                        <img src="imgs/img/blood-tubes.png" alt="" className={styles.sub_tube_img}/>
+                    </div>
+                    <div className={styles.sub_num_text}>채혈을 마친 튜브는 튜브별 특징에 맞게 mix하여야 한다.</div>
+                </div>
+                <div className={styles.mixing_title}>Mixing / 믹싱</div>
+                <div className={styles.mixing_content_wrapper}>
+                    <img src="imgs/img/mixing.png" alt="" className={styles.mixing_img}/>
+                    <div className={styles.mixing_text_wrapper}>
+                        <div className={styles.mixing_text_top}>
+                            Mixing 목적은 각 tube 안에 포함된 일정량의 시약 함유되어 있는 것을<br/>
+                            mixing을 통해 tube 내 혈액과 잘 혼합되어 원활한 작용 유도한다.<br/>
+                            Mixing 시기 : 채혈 후 곧바로 부드럽게 시행<br/>
+                            Mixing 방법 : Tube를 똑바로 잡고 180˚ 아래로 내려 들어 올리면 1회 실기,<br/>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;각 검사 tube 별로 mixing 횟수를 반복	
+                        </div>
+                        <div className={styles.mixing_text_bot}>
+                            부적절한 Mixing으로 인한 문제 : EDTA, Sodium citrate, Heparin tube- Clot,<br/>
+                            SSTⅡ tube- 응고가 덜 된 상태 발생
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.section_title + " " + styles.mg_lft_50}>검체 채취용 용기 종류 및 혼합 방법</div>
+                <div className={styles.section_title + " " + styles.mg_lft_50}>검체채취과정</div>
+                <img src="imgs/img/extraction.png" alt="" className={styles.extraction_img}/>
+                <div className={styles.extraction_last_wrapper}>
+                    <img src="imgs/img/extraction-last.png" alt="" className={styles.extraction_last}/>
+                    <div className={styles.extraction_last_text}>
+                        * 뒤처리  - 주사기 사용 후 주사기 뚜껑은 recapping을 해서는 안된다.<br/>
+                        사용한 needle은 주사침통에 넣어 폐기물 처리되어야 한다.
+                    </div>
+                </div>
+                <div className={styles.section_title + " " + styles.mg_lft_50}>검체 분리 및 보관</div>
+                <div className={styles.text_light + " " + styles.mg_lft_50}>
+                - 채혈을 마친 검체는 적절한 온도에서 임상화학, 면역용 혈청(장)분리 또는 전혈 상태로 보관하다가 위탁하여야 한다.<br/>
+- 혈청이나 혈장을 분리하기 위해서는 혈액을 잘 혼합 한 다음 20-30분 경과 후 3000rpm에서 10분 원심분리 합니다.<br/>
+&nbsp;&nbsp;특히 혈당 검사 시에는 30분 이내에 혈청을 분리해 두고 가급적 NaF 용기 사용을 권장한다.<br/>
+- SST의 경우 분리된 혈청은 다른 용기에 옮길 필요 없이 그대로 보관하면 된다.<br/>
+- 혈청을 분리하지않고 전혈상태로 냉장 보관 시 검사결과(특히 전해질 검사 중 porassium  상승, 혈당 감소)에 영향을 준다.<br/>
+- 분리된 검체는 냉장 보관해 주고 특별한 보관이 필요한 검사의 경우에는 검사 안내서를 참고하여 보관하여야 한다.<br/>
+&nbsp;&nbsp;(검사별 보관조건을 확인한다.)<br/>
+- 검사가 끝난 검체는 검사결과의 재 검사 등 기타의 사유로 일정기관보관 후 폐기물 관리법에 따라 폐기한다. <br/>
+&nbsp;&nbsp;(혈청:7일, 일반 혈액 검체:3일)	
+                </div>
+                <div className={styles.tips_wrapper}>
+                    <div className={styles.tips_text_bold}>
+                    ▶ 주의 : 보관 검체로 검사 진행된 항목의 경우 보관 상태에 따라 결과 값에 영향을 줄 수 있으므로 <br/>
+                 <span className={styles.mg_lft_50}>이점을 의뢰의료기관 담당자에게 알려 적절한 조치를 취하게 한다.</span><br/>
+                    <br/>
+                    <span className={styles.mg_lft_50}>* 채혈 후 반드시 분리 보관해야 하는 검사 항목</span>
+                    </div>
+                    <div className={styles.tips_items_wrapper}>
+                        <div className={styles.tips_item}>FDF(B1613)</div>
+                        <div className={styles.tips_item}>ACTH(C3590)</div>
+                        <div className={styles.tips_item}>Renin(C7360)</div>
+                        <div className={styles.tips_item}>Aldosterol(C7358)</div>
+                        <div className={styles.tips_item}>BNP(CZ204)</div>
+                        <div className={styles.tips_item}>ADH(C7365)</div>
+                        <div className={styles.tips_item}>Lupus anticoagulant(B1711, B1712006)</div>
+                    </div>
+                </div>
+                <SectionTitle/>
+                <div className={styles.section_title}>감염관리 지침</div>
+                <div className={styles.text_normal_500}>
+                    병원감염과 관련하여 취급자는 검체의 채취, 수송, 조작, 분석 과정 등에서 감염성 물질에 노출될 위험이 큽니다.<br/>
+                    따라서 이러한 과정에서 야기될 수 있는 감염원으로부터의 노출을 최소화 하여 환자와 직원들을 감염으로부터 <br/>
+                    예방·보호 하여야 합니다.
+                </div>
+                <div className={styles.section_num_wrapper}>
+                    <div className={styles.section_num_content}>
+                        <div className={styles.section_num_title}>1. 일반적인 지침</div>
+                        <div className={styles.section_num_text}>
+                            검사실내 환경을 항상 청결하게 유지하여야 하며, 감염되었거나 감염이 의심되는 것은 멸균 소독해야 합니다.<br/> 
+                            환자로부터 직원이 감염되거나 환자간의 교차 감염을 방지하기 위해서 채혈자는 채혈 규정을 검체 취급자는 검체 취급 규정을<br/>
+                            엄수해야 합니다.   <br/>
+                            검사물을 처리하는 지역에서는 식사, 흡연, 화장 등을 해서는 안됩니다.<br/>
+                            식품이나 음료 등을 화학약품, 시약, 생물학적 재료등과 같은 냉장고에 넣지 않습니다.  <br/>
+                            검체를 취급하고 장갑을 벗은 후 검사실을 떠나기 전에는 반드시 손을 씻어야 합니다. <br/>
+                        </div>
+                    </div>
+                    <div className={styles.section_num_content}>
+                        <div className={styles.section_num_title}>2. 검체 취급 시 주의사항</div>
+                        <div className={styles.section_num_text}>
+                        검체 취급 전, 후에는 반드시 손을 씻어야 합니다.  <br/>
+모든 혈액, 체액, 혈청 등은 감염의 가능성이 있는 것으로 간주하여 다루어야 합니다.<br/>  
+병원성 진균, 세균, Mycobacterium 배양 등을 위한 검체의 접종은 biosafety cabinet 시설이 되어있는 곳에서 실시해야 합니다. <br/> 
+결핵배양 요기나 검체를 다루다가 엎질렀거나, 용기를 깨뜨렸을 때는 종이 타올로 덮고 <br/>
+10배 희석한 치아염소산(spdium hypocolorite)액을 부어 30분 이상 적셔두며, <br/>
+자외선 등(UV lamp)을 켠 채 24시간을 봉쇄하고 모든 직원은 그 방을 떠나 있게 합니다.  <br/>
+혈액이나 체액 또는 감염성 물질을 엎질렀을 때는 다음과 같이 처리합니다.  <br/>
+일과가 끝난 후 작업대는 규정에 따른 소독제로 오염을 제거합니다.  <br/>
+환자의 검체는 규정에 따른 소독제로 오염을 제거 합니다.  <br/>
+<br/>
+<span className={styles.emphasis}>가. 청소할 때 사용하는 두꺼운 장갑을 착용합니다.  <br/>
+나. 깨진 유리나 다른 물질이 섞여있을 때는 직접 만지지 말고 딱딱한 종이 등을 이용하여 적출물 처리 용기에 버립니다.  <br/>
+다. 종이 타올 등을 이용하여 검사물을 흡수시킨 후 생물재해용기에 버립니다.  <br/>
+라.소독제를 오염된 표면에 부어 놓는다. 이때 표면에 구멍이 많거나 거친 표면이라면 치아염소산을 10배, 표면이 딱딱하고 매끄러운 <br/>
+      곳이면 100배로 희석하여 사용합니다.  <br/>
+마. 30분정도 지난 후 종이 타올이나 휴지로 소독제를 흡수시켜 생물재해용기에 버립니다.  <br/>
+바. 물로 표면을 닦아 소독제의 성분이 남아있지 않도록 합니다.  <br/>
+사. 오염제거에 사용한 모든 물품은 적출물로 간주하여 취급하도록 합니다.  </span><br/>
+<br/>
+환자의 검체는 규정에 따라 소독한 후 폐기합니다.  <br/>
+검체 채취와 관계되는 바늘, 칼날, 기타 날카로운 물질은 열에 안전성이 있고 단단하며 뚫어지지않는 지정된 용기에 넣어 규정에 따라 <br/>
+소독한 후 폐기합니다.  <br/>
+검체를 수송하는 상자에 검사물이 엎질렀으면, 1% 치아염소산액에 30분간 담그어서 소독합니다. <br/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

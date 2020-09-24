@@ -5,6 +5,7 @@ import styles from '../../css/Service.module.scss'
 import ServiceSidebar from './components/ServiceSidebar'
 import Official from './components/Official'
 import BloodCollection from './components/BloodCollection'
+import DataRoom from './components/DataRoom'
 
 function Service(){
 

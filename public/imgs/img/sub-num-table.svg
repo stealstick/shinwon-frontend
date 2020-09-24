@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="749" height="462" viewBox="0 0 749 462">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="158.788" y="239">- T.protein</tspan> <tspan x="158.788" y="261">-Pottasium(K)</tspan> <tspan x="158.788" y="283">- Iron</tspan> <tspan x="158.788" y="305">- 인</tspan> <tspan x="158.788" y="327">- Amylase</tspan> <tspan x="158.788" y="349">- AST</tspan> <tspan x="158.788" y="371">- LDH</tspan> <tspan x="158.788" y="393">- Cholesterol</tspan> <tspan x="158.788" y="415">- Bilirubin</tspan> <tspan x="158.788" y="437">- Lipase</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="511.318" y="65">- Uric acid</tspan> <tspan x="511.318" y="87">- Phosphorous</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="511.318" y="202">- 커피, 음주, 흡연, 복용약물등도 </tspan> <tspan x="511.318" y="224"> 흔히 검사에 영향을 미친다.</tspan>
+                </text>
+                <path fill="#E3EAF5" d="M0 0H143.808V462H0z" transform="translate(-730 -3013) translate(730 3013)"/>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="158.788" y="32">- Glucose</tspan> <tspan x="158.788" y="54">- Triglyceride</tspan> <tspan x="158.788" y="76">- Cholesterol</tspan> <tspan x="158.788" y="98">- Lipid battery</tspan> <tspan x="158.788" y="120">- HDL-cholesterol</tspan> <tspan x="158.788" y="142">- LDL-cholesterol</tspan> <tspan x="158.788" y="164">- Iron, TIBC</tspan> <tspan x="158.788" y="186">- Alkaline phosphatase</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="48.008" y="66">식사 후</tspan> <tspan x="49.824" y="90">변동을</tspan> <tspan x="24.112" y="114">가져올 수 있는</tspan> <tspan x="57.184" y="138">항목</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="48.008" y="304">용혈 시</tspan> <tspan x="49.824" y="328">변동을</tspan> <tspan x="24.112" y="352">가져올 수 있는</tspan> <tspan x="57.184" y="376">항목</tspan>
+                </text>
+                <path fill="#E3EAF5" d="M352.53 0H496.33799999999997V462H352.53z" transform="translate(-730 -3013) translate(730 3013)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="395.493" y="42">고단백을</tspan> <tspan x="380.773" y="66">섭취했을경우</tspan> <tspan x="383.045" y="90">(12시간이상</tspan> <tspan x="407.189" y="114">금식)</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="410.213" y="203">기타</tspan> <tspan x="395.493" y="227">금지식품</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="511.318" y="342">-- 약물 투여 전에 채혈</tspan> <tspan x="511.318" y="364">- 독성농도를 알기 위해선</tspan> <tspan x="511.318" y="386"> 약물 투여 후 2시간 후 </tspan> <tspan x="511.318" y="408"> 채혈을 해야한다.</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-730 -3013) translate(730 3013)">
+                    <tspan x="395.493" y="377">약물검사</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 207.547L353.029 207.5M353.279 143.512L748.501 143.488M353.279 285.512L748.501 285.488M.5.5H748.501V461.5H.5z" transform="translate(-730 -3013) translate(730 3013)"/>
+            </g>
+        </g>
+    </g>
+</svg>

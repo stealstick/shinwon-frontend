@@ -1,0 +1,92 @@
+.container{
+    margin-left: 60px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    width: 800px;
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+        width: 100%;
+        .title_normal{
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        .datalist_wrapper{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .top_type_wrapper{
+            display: flex;
+            flex-direction: row;
+            width: calc(100% - 3px);
+            border: 1px solid #dcdcdc;
+            cursor: pointer;
+            margin-bottom: 55px;
+            .top_type_content{
+                font-size: 16px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #666666;
+                width: 50%;
+                padding: 18px 0;
+                text-align: center;
+                &:nth-child(1){
+                    border-right: 1px solid #dcdcdc;
+                }
+                &:hover{
+                    background-color: #6083b2;
+                    color: #ffffff;
+                }
+            }
+            .top_type_selected{
+                background-color: #6083b2;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.datacontent_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: calc(100% / 4);
+    .datacontent_title{
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #4a4a4a;
+        background-color: #ebf3ff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #d2d2d2;
+        border-bottom: 1px solid #d2d2d2;
+        height: 60px;
+        
+    }
+    .datacontent_img{
+        padding: 20px;
+        width: 160px;
+        height: 200px;
+        background-color: #ffffff;
+    }
+}
