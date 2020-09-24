@@ -22,7 +22,10 @@ function Service(){
                 <img src="imgs/img/foundation.png" alt="" className={styles.body_top_bg}/>
                 <div className={styles.body_contents}>
                     <ServiceSidebar setNumber={setNumber} selectedNum={num}/>
-                    <BloodCollection/>
+                    {num===1 ? <Official/> : 
+                    num===2 ? <DataRoom/> : 
+                    num===3 ? <BloodCollection/> :
+                    null}
                 </div>
             </div>
         </Layout>
