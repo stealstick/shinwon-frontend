@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="306" viewBox="0 0 800 306">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#F5E3E3" d="M0 0H145V306H0z" transform="translate(-680 -1591) translate(680 1591)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="58" y="29">식염</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="58" y="73">커피</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="50" y="182">향신료</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="34" y="226">알콜성 음료</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="58" y="281">흡연</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="43" y="128">차가운것</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 44L800 44M0 88L800 88M0 197L800 197M0 241L800 241M0 153L800 153M.5.5H799.5V305.5H.5z" transform="translate(-680 -1591) translate(680 1591)"/>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="168" y="27">임신 중에는 평소보다 싱겁게, 과량의 식염섭취는 부종과 임신중독증을 일으키기 쉽습니다.</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="168" y="71">일정량 이상의 커피는 수면에 지장을 주고 소변의 횟수를 많게 하므로 주의가 요망됩니다.</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="168" y="180">자극성인 것은 식욕을 증진시킬 만 한 소량은 별 지장이 없으나, 임신중독증인 때는 피하도록 해야 합니다.</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="168" y="224">태아에게 좋지 않은 영향을 주므로 피하는 것이 좋습니다.</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="168" y="268">흡연은 태아에게 산소와 영양공급에 나쁜 영향을 주어 </tspan> <tspan x="168" y="290">미숙아가 태어날 수도 있으므로 반드시 금연을 해야 합니다.</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -1591) translate(680 1591)">
+                    <tspan x="168" y="115">입덧이 날 때에는 더운 음식보다는 차가운 음식이 좋으나 </tspan> <tspan x="168" y="137">단번에 많이 섭취하면 설사의 원인이 되므로 주의해야 합니다.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

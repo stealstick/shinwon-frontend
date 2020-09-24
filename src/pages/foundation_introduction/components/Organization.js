@@ -14,6 +14,11 @@ const Organization = () => {
                     <img src="imgs/img/org-oval.svg" alt="" className={styles.org_oval}/>
                     <div className={styles.org_content_wrapper}>
                         <div className={styles.org_content_line}>
+                            <div className={styles.org_top_content}>
+                                <div className={styles.org_top_title}>경영센터</div>
+                                <div className={styles.org_top_eng}>행정원장 / 센터장</div>
+                                <div className={styles.org_top_small}>Executice Director</div>
+                            </div>
                             <div className={styles.org_content}>
                                 <div className={styles.org_content_title}>재단사무국</div>
                                 <div className={styles.org_content_class}>상무이사</div>
@@ -56,6 +61,11 @@ const Organization = () => {
                             </div>
                         </div>
                         <div className={styles.org_content_line}>
+                            <div className={styles.org_top_content}>
+                                <div className={styles.org_top_title}>의료센터</div>
+                                <div className={styles.org_top_eng}>대표원장 / 센터장</div>
+                                <div className={styles.org_top_small}>Head of M.C</div>
+                            </div>
                             <div className={styles.org_content}>
                                 <div className={styles.org_content_title}>전문의</div>
                                 <div className={styles.org_content_eng}>Medical Doctor</div>
@@ -90,6 +100,11 @@ const Organization = () => {
                             </div>
                         </div>
                         <div className={styles.org_content_line}>
+                            <div className={styles.org_top_content}>
+                                <div className={styles.org_top_title}>병리센터</div>
+                                <div className={styles.org_top_eng}>대표원장 / 센터장</div>
+                                <div className={styles.org_top_small}>Head of P.C</div>
+                            </div>
                             <div className={styles.org_content}>
                                 <div className={styles.org_content_title}>전문의</div>
                                 <div className={styles.org_content_eng}>Medical Doctor</div>

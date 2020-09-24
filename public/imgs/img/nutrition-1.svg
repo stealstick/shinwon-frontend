@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="802" height="606" viewBox="0 0 802 606">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#E3EAF5" d="M0 0H145V606H0z" transform="translate(-680 -906) translate(680 906)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="58" y="127">열량</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="58" y="279">지방</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="50" y="354">단백질</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="58" y="451">철분</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 239.5L800 239.5M2 303.5L802 303.5M0 390.5L800 390.5M0 498.5L800 498.5M.5.5H799.5V605.5H.5z" transform="translate(-680 -906) translate(680 906)"/>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="168" y="26">열량은 평소 섭취량 보다 증가시켜야 하는데, </tspan> <tspan x="168" y="48">일반적으로 전반기에는 150kcal, 후반기에는 300kcal정도를 더 섭취해 주어야 합니다. </tspan> <tspan x="168" y="70">한국인 임산부의 영양권장량을 보면 전반기에 2150kcal, 후반기에 2350kcal입니다. </tspan> <tspan x="168" y="92">열량을 증가 시켜야 하는 이유로는 대사의 항진, 태아의 발육 등으로 기초대사가 항진하며, </tspan> <tspan x="168" y="114">모체 자신의 지방축적, 분만 후 유즙 분비 촉진 등을 들 수 있습니다.</tspan> <tspan x="168" y="136"> </tspan> <tspan x="168" y="158">그러나 지나치게 당질에서 열량 섭취를 하게 되면 체내 지방축적으로 비만이 되며, </tspan> <tspan x="168" y="180">이는 당뇨병이나, 임신중독증을 일으키기 쉽고, 거대아 출산을 유도할 수 있습니다. </tspan> <tspan x="168" y="202">또한 당질의 부족은 열량 부족을 가져올 뿐만 아니라, </tspan> <tspan x="168" y="224">태아의 발육에 지대한 영양을 줄 수 있으므로 주의하여야 합니다.</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="168" y="330">태아 산체 구성성분의 기본이며, 모체의 자궁과 유선이 증식, 혈액량의 증가 등으로 필요량이 커집니다.</tspan> <tspan x="168" y="352">일반적으로 매끼 단백질 반찬을 2가지 정도 갖춘 식사입니다.</tspan> <tspan x="168" y="374">※ 단백질식품(고기, 생선, 알, 곡류) - 우유, 생선, 두부, 콩, 육류, 계란, 치즈, 건어물</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="168" y="416">태반이 형성, 발육되며 모체의 혈액순환 량이 현저하게 증가흐므로 철분의 수유도 증가합니다. </tspan> <tspan x="168" y="438">철분이 부족하면 모체는 빈혈을 일으키고 태아의 발육에도 악영향을 주며 </tspan> <tspan x="168" y="460">분만 시 출혈이 커지고 출생후의 신생아기에나 영아기에 빈혈을 일으키게 됩니다.</tspan> <tspan x="168" y="482">※ 철분식품 - 간, 고기, 달걀노른자, 신선한 채소 등</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="50" y="559">비타민</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="168" y="524">태아의 발육 및 저항력 증진, 사모의 신진대사에 관여하며, </tspan> <tspan x="168" y="546">특히 태아의 내부기관 및 골격형성에 중요한 역할을 합니다. </tspan> <tspan x="168" y="568">임신초기에는 지용성 비타민의 섭취를 삼가 해야 합니다. </tspan> <tspan x="168" y="590">※ 비타민 식품 - 당근, 호박, 소 간, 바나나, 완두, 계란노른자, 버섯, 버터, 과일류, 채소류</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -906) translate(680 906)">
+                    <tspan x="168" y="266">지방은 축적과 열량원으로 이용되며 </tspan> <tspan x="168" y="288">필수 지방산은 태아의 성장에 필요한 성분으로 총 열량의 20~25%가 적당합니다.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

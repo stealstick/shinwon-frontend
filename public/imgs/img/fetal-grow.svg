@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="645" viewBox="0 0 800 645">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#E3EAF5" d="M0 0H97V645H0z" transform="translate(-680 -853) translate(680 853)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="29" y="97">1개월</tspan>
+                </text>
+                <path fill="#EFEFEF" d="M97 0H194V645H97z" transform="translate(-680 -853) translate(680 853)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="126" y="97">0-3주</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="12" y="32">임신개월수</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="116" y="32">임신주수</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="217" y="32">태아의 변화</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 126.5L800 126.5M0 200.5L800 200.5M.5.5H799.5V644.5H.5z" transform="translate(-680 -853) translate(680 853)"/>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="214" y="84">정자와 난자가 만난 수정란이 1주일 뒤 자궁 내막에 착상하고 신경계 발달이 시작됩니다.</tspan> <tspan x="214" y="106">착상 시 잘못되면 유산되고 수정 이후부터 엄마의 영향을 받습니다.</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="29" y="171">2개월</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="126" y="171">4-7주</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="214" y="158">손발이 분명하게 보이고, 심장박동 시작, 얼굴, 머리, 몸통구분, 손가락 치아가 형성되고 </tspan> <tspan x="214" y="180">뇌 발달이 빠르게 이루어지며 각 기관의 분화, 발육이 시작 됩니다.</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 274.5L800 274.5" transform="translate(-680 -853) translate(680 853)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="29" y="245">3개월</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="121" y="245">8-11주</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="214" y="232">내부장기가 형성되어 활동을 시작합니다. (태아 성기 발달) </tspan> <tspan x="214" y="254">태아는 탯줄을 통해 태반에 조정되어 있습니다.</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 348.5L800 348.5" transform="translate(-680 -853) translate(680 853)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="29" y="319">4개월</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="116" y="319">12-15주</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="214" y="306">뼈형성이 뚜렷해지고 귀도 곧게 섭니다. </tspan> <tspan x="214" y="328">왕성한 손발의 움직임, 눈썹, 속눈썹, 손톱, 발톱, 머리카락이 형성됩니다.</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 423.5L800 423.5" transform="translate(-680 -853) translate(680 853)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="29" y="393">5개월</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="116" y="393">16-19주</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="214" y="380">태아의 운동이 활발하여 태동을 느낄 수 있습니다. </tspan> <tspan x="214" y="402">무게가 약 150g쯤 됩니다.</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 497.5L800 497.5" transform="translate(-680 -853) translate(680 853)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="21" y="467">6-7개월</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="116" y="467">20-27주</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="214" y="454">뇌기능이 발달하고, 두뇌가 커집니다. </tspan> <tspan x="214" y="476">피부는 주름져있고, 머리가 몸에 비해 약간 큽니다.</tspan>
+                </text>
+                <path stroke="#DCDCDC" d="M0 571.5L800 571.5" transform="translate(-680 -853) translate(680 853)"/>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="21" y="541">8-9개월</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="116" y="541">28-35주</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="214" y="528">근육 발달, 청각 완성, 외부의 소리에 반응을 합니다. </tspan> <tspan x="214" y="550">몸에 지방이 물어나고, 폐기능(호흡)이 이루어집니다.</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="21" y="615">8-9개월</tspan>
+                </text>
+                <text fill="#333" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="116" y="615">28-35주</tspan>
+                </text>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400" transform="translate(-680 -853) translate(680 853)">
+                    <tspan x="214" y="602">모체의 면역 물질이 태반을 타고 태아로 옮겨져 감염에 대한 저항력이 생기고</tspan> <tspan x="214" y="624">키 50cm 몸무게 3.0kg 전후로 됩니다.</tspan>
+                </text>
+                <path stroke="#000" d="M0 52.5L800 52.5" transform="translate(-680 -853) translate(680 853)"/>
+            </g>
+        </g>
+    </g>
+</svg>

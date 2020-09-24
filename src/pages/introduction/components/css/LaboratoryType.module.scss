@@ -34,6 +34,50 @@
         flex-direction: column;
         margin-bottom: 45px;
         width: 100%;
+        .img{
+            margin: 20px 0;
+        }
+        .type_wrapper_2{
+            margin-top: 24px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            .type_item{
+                font-size: 16px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #666666;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: calc((100% - 4px)/3);
+                cursor: pointer;
+                border: 1px solid #cccccc;
+                &:nth-child(2){
+                    border-right: none;
+                    border-left: none;
+                }
+                &:nth-child(4){
+                    border-right: none;
+                }
+                &:nth-child(n+4){
+                    border-top: none;
+                }
+                &:hover{
+                    background-color: #64a4e3;
+                    color: #ffffff;
+                }
+            }
+            .type_item__selected{
+                color: #ffffff;
+                background-color: #64a4e3;
+            }
+        }
         .type_title_wrapper{
             display: flex;
             flex-direction: row;
@@ -69,6 +113,15 @@
             letter-spacing: normal;
             color: #000000;
         }
+        .text_normal_light{
+            font-size: 16px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #666666;
+        }
         .text_normal_500{
             font-family: NotoSansCJKkr;
             font-size: 16px;
@@ -84,6 +137,93 @@
             display: flex;
             flex-direction: column;
             margin-bottom: 35px;
+            .hygiene_table_wrapper{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                .pregnent_table_content{
+                    display: flex;
+                    flex-direction: row;
+                    border: 1px solid #dcdcdc;
+                    border-top: none;
+                    &:nth-child(1){
+                        border: 1px solid #dcdcdc;
+                    }
+                    .pregnent_table_title{
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #333333;
+                        background-color: #e3eaf5;
+                        width: 145px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .pregnent_table_text{
+                        margin-left: 23px;
+                        width: calc(100% - 145px);
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.57;
+                        letter-spacing: normal;
+                        color: #666666;
+                        display: flex;
+                        align-items: center;
+                        padding-top: 16px;
+                        padding-bottom: 16px;
+                    }
+                }
+            }
+            .pregnent_table_wrapper{
+                margin-left: 30px;
+                width: calc(100% - 30px);
+                display: flex;
+                flex-direction: column;
+                .pregnent_table_content{
+                    display: flex;
+                    flex-direction: row;
+                    border: 1px solid #dcdcdc;
+                    border-top: none;
+                    &:nth-child(1){
+                        border: 1px solid #dcdcdc;
+                    }
+                    .pregnent_table_title{
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #333333;
+                        background-color: #e3eaf5;
+                        width: 145px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .pregnent_table_text{
+                        margin-left: 23px;
+                        width: calc(100% - 145px);
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.57;
+                        letter-spacing: normal;
+                        color: #666666;
+                        display: flex;
+                        align-items: center;
+                        padding-top: 16px;
+                        padding-bottom: 16px;
+                    }
+                }
+            }
             .micro_banner_wrapper{
                 display: flex;
                 width: calc(100% - 30px);
@@ -125,7 +265,8 @@
                 display: flex;
                 flex-direction: column;
                 margin-left: 30px;
-                margin-bottom: 35px;
+                margin-bottom: 15px;
+                margin-top: 25px;
                 .micro_content_text{
                     margin-left: 20px;
                     font-size: 14px;

@@ -108,8 +108,45 @@
                     display: flex;
                     flex-direction: column;
                     width: 173px;
-                    &:nth-child(2){
-                        
+                    .org_top_content{
+                        background-image: url("./organization.svg");
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 15px;
+                        justify-content: center;
+                        width: 173px;
+                        height: 82px;
+                        object-fit: contain;
+                        .org_top_title{
+                            margin-left: 52px;
+                            font-size: 19px;
+                            font-weight: bold;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            color: #000000;
+                        }
+                        .org_top_eng{
+                            margin-left: 52px;
+                            font-size: 12px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            color: #999999;
+                        }
+                        .org_top_small{
+                            margin-left: 52px;
+                            font-size: 10px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            color: #515151;
+                        }
                     }
                     .org_content{
                         width: 123px;

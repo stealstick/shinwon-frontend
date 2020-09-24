@@ -7,6 +7,9 @@ import LaboratoryProcess from './components/LaboratoryProcess'
 import SampleHandling from './components/SampleHandling'
 import LaboratoryType from './components/LaboratoryType'
 import LaboratoryProfile from './components/LaboratoryProfile'
+import PrenatalManagement from './components/PrenatalManagement'
+import CheckResult from './components/CheckResult'
+import Disease from './components/Disease'
 
 function Introduction(){
 
@@ -26,7 +29,10 @@ function Introduction(){
                     {num===1 ? <LaboratoryProcess/> :
                     num===2 ? <SampleHandling/> :
                     num===3 ? <LaboratoryType/> : 
-                    num===4 ? <LaboratoryProfile/> : null}
+                    num===4 ? <LaboratoryProfile/> : 
+                    num===5 ? <PrenatalManagement/> : 
+                    num===6 ? <Disease/> : 
+                    <CheckResult/>}
                 </div>
             </div>
         </Layout>

@@ -21,7 +21,7 @@ function Header(){
                     </div>
                 </div>
                 <div className="contents-right">
-                    <img src="/imgs/img/logo.png" alt="" className="header-logo"/>
+                    <Link to="/"><img src="/imgs/img/logo.png" alt="" className="header-logo"/></Link>
                 </div>
             </div>
         </div>

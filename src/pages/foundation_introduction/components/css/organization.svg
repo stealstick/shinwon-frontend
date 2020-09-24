@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="173" height="82" viewBox="0 0 173 82">
+    <defs>
+        <linearGradient id="5psn4jomtb" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#4984A6"/>
+            <stop offset="47.752%" stop-color="#0B2E6B"/>
+            <stop offset="100%" stop-color="#234C6D"/>
+        </linearGradient>
+        <linearGradient id="buunnbgpld" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".056"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="5tlao8gi1e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#449FCC" stop-opacity=".768"/>
+            <stop offset="98.634%" stop-color="#79CDE8" stop-opacity="0"/>
+        </linearGradient>
+        <path id="way0vtz1la" d="M12.489 0L25.842 0 25.958 82 12.489 82 5.816 76.609 0 71.979 0 12.726z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-603 -1066) translate(603 1066)">
+                <path fill="#FFF" stroke="silver" d="M24.5 0.5H172.5V81.5H24.5z"/>
+                <mask id="ydh23fqj5c" fill="#fff">
+                    <use xlink:href="#way0vtz1la"/>
+                </mask>
+                <use fill="url(#5psn4jomtb)" xlink:href="#way0vtz1la"/>
+                <ellipse cx="25.5" cy="10.5" fill="#125F8C" mask="url(#ydh23fqj5c)" rx="26.5" ry="37.5"/>
+                <path fill="url(#buunnbgpld)" d="M-21.5 102c22.368 0 51.594-5.775 51.594-24S.868 36-21.5 36C-43.868 36-62 50.775-62 69s18.132 33 40.5 33z" mask="url(#ydh23fqj5c)"/>
+                <ellipse cx="18.5" cy="83" fill="#3482A9" fill-opacity=".167" mask="url(#ydh23fqj5c)" rx="20.5" ry="17"/>
+                <path fill="url(#5tlao8gi1e)" d="M21.788 48c-2.808 0-6.65-2.333-11.524-7 9.1-7.088 14.332-18.299 15.694-33.632C27.319-7.966 27.333 5.578 26 48h-4.212z" mask="url(#ydh23fqj5c)"/>
+            </g>
+        </g>
+    </g>
+</svg>
