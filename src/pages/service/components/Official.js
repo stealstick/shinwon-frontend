@@ -7,10 +7,21 @@ const Official = () => {
 
     const [ posts, setPosts ] = useState([])
     const [ currentPage, setCurrentPage ] = useState(1)
-    const [ postsPerPage ] = useState(10)
-    const [ isLastPage, setIsLastPage ] = useState(false)
+    const [ count, setCount ] = useState(0)
+
+    const getPageNumber = () => {
+        var pageNum = 0
+        if(count % 20 !== 0) pageNum = count / 20 + 1
+        else if(count % 20 === 0) pageNum = count / 20
+        return pageNum
+    }
 
     const pageNumber = []
+    for(let i=1; i<=getPageNumber(); i++){
+        pageNumber.push(i)
+    }
+
+    
 
     const PageNumContent = ({num}) => {
         return(
@@ -20,7 +31,13 @@ const Official = () => {
         )
     }
 
-    const pageNumberList = pageNumber.map(num => (
+    const pageNumberList = pageNumber.filter(num => {
+        if(currentPage>=10){
+            return currentPage-8<=num && num<=currentPage+1
+        } else {
+            return num<=10
+        }
+    }).map(num => (
         <PageNumContent
             key={num}
             num={num}
@@ -48,23 +65,17 @@ const Official = () => {
 
     const paginate = (number) => {
         setCurrentPage(number)
-        if(isLastPage) alert("마지막 페이지입니다")
     }
 
     useEffect(() => {
         axios.get(`http://13.125.200.188:8080/testing/?page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
-            console.log(res.data['results'])
-            if(res.data['next']===null) setIsLastPage(true)
-            else setIsLastPage(false)
+            setCount(res.data['count'])
         })
         .catch(err => {
             console.log(err)
         })
-        setTimeout(() => {
-            
-        }, 0)
     }, [currentPage])
 
     return(

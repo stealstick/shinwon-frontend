@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './css/MainHoverContent.module.scss'
 import classNames from 'classnames'
 
-const MainHoverContent = ({img, text, type}) => {
+const MainHoverContent = ({img, text, type, href}) => {
 
     const [ isMouseOver, setIsMouseOver ] = useState(false)
 
