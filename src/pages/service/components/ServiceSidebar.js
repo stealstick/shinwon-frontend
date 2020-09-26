@@ -3,7 +3,9 @@ import styles from './css/ServiceSidebar.module.scss'
 
 const ServiceSidebar = ({setNumber, selectedNum}) => {
     return(
+        <>
         <div className={styles.sidebar}>
+            <div className={styles.side_box_shadow}>
             <div className={styles.sidebar_title}>
                 <img src="imgs/img/foundation-sidebar.png" alt="" className={styles.sidebar_title_img}/>
                 <div className={styles.sidebar_title_text}>고객서비스</div>
@@ -15,6 +17,8 @@ const ServiceSidebar = ({setNumber, selectedNum}) => {
             <div onClick={() => setNumber(5)} className={selectedNum===5 ? styles.sidebar_selected : styles.sidebar_content}>오시는길</div>
             <div onClick={() => setNumber(6)} className={selectedNum===6 ? styles.sidebar_selected : styles.sidebar_content}>채용공고</div>
         </div>
+        </div>
+        </>
     )
 }
 
