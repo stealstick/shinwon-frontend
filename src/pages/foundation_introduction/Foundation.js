@@ -28,7 +28,7 @@ function Foundation(){
                     num===2 ? <MissionValue/> :
                     num===3 ? <Organization/> :
                     num===4 ? <History/> :
-                    num===5 ? num :
+                    num===5 ? null :
                     <Doctor/>}
                 </div>
             </div>

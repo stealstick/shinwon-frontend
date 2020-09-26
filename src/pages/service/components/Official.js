@@ -57,7 +57,7 @@ const Official = () => {
     const currentPostsList = posts.map(post => (
         <OfficialContent
             id={post.idx}
-            title={post.data1}
+            title={post.title}
             date={post.regdate}
             key={post.idx}
         />
@@ -68,7 +68,7 @@ const Official = () => {
     }
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/testing/?page=${currentPage}`)
+        axios.get(`http://13.125.200.188:8080/board/?page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])

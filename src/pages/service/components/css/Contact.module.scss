@@ -1,0 +1,147 @@
+.container{
+    margin-left: 60px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    width: 800px;
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+        width: 100%;
+        .car_content{
+            display: flex;
+            flex-direction: column;
+            border-top: 1px solid #dcdcdc;
+            margin-bottom: 25px;
+            .car_content_title{
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.2px;
+                color: #000000;
+                padding: 18px 0;
+            }
+            .car_content_text{
+                font-size: 15px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.17px;
+                color: #666666;
+            }
+        }
+        .contact_title{
+            font-size: 25px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.28px;
+            color: #000000;
+        }
+        .subway_content_wrapper{
+            border-top: 1px solid #dcdcdc;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            .subway_content{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 35px;
+                .subway_text{
+                    font-size: 15px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.17px;
+                    color: #666666;
+                }
+            }
+        }
+        .contact_section_wrapper{
+            display: flex;
+            height: 50px;
+            align-items: center;
+            margin-top: 21px;
+            margin-bottom: 21px;
+            .contact_icon{
+
+            }
+            .contact_section_text{
+                font-size: 22px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #486e99;
+                margin-left: 10px;
+            }
+        }
+        .title_normal{
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        .address_wrapper{
+            padding: 14px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top: 1px solid #dcdcdc;
+            border-bottom: 1px solid #dcdcdc;
+            margin-bottom: 40px;
+            .address_content{
+                display: flex;
+                flex-direction: row;
+                width: 400px;
+                &:nth-child(2){
+                    margin: 11px 0;
+                }
+                .address_title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    color: #000000;
+                    &:nth-child(1){
+                        letter-spacing: 0.2px;
+                    }
+                    &:nth-child(2){
+                        letter-spacing: 4.4px;
+                    }
+                    &:nth-child(3){
+                        letter-spacing: 6.4px;
+                    }
+                }
+                .address_text{
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #000000;
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+}
+
+.icons{
+    margin: 0 8px;
+    height: 22px;
+}

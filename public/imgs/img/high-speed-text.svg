@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="22" viewBox="0 0 55 22">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-680 -2223) translate(680 2223)">
+                <rect width="55" height="22" fill="#A762AA" rx="5"/>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="13" font-weight="bold">
+                    <tspan x="4" y="16">고속철도</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

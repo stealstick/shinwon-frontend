@@ -6,6 +6,8 @@ import ServiceSidebar from './components/ServiceSidebar'
 import Official from './components/Official'
 import BloodCollection from './components/BloodCollection'
 import DataRoom from './components/DataRoom'
+import Recruitment from './components/Recruitment'
+import Contact from './components/Contact'
 
 function Service(){
 
@@ -25,7 +27,9 @@ function Service(){
                     {num===1 ? <Official/> : 
                     num===2 ? <DataRoom/> : 
                     num===3 ? <BloodCollection/> :
-                    null}
+                    num===4 ? null :
+                    num===5 ? <Contact/> :
+                    <Recruitment/>}
                 </div>
             </div>
         </Layout>

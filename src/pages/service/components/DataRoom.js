@@ -5,7 +5,7 @@ import axios from 'axios'
 
 const DataRoom = () => {
 
-    const [ num, setNum ] = useState(1)
+    const [ num, setNum ] = useState(5)
     const [ posts, setPosts ] = useState([])
     const [ currentPage, setCurrentPage ] = useState(1)
     const [ count, setCount ] = useState(0)
@@ -67,19 +67,19 @@ const DataRoom = () => {
     ))
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/reference/?page=${currentPage}`)
+        axios.get(`http://13.125.200.188:8080/reference/?b_idx=${num}&page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])
         })
-    }, [currentPage])
+    }, [currentPage, num])
 
     return(
         <div className={styles.container}>
             <div className={styles.section}>
                 <div className={styles.top_type_wrapper}>
-                    <div onClick={() => setNum(1)} className={num===1 ? styles.top_type_selected + " " + styles.top_type_content : styles.top_type_content}>의뢰지 / 동의서</div>
-                    <div onClick={() => setNum(2)} className={num===2 ? styles.top_type_selected + " " + styles.top_type_content : styles.top_type_content}>인증서</div>
+                    <div onClick={() => setNum(5)} className={num===5 ? styles.top_type_selected + " " + styles.top_type_content : styles.top_type_content}>의뢰지 / 동의서</div>
+                    <div onClick={() => setNum(6)} className={num===6 ? styles.top_type_selected + " " + styles.top_type_content : styles.top_type_content}>인증서</div>
                 </div>
                 <SectionTitle kor="자료실" eng="DATA Center"/>
                 <div className={styles.title_normal}>의료법인 신원의료재단의 인증서 / 동의서 / 의뢰지를 확인할 수 있습니다.</div>
