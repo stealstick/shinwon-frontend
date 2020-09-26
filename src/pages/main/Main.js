@@ -56,20 +56,20 @@ function Main() {
                         </div>
                         <div className={slider === 2 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
                             <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider2.png')" }}>
-                            <div className={styles.white_box}>
+                                <div className={styles.white_box}>
                                     <div className={styles.sub_title}>
-                                    “모든 사람이 건강한 세상”
+                                        “모든 사람이 건강한 세상”
                                         </div>
                                     <div className={styles.title}>
-                                    신원의료재단이 만들어 갑니다.
+                                        신원의료재단이 만들어 갑니다.
                                         </div>
 
                                     <div className={styles.name}>
-                                    검사절차
+                                        검사절차
                                         </div>
                                     <div className={styles.description}>
-                                    검사의 절차는 안내에 따라 검체 채취등의 방법등을 준수하여 진행됩니다.<br/>
-신원의료재단의 적합한 절차에 따른 검사로 최고의 신뢰성을 자신합니다.
+                                        검사의 절차는 안내에 따라 검체 채취등의 방법등을 준수하여 진행됩니다.<br />
+                                        신원의료재단의 적합한 절차에 따른 검사로 최고의 신뢰성을 자신합니다.
                                         </div>
 
                                     <div className={styles.more}>
@@ -77,7 +77,7 @@ function Main() {
                                         </div>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <div className={styles.body_slide_bar + ' ' + styles.slide_bar_1} onClick={() => setSlider(1)}>
@@ -85,20 +85,20 @@ function Main() {
                         </div>
                         <div className={slider === 1 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
                             <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider3.png')" }}>
-                            <div className={styles.white_box}>
+                                <div className={styles.white_box}>
                                     <div className={styles.sub_title}>
-                                    모든 생명의 가치를 위한 열정의 노력
+                                        모든 생명의 가치를 위한 열정의 노력
                                         </div>
                                     <div className={styles.title}>
-                                    신원의료재단이 하고 있습니다.
+                                        신원의료재단이 하고 있습니다.
                                         </div>
 
                                     <div className={styles.name}>
-                                    질환별검사
+                                        질환별검사
                                         </div>
                                     <div className={styles.description}>
-                                    질환의 종류에 따라 분류하여 최고의 전문의와 최첨단 검사장비로<br />
-각종 질환에 대한 정확한 정보를 분석합니다.
+                                        질환의 종류에 따라 분류하여 최고의 전문의와 최첨단 검사장비로<br />
+                                        각종 질환에 대한 정확한 정보를 분석합니다.
 </div>
 
                                     <div className={styles.more}>
@@ -106,7 +106,7 @@ function Main() {
                                         </div>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                     </div>
