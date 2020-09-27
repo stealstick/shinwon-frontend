@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "aos": "^3.0.0-beta.6",
     "axios": "^0.20.0",
     "classnames": "^2.2.6",
     "node-sass": "^4.14.1",
@@ -15,7 +16,8 @@
     "react-app-polyfill": "^1.0.6",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "yarn": "^1.22.5"
   },
   "scripts": {
     "start": "react-scripts start",
