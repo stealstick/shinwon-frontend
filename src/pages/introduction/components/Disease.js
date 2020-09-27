@@ -1,14 +1,18 @@
 import React, { useState } from 'react'
 import styles from './css/Disease.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Disease = () => {
+
+    AOS.init()
 
     const [ num, setNum ] = useState(0)
 
     const DefaultContent = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>질환별 검사 안내입니다.</div>
                 <img src="../imgs/img/default-disease.png" alt="" className={styles.img}/>
             </div>
@@ -17,7 +21,7 @@ const Disease = () => {
 
     const Gene = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>유전자 검사 안내입니다.</div>
                 <img src="../imgs/img/gene-disease.png" alt="" className={styles.img}/>
             </div>
@@ -26,7 +30,7 @@ const Disease = () => {
  
     const Tumor = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>종양 검사 안내입니다.</div>
                 <img src="../imgs/img/tumor-disease.png" alt="" className={styles.img}/>
             </div>
@@ -35,7 +39,7 @@ const Disease = () => {
 
     const Disease1 = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>난소암/지방간/심장질환/혈관질환 검사 안내입니다.</div>
                 <img src="../imgs/img/disease-1.png" alt="" className={styles.img}/>
             </div>
@@ -44,7 +48,7 @@ const Disease = () => {
 
     const Disease2 = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>당뇨/신장질환/관절염/입원검사 검사 안내입니다.</div>
                 <img src="../imgs/img/disease-2.png" alt="" className={styles.img}/>
             </div>
@@ -53,7 +57,7 @@ const Disease = () => {
 
     const Liver = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>간 기능 검사 안내입니다.</div>
                 <img src="../imgs/img/liver-disease.png" alt="" className={styles.img}/>
             </div>
@@ -62,7 +66,7 @@ const Disease = () => {
 
     const Thyroid = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>갑상선 종합/빈혈 검사 안내입니다.</div>
                 <img src="../imgs/img/thyroid-disease.png" alt="" className={styles.img}/>
             </div>
@@ -71,7 +75,7 @@ const Disease = () => {
 
     const Disease3 = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>골다공증/통풍관련질환/호르몬 검사 안내입니다.</div>
                 <img src="../imgs/img/disease-3.png" alt="" className={styles.img}/>
             </div>
@@ -80,7 +84,7 @@ const Disease = () => {
 
     const OAG1 = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>산부인과 그룹검사1 검사 안내입니다.</div>
                 <img src="../imgs/img/disease-OAG1.png" alt="" className={styles.img}/>
             </div>
@@ -89,7 +93,7 @@ const Disease = () => {
 
     const OAG2 = () => {
         return(
-            <div className={styles.section}>
+            <div data-aos="fade-up" className={styles.section}>
                 <div className={styles.section_title}>산부인과 그룹검사2 검사 안내입니다.</div>
                 <img src="../imgs/img/disease-OAG2.png" alt="" className={styles.img}/>
             </div>

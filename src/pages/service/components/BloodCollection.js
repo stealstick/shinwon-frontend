@@ -6,15 +6,15 @@ const BloodCollection = () => {
     return(
         <div className={styles.container}>
             <div className={styles.section}>
-                <div className={styles.section_title}>채혈지침</div>
-                <div className={styles.text_normal_500}>
+                <div data-aos="fade-up" className={styles.section_title}>채혈지침</div>
+                <div data-aos="fade-up" className={styles.text_normal_500}>
                     아래의 지침은 채혈을 담당하는 의사, 간호사, 임상병리사, 채혈을 담당하는 모든 직원이 숙지하여야한다.<br/>
                     소아, 성인의 규정은 동일하며 아래의 지침에 준한다.<br/>
                     검체의 채취 및 취급은 적절한 검체채취와 취급에 관한 별도의 지침서가 마련되어<br/>
                     진단검사의학과 근무자와 검체를 채취하는 모두에게 사용이 가능해야 하며 <br/>
                     또한 채혈 업무는 환자의 권리와 사생활 보호에 관한 윤리강령과 환자 권리장전에 명시된 내용을 숙지하고 이해하여야한다.<br/>
                 </div>
-                <div className={styles.sub_wrapper}>
+                <div data-aos="fade-up" className={styles.sub_wrapper}>
                     <div className={styles.sub_title_wrapper}>
                         <div className={styles.rect}/>
                         <div className={styles.sub_title_text}>환자의 채혈업무</div>
@@ -28,7 +28,7 @@ const BloodCollection = () => {
                         소변검사만 있는 경우, 소변컵에 바코드(환자인적사항)를 붙이고 채뇨 후 뇨 검체 두는 장소에 놓으라고 안내한다.
                     </div>
                 </div>
-                <div className={styles.sub_wrapper}>
+                <div data-aos="fade-up" className={styles.sub_wrapper}>
                     <div className={styles.sub_title_wrapper}>
                         <div className={styles.rect}/>
                         <div className={styles.sub_title_text}>환자응대</div>
@@ -64,8 +64,8 @@ const BloodCollection = () => {
                         그 불편사항의 내용을 파악하고 설명해야하며 그 내용을 상급자에게 반드시 보고해야 한다.
                     </div>
                 </div>
-                <div className={styles.section_title}>채혈절차</div>
-                <div className={styles.section_num_wrapper}>
+                <div data-aos="fade-up" className={styles.section_title}>채혈절차</div>
+                <div data-aos="fade-up" className={styles.section_num_wrapper}>
                     <div className={styles.section_num_content}>
                         <div className={styles.section_num_title}>1. 채혈접수</div>
                         <div className={styles.section_num_text}>
@@ -92,8 +92,8 @@ const BloodCollection = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.section_title}>올바른 채혈 방법</div>
-                <div className={styles.sub_wrapper}>
+                <div data-aos="fade-up" className={styles.section_title}>올바른 채혈 방법</div>
+                <div data-aos="fade-up" className={styles.sub_wrapper}>
                     <div className={styles.sub_title_wrapper}>
                         <div className={styles.rect}/>
                         <div className={styles.sub_title_text}>채혈</div>
@@ -173,7 +173,7 @@ const BloodCollection = () => {
                         수집을 시작하여 다음날 오전 7시의 마지막 요까지 완전하게 모아야한다. 
                     </div>
                 </div>
-                <div className={styles.tips_wrapper}>
+                <div data-aos="fade-up" className={styles.tips_wrapper}>
                     <img src="../imgs/img/blood-tips.png" alt="" className={styles.tips_img}/>
                     <div className={styles.tips_bold}>
                         구혈대(Tourniquet)을 상박둘레에 맨다. 구혈대는 한번만 잡아 당기면 잘 풀릴 수 있게 묶는다.<br/>
@@ -222,15 +222,15 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
 ④ 일반혈관의 경우 채혈관에 혈류가 유입되기 시작하면 곧바로 지혈대를 풀고 환자의 주먹을 펴도록 한다.  <br/>
                     </div>
                 </div>
-                <div className={styles.sub_wrapper}>
+                <div data-aos="fade-up" className={styles.sub_wrapper}>
                     <div className={styles.sub_num_text}>검체가 많을 때 일반적인 튜브별 채혈하는 순서는 아래와 같다.</div>
                     <div className={styles.sub_tube_wrapper}>
                         <img src="../imgs/img/blood-tubes.png" alt="" className={styles.sub_tube_img}/>
                     </div>
                     <div className={styles.sub_num_text}>채혈을 마친 튜브는 튜브별 특징에 맞게 mix하여야 한다.</div>
                 </div>
-                <div className={styles.mixing_title}>Mixing / 믹싱</div>
-                <div className={styles.mixing_content_wrapper}>
+                <div data-aos="fade-up" className={styles.mixing_title}>Mixing / 믹싱</div>
+                <div data-aos="fade-up" className={styles.mixing_content_wrapper}>
                     <img src="../imgs/img/mixing.png" alt="" className={styles.mixing_img}/>
                     <div className={styles.mixing_text_wrapper}>
                         <div className={styles.mixing_text_top}>
@@ -246,18 +246,18 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
                         </div>
                     </div>
                 </div>
-                <div className={styles.section_title + " " + styles.mg_lft_50}>검체 채취용 용기 종류 및 혼합 방법</div>
-                <div className={styles.section_title + " " + styles.mg_lft_50}>검체채취과정</div>
-                <img src="../imgs/img/extraction.png" alt="" className={styles.extraction_img}/>
-                <div className={styles.extraction_last_wrapper}>
+                <div data-aos="fade-up" className={styles.section_title + " " + styles.mg_lft_50}>검체 채취용 용기 종류 및 혼합 방법</div>
+                <div data-aos="fade-up" className={styles.section_title + " " + styles.mg_lft_50}>검체채취과정</div>
+                <img data-aos="fade-up" src="../imgs/img/extraction.png" alt="" className={styles.extraction_img}/>
+                <div data-aos="fade-up" className={styles.extraction_last_wrapper}>
                     <img src="../imgs/img/extraction-last.png" alt="" className={styles.extraction_last}/>
                     <div className={styles.extraction_last_text}>
                         * 뒤처리  - 주사기 사용 후 주사기 뚜껑은 recapping을 해서는 안된다.<br/>
                         사용한 needle은 주사침통에 넣어 폐기물 처리되어야 한다.
                     </div>
                 </div>
-                <div className={styles.section_title + " " + styles.mg_lft_50}>검체 분리 및 보관</div>
-                <div className={styles.text_light + " " + styles.mg_lft_50}>
+                <div data-aos="fade-up" className={styles.section_title + " " + styles.mg_lft_50}>검체 분리 및 보관</div>
+                <div data-aos="fade-up" className={styles.text_light + " " + styles.mg_lft_50}>
                 - 채혈을 마친 검체는 적절한 온도에서 임상화학, 면역용 혈청(장)분리 또는 전혈 상태로 보관하다가 위탁하여야 한다.<br/>
 - 혈청이나 혈장을 분리하기 위해서는 혈액을 잘 혼합 한 다음 20-30분 경과 후 3000rpm에서 10분 원심분리 합니다.<br/>
 &nbsp;&nbsp;특히 혈당 검사 시에는 30분 이내에 혈청을 분리해 두고 가급적 NaF 용기 사용을 권장한다.<br/>
@@ -268,10 +268,10 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
 - 검사가 끝난 검체는 검사결과의 재 검사 등 기타의 사유로 일정기관보관 후 폐기물 관리법에 따라 폐기한다. <br/>
 &nbsp;&nbsp;(혈청:7일, 일반 혈액 검체:3일)	
                 </div>
-                <div className={styles.tips_wrapper}>
+                <div data-aos="fade-up" className={styles.tips_wrapper}>
                     <div className={styles.tips_text_bold}>
                     ▶ 주의 : 보관 검체로 검사 진행된 항목의 경우 보관 상태에 따라 결과 값에 영향을 줄 수 있으므로 <br/>
-                 <span className={styles.mg_lft_50}>이점을 의뢰의료기관 담당자에게 알려 적절한 조치를 취하게 한다.</span><br/>
+                 <span data-aos="fade-up" className={styles.mg_lft_50}>이점을 의뢰의료기관 담당자에게 알려 적절한 조치를 취하게 한다.</span><br/>
                     <br/>
                     <span className={styles.mg_lft_50}>* 채혈 후 반드시 분리 보관해야 하는 검사 항목</span>
                     </div>
@@ -286,13 +286,13 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
                     </div>
                 </div>
                 <SectionTitle/>
-                <div className={styles.section_title}>감염관리 지침</div>
-                <div className={styles.text_normal_500}>
+                <div data-aos="fade-up" className={styles.section_title}>감염관리 지침</div>
+                <div data-aos="fade-up" className={styles.text_normal_500}>
                     병원감염과 관련하여 취급자는 검체의 채취, 수송, 조작, 분석 과정 등에서 감염성 물질에 노출될 위험이 큽니다.<br/>
                     따라서 이러한 과정에서 야기될 수 있는 감염원으로부터의 노출을 최소화 하여 환자와 직원들을 감염으로부터 <br/>
                     예방·보호 하여야 합니다.
                 </div>
-                <div className={styles.section_num_wrapper}>
+                <div data-aos="fade-up" className={styles.section_num_wrapper}>
                     <div className={styles.section_num_content}>
                         <div className={styles.section_num_title}>1. 일반적인 지침</div>
                         <div className={styles.section_num_text}>
