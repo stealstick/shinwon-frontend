@@ -70,8 +70,10 @@ const Official = () => {
     useEffect(() => {
         axios.get(`http://13.125.200.188:8080/board/?page=${currentPage}`)
         .then(res => {
-            setPosts(res.data['results'])
-            setCount(res.data['count'])
+            return () => {
+                setPosts(res.data['results'])
+                setCount(res.data['count'])
+            }
         })
         .catch(err => {
             console.log(err)
@@ -82,8 +84,8 @@ const Official = () => {
         <div className={styles.container}>
             <div className={styles.section}>
                 <SectionTitle kor="공문" eng="Official"/>
-                <div className={styles.title_normal}>의료법인 신원의료재단의 대내외 공문을 확인 할 수 있습니다.</div>
-                <div className={styles.official_content + " " + styles.official_top}>
+                <div data-aos="fade-up" className={styles.title_normal}>의료법인 신원의료재단의 대내외 공문을 확인 할 수 있습니다.</div>
+                <div data-aos="fade-up" className={styles.official_content + " " + styles.official_top}>
                     <div className={styles.official_id}>No</div>
                     <div className={styles.official_title}>제목</div>
                     <div className={styles.official_top_date}>작성일</div>

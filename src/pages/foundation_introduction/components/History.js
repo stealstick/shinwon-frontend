@@ -5,7 +5,7 @@ const History = () => {
     return(
         <div className={styles.container}>
             <div className={styles.greeting_top_wrapper}>
-                <img src="imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
+                <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
                 <div className={styles.history_wrapper}>

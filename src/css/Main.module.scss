@@ -248,7 +248,8 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 22px;
-    margin-bottom: 84px;
+	margin-bottom: 84px;
+	width: 1140px;
 }
 .site_text{
     height: 28px;
@@ -288,9 +289,39 @@
 }
 
 @media all and (min-width:768px) and (max-width:1023px){
-
+	.body_upper{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.body_slide{
+		visibility: hidden;
+	}
+	.body_list{
+		top: 0;
+		height: 164px;
+		
+	}
+	.body_site{
+		display: none;
+	}
 }
 
 @media all and (max-width:767px){
-    
+	.body_upper{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.body_slide{
+		visibility: hidden;
+	}
+	.body_list{
+		top: 0;
+		height: 164px;
+		
+	}
+	.body_site{
+		display: none;
+	}
 }

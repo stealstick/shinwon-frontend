@@ -7,8 +7,8 @@ const Recruitment = () => {
         <div className={styles.container}>
             <div className={styles.section}>
                 <SectionTitle kor="채용정보" eng="Recruitment Guide"/>
-                <div className={styles.title_normal}>의료법인 신원의료재단의 채용정보 안내입니다.</div>
-                <div className={styles.title_text_wrapper}>
+                <div data-aos="fade-up" className={styles.title_normal}>의료법인 신원의료재단의 채용정보 안내입니다.</div>
+                <div data-aos="fade-up" className={styles.title_text_wrapper}>
                     <span className={styles.quot}>“</span>
                     <div className={styles.title_text}>
                         신원의료재단이 추구하는 <br/>
@@ -16,16 +16,16 @@ const Recruitment = () => {
                     </div>
                     <span className={styles.quot}>”</span>
                 </div>
-                <img src="imgs/img/recruitment-1.png" alt="" className={styles.img}/>
-                <img src="imgs/img/interview-process.png" alt="" className={styles.img}/>
+                <img data-aos="fade-up" src="../imgs/img/recruitment-1.png" alt="" className={styles.img}/>
+                <img data-aos="fade-up" src="../imgs/img/interview-process.png" alt="" className={styles.img}/>
             </div>
             <div className={styles.section}>
                 <SectionTitle kor="전형절차"/>
-                <img src="imgs/img/rec-2.svg" alt="" className={styles.rec_process}/>
+                <img data-aos="fade-up" src="../imgs/img/rec-2.svg" alt="" className={styles.rec_process}/>
             </div>
             <div className={styles.section}>
                 <SectionTitle kor="지원공통서류 / 지원방법"/>
-                <div className={styles.rec_wrapper}>
+                <div data-aos="fade-up" className={styles.rec_wrapper}>
                     <div className={styles.rec_text}>
                     1. 이력서 및 자기소개서 1부<br/>
 2. 주민등록등본(주민번호 표기) 1부<br/>
@@ -41,7 +41,7 @@ const Recruitment = () => {
             </div>
             <div className={styles.section}>
                 <SectionTitle kor="경력직 지원공통서류 / 지원방법"/>
-                <div className={styles.rec_wrapper}>
+                <div data-aos="fade-up" className={styles.rec_wrapper}>
                     <div className={styles.rec_text}>
                     1. 인사기록카드 1부<br/>
 2. 이력서 및 자기소개서 1부<br/>
@@ -62,7 +62,7 @@ const Recruitment = () => {
             </div>
             <div className={styles.section}>
                 <SectionTitle kor="문의처"/>
-                <div className={styles.rec_wrapper}>
+                <div data-aos="fade-up" className={styles.rec_wrapper}>
                     <div className={styles.rec_text}>
                     본사 인사팀 1899-1510<br/>
 전자메일 <span className={styles.emphasis}>recuruit@shinwon.org</span>

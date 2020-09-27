@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import styles from './css/LaboratoryType.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const LaboratoryType = () => {
+
+    AOS.init()
 
     const [ num, setNum ] = useState(1)
 
@@ -38,8 +41,8 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="혈청" eng="Serum"/>
-                <div className={styles.text_normal_500}>Serum을 이용하는 검사</div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.text_normal_500}>Serum을 이용하는 검사</div>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="일반 주사기 채혈 시 주의사항"/>
                     <div className={styles.type_content_text}>
                         혈액채취향은 안내서를 참고하시어 항목별 필요량을 미리 계산하신 후 채혈하셔야 합니다. (필요 혈청량의 2~3배 이상)<br/>
@@ -56,7 +59,7 @@ const LaboratoryType = () => {
                         치료약물 모니터링 혹은 독성학적 분석을 위한 검체는 혈청분리관을 사용하지 마시기 바랍니다.<br/>
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="진공혈청관(vaccumtainer tube)으로 채혈 시 주의사항"/>
                     <div className={styles.type_content_text}>
                         진공채혈기를 사용하시는 경우 뚜껑을 여실 필요없이 채혈하시면 적정량이 채취됩니다.
@@ -70,8 +73,8 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="전혈" eng="Whole Blood"/>
-                <div className={styles.text_normal_500}>Whole Blood(전혈)을 이용하는 검사</div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.text_normal_500}>Whole Blood(전혈)을 이용하는 검사</div>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="CBC(일반혈액)검사"/>
                     <div className={styles.type_content_text}>
                         혈액 3.0㎖을 채취하여 EDTA tube에 넣고 tube를 위 아래로 5~10회 정도 기울여<br/>
@@ -84,7 +87,7 @@ const LaboratoryType = () => {
                         냉동 보관된 검체는 분석이 불가능합니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="혈액도말/혈구관찰검사"/>
                     <div className={styles.type_content_text}>
                         신선한 혈액을 사용하여 얇고, 고르게 도말 슬라이드를 제작합니다.<br/>
@@ -94,10 +97,10 @@ const LaboratoryType = () => {
                         <span className={styles.emphasis}>특수염색이 필요한 경우는 사전에 연락을 드리겠습니다.</span>
                     </div>
                     <div className={styles.img_wrapper}>
-                        <img src="imgs/img/whole-blood-slide.png" alt="" className={styles.img}/>
+                        <img src="../imgs/img/whole-blood-slide.png" alt="" className={styles.img}/>
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="혈액응고검사"/>
                     <div className={styles.type_content_text}>
                         단독 의뢰 시 첫번째 채혈한 검체는 폐기하고 두번째 채혈한 검체로 검사하며,<br/>
@@ -110,7 +113,7 @@ const LaboratoryType = () => {
                         Hct의 값이 45%일때, 항응고제와 혈액량의 비율은 1:9로 채혈합니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="세포면역감사 (Iymphocytes subset)"/>
                     <div className={styles.type_content_text}>
                         K2 EDTA tube를 사용하여 3.0mL을 채취한 후 반드시 실온 보관하며,<br/>
@@ -135,7 +138,7 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="요" eng="Urine"/>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="일시적 요"/>
                     <div className={styles.type_content_text}>
                         수시뇨(random urine)라고도 하며 일반뇨 현미경검사와 화학검사를 위한 뇨는<br/>
@@ -147,7 +150,7 @@ const LaboratoryType = () => {
                         ▶ 보관 방법 : 의뢰하기 전까지 반드시 냉장 보관한다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="24시간 뇨"/>
                     <div className={styles.type_content_text}>
                         주의할 점은 시간을 정하여 채뇨를 시작하는데,<br/>
@@ -164,7 +167,7 @@ const LaboratoryType = () => {
                         특히, 음식이나 약물복용을 금해야 한다.)	
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="주간뇨 / 야간뇨 구별이 필요할시(12시간뇨 12hr’s Urine)"/>
                     <div className={styles.urine_table}>
                         <div className={styles.urine_table_item}>
@@ -184,8 +187,8 @@ const LaboratoryType = () => {
     const MetabolicAbnormality = () => {
         return(
             <div className={styles.section}>
-                <div className={styles.type_content_title_wrapper_kor}>선천성 대사이상</div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_title_wrapper_kor}>선천성 대사이상</div>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="신생아 선청성 대사이상검사를 위한 검체 채취시기"/>
                     <div className={styles.type_content_text}>
                         건강한 신생아의 경우 가장 이상적인 채혈시기는 생후 48~72시간 사이로, 일반적으로 퇴원전 채혈하는 것이 좋습니다.<br/>
@@ -199,7 +202,7 @@ const LaboratoryType = () => {
                         퇴원시, 1개월 이상일 경우는 1개월째 재검을 실시함이 바람직합니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="주간뇨 / 야간뇨 구별이 필요할시(12시간뇨 12hr’s Urine)"/>
                     <div className={styles.type_content_text}>다음은 신생아 선천성 대사이상검사를 위한 검체채취방법입니다.</div>
                     <div className={styles.type_tips_wrapper}>
@@ -218,7 +221,7 @@ const LaboratoryType = () => {
                             한번에 filter paper에 그려진 원을 채워 흡수되도록 합니다
                         </div>
                         <div className={styles.type_tips_bottom_wrapper}>
-                            <img src="imgs/img/tips-foot.png" alt="" className={styles.type_tips_img}/>
+                            <img src="../imgs/img/tips-foot.png" alt="" className={styles.type_tips_img}/>
                             <div className={styles.type_tips_bottom_text}>
                                 ① Paper를 채혈부위에 대고 눌러서는 안되며, 채혈부위를 쥐어짜도 안됩니다.<br/>
                                 ② 혈액을 filter paper의 한쪽 면에만 묻히도록 합니다.<br/>
@@ -232,7 +235,7 @@ const LaboratoryType = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="채취 후 검체 운송시 주의점"/>
                     <div className={styles.type_content_text}>
                         4시간 이상 실온에서 채혈지를 건조시키며 수평상태에서 건조시켜 주십시오.<br/>
@@ -250,8 +253,8 @@ const LaboratoryType = () => {
     const FetalIdealism = () => {
         return(
             <div className={styles.section}>
-                <div className={styles.type_content_title_wrapper_kor}>산전 태아 이상성별</div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_title_wrapper_kor}>산전 태아 이상성별</div>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="산전관련 검사의뢰서의 기재 사항은 반드시 작성하여 첨부합니다."/>
                     <div className={styles.type_content_text}>
                         아래의 사항을 의뢰지에 빠짐없이 기록하여야 합니다.<br/><br/>			
@@ -261,7 +264,7 @@ const LaboratoryType = () => {
                         과거력 (Down, ONTD) 출산아 경험, 인슐린 의존성당뇨 (IDDM)등 재검 의뢰시 1차결과, 기타 소견 등</span>
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="검사시기"/>
                     <div className={styles.fetal_table_wrapper}>
                         <div className={styles.fetal_table_item_title}>
@@ -313,7 +316,7 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="분변 (Stool)"/>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="분변(Stool) 검체"/>
                     <div className={styles.type_content_text}>
                         단회 분변 : 2-3g을 대변용기에 채취하여 의뢰한다.<br/>
@@ -342,7 +345,7 @@ const LaboratoryType = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="24hr 대변채취"/>
                     <div className={styles.type_content_text}>
                         검체 요구사항을 주의 깊게 읽어 주십시오.<br/>
@@ -354,7 +357,7 @@ const LaboratoryType = () => {
                         다른 별도 지시가 없는 한 채취한 대변을 전부 보내지 마십시오.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="단화대변"/>
                     <div className={styles.type_content_text}>
                         2~3g을 대변용기에 채취하여 보내 주십시오.<br/>		
@@ -369,7 +372,7 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="체액(Body fluid)"/>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="체액검사의 검체종류"/>
                     <div className={styles.fluid_table_wrapper}>
                         <div className={styles.body_table_item}>
@@ -398,7 +401,7 @@ const LaboratoryType = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="체액 (Body fluid)의 주의사항"/>
                     <div className={styles.type_content_text}>
                         검체 채취 후 clot 되기 쉬운 pleural, ascitic, synovial fluid (CSF제외-C.S.F(뇌척수액) : 일반 tube에 채혈)등은<br/>
@@ -429,7 +432,7 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="분자진단"/>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="분자진단검사 의뢰 시 주의사항"/>
                     <div className={styles.type_content_text}>
                         분자진단 검사에서 가장 중요한 것은 적절한 검체와 오염의 방지입니다.<br/>
@@ -452,7 +455,7 @@ const LaboratoryType = () => {
                         참고그림<br/>
                     </div>
                     <div className={styles.img_wrapper}>
-                        <img src="imgs/img/molecule.png" alt="" className={styles.img}/>
+                        <img src="../imgs/img/molecule.png" alt="" className={styles.img}/>
                     </div>
                     <div className={styles.type_content_text}>
                         <br/>인유두종(HPV)관련 검사는 각 종목에 해당되는 전용용기를 반드시 사용해야 검사가 가능합니다.<br/>
@@ -467,7 +470,7 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="세포유전학"/>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="검체취급의 공통적 주의사항"/>
                     <div className={styles.type_content_text}>
                         검체는 무균적으로 채취 되어야 합니다.<br/>		
@@ -482,7 +485,7 @@ const LaboratoryType = () => {
                         환자나 보호자에게 충분히 설명을 하여 동의를 얻은 후에 검사를 시행하는 것이 바람직하다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="말초혈액 (Peripheral blood ; PB)"/>
                     <div className={styles.type_content_text}>
                         혈액 5ml(소아 3ml)를 무균적으로 채취합니다.<br/>
@@ -494,14 +497,14 @@ const LaboratoryType = () => {
                         검체 채취부터 배양까지 24hr이상이 경과되면 검사에 실패할 확률이 높습니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="태아조직 (Prodution of conceptus ; P.O.C)"/>
                     <div className={styles.type_content_text}>
                         오염될 확률이 높은 태아 조직의 경우 무균적으로 채취한 조직을 보원이 제공하는 전용 운송배지에 넣어 의뢰합니다.<br/>
                         자궁내에서 사망한지 24시간 경과한 검체는 배양에 실패할 확률이 높습니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="양수 (Amniotic fluid ; A.F)"/>
                     <div className={styles.type_content_text}>
                         검체의 모체세포가 혼입되는 것을 방지하기 위해 채취 시<br/>
@@ -511,7 +514,7 @@ const LaboratoryType = () => {
                         (혈액 혼입되었음을 의미)짙은 갈색인 경우는 배양에 실패할 수도 있습니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="융모막 (Chronic Villi Sampling ; C.V.S)"/>
                     <div className={styles.type_content_text}>
                         20~40㎖의 융모막을 채취하여 본원이 제공하는 융모막 전용 운송용 배지에 넣어 의뢰합니다.<br/>
@@ -521,13 +524,13 @@ const LaboratoryType = () => {
                         실패할 수도 있습니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="제대혈 혈액 (Cord Blood)"/>
                     <div className={styles.type_content_text}>
                         응고가 잘 되는 제대혈은 채취 후 즉시 Sodium heparin 용기에 넣어 여러 번 잘 혼합하여 검체의 응고를 방지합니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="종양질환의 진단, 예후 추정을 위한 염색체 검사"/>
                     <div className={styles.type_content_text}>
                         금성 백혈병, 만성 백혈병, 골수 증식성질환, 골수 이형성증후군, 기타 혈액질환의 진단 및 예후 추정에 필요한 검사입니다.<br/>
@@ -581,7 +584,7 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="미생물"/>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="미생물 검체 (세균배양을 위한 검체 채취)"/>
                     <div className={styles.type_content_text}>
                         미생물학적 검사에서 가장 중요한 것은 검체의 적절한 채취와 보존방법입니다.<br/>
@@ -590,7 +593,7 @@ const LaboratoryType = () => {
                         그러므로 검체의 적절한 취급방법은 아무리 여러 번 강조해도 지나치지 않습니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="검체의 채취시기"/>
                     <div className={styles.type_content_text}>
                         검체 채취의 가장 적절한 시기는 원인균이 가장 많이 함유되어 있다고 생각되는 시기입니다.<br/>
@@ -601,7 +604,7 @@ const LaboratoryType = () => {
                         ⑤  ③,④가 불가능한 경우는 다음 회 투약직전에 채취
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="미생물검체 채취법"/>
                     <div className={styles.type_content_text}>
                         <span className={styles.emphasis}>(1) 검사원칙</span><br/>
@@ -615,7 +618,7 @@ const LaboratoryType = () => {
                         Swab culture와 gram stain을 동시에 의뢰할 때에는 swab한 면봉 2개를 모두 보내어야 두 가지 검사가 가능합니다.<br/>
                         의뢰서에는 임상소견, 의심되는 균종, 검체 종류, 채취 부위, 채취 시각, 항생제 투여 여부 등을 반드시 기입하여야 합니다.
                     </div>
-                    <img src="imgs/img/micro.png" alt="" className={styles.micro_img}/> 
+                    <img src="../imgs/img/micro.png" alt="" className={styles.micro_img}/> 
                     <div className={styles.micro_content_wrapper}>
                         <SubTitle title="혈액 (Blood)"/>
                         <div className={styles.micro_content_text}>
@@ -689,7 +692,7 @@ const LaboratoryType = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="검체수송시 주의사항"/>
                     <div className={styles.type_content_text}>
                         모든 검체는 채취즉시 검사실로 보내 주시고, 수송 시 검체가 흘러 질병을 전염시키지 않도록 마개를 완전히 밀봉하여야 합니다.<br/>
@@ -707,8 +710,8 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="바이러스 배양검사 검체취급"/>
-                <div className={styles.text_normal_500}>바이러스 감염 시 원인 바이러스를 검출하는 방법은 일반세균의 검출방법과는 다소 차이가 있습니다.</div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.text_normal_500}>바이러스 감염 시 원인 바이러스를 검출하는 방법은 일반세균의 검출방법과는 다소 차이가 있습니다.</div>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="검체 채취 및 운송"/>
                     <div className={styles.type_content_text}>
                         바이러스 배양법은 원인 바이러스가 자랄 수 있는 세포를 사용하므로, 검체 또한 감염병소에서 채취해야 합니다.<br/>
@@ -720,7 +723,7 @@ const LaboratoryType = () => {
                         장기간 보관시에는 -70℃에 냉동 보관합니다.
                     </div>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="검체유형별 바이러스 배양검사 안내"/>
                     <div className={styles.type_content_text}>
                         검체는 반드시 ice pack과 함께 비닐봉투에 넣어 운반하도록 합니다.<br/>
@@ -729,7 +732,7 @@ const LaboratoryType = () => {
                         CMV 배양검사용 검체는 얼리지 않도록 하고 Whole blood 검체는 휴일 전날이나 토요일에 접수되지 않게 주십시오
                     </div>
                 </div>
-                <img src="/imgs/img/virusculture.png" alt="" className={styles.img}/>
+                <img data-aos="fade-up" src="/../imgs/img/virusculture.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -738,11 +741,11 @@ const LaboratoryType = () => {
         return(
             <div className={styles.section}>
                 <TypeContentTitle kor="조직병리학/세포병리학"/>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="조직병리학적 검사"/>
-                    <img src="/imgs/img/pathology.png" alt="" className={styles.img}/>
+                    <img src="/../imgs/img/pathology.png" alt="" className={styles.img}/>
                 </div>
-                <div className={styles.type_content_wrapper}>
+                <div data-aos="fade-up" className={styles.type_content_wrapper}>
                     <TypeTitle title="세포병리학 검사"/>
                     <div className={styles.type_content_text}>
                         세포 검사용 검체는 세포 변성을 방지하여 정확한 세포 관찰을 할 수 있도록 95% Ethylalcohol<br/>

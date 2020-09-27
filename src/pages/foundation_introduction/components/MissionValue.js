@@ -12,7 +12,7 @@ const MissionValue = () => {
                 <div className={styles.mission_imgs_wrapper}>
                     <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
-                            <img src="imgs/img/mission1.png" alt="" className={styles.mission_img}/>
+                            <img src="../imgs/img/mission1.png" alt="" className={styles.mission_img}/>
                         </div>
                         <div className={styles.mission_content_text}>
                             국민의 건강하고 행복한 삶을 위한<br/>
@@ -21,7 +21,7 @@ const MissionValue = () => {
                     </div>
                     <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
-                            <img src="imgs/img/mission2.svg" alt="" className={styles.mission_img}/>
+                            <img src="../imgs/img/mission2.svg" alt="" className={styles.mission_img}/>
                         </div>
                         <div className={styles.mission_content_text}>
                             질 높은 의료검사의 제공<br/>
@@ -30,7 +30,7 @@ const MissionValue = () => {
                     </div>
                     <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
-                            <img src="imgs/img/mission3.svg" alt="" className={styles.mission_img}/>
+                            <img src="../imgs/img/mission3.svg" alt="" className={styles.mission_img}/>
                         </div>
                         <div className={styles.mission_content_text}>
                             지속적인 정도관리<br/>
@@ -40,7 +40,7 @@ const MissionValue = () => {
                     </div>
                     <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
-                            <img src="imgs/img/mission4.svg" alt="" className={styles.mission_img}/>
+                            <img src="../imgs/img/mission4.svg" alt="" className={styles.mission_img}/>
                         </div>
                         <div className={styles.mission_content_text}>
                             소통과 협력을 통한 고객만족<br/>
@@ -50,7 +50,7 @@ const MissionValue = () => {
                     </div>
                     <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
-                            <img src="imgs/img/mission5.svg" alt="" className={styles.mission_img}/>
+                            <img src="../imgs/img/mission5.svg" alt="" className={styles.mission_img}/>
                         </div>
                         <div className={styles.mission_content_text}>
                             진단검사 자동화 시스템 구축<br/>
@@ -61,7 +61,7 @@ const MissionValue = () => {
                     </div>
                     <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
-                            <img src="imgs/img/mission6.svg" alt="" className={styles.mission_img}/>
+                            <img src="../imgs/img/mission6.svg" alt="" className={styles.mission_img}/>
                         </div>
                         <div className={styles.mission_content_text}>
                             함께 사는 세상에 대한 배려와<br/>
@@ -87,7 +87,7 @@ const MissionValue = () => {
                     <div className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Business Management Motto</div>
                         <div className={styles.policy_img_wrapper}>
-                            <img src="imgs/img/policy1.svg" alt="" className={styles.policy_img}/>
+                            <img src="../imgs/img/policy1.svg" alt="" className={styles.policy_img}/>
                         </div>
                         
                         <div className={styles.policy_summary}>효율적이고 창의적인 조직 운영관리</div>
@@ -100,7 +100,7 @@ const MissionValue = () => {
                     <div className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Compution and Information</div>
                         <div className={styles.policy_img_wrapper}>
-                            <img src="imgs/img/policy2.svg" alt="" className={styles.policy_img}/>
+                            <img src="../imgs/img/policy2.svg" alt="" className={styles.policy_img}/>
                         </div>
                         <div className={styles.policy_summary}>시스템으로 구성된 스마트전산구축</div>
                         <div className={styles.policy_text}>
@@ -113,7 +113,7 @@ const MissionValue = () => {
                     <div className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Diagnostic Inventory</div>
                         <div className={styles.policy_img_wrapper}>
-                            <img src="imgs/img/policy3.svg" alt="" className={styles.policy_img}/>
+                            <img src="../imgs/img/policy3.svg" alt="" className={styles.policy_img}/>
                         </div>
                         <div className={styles.policy_summary}>정확한 결과로 최고의 품질제공</div>
                         <div className={styles.policy_text}>
@@ -126,7 +126,7 @@ const MissionValue = () => {
                     <div className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Sales Dept</div>
                         <div className={styles.policy_img_wrapper}>
-                            <img src="imgs/img/policy4.svg" alt="" className={styles.policy_img}/>
+                            <img src="../imgs/img/policy4.svg" alt="" className={styles.policy_img}/>
                         </div>
                         <div className={styles.policy_summary}>창조적 시장개척</div>
                         <div className={styles.policy_text}>
@@ -138,7 +138,7 @@ const MissionValue = () => {
                     <div className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Medical Information</div>
                         <div className={styles.policy_img_wrapper}>
-                            <img src="imgs/img/policy5.svg" alt="" className={styles.policy_img}/>
+                            <img src="../imgs/img/policy5.svg" alt="" className={styles.policy_img}/>
                         </div>
                         <div className={styles.policy_summary}>고객만족/가치향상</div>
                         <div className={styles.policy_text}>
@@ -158,13 +158,13 @@ const MissionValue = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.goal_top}>
-                    <img src="imgs/img/goal1.svg" alt="" className={styles.goal_top_img}/>
+                    <img src="../imgs/img/goal1.svg" alt="" className={styles.goal_top_img}/>
                     <div className={styles.goal_top_text}>냉철하되 너그럽고 착하게 경영하자!</div>
                 </div>
-                <img src="imgs/img/goal2.svg" alt="" className={styles.goal_img_2}/>
+                <img src="../imgs/img/goal2.svg" alt="" className={styles.goal_img_2}/>
                 <div className={styles.goal_img_wrapper}>
-                    <img src="imgs/img/goal3.svg" alt="" className={styles.goal_img_3}/>
-                    <img src="imgs/img/goal4.svg" alt="" className={styles.goal_img_4}/>
+                    <img src="../imgs/img/goal3.svg" alt="" className={styles.goal_img_3}/>
+                    <img src="../imgs/img/goal4.svg" alt="" className={styles.goal_img_4}/>
                 </div>
                 <div className={styles.goal_text}>
                     끊임없는 도전과 열정으로 21세기 의학 발전에 기여하고<br/>
@@ -187,7 +187,7 @@ const MissionValue = () => {
                             <div className={styles.subtitle_text}>국문</div>
                         </div>
                         <div className={styles.identity_img_wrapper}>
-                            <img src="imgs/img/identity2.svg" alt="" className={styles.identity_img}/>
+                            <img src="../imgs/img/identity2.svg" alt="" className={styles.identity_img}/>
                         </div>
                     </div>
                     <div className={styles.identity_content_bot}>
@@ -197,7 +197,7 @@ const MissionValue = () => {
                                 <div className={styles.subtitle_text}>SYMBOL</div>
                             </div>
                             <div className={styles.symbol_img_wrapper}>
-                                <img src="imgs/img/identity4.svg" alt="" className={styles.symbol_img}/>
+                                <img src="../imgs/img/identity4.svg" alt="" className={styles.symbol_img}/>
                             </div>
                         </div>
                         <div className={styles.identity_color_wrapper}>
@@ -236,7 +236,7 @@ const MissionValue = () => {
                 <div onClick={() => setNum(4)} className={num===4 ? classNames(styles.mission_top_content, styles.mission_top_selected) : styles.mission_top_content}>IDENTITY</div>
             </div>
             <div className={styles.greeting_top_wrapper}>
-                <img src="imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
+                <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             {num===1 ? <Content1/> :
             num===2 ? <Content2/> :

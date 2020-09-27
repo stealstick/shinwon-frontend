@@ -7,7 +7,7 @@ const MainHoverContent = ({img, text, type, href}) => {
     const [ isMouseOver, setIsMouseOver ] = useState(false)
 
     return(
-        <div onMouseEnter={() => setIsMouseOver(true)} onMouseLeave={() => setIsMouseOver(false)}>
+        <div className={styles.top_container} onMouseEnter={() => setIsMouseOver(true)} onMouseLeave={() => setIsMouseOver(false)}>
             {isMouseOver ? 
             <div className={styles.hover_container}>
                 <div className={styles.hover_title}>{text}</div>

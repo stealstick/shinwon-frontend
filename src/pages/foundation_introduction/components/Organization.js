@@ -5,13 +5,13 @@ const Organization = () => {
     return(
         <div className={styles.container}>
             <div className={styles.greeting_top_wrapper}>
-                <img src="imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
+                <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
                 <div className={styles.greeting_title}>조직도</div>
                 <div className={styles.org_wrapper}>
-                    <img src="imgs/img/ceo.svg" alt="" className={styles.org_ceo}/>
-                    <img src="imgs/img/org-oval.svg" alt="" className={styles.org_oval}/>
+                    <img src="../imgs/img/ceo.svg" alt="" className={styles.org_ceo}/>
+                    <img src="../imgs/img/org-oval.svg" alt="" className={styles.org_oval}/>
                     <div className={styles.org_content_wrapper}>
                         <div className={styles.org_content_line}>
                             <div className={styles.org_top_content}>
