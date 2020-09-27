@@ -1,21 +1,26 @@
 import React from 'react'
 import styles from './css/History.module.scss'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const History = () => {
+
+    AOS.init()
+
     return(
         <div className={styles.container}>
-            <div className={styles.greeting_top_wrapper}>
+            <div data-aos="fade-up" className={styles.greeting_top_wrapper}>
                 <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
                 <div className={styles.history_wrapper}>
                     <div className={styles.history_bar}>
-                        <div className={styles.bar_text_1}>2015 - 현재</div>
-                        <div className={styles.bar_text_2}>2010 - 2014</div>
-                        <div className={styles.bar_text_3}>2005 - 2009</div>
+                        <div data-aos="fade-up" className={styles.bar_text_1}>2015 - 현재</div>
+                        <div data-aos="fade-up" className={styles.bar_text_2}>2010 - 2014</div>
+                        <div data-aos="fade-up" className={styles.bar_text_3}>2005 - 2009</div>
                     </div>
                     <div className={styles.history_text_wrapper}>
-                        <div className={styles.history_text_1}>
+                        <div data-aos="fade-up" className={styles.history_text_1}>
                             을지의료재단 MOU체결, 을지임상 검사센터 인수<br/>
                             메디포럼(MEDIFORUM) MOU 체결<br/>
                             ㈜ EDGC MOU 체결<br/>
@@ -33,7 +38,7 @@ const History = () => {
                             진단 병리과 개설	<br/>
                             (주)마이크로젠(MACROGEN) 업무제휴
                         </div>
-                        <div className={styles.history_text_2}>
+                        <div data-aos="fade-up" className={styles.history_text_2}>
                             사옥 확장 매입<br/>
                             (주)바이오인프라(BIOINFRA) 업무제휴	<br/>
                             (주)케어빌(CAREVILL) 업무제휴<br/>	
@@ -48,7 +53,7 @@ const History = () => {
                             검사정보관리 프로그램 (LIS) 자체 개발 착수<br/>
                             (주) 미애로 네트워크 MOU 체결
                         </div>
-                        <div className={styles.history_text_3}>
+                        <div data-aos="fade-up" className={styles.history_text_3}>
                             부천시 우수 기업 표창<br/>
                             부천시 “Fifan 복사골” 문화 행사 후원<br/>
                             유전자 분석 연구실 개설<br/>
