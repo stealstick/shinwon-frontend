@@ -28,7 +28,7 @@ const Analysis = () => {
                         결과를 제공하여 진단과 치료에 도움이 되고자 합니다.
                     </div>
                 </div>
-                <img src="imgs/img/analysis-progress.png" alt="" className="analysis-info-img"/>
+                <img src="../imgs/img/analysis-progress.png" alt="" className="analysis-info-img"/>
                 <div className="analysis-info">
                     <div className="analysis-info-title">정도관리의 목적</div>
                     <div className="analysis-info-content">
@@ -38,7 +38,7 @@ const Analysis = () => {
                     </div>
                 </div>
                 <div className="analysis-reliable">
-                    <img src="imgs/img/reliable.png" alt="" className="reliable"/>
+                    <img src="../imgs/img/reliable.png" alt="" className="reliable"/>
                     <div className="reliable-contents-sticky">
                         <div className="reliable-title">
                             신뢰성 있는 검사정보를<br/>
@@ -128,7 +128,7 @@ const Analysis = () => {
                     의료법인 신원의료재단에서는 환자들의 진단과 치료에 신속하고 정확한 검사 Data를 제공하기 위해 <br/>
                     열정을 가지고 노력하고 있습니다.
                 </div>
-                <img src="imgs/img/analysis-progress-step1.png" alt="" className="analysis-info-img"/>
+                <img src="../imgs/img/analysis-progress-step1.png" alt="" className="analysis-info-img"/>
                 <div className="analysis-info mg-tp-30">
                     <div className="analysis-info-title">인력 및 인사규정</div>
                     <div className="analysis-info-content">
@@ -177,7 +177,7 @@ const Analysis = () => {
                     의료법인 신원의료재단에서는 환자들의 진단과 치료에 신속하고 정확한 검사 Data를 제공하기 위해 <br/>
                     열정을 가지고 노력하고 있습니다.
                 </div>
-                <img src="imgs/img/analysis-progress-step1.png" alt="" className="analysis-info-img"/>
+                <img src="../imgs/img/analysis-progress-step1.png" alt="" className="analysis-info-img"/>
                 <div className="analysis-info mg-tp-30">
                     <div className="analysis-info-title">검사지침서</div>
                     <div className="analysis-info-content">
@@ -249,7 +249,7 @@ const Analysis = () => {
                             가격이 사용가능한 수준이어야 함.<br/>
                         </div>
                     </div>
-                    <img src="imgs/img/analysis-bt-img.png" alt="" className="analysis-bt-img"/>
+                    <img src="../imgs/img/analysis-bt-img.png" alt="" className="analysis-bt-img"/>
                 </div>
             </div>
         )
@@ -269,7 +269,7 @@ const Analysis = () => {
                     의료법인 신원의료재단에서는 환자들의 진단과 치료에 신속하고 정확한 검사 Data를 제공하기 위해 <br/>
                     열정을 가지고 노력하고 있습니다.
                 </div>
-                <img src="imgs/img/analysis-progress-step2.png" alt="" className="analysis-info-img"/>
+                <img src="../imgs/img/analysis-progress-step2.png" alt="" className="analysis-info-img"/>
                 <div className="analysis-contents-wrapper">
                     <div className="analysis-content-sticky">
                         <div className="analysis-content-top">
@@ -286,7 +286,7 @@ const Analysis = () => {
                     </div>
                 </div>
                 <div className="emphasis2 bld mg-lft-0">대한임상검사정도관리협회의 외부정도관리 분과별 사업계획</div>
-                <img src="imgs/img/plan.png" alt="" className="analysis-info-img mg-bt-150 mg-tp-12"/>
+                <img src="../imgs/img/plan.png" alt="" className="analysis-info-img mg-bt-150 mg-tp-12"/>
             </div>
         )
     }
@@ -305,7 +305,7 @@ const Analysis = () => {
                     의료법인 신원의료재단에서는 환자들의 진단과 치료에 신속하고 정확한 검사 Data를 제공하기 위해 <br/>
                     열정을 가지고 노력하고 있습니다.
                 </div>
-                <img src="imgs/img/analysis-progress-step3.png" alt="" className="analysis-info-img"/>
+                <img src="../imgs/img/analysis-progress-step3.png" alt="" className="analysis-info-img"/>
                 <div className="analysis-info mg-tp-30">
                     <div className="analysis-info-title">결과보고</div>
                     <div className="analysis-info-content">

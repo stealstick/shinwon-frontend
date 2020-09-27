@@ -16,12 +16,12 @@ const Recruitment = () => {
                     </div>
                     <span className={styles.quot}>”</span>
                 </div>
-                <img src="imgs/img/recruitment-1.png" alt="" className={styles.img}/>
-                <img src="imgs/img/interview-process.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/recruitment-1.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/interview-process.png" alt="" className={styles.img}/>
             </div>
             <div className={styles.section}>
                 <SectionTitle kor="전형절차"/>
-                <img src="imgs/img/rec-2.svg" alt="" className={styles.rec_process}/>
+                <img src="../imgs/img/rec-2.svg" alt="" className={styles.rec_process}/>
             </div>
             <div className={styles.section}>
                 <SectionTitle kor="지원공통서류 / 지원방법"/>

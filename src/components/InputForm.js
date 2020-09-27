@@ -23,11 +23,11 @@ const InputForm = () => {
             </div>
             <div className="forms-btn-wrapper">
                 <a target="blank" href="https://939.co.kr/swcl/" className="forms-btn forms-btn__gray">
-                    <img src="imgs/icons/icon-gear.svg" alt="" className="forms-btn-icon"/>
+                    <img src="../imgs/icons/icon-gear.svg" alt="" className="forms-btn-icon"/>
                     <div className="forms-btn-text">원격지원</div>
                 </a>
                 <div className="forms-btn forms-btn__blue">
-                    <img src="imgs/icons/icon-download.svg" alt="" className="forms-btn-icon"/>
+                    <img src="../imgs/icons/icon-download.svg" alt="" className="forms-btn-icon"/>
                     <div className="forms-btn-text light">양식다운로드</div>
                 </div>
             </div>

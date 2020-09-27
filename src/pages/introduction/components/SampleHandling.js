@@ -19,7 +19,7 @@ const SampleHandling = () => {
                         검사물을 채취하거나 다루실 때에는 글러브, 가운 등과 같은 적절한 보호장치를 사용하시어 검사자의 안전에 유의하십시오.<br/>
                         일반 주사기를 사용하여 한 환자에서 여러종류의 검체용기에 채취해야 할 경우 다음의 순서를 따라주십시오.
                     </div>
-                    <img src="imgs/img/samplehandling-progress.svg" alt="" className={styles.sample_handling_progress}/>
+                    <img src="../imgs/img/samplehandling-progress.svg" alt="" className={styles.sample_handling_progress}/>
                     <div className={styles.ref_text}>
                         ※주)SST (Gel tube) 기벽에는 clot activor가 묻어있기 때문에 짧은 시간에도 강력한 clot을 형성하기 때문에<br/>
                         &nbsp;&nbsp;절대로 혈액검사용 tube (EDTA, sood, citrate)로 옮겨서는 안됩니다.
@@ -32,13 +32,13 @@ const SampleHandling = () => {
                         수액주사 중인 혈관에서 채혈하시면 검사결과가 부정확하므로 검체로 적합하지 않습니다.
                     </div>
                     <div className={styles.sample_list_wrapper}>
-                        <img src="imgs/samples/blood-culture.png" alt="" className={styles.sample_img}/>
-                        <img src="imgs/samples/plain-tube.png" alt="" className={styles.sample_img}/>
-                        <img src="imgs/samples/sod-citrate-tube.png" alt="" className={styles.sample_img}/>
-                        <img src="imgs/samples/sst-tube.png" alt="" className={styles.sample_img}/>
-                        <img src="imgs/samples/heparin-tube.png" alt="" className={styles.sample_img}/>
-                        <img src="imgs/samples/EDTA-tube.png" alt="" className={styles.sample_img}/>
-                        <img src="imgs/samples/NaF-tube.png" alt="" className={styles.sample_img}/>
+                        <img src="../imgs/samples/blood-culture.png" alt="" className={styles.sample_img}/>
+                        <img src="../imgs/samples/plain-tube.png" alt="" className={styles.sample_img}/>
+                        <img src="../imgs/samples/sod-citrate-tube.png" alt="" className={styles.sample_img}/>
+                        <img src="../imgs/samples/sst-tube.png" alt="" className={styles.sample_img}/>
+                        <img src="../imgs/samples/heparin-tube.png" alt="" className={styles.sample_img}/>
+                        <img src="../imgs/samples/EDTA-tube.png" alt="" className={styles.sample_img}/>
+                        <img src="../imgs/samples/NaF-tube.png" alt="" className={styles.sample_img}/>
                     </div>
                 </div>
                 <div className={styles.section}>
@@ -71,7 +71,7 @@ const SampleHandling = () => {
                             <div className={styles.sample_handling_title}>Mixing / 믹싱</div>
                         </div>
                         <div className={styles.mixing_contents}>
-                            <img src="imgs/samples/mixing.png" alt="" className={styles.mixing_img}/>
+                            <img src="../imgs/samples/mixing.png" alt="" className={styles.mixing_img}/>
                             <div className={styles.mixing_texts}>
                                 <div className={styles.text_light_dark}>
                                     Mixing 목적은 각 tube 안에 포함된 일정량의 시약 함유되어 있는 것을<br/>
@@ -94,7 +94,7 @@ const SampleHandling = () => {
                             <div className={styles.rect}/>
                             <div className={styles.sample_handling_title}>검체채취과정</div>
                         </div>
-                        <img src="imgs/samples/sample-process.png" alt="" className={styles.sample_handling_process}/>
+                        <img src="../imgs/samples/sample-process.png" alt="" className={styles.sample_handling_process}/>
                     </div>
                     <div className={styles.sample_handling_content}>
                         <div className={styles.sample_handling_title_wrapper}>
@@ -128,45 +128,45 @@ const SampleHandling = () => {
                 <div className={styles.section}>
                     <SectionTitle kor="검체 용기안내" eng="SAMPLE CONTAINER INFO"/>
                     <div className={styles.sample_img3_wrapper}>
-                        <img src="imgs/samples/urine.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/acd.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/bap.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/blood1.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/blood2.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/capillary.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/chlamydia.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/conical.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/cvs.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/edta1.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/edta2.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/endotoxin.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/gh-urine.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/heparin.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/naf.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/nmp22.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/oxytocin.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/plain.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/pyruvic.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/serotonin.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/sst.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/citrate.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/slide.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/slide2.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/std.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/urea.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/utm.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/inf.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/29.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/30.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/31.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/32.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/33.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/sst2.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/35.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/36.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/37.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/38.png" alt="" className={styles.sample_img3}/>
-                        <img src="imgs/samples/tg.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/urine.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/acd.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/bap.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/blood1.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/blood2.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/capillary.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/chlamydia.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/conical.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/cvs.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/edta1.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/edta2.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/endotoxin.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/gh-urine.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/heparin.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/naf.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/nmp22.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/oxytocin.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/plain.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/pyruvic.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/serotonin.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/sst.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/citrate.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/slide.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/slide2.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/std.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/urea.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/utm.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/inf.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/29.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/30.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/31.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/32.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/33.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/sst2.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/35.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/36.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/37.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/38.png" alt="" className={styles.sample_img3}/>
+                        <img src="../imgs/samples/tg.png" alt="" className={styles.sample_img3}/>
                     </div>
                 </div>
             </div>

@@ -102,9 +102,31 @@
 }
 
 @media all and (min-width:768px) and (max-width:1023px){
-
+    .body_forms{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        .forms{
+            width: 50%;
+            height: 164px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }
 
 @media all and (max-width:767px){
-    
+    .body_forms{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        .forms{
+            width: 50%;
+            height: 164px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }

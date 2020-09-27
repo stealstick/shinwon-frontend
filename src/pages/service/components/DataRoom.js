@@ -69,8 +69,13 @@ const DataRoom = () => {
     useEffect(() => {
         axios.get(`http://13.125.200.188:8080/reference/?b_idx=${num}&page=${currentPage}`)
         .then(res => {
-            setPosts(res.data['results'])
-            setCount(res.data['count'])
+            return () => {
+                setPosts(res.data['results'])
+                setCount(res.data['count'])
+            }
+        })
+        .catch(err => {
+            console.log(err)
         })
     }, [currentPage, num])
 

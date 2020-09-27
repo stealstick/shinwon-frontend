@@ -5,16 +5,16 @@ const Greeting = () => {
     return(
         <div className={styles.container}>
             <div className={styles.greeting_top_wrapper}>
-                <img src="imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
+                <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
                 <div className={styles.greeting_title}>인사말</div>
                 <div className={styles.greeting_content_wrapper}>
                     <div className={styles.greeting_img_wrapper}>
-                        <img src="imgs/img/greeting-img.png" alt="" className={styles.greeting_img}/>
+                        <img src="../imgs/img/greeting-img.png" alt="" className={styles.greeting_img}/>
                         <div className={styles.greeting_img_text_wrapper}>
                             <div className={styles.img_text}>이사장</div>
-                            <img src="imgs/img/greeting-name.png" alt="" className={styles.greeting_name}/>
+                            <img src="../imgs/img/greeting-name.png" alt="" className={styles.greeting_name}/>
                         </div>
                     </div>
                     <div className={styles.greeting_content_text}>

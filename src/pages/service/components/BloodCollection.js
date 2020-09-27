@@ -110,7 +110,7 @@ const BloodCollection = () => {
                             사용량은 일반적으로 엄지손톱만큼의 분량이며 제조회사의 <br/>
                             권장사항을 따른다.(그림 1) <br/>
                         </div>
-                        <img src="imgs/img/blood-collection.png" alt="" className={styles.sub_img}/>
+                        <img src="../imgs/img/blood-collection.png" alt="" className={styles.sub_img}/>
                     </div>
                     
                     <div className={styles.sub_num_wrapper}>
@@ -128,7 +128,7 @@ const BloodCollection = () => {
                         <br/>
                         금식이 필요한 검사 (콜레스트렐, 혈당검사 등)가 처방된 환자인 경우 8시간 이상 공복을 유지하였는지 확인하여야 한다. 
                     </div>
-                    <img src="imgs/img/sub-num-table.svg" alt="" className={styles.sub_num_table}/>
+                    <img src="../imgs/img/sub-num-table.svg" alt="" className={styles.sub_num_table}/>
                     <div className={styles.sub_num_text}>
                         특정 음식물(또는 약물)등의 섭취를 금해야 하는 검사 처방인지를 확인 후 채혈해야 한다. <br/>
                         채혈하기 전 환자에게 채혈 할 것을 설명해야 하며 환자의 이름을 물어서 확인한다.  <br/>
@@ -174,7 +174,7 @@ const BloodCollection = () => {
                     </div>
                 </div>
                 <div className={styles.tips_wrapper}>
-                    <img src="imgs/img/blood-tips.png" alt="" className={styles.tips_img}/>
+                    <img src="../imgs/img/blood-tips.png" alt="" className={styles.tips_img}/>
                     <div className={styles.tips_bold}>
                         구혈대(Tourniquet)을 상박둘레에 맨다. 구혈대는 한번만 잡아 당기면 잘 풀릴 수 있게 묶는다.<br/>
                         채혈하고자 하는 위치에서 10cm 이상 떨어진 곳에 묶어야 한다. 
@@ -225,13 +225,13 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
                 <div className={styles.sub_wrapper}>
                     <div className={styles.sub_num_text}>검체가 많을 때 일반적인 튜브별 채혈하는 순서는 아래와 같다.</div>
                     <div className={styles.sub_tube_wrapper}>
-                        <img src="imgs/img/blood-tubes.png" alt="" className={styles.sub_tube_img}/>
+                        <img src="../imgs/img/blood-tubes.png" alt="" className={styles.sub_tube_img}/>
                     </div>
                     <div className={styles.sub_num_text}>채혈을 마친 튜브는 튜브별 특징에 맞게 mix하여야 한다.</div>
                 </div>
                 <div className={styles.mixing_title}>Mixing / 믹싱</div>
                 <div className={styles.mixing_content_wrapper}>
-                    <img src="imgs/img/mixing.png" alt="" className={styles.mixing_img}/>
+                    <img src="../imgs/img/mixing.png" alt="" className={styles.mixing_img}/>
                     <div className={styles.mixing_text_wrapper}>
                         <div className={styles.mixing_text_top}>
                             Mixing 목적은 각 tube 안에 포함된 일정량의 시약 함유되어 있는 것을<br/>
@@ -248,9 +248,9 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
                 </div>
                 <div className={styles.section_title + " " + styles.mg_lft_50}>검체 채취용 용기 종류 및 혼합 방법</div>
                 <div className={styles.section_title + " " + styles.mg_lft_50}>검체채취과정</div>
-                <img src="imgs/img/extraction.png" alt="" className={styles.extraction_img}/>
+                <img src="../imgs/img/extraction.png" alt="" className={styles.extraction_img}/>
                 <div className={styles.extraction_last_wrapper}>
-                    <img src="imgs/img/extraction-last.png" alt="" className={styles.extraction_last}/>
+                    <img src="../imgs/img/extraction-last.png" alt="" className={styles.extraction_last}/>
                     <div className={styles.extraction_last_text}>
                         * 뒤처리  - 주사기 사용 후 주사기 뚜껑은 recapping을 해서는 안된다.<br/>
                         사용한 needle은 주사침통에 넣어 폐기물 처리되어야 한다.

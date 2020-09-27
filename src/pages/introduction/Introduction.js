@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Layout from '../Layout'
 import InputForm from '../../components/InputForm'
 import styles from '../../css/Introduction.module.scss'
@@ -11,13 +11,13 @@ import PrenatalManagement from './components/PrenatalManagement'
 import CheckResult from './components/CheckResult'
 import Disease from './components/Disease'
 
-function Introduction(){
+function Introduction(props){
 
     const [ num, setNum ] = useState(1)
 
-    const setNumber = (num) => {
-        setNum(num)
-    }
+    useEffect(() => {
+        setNum(parseInt(props.match.params.num))
+    }, [props.match])
 
     return(
         <Layout>
@@ -25,7 +25,7 @@ function Introduction(){
             <div className={styles.body}>
                 <img src="/imgs/img/test-guidance.png" alt="" className={styles.body_top_bg}/>
                 <div className={styles.body_contents}>
-                    <IntroductionSidebar selectedNum={num} setNumber={setNumber}/>
+                    <IntroductionSidebar selectedNum={num}/>
                     {num===1 ? <LaboratoryProcess/> :
                     num===2 ? <SampleHandling/> :
                     num===3 ? <LaboratoryType/> : 

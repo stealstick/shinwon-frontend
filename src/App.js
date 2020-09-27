@@ -11,10 +11,10 @@ function App() {
 		<BrowserRouter>
 			<Switch>
 				<Route exact path="/" component={Main}/>
-				<Route exact path="/center" component={Center}/>
-				<Route exact path="/introduction" component={Introduction}/>
-				<Route exact path="/service" component={Service}/>
-				<Route exact path="/foundation" component={Foundation}/>
+				<Route exact path="/center/:num" component={Center}/>
+				<Route exact path="/introduction/:num" component={Introduction}/>
+				<Route path="/service/:num" component={Service}/>
+				<Route exact path="/foundation/:num" component={Foundation}/>
 			</Switch>
 		</BrowserRouter>
   	);

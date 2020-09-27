@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div className={styles.contact_title}>오시는 길</div>
                 <div className={styles.contact_section_wrapper}>
-                    <img src="imgs/img/car.svg" alt="" className={styles.contact_icon}/>
+                    <img src="../imgs/img/car.svg" alt="" className={styles.contact_icon}/>
                     <div className={styles.contact_section_text}>차량이용시</div>
                 </div>
                 <div className={styles.car_content}>
@@ -52,27 +52,27 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className={styles.contact_section_wrapper}>
-                    <img src="imgs/img/subway.svg" alt="" className={styles.contact_icon}/>
+                    <img src="../imgs/img/subway.svg" alt="" className={styles.contact_icon}/>
                     <div className={styles.contact_section_text}>대중교통이용시</div>
                 </div>
                 <div className={styles.subway_content_wrapper}>
                     <div className={styles.subway_content}>
-                        <img src="imgs/img/subway-text.svg" alt="" className={styles.icons}/>
+                        <img src="../imgs/img/subway-text.svg" alt="" className={styles.icons}/>
                         <div className={styles.subway_text}>7호선 철산역 하차 →</div>
-                        <img src="imgs/img/bus-text.svg" alt="" className={styles.icons}/>
+                        <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
                         <div className={styles.subway_text}>
                         3, 3-1 승차 → 가리대사거리. 소화상업지구 정류장 하자 → <br/>
 가리대 사거리. 소하상업지구 정류장 하차
                         </div>
                     </div>
                     <div className={styles.subway_content}>
-                        <img src="imgs/img/high-speed-text.svg" alt="" className={styles.icons}/>
+                        <img src="../imgs/img/high-speed-text.svg" alt="" className={styles.icons}/>
                         <div className={styles.subway_text}>고속철도 광명역 하차 →</div>
-                        <img src="imgs/img/bus-text.svg" alt="" className={styles.icons}/>
+                        <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
                         <div className={styles.subway_text}>5627, 5633, 3-1, 12 → 가리대사거리. 소화상업지구 정류장 하자</div>
                     </div>
                     <div className={styles.subway_content}>
-                        <img src="imgs/img/bus-text.svg" alt="" className={styles.icons}/>
+                        <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
                         <div className={styles.subway_text}>
                         소하동이마트 정류장 하차 - 금천09, 2<br/>
                         가리대사거리. 소하상업지구 정류장 하차 - 2, 3, 3-1, 7, 12, 17, 75, 5627, 5633<br/>

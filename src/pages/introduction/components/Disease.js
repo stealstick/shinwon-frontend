@@ -10,7 +10,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>질환별 검사 안내입니다.</div>
-                <img src="imgs/img/default-disease.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/default-disease.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -19,7 +19,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>유전자 검사 안내입니다.</div>
-                <img src="imgs/img/gene-disease.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/gene-disease.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -28,7 +28,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>종양 검사 안내입니다.</div>
-                <img src="imgs/img/tumor-disease.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/tumor-disease.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -37,7 +37,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>난소암/지방간/심장질환/혈관질환 검사 안내입니다.</div>
-                <img src="imgs/img/disease-1.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/disease-1.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -46,7 +46,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>당뇨/신장질환/관절염/입원검사 검사 안내입니다.</div>
-                <img src="imgs/img/disease-2.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/disease-2.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -55,7 +55,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>간 기능 검사 안내입니다.</div>
-                <img src="imgs/img/liver-disease.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/liver-disease.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -64,7 +64,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>갑상선 종합/빈혈 검사 안내입니다.</div>
-                <img src="imgs/img/thyroid-disease.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/thyroid-disease.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -73,7 +73,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>골다공증/통풍관련질환/호르몬 검사 안내입니다.</div>
-                <img src="imgs/img/disease-3.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/disease-3.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -82,7 +82,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>산부인과 그룹검사1 검사 안내입니다.</div>
-                <img src="imgs/img/disease-OAG1.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/disease-OAG1.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -91,7 +91,7 @@ const Disease = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.section_title}>산부인과 그룹검사2 검사 안내입니다.</div>
-                <img src="imgs/img/disease-OAG2.png" alt="" className={styles.img}/>
+                <img src="../imgs/img/disease-OAG2.png" alt="" className={styles.img}/>
             </div>
         )
     }

@@ -111,7 +111,7 @@ function Main() {
 
                     </div>
                 </div>
-                <MainForm />
+                <MainForm/>
             </div>
             <div className={styles.body_lower}>
                 <div className={styles.body_list}>

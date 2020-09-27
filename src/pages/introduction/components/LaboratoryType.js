@@ -94,7 +94,7 @@ const LaboratoryType = () => {
                         <span className={styles.emphasis}>특수염색이 필요한 경우는 사전에 연락을 드리겠습니다.</span>
                     </div>
                     <div className={styles.img_wrapper}>
-                        <img src="imgs/img/whole-blood-slide.png" alt="" className={styles.img}/>
+                        <img src="../imgs/img/whole-blood-slide.png" alt="" className={styles.img}/>
                     </div>
                 </div>
                 <div className={styles.type_content_wrapper}>
@@ -218,7 +218,7 @@ const LaboratoryType = () => {
                             한번에 filter paper에 그려진 원을 채워 흡수되도록 합니다
                         </div>
                         <div className={styles.type_tips_bottom_wrapper}>
-                            <img src="imgs/img/tips-foot.png" alt="" className={styles.type_tips_img}/>
+                            <img src="../imgs/img/tips-foot.png" alt="" className={styles.type_tips_img}/>
                             <div className={styles.type_tips_bottom_text}>
                                 ① Paper를 채혈부위에 대고 눌러서는 안되며, 채혈부위를 쥐어짜도 안됩니다.<br/>
                                 ② 혈액을 filter paper의 한쪽 면에만 묻히도록 합니다.<br/>
@@ -452,7 +452,7 @@ const LaboratoryType = () => {
                         참고그림<br/>
                     </div>
                     <div className={styles.img_wrapper}>
-                        <img src="imgs/img/molecule.png" alt="" className={styles.img}/>
+                        <img src="../imgs/img/molecule.png" alt="" className={styles.img}/>
                     </div>
                     <div className={styles.type_content_text}>
                         <br/>인유두종(HPV)관련 검사는 각 종목에 해당되는 전용용기를 반드시 사용해야 검사가 가능합니다.<br/>
@@ -615,7 +615,7 @@ const LaboratoryType = () => {
                         Swab culture와 gram stain을 동시에 의뢰할 때에는 swab한 면봉 2개를 모두 보내어야 두 가지 검사가 가능합니다.<br/>
                         의뢰서에는 임상소견, 의심되는 균종, 검체 종류, 채취 부위, 채취 시각, 항생제 투여 여부 등을 반드시 기입하여야 합니다.
                     </div>
-                    <img src="imgs/img/micro.png" alt="" className={styles.micro_img}/> 
+                    <img src="../imgs/img/micro.png" alt="" className={styles.micro_img}/> 
                     <div className={styles.micro_content_wrapper}>
                         <SubTitle title="혈액 (Blood)"/>
                         <div className={styles.micro_content_text}>
@@ -729,7 +729,7 @@ const LaboratoryType = () => {
                         CMV 배양검사용 검체는 얼리지 않도록 하고 Whole blood 검체는 휴일 전날이나 토요일에 접수되지 않게 주십시오
                     </div>
                 </div>
-                <img src="/imgs/img/virusculture.png" alt="" className={styles.img}/>
+                <img src="/../imgs/img/virusculture.png" alt="" className={styles.img}/>
             </div>
         )
     }
@@ -740,7 +740,7 @@ const LaboratoryType = () => {
                 <TypeContentTitle kor="조직병리학/세포병리학"/>
                 <div className={styles.type_content_wrapper}>
                     <TypeTitle title="조직병리학적 검사"/>
-                    <img src="/imgs/img/pathology.png" alt="" className={styles.img}/>
+                    <img src="/../imgs/img/pathology.png" alt="" className={styles.img}/>
                 </div>
                 <div className={styles.type_content_wrapper}>
                     <TypeTitle title="세포병리학 검사"/>

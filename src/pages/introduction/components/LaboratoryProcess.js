@@ -9,11 +9,11 @@ const LaboratoryProcess = () => {
                 <SectionTitle kor="검사절차" eng="LABORATORY PROCESS"/>
                 <div className={styles.process_title}>신원의료재단의 검사 절차(PROCESS)는 아래와 같습니다.</div>
                 <div className={styles.process_img_wrapper}>
-                    <img src="imgs/img/test-process-1.svg" alt="" className={styles.process_img}/>
-                    <img src="imgs/img/test-process-2.svg" alt="" className={styles.process_img}/>
-                    <img src="imgs/img/test-process-3.svg" alt="" className={styles.process_img}/>
-                    <img src="imgs/img/test-process-4.svg" alt="" className={styles.process_img}/>
-                    <img src="imgs/img/test-process-5.svg" alt="" className={styles.process_img}/>
+                    <img src="../imgs/img/test-process-1.svg" alt="" className={styles.process_img}/>
+                    <img src="../imgs/img/test-process-2.svg" alt="" className={styles.process_img}/>
+                    <img src="../imgs/img/test-process-3.svg" alt="" className={styles.process_img}/>
+                    <img src="../imgs/img/test-process-4.svg" alt="" className={styles.process_img}/>
+                    <img src="../imgs/img/test-process-5.svg" alt="" className={styles.process_img}/>
                 </div>
             </div>
             <div className={styles.section}>
@@ -24,7 +24,7 @@ const LaboratoryProcess = () => {
                     <div className={styles.htw_title}>의뢰서 기입 요령</div>
                     <div className={styles.htw_content}>의뢰항목에 적합한 신원의학연구소 전의뢰지를 사용하여 필요한 내용을 반드시 기록하여 주십시오.</div>
                 </div>
-                <img src="imgs/img/how-to-write-requisition.svg" alt="" className={styles.htw_img}/>
+                <img src="../imgs/img/how-to-write-requisition.svg" alt="" className={styles.htw_img}/>
                 <div className={styles.ref_text}>※ 검사안내서를 참고하시어 적합한 검체를 채취하시고 검사항목은 외뢰종목란에 표시하십시오.</div>
                 <div className={styles.ref_text}>※ 종목이 의뢰지에 없는 경우는 의뢰서 기타란에 검사명과 검사방법을 함께 기록하여 주십시오.</div>
             </div>

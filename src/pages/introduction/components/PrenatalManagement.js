@@ -687,11 +687,11 @@ const PrenatalManagement = () => {
                 임산부 영양의 목적은 건강한 임신을 유지하는 것과 태아가 정상적으로 발육과 성장할 수 있도록 하는 것,<br/>
  또한 수유 시에 모체의 건강 유지와 충분한 유즙을 생성할 수 있도록 하는데 있다.
                 </div>
-                <img src="imgs/img/nutrition-1.svg" alt="" className={styles.img}/>
+                <img src="../imgs/img/nutrition-1.svg" alt="" className={styles.img}/>
                 <div className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>주의해야하는 식품</div>
                 </div>
-                <img src="imgs/img/nutrition-2.svg" alt="" className={styles.img}/>
+                <img src="../imgs/img/nutrition-2.svg" alt="" className={styles.img}/>
                 <div className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>직장 임산부를 위한 식사</div>
                 </div>
@@ -763,7 +763,7 @@ const PrenatalManagement = () => {
                 <div className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>임신 주수에 따른 태아의 변화</div>
                 </div>
-                <img src="imgs/img/fetal-grow.svg" alt="" className={styles.img}/>
+                <img src="../imgs/img/fetal-grow.svg" alt="" className={styles.img}/>
             </div>
         )
     }
