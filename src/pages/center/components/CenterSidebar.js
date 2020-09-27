@@ -13,7 +13,7 @@ const CenterSidebar = ({ selectedNum}) => {
             </div>
             <Link to="/center/1" className={selectedNum===1 ? styles.sidebar_selected : styles.sidebar_content}>부서별안내</Link>
             <Link to="/center/2" className={selectedNum===2 ? styles.sidebar_selected : styles.sidebar_content}>병리과안내</Link>
-            <Link to="/center/3" className={selectedNum===3 ? styles.sidebar_selected : styles.sidebar_content}>정도안내</Link>
+            <Link to="/center/3" className={selectedNum===3 ? styles.sidebar_selected : styles.sidebar_content}>정도관리</Link>
             </div>
         </div>
         </>

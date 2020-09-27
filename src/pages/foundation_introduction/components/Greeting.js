@@ -1,23 +1,28 @@
 import React from 'react'
 import styles from './css/Greeting.module.scss'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Greeting = () => {
+
+    AOS.init()
+
     return(
         <div className={styles.container}>
-            <div className={styles.greeting_top_wrapper}>
+            <div data-aos="fade-up" className={styles.greeting_top_wrapper}>
                 <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
-                <div className={styles.greeting_title}>인사말</div>
+                <div data-aos="fade-up" className={styles.greeting_title}>인사말</div>
                 <div className={styles.greeting_content_wrapper}>
-                    <div className={styles.greeting_img_wrapper}>
+                    <div data-aos="fade-up" className={styles.greeting_img_wrapper}>
                         <img src="../imgs/img/greeting-img.png" alt="" className={styles.greeting_img}/>
                         <div className={styles.greeting_img_text_wrapper}>
                             <div className={styles.img_text}>이사장</div>
                             <img src="../imgs/img/greeting-name.png" alt="" className={styles.greeting_name}/>
                         </div>
                     </div>
-                    <div className={styles.greeting_content_text}>
+                    <div data-aos="fade-up" className={styles.greeting_content_text}>
                         <div className={styles.greeting_content_text_title}>
                             안녕하십니까?<br/>
                             신원의료재단에 오신 것을 진심으로 환영합니다.

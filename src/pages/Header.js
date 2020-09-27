@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Header(){
+
+    const [ showContent, setShowContent ] = useState(0)
+
     return(
         <div className="header">
             <img src="/imgs/img/header-top.svg" alt="" className="header-oval"/>
@@ -10,17 +13,55 @@ function Header(){
                     <img src="imgs/img/menu.svg" alt="" className="icon"/>
                 </div>
                 <div className="contents-left">
-                    <div className="content-wrapper">
-                        <Link to="/foundation/1" className="content">재단안내</Link>
+                    <div onMouseLeave={() => setShowContent(0)} className="content-wrapper">
+                        <Link to="/foundation/1" className="content" onMouseOver={() => setShowContent(1)}>재단안내</Link>
+                        {showContent===1 ? 
+                        <div className="header-content-shown foundation">
+                            <Link to="/foundation/1" className="header-shown-text">인사말</Link>
+                            <Link to="/foundation/2" className="header-shown-text">사명과 가치</Link>
+                            <Link to="/foundation/3" className="header-shown-text">재단연혁</Link>
+                            <Link to="/foundation/4" className="header-shown-text">조직도</Link>
+                            <Link to="/foundation/5" className="header-shown-text">전국 네트워크</Link>
+                            <Link to="/foundation/6" className="header-shown-text">전문의</Link>
+                        </div>
+                        : null}
                     </div>
-                    <div className="content-wrapper">
-                        <Link to="/introduction/1" className="content">검사안내</Link>
+                    <div onMouseLeave={() => setShowContent(0)} className="content-wrapper">
+                        <Link to="/introduction/1" className="content" onMouseOver={() => setShowContent(2)}>검사안내</Link>
+                        {showContent===2 ? 
+                        <div className="header-content-shown introduction">
+                            <Link to="/introduction/1" className="header-shown-text">검사절차</Link>
+                            <Link to="/introduction/2" className="header-shown-text">검체취급</Link>
+                            <Link to="/introduction/3" className="header-shown-text">검사종류</Link>
+                            <Link to="/introduction/4" className="header-shown-text">종합검사프로필</Link>
+                            <Link to="/introduction/5" className="header-shown-text">산전관리검사</Link>
+                            <Link to="/introduction/6" className="header-shown-text">질환별검사</Link>
+                            <Link to="/introduction/7" className="header-shown-text">결과확인방법</Link>
+                        </div>
+                        : null}
                     </div>
-                    <div className="content-wrapper">
-                        <Link to="/center/1" className="content">검사센터</Link>
+                    <div onMouseLeave={() => setShowContent(0)} className="content-wrapper">
+                        <Link to="/center/1" className="content" onMouseOver={() => setShowContent(3)}>검사센터</Link>
+                        {showContent===3 ? 
+                        <div className="header-content-shown center">
+                            <Link to="/center/1" className="header-shown-text">부서별안내</Link>
+                            <Link to="/center/2" className="header-shown-text">병리과안내</Link>
+                            <Link to="/center/3" className="header-shown-text">정도관리</Link>
+                        </div>
+                        : null}
                     </div>
-                    <div className="content-wrapper content__last">
-                        <Link to="/service/1" className="content">고객서비스</Link>
+                    <div onMouseLeave={() => setShowContent(0)} className="content-wrapper content__last">
+                        <Link to="/service/1" className="content" onMouseOver={() => setShowContent(4)}>고객서비스</Link>
+                        {showContent===4 ? 
+                        <div className="header-content-shown service">
+                            <Link to="/service/1" className="header-shown-text">공문</Link>
+                            <Link to="/service/2" className="header-shown-text">자료실</Link>
+                            <Link to="/service/3" className="header-shown-text">감염지침</Link>
+                            <Link to="/service/4" className="header-shown-text">FAQ</Link>
+                            <Link to="/service/5" className="header-shown-text">오시는길</Link>
+                            <Link to="/service/6" className="header-shown-text">채용공고</Link>
+                        </div>
+                        : null}
                     </div>
                 </div>
                 <div className="contents-right">

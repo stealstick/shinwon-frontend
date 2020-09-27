@@ -29,7 +29,8 @@ function Foundation(props){
                     num===3 ? <Organization/> :
                     num===4 ? <History/> :
                     num===5 ? null :
-                    <Doctor/>}
+                    num===6 ? <Doctor/> :
+                    <Greeting/>}
                 </div>
             </div>
         </Layout>

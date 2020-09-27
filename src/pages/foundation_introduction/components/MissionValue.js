@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import styles from './css/MissionValue.module.scss'
 import classNames from 'classnames'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const MissionValue = () => {
+
+    AOS.init()
 
     const [ num, setNum ] = useState(1)
 
@@ -10,7 +14,7 @@ const MissionValue = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.mission_imgs_wrapper}>
-                    <div className={styles.mission_content}>
+                    <div data-aos="fade-up" className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission1.png" alt="" className={styles.mission_img}/>
                         </div>
@@ -19,7 +23,7 @@ const MissionValue = () => {
                             신원의 노력은 계속됩니다.
                         </div>
                     </div>
-                    <div className={styles.mission_content}>
+                    <div data-aos="fade-up" className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission2.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -28,7 +32,7 @@ const MissionValue = () => {
                             정확한 질병의 진단 및 치료
                         </div>
                     </div>
-                    <div className={styles.mission_content}>
+                    <div data-aos="fade-up" className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission3.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -38,7 +42,7 @@ const MissionValue = () => {
                             고객서비스 우선주의의 실천
                         </div>
                     </div>
-                    <div className={styles.mission_content}>
+                    <div data-aos="fade-up" className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission4.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -48,7 +52,7 @@ const MissionValue = () => {
                             지역사회 발전에 노력
                         </div>
                     </div>
-                    <div className={styles.mission_content}>
+                    <div data-aos="fade-up" className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission5.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -59,7 +63,7 @@ const MissionValue = () => {
                             국내외 병원과 협력 및 연구
                         </div>
                     </div>
-                    <div className={styles.mission_content}>
+                    <div data-aos="fade-up" className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission6.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -78,13 +82,13 @@ const MissionValue = () => {
         return(
             <div className={styles.section}>
                 <div className={styles.policy_wrapper}>
-                    <div className={styles.policy_content}>
+                    <div data-aos="fade-up" className={styles.policy_content}>
                         <div className={styles.policy_title}>
                             신원의료재단<br/>
                             경영방침
                         </div>
                     </div>
-                    <div className={styles.policy_content}>
+                    <div data-aos="fade-up" className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Business Management Motto</div>
                         <div className={styles.policy_img_wrapper}>
                             <img src="../imgs/img/policy1.svg" alt="" className={styles.policy_img}/>
@@ -97,7 +101,7 @@ const MissionValue = () => {
                             발전적인 미래에 대한 비젼 제시
                         </div>
                     </div>
-                    <div className={styles.policy_content}>
+                    <div data-aos="fade-up" className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Compution and Information</div>
                         <div className={styles.policy_img_wrapper}>
                             <img src="../imgs/img/policy2.svg" alt="" className={styles.policy_img}/>
@@ -110,7 +114,7 @@ const MissionValue = () => {
                             S.M.T.P 구축/제공	
                         </div>
                     </div>
-                    <div className={styles.policy_content}>
+                    <div data-aos="fade-up" className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Diagnostic Inventory</div>
                         <div className={styles.policy_img_wrapper}>
                             <img src="../imgs/img/policy3.svg" alt="" className={styles.policy_img}/>
@@ -123,7 +127,7 @@ const MissionValue = () => {
                             Smart LAB 구현
                         </div>
                     </div>
-                    <div className={styles.policy_content}>
+                    <div data-aos="fade-up" className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Sales Dept</div>
                         <div className={styles.policy_img_wrapper}>
                             <img src="../imgs/img/policy4.svg" alt="" className={styles.policy_img}/>
@@ -135,7 +139,7 @@ const MissionValue = () => {
                             지속적이고 탄력적인 고객서비스 제공 및 관리
                         </div>
                     </div>
-                    <div className={styles.policy_content}>
+                    <div data-aos="fade-up" className={styles.policy_content}>
                         <div className={styles.policy_content_title}>Medical Information</div>
                         <div className={styles.policy_img_wrapper}>
                             <img src="../imgs/img/policy5.svg" alt="" className={styles.policy_img}/>
@@ -157,16 +161,16 @@ const MissionValue = () => {
     const Content3 = () => {
         return(
             <div className={styles.section}>
-                <div className={styles.goal_top}>
+                <div data-aos="fade-up" className={styles.goal_top}>
                     <img src="../imgs/img/goal1.svg" alt="" className={styles.goal_top_img}/>
                     <div className={styles.goal_top_text}>냉철하되 너그럽고 착하게 경영하자!</div>
                 </div>
-                <img src="../imgs/img/goal2.svg" alt="" className={styles.goal_img_2}/>
-                <div className={styles.goal_img_wrapper}>
+                <img data-aos="fade-up" src="../imgs/img/goal2.svg" alt="" className={styles.goal_img_2}/>
+                <div data-aos="fade-up" className={styles.goal_img_wrapper}>
                     <img src="../imgs/img/goal3.svg" alt="" className={styles.goal_img_3}/>
                     <img src="../imgs/img/goal4.svg" alt="" className={styles.goal_img_4}/>
                 </div>
-                <div className={styles.goal_text}>
+                <div data-aos="fade-up" className={styles.goal_text}>
                     끊임없는 도전과 열정으로 21세기 의학 발전에 기여하고<br/>
                     보다 높은 수준의 진단 검사 및 교육을 통하여 양질의 서비스를 제공할 것을 약속드립니다.<br/><br/>
                     이를 위해 우리는 상호 존중하는 인격과 책임 의식을 바탕으로 부단한 연구를 통하여 모든 사람들이 건강하고,<br/>
@@ -179,9 +183,9 @@ const MissionValue = () => {
     const Content4 = () => {
         return(
             <div className={styles.section}>
-                <div className={styles.identity_title}>CI (Identity) / SYMBOL</div>
+                <div data-aos="fade-up" className={styles.identity_title}>CI (Identity) / SYMBOL</div>
                 <div className={styles.identity_wrapper}>
-                    <div className={styles.identity_content_top}>
+                    <div data-aos="fade-up" className={styles.identity_content_top}>
                         <div className={styles.identity_subtitle}>
                             <div className={styles.rect}/>
                             <div className={styles.subtitle_text}>국문</div>
@@ -190,7 +194,7 @@ const MissionValue = () => {
                             <img src="../imgs/img/identity2.svg" alt="" className={styles.identity_img}/>
                         </div>
                     </div>
-                    <div className={styles.identity_content_bot}>
+                    <div data-aos="fade-up" className={styles.identity_content_bot}>
                         <div className={styles.identity_symbol_wrapper}>
                             <div className={styles.identity_subtitle}>
                                 <div className={styles.rect}/>
@@ -202,18 +206,18 @@ const MissionValue = () => {
                         </div>
                         <div className={styles.identity_color_wrapper}>
                             <div className={styles.color_wrapper}>
-                                <div className={styles.identity_subtitle}>
+                                <div data-aos="fade-up" className={styles.identity_subtitle}>
                                     <div className={styles.rect}/>
                                     <div className={styles.subtitle_text}>COLOR</div>
                                 </div>
-                                <div className={styles.color_contents}>
+                                <div data-aos="fade-up" className={styles.color_contents}>
                                     <div className={styles.color_content}/>
                                     <div className={styles.color_content}/>
                                     <div className={styles.color_content}/>
                                     <div className={styles.color_content}/>
                                 </div>
                             </div>
-                            <div className={styles.download_wrapper}>
+                            <div data-aos="fade-up" className={styles.download_wrapper}>
                                 <div className={styles.identity_subtitle}>
                                     <div className={styles.rect}/>
                                     <div className={styles.subtitle_text}>CI DOWNLOAD</div>
