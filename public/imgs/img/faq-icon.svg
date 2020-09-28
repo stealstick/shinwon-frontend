@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <path fill="#6083B2" d="M0 0H44V44H0z" transform="translate(-680 -728) translate(680 710) translate(0 18)"/>
+                    <path fill="#486E99" d="M0 44L44 0 44 44z" transform="translate(-680 -728) translate(680 710) translate(0 18)"/>
+                    <text fill="#FFF" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="25" font-weight="bold" transform="translate(-680 -728) translate(680 710) translate(0 18)">
+                        <tspan x="16.075" y="33">?</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -13,6 +13,13 @@
   height: 770px;
   width: 100%;
   max-width: 1920px;
+  justify-content: center;
+}
+.body_wrapper{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .body_slide {
   max-width: 1530px;
@@ -111,6 +118,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: center;
 }
 .body_list {
   width: 100%;

@@ -71,7 +71,6 @@ const DataRoom = () => {
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])
-            return
         })
         .catch(err => {
             console.log(err)
@@ -81,13 +80,13 @@ const DataRoom = () => {
     return(
         <div className={styles.container}>
             <div className={styles.section}>
-                <div data-aos="fade-up" className={styles.top_type_wrapper}>
+                <div className={styles.top_type_wrapper}>
                     <div onClick={() => setNum(5)} className={num===5 ? styles.top_type_selected + " " + styles.top_type_content : styles.top_type_content}>의뢰지 / 동의서</div>
                     <div onClick={() => setNum(6)} className={num===6 ? styles.top_type_selected + " " + styles.top_type_content : styles.top_type_content}>인증서</div>
                 </div>
                 <SectionTitle kor="자료실" eng="DATA Center"/>
-                <div data-aos="fade-up" className={styles.title_normal}>의료법인 신원의료재단의 인증서 / 동의서 / 의뢰지를 확인할 수 있습니다.</div>
-                <div data-aos="fade-up" className={styles.datalist_wrapper}>
+                <div className={styles.title_normal}>의료법인 신원의료재단의 인증서 / 동의서 / 의뢰지를 확인할 수 있습니다.</div>
+                <div className={styles.datalist_wrapper}>
                     {dataList}
                 </div>
                 <div className={styles.pagenumberlist}>

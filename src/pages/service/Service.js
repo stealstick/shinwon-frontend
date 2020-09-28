@@ -8,11 +8,12 @@ import BloodCollection from './components/BloodCollection'
 import DataRoom from './components/DataRoom'
 import Recruitment from './components/Recruitment'
 import Contact from './components/Contact'
+import FAQ from './components/FAQ'
 
 function Service(props){
 
     const [ num, setNum ] = useState(1)
-    
+
     useEffect(() => {
         setNum(parseInt(props.match.params.num))
     }, [props.match])
@@ -27,7 +28,7 @@ function Service(props){
                     {num===1 ? <Official/> : 
                     num===2 ? <DataRoom/> : 
                     num===3 ? <BloodCollection/> :
-                    num===4 ? null :
+                    num===4 ? <FAQ/> :
                     num===5 ? <Contact/> :
                     num===6 ? <Recruitment/> :
                     <Official/>}

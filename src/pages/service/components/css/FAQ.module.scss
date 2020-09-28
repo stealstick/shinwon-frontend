@@ -1,0 +1,108 @@
+.container{
+    margin-left: 60px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    width: 800px;
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+        width: 100%;
+        .title_normal{
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        .postlist_wrapper{
+            margin-top: 50px;
+            border-top: 1px solid #dcdcdc;
+            width: 100%;
+            .faq_content{
+                height: 80px;
+                border-bottom: 1px solid #dcdcdc;
+                display: flex;
+                align-items: center;
+                width: 100%;
+                .faq_title{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+.pagenumberlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    .previous{
+        width: 0px;
+        height: 0px;
+        border-top: 7.5px solid transparent;
+        border-right: 15px solid #525252;
+        border-bottom: 7.5px solid transparent;
+        margin-right: 8px;
+    }
+    .next{
+        width: 0px;
+        height: 0px;
+        border-top: 7.5px solid transparent;
+        border-left: 15px solid #525252;
+        border-bottom: 7.5px solid transparent;
+        margin-left: 8px;
+    }
+}
+
+.pagenum_wrapper{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        background-color: rgba(72, 110, 153, 0.1);
+    }
+    .pagenum{
+        font-size: 15px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #616161;
+    }
+}
+.pagenum_selected{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(72, 110, 153, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .pagenum{
+        font-size: 15px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #486e99;
+    }
+}
