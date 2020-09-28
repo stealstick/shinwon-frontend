@@ -10,6 +10,9 @@
         flex-direction: column;
         margin-bottom: 45px;
         width: 100%;
+        .rec_process{
+            width: 100%;
+        }
         .rec_wrapper{
             display: flex;
             flex-direction: row;
@@ -107,10 +110,12 @@
         
         .img{
             width: 763px;
+            text-align: center;
             height: 433px;
             object-fit: contain;
             margin-bottom: 50px;
         }
+        
         .interview-process{
             width: 800px;
             height: 532px;
@@ -119,4 +124,9 @@
         }
     }
     
+}
+.img_1{
+    width: 763px;
+    height: 532px;
+    object-fit: contain;
 }

@@ -19,6 +19,7 @@ function Main() {
 
     return (
         <Layout>
+            <div className={styles.body_wrapper}>
             <div className={styles.body_upper}>
                 <div className={styles.body_slide}>
                     <div className={styles.body_slide_box}>
@@ -132,6 +133,7 @@ function Main() {
                     <img src="/imgs/img/site-6.png" alt="" className={styles.site_img} />
                     <img src="/imgs/icons/icon-right.svg" alt="" className={styles.site_img} />
                 </div>
+            </div>
             </div>
         </Layout>
     )

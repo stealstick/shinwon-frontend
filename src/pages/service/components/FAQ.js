@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react'
-import styles from './css/Official.module.scss'
-import SectionTitle from '../../../components/SectionTitle'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import styles from './css/FAQ.module.scss'
+import SectionTitle from '../../../components/SectionTitle'
 
-const Official = () => {
+const FAQ = () => {
 
     const [ posts, setPosts ] = useState([])
-    const [ currentPage, setCurrentPage ] = useState(1)
     const [ count, setCount ] = useState(0)
+    const [ currentPage, setCurrentPage ] = useState(1)
 
     const getPageNumber = () => {
         var pageNum = 0
@@ -44,21 +44,18 @@ const Official = () => {
         />
     ))
 
-    const OfficialContent = ({id, title, date}) => {
+    const FAQContent = ({title}) => {
         return(
-            <div className={styles.official_content}>
-                <div className={styles.official_id}>{id}</div>
-                <div className={styles.official_title}>{title}</div>
-                <div className={styles.official_date}>{date}</div>
+            <div className={styles.faq_content}>
+                <img src="../imgs/img/faq-icon.svg" alt="" className={styles.faq_icon}/>
+                <div className={styles.faq_title}>{title}</div>
             </div>
         )
     }
 
     const currentPostsList = posts.map(post => (
-        <OfficialContent
-            id={post.idx}
+        <FAQContent
             title={post.title}
-            date={post.regdate}
             key={post.idx}
         />
     ))
@@ -68,7 +65,7 @@ const Official = () => {
     }
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/board/?b_idx=2&page=${currentPage}`)
+        axios.get(`http://13.125.200.188:8080/board/?b_idx=3&page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])
@@ -81,14 +78,11 @@ const Official = () => {
     return(
         <div className={styles.container}>
             <div className={styles.section}>
-                <SectionTitle kor="공문" eng="Official"/>
-                <div className={styles.title_normal}>의료법인 신원의료재단의 대내외 공문을 확인 할 수 있습니다.</div>
-                <div className={styles.official_content + " " + styles.official_top}>
-                    <div className={styles.official_id}>No</div>
-                    <div className={styles.official_title}>제목</div>
-                    <div className={styles.official_top_date}>작성일</div>
+                <SectionTitle kor="주요 질문에 대한 답변" eng="FAQ"/>
+                <div className={styles.title_normal}>의료법인 신원의료재단에 대해 고객 여러분들이 궁금해 하시는 질문에 대한 답변입니다.</div>
+                <div className={styles.postlist_wrapper}>
+                    {currentPostsList}
                 </div>
-                {currentPostsList}
                 <div className={styles.pagenumberlist}>
                     <div className={styles.previous} onClick={() => setCurrentPage(currentPage - 1)}/>
                     {pageNumberList}
@@ -99,4 +93,4 @@ const Official = () => {
     )
 }
 
-export default Official
+export default FAQ

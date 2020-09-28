@@ -1,8 +1,13 @@
 import React from 'react'
 import styles from './css/Recruitment.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Recruitment = () => {
+
+    AOS.init()
+
     return(
         <div className={styles.container}>
             <div className={styles.section}>
@@ -16,7 +21,7 @@ const Recruitment = () => {
                     </div>
                     <span className={styles.quot}>”</span>
                 </div>
-                <img data-aos="fade-up" src="../imgs/img/recruitment-1.png" alt="" className={styles.img}/>
+                <img data-aos="fade-up" src="../imgs/img/recruiment-1.png" alt="" className={styles.img_1}/>
                 <img data-aos="fade-up" src="../imgs/img/interview-process.png" alt="" className={styles.img}/>
             </div>
             <div className={styles.section}>
