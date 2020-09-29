@@ -1,8 +1,13 @@
 import React from 'react'
 import styles from './css/Contact.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
+
+    AOS.init()
+
     return(
         <div className={styles.container}>
             <div className={styles.section}>
