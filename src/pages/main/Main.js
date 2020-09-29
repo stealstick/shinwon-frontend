@@ -3,6 +3,7 @@ import Layout from '../Layout'
 import MainForm from './components/MainForm'
 import MainHoverContent from './components/MainHoverContent'
 import styles from '../../css/Main.module.scss'
+import { Link } from 'react-router-dom'
 
 function Main() {
 
@@ -44,9 +45,9 @@ function Main() {
                                         끊임없는 연구를 하고 있으며 최상의 진료 서비스를 진행하고 있습니다.
                                         </div>
 
-                                    <div className={styles.more}>
+                                    <Link to="/introduction/6" className={styles.more}>
                                         상세보기
-                                        </div>
+                                        </Link>
                                 </div>
                             </div>
 
@@ -73,9 +74,9 @@ function Main() {
                                         신원의료재단의 적합한 절차에 따른 검사로 최고의 신뢰성을 자신합니다.
                                         </div>
 
-                                    <div className={styles.more}>
+                                    <Link to="/introduction/1" className={styles.more}>
                                         상세보기
-                                        </div>
+                                        </Link>
                                 </div>
                             </div>
 
@@ -102,9 +103,9 @@ function Main() {
                                         각종 질환에 대한 정확한 정보를 분석합니다.
 </div>
 
-                                    <div className={styles.more}>
+                                    <Link to="/center" className={styles.more}>
                                         상세보기
-                                        </div>
+                                        </Link>
                                 </div>
                             </div>
 

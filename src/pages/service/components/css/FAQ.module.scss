@@ -23,23 +23,43 @@
             margin-top: 50px;
             border-top: 1px solid #dcdcdc;
             width: 100%;
-            .faq_content{
-                height: 80px;
-                border-bottom: 1px solid #dcdcdc;
-                display: flex;
-                align-items: center;
+            .faq_content_wrapper{
+                cursor: pointer;
                 width: 100%;
-                .faq_icon{
-                    margin-right: 30px;
+                display: flex;
+                flex-direction: column;
+                .faq_answer_wrapper{
+                    width: calc(100% - 40px);
+                    padding: 20px;
+                    background-color: #edf1f7;
+                    .faq_answer_sticky{
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #454545;
+                    }
                 }
-                .faq_title{
-                    font-size: 16px;
-                    font-weight: 500;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: normal;
-                    letter-spacing: normal;
-                    color: #000000;
+                .faq_content{
+                    height: 80px;
+                    border-bottom: 1px solid #dcdcdc;
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    .faq_icon{
+                        margin-right: 30px;
+                    }
+                    .faq_title{
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #000000;
+                    }
                 }
             }
         }
