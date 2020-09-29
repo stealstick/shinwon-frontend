@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/InputForm.scss'
+import { Link } from 'react-router-dom'
 
 const InputForm = () => {
     return(
@@ -26,10 +27,10 @@ const InputForm = () => {
                     <img src="../imgs/icons/icon-gear.svg" alt="" className="forms-btn-icon"/>
                     <div className="forms-btn-text">원격지원</div>
                 </a>
-                <div className="forms-btn forms-btn__blue">
+                <Link to="/service/2" className="forms-btn forms-btn__blue">
                     <img src="../imgs/icons/icon-download.svg" alt="" className="forms-btn-icon"/>
                     <div className="forms-btn-text light">양식다운로드</div>
-                </div>
+                </Link>
             </div>
         </div>
     )

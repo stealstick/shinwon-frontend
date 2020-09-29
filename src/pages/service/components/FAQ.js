@@ -8,6 +8,7 @@ const FAQ = () => {
     const [ posts, setPosts ] = useState([])
     const [ count, setCount ] = useState(0)
     const [ currentPage, setCurrentPage ] = useState(1)
+    const [ contentAnswerOn, setContentAnswerOn ] = useState(null)
 
     const getPageNumber = () => {
         var pageNum = 0
@@ -44,18 +45,28 @@ const FAQ = () => {
         />
     ))
 
-    const FAQContent = ({title}) => {
+    const FAQContent = ({title, id, contents}) => {
         return(
-            <div className={styles.faq_content}>
-                <img src="../imgs/img/faq-icon.svg" alt="" className={styles.faq_icon}/>
-                <div className={styles.faq_title}>{title}</div>
+            <div className={styles.faq_content_wrapper} onClick={contentAnswerOn===id ? () => setContentAnswerOn(null) : () => setContentAnswerOn(id)}>
+                <div className={styles.faq_content}>
+                    <img src="../imgs/img/faq-icon.svg" alt="" className={styles.faq_icon}/>
+                    <div className={styles.faq_title}>{title}</div>
+                </div>
+                {contentAnswerOn===id ? 
+                <div className={styles.faq_answer_wrapper}>
+                    <div className={styles.faq_answer_sticky} dangerouslySetInnerHTML={{__html: contents}}/>
+                </div>
+                : null}
             </div>
+            
         )
     }
 
     const currentPostsList = posts.map(post => (
         <FAQContent
+            id={post.idx}
             title={post.title}
+            contents={post.contents}
             key={post.idx}
         />
     ))
