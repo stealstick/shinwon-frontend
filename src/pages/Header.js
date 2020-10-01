@@ -10,7 +10,7 @@ function Header(){
             <img src="/imgs/img/header-top.svg" alt="" className="header-oval"/>
             <div className="header-contents">
                 <div className="contents-none">
-                    <img src="imgs/img/menu.svg" alt="" className="icon"/>
+                    <img src="../imgs/img/menu.svg" alt="" className="icon"/>
                 </div>
                 <div className="contents-left">
                     <div className="content-wrapper">

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './css/CenterSidebar.module.scss'
 import { Link } from 'react-router-dom'
 
-const CenterSidebar = ({ selectedNum}) => {
+const CenterSidebar = ({ selectedNum }) => {
     return(
         <>
         <div className={styles.sidebar}>

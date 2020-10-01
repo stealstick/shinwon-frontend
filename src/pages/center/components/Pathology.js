@@ -43,7 +43,7 @@ const Pathology = () => {
                         </div>
                     </div>
                     <div class="equipment-img-wrapper">
-                        <img src="imgs/equipments/Tissue-Tek-VIP®6.png" alt="" class="equipment-img"/>
+                        <img src="../imgs/equipments/Tissue-Tek-VIP®6.png" alt="" class="equipment-img"/>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="equipment-content">
@@ -54,7 +54,7 @@ const Pathology = () => {
                         </div>
                     </div>
                     <div class="equipment-img-wrapper">
-                        <img src="imgs/equipments/Tissue-Tek®-TEC5.png" alt="" class="equipment-img"/>
+                        <img src="../imgs/equipments/Tissue-Tek®-TEC5.png" alt="" class="equipment-img"/>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="equipment-content">
@@ -65,7 +65,7 @@ const Pathology = () => {
                         </div>
                     </div>
                     <div class="equipment-img-wrapper">
-                        <img src="imgs/equipments/Tissue-Tek-Prisma®-E2D:E2S.png" alt="" class="equipment-img"/>
+                        <img src="../imgs/equipments/Tissue-Tek-Prisma®-E2D:E2S.png" alt="" class="equipment-img"/>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="equipment-content">
@@ -76,7 +76,7 @@ const Pathology = () => {
                         </div>
                     </div>
                     <div class="equipment-img-wrapper">
-                        <img src="imgs/equipments/Histo-Tek®-SRMII.png" alt="" class="equipment-img"/>
+                        <img src="../imgs/equipments/Histo-Tek®-SRMII.png" alt="" class="equipment-img"/>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="equipment-content">
@@ -87,7 +87,7 @@ const Pathology = () => {
                         </div>
                     </div>
                     <div class="equipment-img-wrapper">
-                        <img src="imgs/equipments/microscope(BX41).png" alt="" class="equipment-img"/>
+                        <img src="../imgs/equipments/microscope(BX41).png" alt="" class="equipment-img"/>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="equipment-content">
@@ -98,7 +98,7 @@ const Pathology = () => {
                         </div>
                     </div>
                     <div class="equipment-img-wrapper">
-                        <img src="imgs/equipments/microscope(BX51).png" alt="" class="equipment-img"/>
+                        <img src="../imgs/equipments/microscope(BX51).png" alt="" class="equipment-img"/>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="equipment-content">
@@ -109,7 +109,7 @@ const Pathology = () => {
                         </div>
                     </div>
                     <div class="equipment-img-wrapper">
-                        <img src="imgs/equipments/microscope(BX53).png" alt="" class="equipment-img"/>
+                        <img src="../imgs/equipments/microscope(BX53).png" alt="" class="equipment-img"/>
                     </div>
                 </div>
             </div>

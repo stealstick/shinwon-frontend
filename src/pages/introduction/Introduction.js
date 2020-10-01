@@ -21,9 +21,10 @@ function Introduction(props){
 
     return(
         <Layout>
-            <InputForm/>
             <div className={styles.body}>
-                <img src="/imgs/img/test-guidance.png" alt="" className={styles.body_top_bg}/>
+                <div className={styles.body_top_bg_wrapper}>
+                    <img src="/imgs/img/test-guidance.png" alt="" className={styles.body_top_bg}/>
+                </div>
                 <div className={styles.body_contents}>
                     <IntroductionSidebar selectedNum={num}/>
                     {num===1 ? <LaboratoryProcess/> :
@@ -35,6 +36,7 @@ function Introduction(props){
                     <CheckResult/>}
                 </div>
             </div>
+            <InputForm/>
         </Layout>
     )
 }

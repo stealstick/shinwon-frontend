@@ -20,9 +20,10 @@ function Service(props){
 
     return(
         <Layout>
-            <InputForm/>
             <div className={styles.body}>
-                <img src="../imgs/img/foundation.png" alt="" className={styles.body_top_bg}/>
+                <div className={styles.body_top_bg_wrapper}>
+                    <img src="../imgs/img/foundation.png" alt="" className={styles.body_top_bg}/>
+                </div>
                 <div className={styles.body_contents}>
                     <ServiceSidebar selectedNum={num}/>
                     {num===1 ? <Official/> : 
@@ -34,6 +35,7 @@ function Service(props){
                     <Official/>}
                 </div>
             </div>
+            <InputForm/>
         </Layout>
     )
 }

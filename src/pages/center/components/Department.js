@@ -13,7 +13,7 @@ const Deparment = () => {
         return(
             <div className="transform-div first">
                 <div data-aos="fade-up" className="department-name">
-                    <img src="imgs/img/gene.svg" alt="" className="department-icon"/>
+                    <img src="../imgs/img/gene.svg" alt="" className="department-icon"/>
                     <div className="department-title-text">임상화학부</div>
                 </div>
                 <div data-aos="fade-up" className="intro">
@@ -46,7 +46,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Cobas-c702.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Cobas-c702.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -57,7 +57,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Integra-400.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Integra-400.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -68,7 +68,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Rapidchem-850.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Rapidchem-850.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const Deparment = () => {
         return(
             <div className="transform-div second hidden">
                 <div data-aos="fade-up" className="department-name">
-                    <img src="imgs/img/blood-drop.svg" alt="" className="department-icon"/>
+                    <img src="../imgs/img/blood-drop.svg" alt="" className="department-icon"/>
                     <div className="department-title-text">진단면역학부</div>
                 </div>
                 <div data-aos="fade-up" className="intro">
@@ -117,7 +117,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Cobas-e602.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Cobas-e602.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -131,7 +131,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/E-170.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/E-170.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -142,7 +142,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/DXI-800.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/DXI-800.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -153,7 +153,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Evolis.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Evolis.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -164,7 +164,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/ARCHITECT-i2000SR.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/ARCHITECT-i2000SR.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -175,7 +175,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Advansure-AlloStation-smart-Ⅱ.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Advansure-AlloStation-smart-Ⅱ.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -186,7 +186,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Chorus.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Chorus.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                 </div>
@@ -198,7 +198,7 @@ const Deparment = () => {
         return(
             <div className="transform-div third hidden">
                 <div data-aos="fade-up" className="department-name">
-                    <img src="imgs/img/blood-drop.svg" alt="" className="department-icon"/>
+                    <img src="../imgs/img/blood-drop.svg" alt="" className="department-icon"/>
                     <div className="department-title-text">진단혈액학부</div>
                 </div>
                 <div data-aos="fade-up" className="intro">
@@ -233,7 +233,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/XE-2100.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/XE-2100.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -244,7 +244,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/CA-1500.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/CA-1500.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -255,7 +255,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/SO-1000i.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/SO-1000i.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -266,7 +266,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Variant-turbo-2.0.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Variant-turbo-2.0.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -277,7 +277,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/TEST-1.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/TEST-1.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                 </div>
@@ -289,7 +289,7 @@ const Deparment = () => {
         return(
             <div className="transform-div fourth hidden">
                 <div data-aos="fade-up" className="department-name">
-                    <img src="imgs/img/cell-2.svg" alt="" className="department-icon"/>
+                    <img src="../imgs/img/cell-2.svg" alt="" className="department-icon"/>
                     <div className="department-title-text">임상미생물학부</div>
                 </div>
                 <div data-aos="fade-up" className="intro">
@@ -324,7 +324,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Micro-Scan-WalkAway-96.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Micro-Scan-WalkAway-96.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@ const Deparment = () => {
         return(
             <div className="transform-div fifth hidden">
                 <div data-aos="fade-up" className="department-name">
-                    <img src="imgs/img/beaker.svg" alt="" className="department-icon"/>
+                    <img src="../imgs/img/beaker.svg" alt="" className="department-icon"/>
                     <div className="department-title-text">진단면역학부</div>
                 </div>
                 <div data-aos="fade-up" className="intro">
@@ -367,7 +367,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Uriscan-Super-Plus.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Uriscan-Super-Plus.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -378,7 +378,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/Cobas-c702.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/Cobas-c702.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="equipment-content">
@@ -389,7 +389,7 @@ const Deparment = () => {
                             </div>
                         </div>
                         <div className="equipment-img-wrapper">
-                            <img src="imgs/equipments/UF-1000i.png" alt="" className="equipment-img"/>
+                            <img src="../imgs/equipments/UF-1000i.png" alt="" className="equipment-img"/>
                         </div>
                     </div>
                 </div>
@@ -401,7 +401,7 @@ const Deparment = () => {
         return(
             <div className="transform-div sixth hidden">
                 <div data-aos="fade-up" className="department-name">
-                    <img src="imgs/img/gene.svg" alt="" className="department-icon"/>
+                    <img src="../imgs/img/gene.svg" alt="" className="department-icon"/>
                     <div className="department-title-text">분자유전학부</div>
                 </div>
                 <div data-aos="fade-up" className="textbox-wrapper">
@@ -529,56 +529,56 @@ const Deparment = () => {
                             <div className="equipment-desc-upper">Bio-rad CFX-96</div>
                             <div className="equipment-desc-lower-2">
                                 <div className="lower-text mg-bt-12 mg-tp-20">DNA 증폭</div>
-                                <img src="imgs/equipments/Bio-rad-CFX-96.png" alt="" className="equipment-img mg-tp-12"/>
+                                <img src="../imgs/equipments/Bio-rad-CFX-96.png" alt="" className="equipment-img mg-tp-12"/>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="equipment-desc-2">
                             <div className="equipment-desc-upper">Bioneer EXISTATION</div>
                             <div className="equipment-desc-lower-2">
                                 <div className="lower-text mg-bt-12 mg-tp-20">DNA 증폭</div>
-                                <img src="imgs/equipments/Bioneer-EXISTATION.png" alt="" className="equipment-img mg-tp-12"/>
+                                <img src="../imgs/equipments/Bioneer-EXISTATION.png" alt="" className="equipment-img mg-tp-12"/>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="equipment-desc-2">
                             <div className="equipment-desc-upper">Veriti 96</div>
                             <div className="equipment-desc-lower-2">
                                 <div className="lower-text mg-bt-12 mg-tp-20">DNA 증폭</div>
-                                <img src="imgs/equipments/Veriti-96.png" alt="" className="equipment-img mg-tp-12"/>
+                                <img src="../imgs/equipments/Veriti-96.png" alt="" className="equipment-img mg-tp-12"/>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="equipment-desc-2">
                             <div className="equipment-desc-upper">SimpliAMP</div>
                             <div className="equipment-desc-lower-2">
                                 <div className="lower-text mg-bt-12 mg-tp-20">DNA 증폭</div>
-                                <img src="imgs/equipments/SimpliAMP.png" alt="" className="equipment-img mg-tp-12"/>
+                                <img src="../imgs/equipments/SimpliAMP.png" alt="" className="equipment-img mg-tp-12"/>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="equipment-desc-2">
                             <div className="equipment-desc-upper">Bio-rad C1000</div>
                             <div className="equipment-desc-lower-2">
                                 <div className="lower-text mg-bt-12 mg-tp-20">DNA 증폭</div>
-                                <img src="imgs/equipments/Bio-rad-C1000.png" alt="" className="equipment-img mg-tp-12"/>
+                                <img src="../imgs/equipments/Bio-rad-C1000.png" alt="" className="equipment-img mg-tp-12"/>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="equipment-desc-2">
                             <div className="equipment-desc-upper">Abbott m2000 sp</div>
                             <div className="equipment-desc-lower-2">
                                 <div className="lower-text mg-bt-12 mg-tp-20">DNA 증폭</div>
-                                <img src="imgs/equipments/Abbott-m2000-sp.png" alt="" className="equipment-img mg-tp-12"/>
+                                <img src="../imgs/equipments/Abbott-m2000-sp.png" alt="" className="equipment-img mg-tp-12"/>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="equipment-desc-2">
                             <div className="equipment-desc-upper">Abbott m2000rt</div>
                             <div className="equipment-desc-lower-2">
                                 <div className="lower-text mg-bt-12 mg-tp-20">DNA 증폭</div>
-                                <img src="imgs/equipments/Abbott-m2000rt.png" alt="" className="equipment-img mg-tp-12"/>
+                                <img src="../imgs/equipments/Abbott-m2000rt.png" alt="" className="equipment-img mg-tp-12"/>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="equipment-desc-2">
                             <div className="equipment-desc-upper">HybREAD 480</div>
                             <div className="equipment-desc-lower-2">
                                 <div className="lower-text mg-bt-12 mg-tp-20">Genotyping 용</div>
-                                <img src="imgs/equipments/HybREAD-480.png" alt="" className="equipment-img mg-tp-12"/>
+                                <img src="../imgs/equipments/HybREAD-480.png" alt="" className="equipment-img mg-tp-12"/>
                             </div>
                         </div>
                     </div>
