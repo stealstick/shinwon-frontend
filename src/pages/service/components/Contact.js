@@ -13,6 +13,9 @@ const Contact = () => {
             <div className={styles.section}>
                 <SectionTitle kor="위치안내" eng="CONTACT US"/>
                 <div data-aos="fade-up" className={styles.title_normal}>의료법인 신원의료재단으로 오시는 길 안내입니다.</div>
+                <div className={styles.map_img_wrapper}>
+                    <a target="blank" href="https://www.google.co.kr/maps/place/%EC%9D%98%EB%A3%8C%EB%B2%95%EC%9D%B8%EC%8B%A0%EC%9B%90%EC%9D%98%EB%A3%8C%EC%9E%AC%EB%8B%A8/@37.447276,126.8828233,17z/data=!4m8!1m2!2m1!1z6rK96riw64-EIOq0keuqheyLnCDshoztlZjroZwgMTA567KI6ri4IDEzLTg!3m4!1s0x357b6176ba371a71:0x913a287d8ff9e64!8m2!3d37.4472462!4d126.8845345?hl=ko"><img src="../imgs/img/google-map.png" alt="" className={styles.google_map}/></a>
+                </div>
                 <div data-aos="fade-up" className={styles.address_wrapper}>
                     <div className={styles.address_content}>
                         <div className={styles.address_title}>도로명 주소</div>

@@ -155,7 +155,30 @@
 }
 
 @media all and (min-width:768px) and (max-width:1023px){
-
+    .forms-wrapper{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        flex-direction: row;
+    }
+    .forms-btn-wrapper{
+        display: none
+    }
+    .input-wrapper{
+        display: none;
+    }
+    .forms{
+        height: 50px;
+        width: 50%;
+    }
+    .forms-title{
+        margin: 0;
+    }
+    .forms-sticky{
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media all and (max-width:767px){

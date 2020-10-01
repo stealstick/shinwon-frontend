@@ -1,0 +1,168 @@
+.container{
+    margin-left: 60px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    width: 800px;
+    .greeting_top_wrapper{
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #dcdcdc;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .greeting_top_img{
+            width: 60%;
+        }
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+        width: 100%;
+        .network_top_wrapper{
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .network_top_icon{
+                margin-right: 15px;
+            }
+            .network_top_text{
+                font-size: 25px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #002740;
+            }
+        }
+        .network_content_wrapper{
+            width: 100%;
+            margin-top: 35px;
+            display: flex;
+            flex-direction: row;
+            .network_map_wrapper{
+                width: calc(50% - 33px);
+                min-width: 367px;
+                margin-right: 33px;
+                height: 567px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #e7eef2;
+                position: relative;
+                .network_map_sticky{
+                    width: 299px;
+                    height: 475px;
+                    background-position: center center;
+                    background-image: url(./map.svg);
+                    background-repeat: no-repeat;
+                    position: relative;
+                    .pin_seoul{
+                        position: absolute;
+                        top: 60px;
+                        left: 70px;
+                        cursor: pointer;
+                    }
+                    .pin_gangwon{
+                        position: absolute;
+                        top: 60px;
+                        right: 70px;
+                        cursor: pointer;
+                    }
+                    .pin_incheon{
+                        position: absolute;
+                        top: 60px;
+                        left: 0px;
+                        cursor: pointer;
+                    }
+                    .pin_gyeonggi{
+                        position: absolute;
+                        top: 100px;
+                        left: 80px;
+                        cursor: pointer;
+                    }
+                    .pin_chungnam{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 130px;
+                        left: 110px;
+                    }
+                    .pin_chungbuk{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 150px;
+                        left: 10px;
+                    }
+                    .pin_daejeon{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 170px;
+                        left: 95px;
+                    }
+                    .pin_gyeongbuk{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 170px;
+                        right: 60px;
+                    }
+                    .pin_daegu{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 220px;
+                        right: 65px;
+                    }
+                    .pin_ulsan{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 240px;
+                        right: 10px;
+                    }
+                    .pin_busan{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 270px;
+                        right: 30px;
+                    }
+                    .pin_jeonnam{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 280px;
+                        left: 80px;
+                    }
+                    .pin_jeonbuk{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 220px;
+                        left: 70px;
+                    }
+                    .pin_gwangju{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 270px;
+                        left: 0px;
+                    }
+                    .pin_gyeongnam{
+                        position: absolute;
+                        cursor: pointer;
+                        top: 270px;
+                        right: 90px;
+                    }
+                    .pin_jeju{
+                        position: absolute;
+                        cursor: pointer;
+                        left: 30px;
+                        top: 420px;
+                    }
+                }
+            }
+            .network_area_wrapper{
+                width: 50%;
+            }
+        }
+    }
+}

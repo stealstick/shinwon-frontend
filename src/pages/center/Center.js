@@ -17,9 +17,10 @@ function Center(props){
 
     return(
         <Layout>
-            <InputForm/>
             <div className={styles.body}>
-                <img src="..//imgs/img/clinical-chemistry.png" alt="" className={styles.body_top_bg}/>
+                    <div className={styles.body_top_bg_wrapper}>
+                <img src="../imgs/img/clinical-chemistry.png" alt="" className={styles.body_top_bg}/>
+                </div>
                 <div className={styles.body_contents}>
                     <CenterSidebar selectedNum={num}/>
                     {num===1 ? <Department/> : 
@@ -28,6 +29,7 @@ function Center(props){
                     <Department/>}
                 </div>
             </div>
+            <InputForm/>
         </Layout>
     )
 }
