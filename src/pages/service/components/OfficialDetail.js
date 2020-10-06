@@ -10,9 +10,11 @@ function OfficialDetail(props){
     const [ data, setData ] = useState({})
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/board/${props.match.params.officialid}`)
+        axios.get(`http://13.125.200.188:8080/board/${props.match.params.officialid}/`)
         .then(res => {
-            console.log(res)
+            res.data.contents = res.data.contents.replace("/UploadFiles", "http://13.125.200.188/files")
+            setData(res.data)
+
         })
         .catch(err => {
             console.log(err)
