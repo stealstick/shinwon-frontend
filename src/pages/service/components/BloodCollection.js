@@ -97,6 +97,7 @@ const BloodCollection = () => {
                         </div>
                     </div>
                 </div>
+                <div className={styles.mobile_none}>
                 <div data-aos="fade-up" className={styles.section_title}>올바른 채혈 방법</div>
                 <div data-aos="fade-up" className={styles.sub_wrapper}>
                     <div className={styles.sub_title_wrapper}>
@@ -227,6 +228,7 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
 ④ 일반혈관의 경우 채혈관에 혈류가 유입되기 시작하면 곧바로 지혈대를 풀고 환자의 주먹을 펴도록 한다.  <br/>
                     </div>
                 </div>
+                </div>
                 <div data-aos="fade-up" className={styles.sub_wrapper}>
                     <div className={styles.sub_num_text}>검체가 많을 때 일반적인 튜브별 채혈하는 순서는 아래와 같다.</div>
                     <div className={styles.sub_tube_wrapper}>
@@ -251,6 +253,7 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
                         </div>
                     </div>
                 </div>
+                <div className={styles.mobile_none}>
                 <div data-aos="fade-up" className={styles.section_title + " " + styles.mg_lft_50}>검체 채취용 용기 종류 및 혼합 방법</div>
                 <div data-aos="fade-up" className={styles.section_title + " " + styles.mg_lft_50}>검체채취과정</div>
                 <img data-aos="fade-up" src="../imgs/img/extraction.png" alt="" className={styles.extraction_img}/>
@@ -289,6 +292,7 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
                         <div className={styles.tips_item}>ADH(C7365)</div>
                         <div className={styles.tips_item}>Lupus anticoagulant(B1711, B1712006)</div>
                     </div>
+                </div>
                 </div>
                 <SectionTitle/>
                 <div data-aos="fade-up" className={styles.section_title}>감염관리 지침</div>

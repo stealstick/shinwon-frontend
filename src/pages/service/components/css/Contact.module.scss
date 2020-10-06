@@ -57,14 +57,18 @@
                 display: flex;
                 flex-direction: row;
                 margin-bottom: 35px;
-                .subway_text{
-                    font-size: 15px;
-                    font-weight: 500;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: normal;
-                    letter-spacing: 0.17px;
-                    color: #666666;
+                .content_sticky{
+                    display: flex;
+                    flex-direction: row;
+                    .subway_text{
+                        font-size: 15px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: 0.17px;
+                        color: #666666;
+                    }
                 }
             }
         }
@@ -108,7 +112,7 @@
             .address_content{
                 display: flex;
                 flex-direction: row;
-                width: 400px;
+                width: 50%;
                 &:nth-child(2){
                     margin: 11px 0;
                 }
@@ -158,5 +162,41 @@
 }
 
 @media all and (max-width:767px){
-    
+    .container{
+        width: calc(100% - 40px);
+        padding: 0 20px;
+        margin: 0;
+        margin-top: 50px;
+        .section{
+            .map_img_wrapper{
+                .google_map{
+                    width: 100%;
+                }
+            }
+            .address_wrapper{
+                .address_content{
+                    width: 100%;
+                    .address_title{
+                        font-size: 16px;
+                    }
+                    .address_text{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .subway_content_wrapper{
+                .subway_content{
+                    display: flex;
+                    flex-direction: column;
+                    .content_sticky{
+                        margin-bottom: 10px;
+                        .icons{
+                            width: auto;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
 }

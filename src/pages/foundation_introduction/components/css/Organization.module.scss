@@ -210,5 +210,80 @@
 }
 
 @media all and (max-width:767px){
-    
+    .container{
+        width: calc(100% - 40px);
+        padding: 0 20px;
+        margin: 0;
+        margin-top: 50px;
+        .section{
+            .org_table_wrapper{
+                .org_table_sticky{
+                    padding: 15px;
+                    width: calc(100% - 30px);
+                    .org_table_content{
+                        width: calc(100% / 3);
+                        &:nth-child(4){
+                            display: none;
+                        }
+                        .table_text{
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+            .org_wrapper{
+                align-items: center;
+                .org_ceo{
+                    width: 40%;
+                    height: auto;
+                }
+                .org_oval{
+                    width: 100%;
+                    height: auto;
+                }
+                .org_content_wrapper{
+                    .org_content_line{
+                        width: auto;
+                        max-width: 100px;
+                        &:nth-child(2){
+                            margin: 0 10px;
+                        }
+                        .org_top_content{
+                            width: auto;
+                            background-size: auto;
+                            background-repeat: no-repeat;
+                            .org_top_title{
+                                font-size: 12px;
+                                margin-left: 20px;
+                            }
+                            .org_top_eng{
+                                font-size: 8px;
+                                margin-left: 20px;
+                            }
+                            .org_top_small{
+                                font-size: 6px;
+                                margin-left: 20px;
+                            }
+                        }
+                        .org_content{
+                            width: auto;
+                            padding: 5px;
+                            .org_content_title{
+                                font-size: 12px;
+                            }
+                            .org_content_class{
+                                font-size: 10px;
+                            }
+                            .org_content_eng{
+                                font-size: 8px;
+                            }
+                            .org_content_team{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
