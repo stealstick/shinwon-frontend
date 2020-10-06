@@ -172,12 +172,21 @@
         .goal_img_2{
             margin-top: 35px;
             margin-bottom: 16px;
+            background-image: url('./motto.svg');
+            width: 100%;
+            height: 117px;
         }
         .goal_img_wrapper{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             margin-bottom: 35px;
+            .goal_img_3{
+                width: calc(50% - 5px);
+            }
+            .goal_img_4{
+                width: calc(50% - 5px);
+            }
         }
         .goal_text{
             font-size: 18px;
@@ -313,5 +322,71 @@
 }
 
 @media all and (max-width:767px){
-    
+    .container{
+        width: calc(100% - 40px);
+        padding: 0 20px;
+        margin: 0;
+        margin-top: 50px;
+        .greeting_top_wrapper{
+            width: 100%;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            .greeting_top_img{
+                width: 100%;
+            }
+        }
+        .section{
+            .goal_img_2{
+                background-image: url('./motto-mobile.svg');
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .goal_text{
+                br{
+                    display: none;
+                }
+            }
+            .goal_img_wrapper{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .goal_img_3{
+                    width: 100%;
+                    max-width: 280px;
+                    margin-bottom: 30px;
+                }
+                .goal_img_4{
+                    width: 100%;
+                    max-width: 280px;
+                }
+            }
+            .goal_top{
+                .goal_top_text{
+                    font-size: 16px;
+                }
+            }
+            .mission_imgs_wrapper{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .mission_content{
+                    width: 100%;
+                    margin-bottom: 50px;
+                }
+            }
+            .policy_wrapper{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .policy_content{
+                    width: 100%;
+                    .policy_title{
+                        br{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

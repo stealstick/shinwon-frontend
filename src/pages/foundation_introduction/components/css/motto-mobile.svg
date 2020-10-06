@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="279" height="88" viewBox="0 0 279 88">
+    <defs>
+        <path id="hbtf2n2baa" d="M4 0h271c2.21 0 4 1.79 4 4v22H0V4c0-2.21 1.79-4 4-4z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-21 -488) translate(21 488)">
+                <rect width="279" height="83" fill="#F2F5F7" rx="4"/>
+                <rect width="279" height="88" fill="#F2F5F7" rx="4"/>
+                <g>
+                    <mask id="dn5oji2xfb" fill="#fff">
+                        <use xlink:href="#hbtf2n2baa"/>
+                    </mask>
+                    <use fill="#A3B4C4" xlink:href="#hbtf2n2baa"/>
+                    <path fill="#B2C1CF" d="M140.676 29.25c81.588 0 147.728-14.789 147.728-36.585S222.264-46.8 140.676-46.8C59.087-46.8-7.054-29.13-7.054-7.335c0 21.796 66.141 36.585 147.73 36.585z" mask="url(#dn5oji2xfb)"/>
+                    <path fill="#92ACC3" d="M34.483 25.954c119.549.598 198.46-8.103 236.733-26.104 38.274-18 53.54-18 45.8 0v34.587L34.483 37.7V25.954z" mask="url(#dn5oji2xfb)"/>
+                    <path fill="#89A0B4" d="M48.59 25.954c119.549.598 198.46-8.103 236.733-26.104 38.274-18 53.54-18 45.8 0v34.587L48.59 37.7V25.954z" mask="url(#dn5oji2xfb)"/>
+                </g>
+                <text fill="#363636" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="14" font-weight="400">
+                    <tspan x="71.203" y="51">사장은 없다. 알아서 하자. </tspan> <tspan x="81.304" y="71">단, 상대를 인정하면서</tspan>
+                </text>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Black, Noto Sans CJK KR" font-size="14" font-weight="700">
+                    <tspan x="58" y="19">To motto of a company</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

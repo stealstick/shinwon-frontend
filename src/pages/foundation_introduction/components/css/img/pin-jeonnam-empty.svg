@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="37" viewBox="0 0 54 37">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#FFF" stroke="#2D4C6A" stroke-width="2" d="M53 1v26.168H7.728L1 33.648V1h52z" transform="translate(-709 -1184) translate(709 1184.342)"/>
+                <text fill="#3D3D3D" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" letter-spacing="1" transform="translate(-709 -1184) translate(709 1184.342)">
+                    <tspan x="13" y="19.658">전남</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import styles from './css/Official.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 const Official = () => {
 
@@ -44,13 +45,13 @@ const Official = () => {
         />
     ))
 
-    const OfficialContent = ({id, title, date}) => {
+    const OfficialContent = ({id, title, date, url}) => {
         return(
-            <div className={styles.official_content}>
+            <Link to={`/service/1/${url.split("/")[4]}`} className={styles.official_content}>
                 <div className={styles.official_id}>{id}</div>
                 <div className={styles.official_title}>{title}</div>
                 <div className={styles.official_date}>{date}</div>
-            </div>
+            </Link>
         )
     }
 
@@ -60,6 +61,7 @@ const Official = () => {
             title={post.title}
             date={post.regdate}
             key={post.idx}
+            url={post.url}
         />
     ))
 
