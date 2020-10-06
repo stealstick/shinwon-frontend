@@ -14,7 +14,9 @@ const Contact = () => {
                 <SectionTitle kor="위치안내" eng="CONTACT US"/>
                 <div data-aos="fade-up" className={styles.title_normal}>의료법인 신원의료재단으로 오시는 길 안내입니다.</div>
                 <div className={styles.map_img_wrapper}>
-                    <a target="blank" href="https://www.google.co.kr/maps/place/%EC%9D%98%EB%A3%8C%EB%B2%95%EC%9D%B8%EC%8B%A0%EC%9B%90%EC%9D%98%EB%A3%8C%EC%9E%AC%EB%8B%A8/@37.447276,126.8828233,17z/data=!4m8!1m2!2m1!1z6rK96riw64-EIOq0keuqheyLnCDshoztlZjroZwgMTA567KI6ri4IDEzLTg!3m4!1s0x357b6176ba371a71:0x913a287d8ff9e64!8m2!3d37.4472462!4d126.8845345?hl=ko"><img src="../imgs/img/google-map.png" alt="" className={styles.google_map}/></a>
+                    <a target="blank" href="https://www.google.co.kr/maps/place/%EC%9D%98%EB%A3%8C%EB%B2%95%EC%9D%B8%EC%8B%A0%EC%9B%90%EC%9D%98%EB%A3%8C%EC%9E%AC%EB%8B%A8/@37.447276,126.8828233,17z/data=!4m8!1m2!2m1!1z6rK96riw64-EIOq0keuqheyLnCDshoztlZjroZwgMTA567KI6ri4IDEzLTg!3m4!1s0x357b6176ba371a71:0x913a287d8ff9e64!8m2!3d37.4472462!4d126.8845345?hl=ko">
+                        <img src="../imgs/img/google-map.png" alt="" className={styles.google_map}/>
+                    </a>
                 </div>
                 <div data-aos="fade-up" className={styles.address_wrapper}>
                     <div className={styles.address_content}>
@@ -65,27 +67,37 @@ const Contact = () => {
                 </div>
                 <div data-aos="fade-up" className={styles.subway_content_wrapper}>
                     <div className={styles.subway_content}>
-                        <img src="../imgs/img/subway-text.svg" alt="" className={styles.icons}/>
-                        <div className={styles.subway_text}>7호선 철산역 하차 →</div>
-                        <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
-                        <div className={styles.subway_text}>
+                        <div className={styles.content_sticky}>
+                            <img src="../imgs/img/subway-text.svg" alt="" className={styles.icons}/>
+                            <div className={styles.subway_text}>7호선 철산역 하차 →</div>
+                        </div>
+                        <div className={styles.content_sticky}>
+                            <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
+                            <div className={styles.subway_text}>
                         3, 3-1 승차 → 가리대사거리. 소화상업지구 정류장 하자 → <br/>
 가리대 사거리. 소하상업지구 정류장 하차
+                            </div>
                         </div>
                     </div>
                     <div className={styles.subway_content}>
-                        <img src="../imgs/img/high-speed-text.svg" alt="" className={styles.icons}/>
-                        <div className={styles.subway_text}>고속철도 광명역 하차 →</div>
-                        <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
-                        <div className={styles.subway_text}>5627, 5633, 3-1, 12 → 가리대사거리. 소화상업지구 정류장 하자</div>
+                        <div className={styles.content_sticky}>
+                            <img src="../imgs/img/high-speed-text.svg" alt="" className={styles.icons}/>
+                            <div className={styles.subway_text}>고속철도 광명역 하차 →</div>
+                        </div>
+                        <div className={styles.content_sticky}>
+                            <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
+                            <div className={styles.subway_text}>5627, 5633, 3-1, 12 → 가리대사거리. 소화상업지구 정류장 하자</div>
+                        </div>
                     </div>
                     <div className={styles.subway_content}>
-                        <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
-                        <div className={styles.subway_text}>
+                        <div className={styles.content_sticky}>
+                            <img src="../imgs/img/bus-text.svg" alt="" className={styles.icons}/>
+                            <div className={styles.subway_text}>
                         소하동이마트 정류장 하차 - 금천09, 2<br/>
                         가리대사거리. 소하상업지구 정류장 하차 - 2, 3, 3-1, 7, 12, 17, 75, 5627, 5633<br/>
                         가리대. 소하3단지. 소하상업지구 정류장 하차 - 3-1, 12, 5627, 5633<br/>
                         소하3단지, 소하4단지 정류장 하차 - 6014, 101
+                            </div>
                         </div>
                     </div>
                 </div>

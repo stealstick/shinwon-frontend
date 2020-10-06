@@ -172,5 +172,20 @@
 }
 
 @media all and (max-width:767px){
-    
+    .container{
+        width: calc(100% - 40px);
+        padding: 0 20px;
+        margin: 0;
+        margin-top: 50px;
+        .section{
+            .datalist_wrapper{
+                .datacontent_wrapper{
+                    width: calc(100% / 2);
+                    .datacontent_img{
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
 }

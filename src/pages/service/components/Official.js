@@ -50,7 +50,7 @@ const Official = () => {
             <Link to={`/service/1/${url.split("/")[4]}`} className={styles.official_content}>
                 <div className={styles.official_id}>{id}</div>
                 <div className={styles.official_title}>{title}</div>
-                <div className={styles.official_date}>{date}</div>
+                <div className={styles.official_date}>{date.split(" ")[0]}</div>
             </Link>
         )
     }
