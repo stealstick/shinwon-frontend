@@ -67,101 +67,246 @@
                         top: 60px;
                         left: 70px;
                         cursor: pointer;
+                        background-image: url("./img/pin-seoul-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-seoul.svg");
+                        }
                     }
                     .pin_gangwon{
                         position: absolute;
                         top: 60px;
                         right: 70px;
                         cursor: pointer;
+                        background-image: url("./img/pin-gangwon-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-gangwon.svg");
+                        }
                     }
                     .pin_incheon{
                         position: absolute;
                         top: 60px;
                         left: 0px;
                         cursor: pointer;
+                        background-image: url("./img/pin-incheon-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-incheon.svg");
+                        }
                     }
                     .pin_gyeonggi{
                         position: absolute;
                         top: 100px;
                         left: 80px;
                         cursor: pointer;
+                        background-image: url("./img/pin-gyeonggi-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-gyeonggi.svg");
+                        }
                     }
                     .pin_chungnam{
                         position: absolute;
                         cursor: pointer;
                         top: 130px;
                         left: 110px;
+                        background-image: url("./img/pin-chungnam-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-chungnam.svg");
+                        }
                     }
                     .pin_chungbuk{
                         position: absolute;
                         cursor: pointer;
                         top: 150px;
                         left: 10px;
+                        background-image: url("./img/pin-chungbuk-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-chungbuk.svg");
+                        }
                     }
                     .pin_daejeon{
                         position: absolute;
                         cursor: pointer;
                         top: 170px;
                         left: 95px;
+                        background-image: url("./img/pin-daejeon-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-daejeon.svg");
+                        }
                     }
                     .pin_gyeongbuk{
                         position: absolute;
                         cursor: pointer;
                         top: 170px;
                         right: 60px;
+                        background-image: url("./img/pin-gyeongbuk-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-gyeongbuk.svg");
+                        }
                     }
                     .pin_daegu{
                         position: absolute;
                         cursor: pointer;
                         top: 220px;
                         right: 65px;
+                        background-image: url("./img/pin-daegu-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-daegu.svg");
+                        }
                     }
                     .pin_ulsan{
                         position: absolute;
                         cursor: pointer;
                         top: 240px;
                         right: 10px;
+                        background-image: url("./img/pin-ulsan-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-ulsan.svg");
+                        }
                     }
                     .pin_busan{
                         position: absolute;
                         cursor: pointer;
                         top: 270px;
                         right: 30px;
+                        background-image: url("./img/pin-busan-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-busan.svg");
+                        }
                     }
                     .pin_jeonnam{
                         position: absolute;
                         cursor: pointer;
                         top: 280px;
                         left: 80px;
+                        background-image: url("./img/pin-jeonnam-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-jeonnam.svg");
+                        }
                     }
                     .pin_jeonbuk{
                         position: absolute;
                         cursor: pointer;
                         top: 220px;
                         left: 70px;
+                        background-image: url("./img/pin-jeonbuk-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-jeonbuk.svg");
+                        }
                     }
                     .pin_gwangju{
                         position: absolute;
                         cursor: pointer;
                         top: 270px;
                         left: 0px;
+                        background-image: url("./img/pin-gwangju-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-gwangju.svg");
+                        }
                     }
                     .pin_gyeongnam{
                         position: absolute;
                         cursor: pointer;
                         top: 270px;
                         right: 90px;
+                        background-image: url("./img/pin-gyeongnam-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-gyeongnam.svg");
+                        }
                     }
                     .pin_jeju{
                         position: absolute;
                         cursor: pointer;
                         left: 30px;
                         top: 420px;
+                        background-image: url("./img/pin-jeju-empty.svg");
+                        &:hover{
+                            background-image: url("./img/pin-jeju.svg");
+                        }
+                    }
+                    .pin{
+                        width: 54px;
+                        height: 36px;
                     }
                 }
             }
             .network_area_wrapper{
                 width: 50%;
+                display: flex;
+                flex-direction: column;
+                .network_area_contents{
+                    margin-top: 20px;
+                    border-top: 2px solid #002740;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #f8f8f8;
+                    .network_area_content{
+                        margin: 0 20px;
+                        padding: 15px 0;
+                        border-top: 1px solid #d6d6d6;
+                        display: flex;
+                        flex-direction: column;
+                        &:nth-child(1){
+                            border: none;
+                        }
+                        .network_area_content_title{
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            color: #002740;
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            justify-content: center;
+                            &::before{
+                                content: url("./img/pin-small.svg");
+                            }
+                        }
+                        .network_area_content_bold{
+                            font-size: 14px;
+                            font-weight: bold;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            color: #444444;
+                            .network_area_content_text{
+                                font-size: 14px;
+                                font-weight: 500;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: normal;
+                                letter-spacing: normal;
+                                color: #444444;
+                            }
+                        }
+                    }
+                }
+                .network_area_title_wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    .network_area_title{
+                        font-size: 22px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #002740;
+                        text-align: center;
+                    }
+                    .network_area_subtitle{
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #444444;
+                    }
+                }
             }
         }
     }

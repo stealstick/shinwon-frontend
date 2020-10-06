@@ -13,8 +13,8 @@ const MissionValue = () => {
     const Content1 = () => {
         return(
             <div className={styles.section}>
-                <div className={styles.mission_imgs_wrapper}>
-                    <div data-aos="fade-up" className={styles.mission_content}>
+                <div data-aos="fade-up" className={styles.mission_imgs_wrapper}>
+                    <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission1.png" alt="" className={styles.mission_img}/>
                         </div>
@@ -23,7 +23,7 @@ const MissionValue = () => {
                             신원의 노력은 계속됩니다.
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.mission_content}>
+                    <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission2.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -32,7 +32,7 @@ const MissionValue = () => {
                             정확한 질병의 진단 및 치료
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.mission_content}>
+                    <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission3.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -42,7 +42,7 @@ const MissionValue = () => {
                             고객서비스 우선주의의 실천
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.mission_content}>
+                    <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission4.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -52,7 +52,7 @@ const MissionValue = () => {
                             지역사회 발전에 노력
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.mission_content}>
+                    <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission5.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -63,7 +63,7 @@ const MissionValue = () => {
                             국내외 병원과 협력 및 연구
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.mission_content}>
+                    <div className={styles.mission_content}>
                         <div className={styles.mission_img_wrapper}>
                             <img src="../imgs/img/mission6.svg" alt="" className={styles.mission_img}/>
                         </div>
@@ -84,7 +84,7 @@ const MissionValue = () => {
                 <div className={styles.policy_wrapper}>
                     <div data-aos="fade-up" className={styles.policy_content}>
                         <div className={styles.policy_title}>
-                            신원의료재단<br/>
+                            신원의료재단 <br/>
                             경영방침
                         </div>
                     </div>
@@ -165,7 +165,7 @@ const MissionValue = () => {
                     <img src="../imgs/img/goal1.svg" alt="" className={styles.goal_top_img}/>
                     <div className={styles.goal_top_text}>냉철하되 너그럽고 착하게 경영하자!</div>
                 </div>
-                <img data-aos="fade-up" src="../imgs/img/goal2.svg" alt="" className={styles.goal_img_2}/>
+                <div data-aos="fade-up" className={styles.goal_img_2}/>
                 <div data-aos="fade-up" className={styles.goal_img_wrapper}>
                     <img src="../imgs/img/goal3.svg" alt="" className={styles.goal_img_3}/>
                     <img src="../imgs/img/goal4.svg" alt="" className={styles.goal_img_4}/>

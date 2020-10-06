@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="37" viewBox="0 0 54 37">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#FFF" stroke="#2D4C6A" stroke-width="2" d="M1 1v26.168h45.272L53 33.648V1H1z" transform="translate(-642 -1044) translate(642 1044.342)"/>
+                <text fill="#3D3D3D" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" letter-spacing="1" transform="translate(-642 -1044) translate(642 1044.342)">
+                    <tspan x="13" y="19.658">충북</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
