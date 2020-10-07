@@ -19,7 +19,108 @@
     width: 300px;
     height: 100%;
     background-color: white;
-    animation: slidein 2s ease-in-out 0s;
+    animation: slidein 0.5s ease-in-out 0s;
+}
+.modal-top-icon{
+    background-color: #00396a;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.modal-x-icon{
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+.modal-contents-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.modal-content-wrapper{
+    height: 45px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+    z-index: 99999;
+    background-color: #ffffff;
+}
+.modal-content-title{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+.modal-content-icon{
+}  
+.down-icon{
+    width: 20px;
+    height: 10px;
+  
+}
+.hiddencontent-wrapper{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+}
+.hiddencontent-sticky{
+    margin: 0 20px;
+    padding: 12px 0;
+    border-bottom: 1px solid #dedede;
+}
+.a-f{
+    animation: slidedown-1 0.5s ease-in-out 0s;
+}
+.a-s{
+    animation: slidedown-2 0.5s ease-in-out 0s;
+}
+.a-t{
+    animation: slidedown-3 0.5s ease-in-out 0s;
+}
+.a-f2{
+    animation: slidedown-4 0.5s ease-in-out 0s;
+}
+
+@keyframes slidedown-1{
+    from{
+        height: 0px;
+    }
+    to{
+        height: 294px;
+    }
+}
+
+@keyframes slidedown-2{
+    from{
+        height: 0px;
+    }
+    to{
+        height: 343px;
+    }
+}
+
+@keyframes slidedown-3{
+    from{
+        height: 0px;
+    }
+    to{
+        height: 147px;
+    }
+}
+
+@keyframes slidedown-4{
+    from{
+        height: 0px;
+    }
+    to{
+        height: 294px;
+    }
 }
 
 @keyframes slidein{
