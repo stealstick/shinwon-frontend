@@ -396,6 +396,9 @@
     background-color: #ccc;
     transition-duration: 2s;
   }
+  .input{
+    display: none;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -408,7 +411,6 @@
   }
   .body_slide {
     width: 100vw;
-    height: 545px;
   }
   .body_list {
     top: 0;
@@ -501,5 +503,8 @@
     height: 232px;
     background-color: #ccc;
     transition-duration: 2s;
+  }
+  .input{
+    display: none;
   }
 }

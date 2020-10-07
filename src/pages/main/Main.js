@@ -4,6 +4,7 @@ import MainForm from './components/MainForm'
 import MainHoverContent from './components/MainHoverContent'
 import styles from '../../css/Main.module.scss'
 import { Link } from 'react-router-dom'
+import CustomerService from '../../components/CustomerService'
 
 function Main() {
 
@@ -133,6 +134,7 @@ function Main() {
                     <img src="/imgs/img/site-5.png" alt="" className={styles.site_img} />
                     <img src="/imgs/img/site-6.png" alt="" className={styles.site_img} />
                     <img src="/imgs/icons/icon-right.svg" alt="" className={styles.site_img} />
+                    <CustomerService/>
                 </div>
             </div>
             </div>

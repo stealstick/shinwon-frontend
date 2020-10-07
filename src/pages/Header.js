@@ -1,20 +1,33 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import ModalContent from '../components/ModalContent'
 
 function Header(){
 
-    const [ showContent, setShowContent ] = useState(0)
+    const [ showContent, setShowContent ] = useState(false)
+
+    const setModalOff = () => {
+        setShowContent(false)
+    }
+
+    const setModalOn = () => {
+        setShowContent(true)
+        setTimeout(() => {
+            console.log(showContent)
+        }, 0)
+    }
 
     return(
         <div className="header">
+            {showContent===false ? null : <ModalContent setModalOff={setModalOff}/>}
             <img src="/imgs/img/header-top.svg" alt="" className="header-oval"/>
             <div className="header-contents">
                 <div className="contents-none">
-                    <img src="../imgs/img/menu.svg" alt="" className="icon"/>
+                    <img src="../imgs/img/menu.svg" alt="" className="icon" onClick={(setModalOn)}/>
                 </div>
                 <div className="contents-left">
                     <div className="content-wrapper">
-                        <Link to="/foundation/1" className="content" >재단안내</Link>
+                        <Link to="/foundation/1" className="content">재단안내</Link>
                         <div className="header-content-shown foundation menu1">
                             <Link to="/foundation/1" className="header-shown-text">인사말</Link>
                             <Link to="/foundation/2" className="header-shown-text">사명과 가치</Link>
@@ -25,7 +38,7 @@ function Header(){
                         </div>
                     </div>
                     <div className="content-wrapper">
-                        <Link to="/introduction/1" className="content" >검사안내</Link>
+                        <Link to="/introduction/1" className="content">검사안내</Link>
                         <div className="header-content-shown introduction menu2">
                             <Link to="/introduction/1" className="header-shown-text">검사절차</Link>
                             <Link to="/introduction/2" className="header-shown-text">검체취급</Link>

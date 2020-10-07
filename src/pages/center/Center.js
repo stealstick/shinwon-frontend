@@ -6,6 +6,7 @@ import styles from '../../css/Center.module.scss'
 import Department from './components/Department'
 import Pathology from './components/Pathology'
 import Analysis from './components/Analysis'
+import CustomerService from '../../components/CustomerService'
 
 function Center(props){
 
