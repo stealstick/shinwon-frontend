@@ -10,7 +10,7 @@ const Pathology = () => {
     return(
         <div class="body-content-sticky">
             <div data-aos="fade-up" class="content-title-wrapper">
-                <div class="content-title-kor">병리과</div>
+                <div class="content-title-kor">병리학부</div>
                 <div class="content-title-eng">PATHOLOGY CENTER</div>
             </div>
             <div data-aos="fade-up" class="pathology-intro">

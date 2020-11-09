@@ -69,7 +69,8 @@ const MissionValue = () => {
                         </div>
                         <div className={styles.mission_content_text}>
                             함께 사는 세상에 대한 배려와<br/>
-                            최선을 다하는 열정 정직한 마음으로<br/>
+                            최선을 다하는 열정,<br/>
+                            정직한 마음,<br/>
                             진취적인 상상력 열린 소통과 화합
                         </div>
                     </div>
@@ -96,7 +97,7 @@ const MissionValue = () => {
                         
                         <div className={styles.policy_summary}>효율적이고 창의적인 조직 운영관리</div>
                         <div className={styles.policy_text}>
-                            봉사와 사회공헌 활동의 위한 조직체 구성<br/>
+                            봉사와 사회공헌 활동을 위한 조직체 구성<br/>
                             정직하고 투명한 경영<br/>
                             발전적인 미래에 대한 비젼 제시
                         </div>

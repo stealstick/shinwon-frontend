@@ -15,7 +15,6 @@ const ServiceSidebar = ({selectedNum}) => {
             <Link to="/service/2" className={selectedNum===2 ? styles.sidebar_selected : styles.sidebar_content}>자료실</Link>
             <Link to="/service/3" className={selectedNum===3 ? styles.sidebar_selected : styles.sidebar_content}>감염지침</Link>
             <Link to="/service/4" className={selectedNum===4 ? styles.sidebar_selected : styles.sidebar_content}>FAQ</Link>
-            <Link to="/service/5" className={selectedNum===5 ? styles.sidebar_selected : styles.sidebar_content}>오시는길</Link>
             <Link to="/service/6" className={selectedNum===6 ? styles.sidebar_selected : styles.sidebar_content}>채용공고</Link>
         </div>
         </div>

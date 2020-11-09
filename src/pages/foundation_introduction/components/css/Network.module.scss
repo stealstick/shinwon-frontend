@@ -223,8 +223,12 @@
                         }
                     }
                     .pin{
-                        width: 54px;
-                        height: 36px;
+                        width: 45px;
+                        height: 20px;
+                    }
+                    .pin:hover{
+                        width: 50px;
+                        height: 23px;
                     }
                 }
             }
