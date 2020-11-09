@@ -14,22 +14,40 @@ const Contact = () => {
                 <SectionTitle kor="위치안내" eng="CONTACT US"/>
                 <div data-aos="fade-up" className={styles.title_normal}>의료법인 신원의료재단으로 오시는 길 안내입니다.</div>
                 <div className={styles.map_img_wrapper}>
-                    <a target="blank" href="https://www.google.co.kr/maps/place/%EC%9D%98%EB%A3%8C%EB%B2%95%EC%9D%B8%EC%8B%A0%EC%9B%90%EC%9D%98%EB%A3%8C%EC%9E%AC%EB%8B%A8/@37.447276,126.8828233,17z/data=!4m8!1m2!2m1!1z6rK96riw64-EIOq0keuqheyLnCDshoztlZjroZwgMTA567KI6ri4IDEzLTg!3m4!1s0x357b6176ba371a71:0x913a287d8ff9e64!8m2!3d37.4472462!4d126.8845345?hl=ko">
-                        <img src="../imgs/img/google-map.png" alt="" className={styles.google_map}/>
+                    <a target="blank" href="http://kko.to/XbBZzb3Yp">
+                        <img src="../imgs/img/map-image.png" alt="" className={styles.google_map}/>
                     </a>
                 </div>
                 <div data-aos="fade-up" className={styles.address_wrapper}>
-                    <div className={styles.address_content}>
-                        <div className={styles.address_title}>도로명 주소</div>
-                        <div className={styles.address_text}>경기도 광명시 소하로 109번길 13-8</div>
+                    <div className={styles.asw}>
+                        <div className={styles.address_sticky_title}>검사센터</div>
+                        <div className={styles.address_sticky}>
+                            <div className={styles.address_content}>
+                                <div className={styles.address_title}>도로명 주소</div>
+                                <div className={styles.address_text}>경기도 광명시 소하로 109번길 13-8</div>
+                            </div>
+                            <div className={styles.address_content}>
+                                <div className={styles.address_title}>지번 주소</div>
+                                <div className={styles.address_text}>경기도 광명시 소하동 1338-3</div>
+                            </div>
+                        </div>
                     </div>
-                    <div className={styles.address_content}>
-                        <div className={styles.address_title}>지번 주소</div>
-                        <div className={styles.address_text}>경기도 광명시 소하동 1338-3</div>
-                    </div>
-                    <div className={styles.address_content}>
-                        <div className={styles.address_title}>우편번호</div>
-                        <div className={styles.address_text}>423-050</div>
+                    <div className={styles.asw}>
+                        <div className={styles.address_sticky_title}>재단사무국</div>
+                        <div className={styles.address_sticky}>
+                            <div className={styles.address_content}>
+                                <div className={styles.address_title}>도로명 주소</div>
+                                <div className={styles.address_text}>경기도 광명시 소하로 109번길 15</div>
+                            </div>
+                            <div className={styles.address_content}>
+                                <div className={styles.address_title}>지번 주소</div>
+                                <div className={styles.address_text}>경기도 광명시 소하동 1338-2</div>
+                            </div>
+                            <div className={styles.address_content}>
+                                <div className={styles.address_title}>우편번호</div>
+                                <div className={styles.address_text}>14316</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div data-aos="fade-up" className={styles.contact_title}>오시는 길</div>

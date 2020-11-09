@@ -26,7 +26,6 @@ const Organization = () => {
                             </div>
                             <div data-aos="fade-up" className={styles.org_content}>
                                 <div className={styles.org_content_title}>재단사무국</div>
-                                <div className={styles.org_content_class}>상무이사</div>
                                 <div className={styles.org_content_eng}>Executice Director</div>
                                 <div className={styles.org_content_team}>
                                     인사총무팀<br/>
@@ -37,7 +36,6 @@ const Organization = () => {
                             </div>
                             <div data-aos="fade-up" className={styles.org_content}>
                                 <div className={styles.org_content_title}>경영기획실</div>
-                                <div className={styles.org_content_class}>상무이사</div>
                                 <div className={styles.org_content_eng}>Management Director</div>
                                 <div className={styles.org_content_team}>
                                     법무감사팀<br/>
@@ -48,7 +46,6 @@ const Organization = () => {
                             </div>
                             <div data-aos="fade-up" className={styles.org_content}>
                                 <div className={styles.org_content_title}>사업본부</div>
-                                <div className={styles.org_content_class}>상무이사</div>
                                 <div className={styles.org_content_eng}>Business Director</div>
                                 <div className={styles.org_content_team}>
                                     영업본부<br/>
@@ -82,7 +79,6 @@ const Organization = () => {
                             </div>
                             <div data-aos="fade-up" className={styles.org_content}>
                                 <div className={styles.org_content_title}>진단검사부</div>
-                                <div className={styles.org_content_class}>이사</div>
                                 <div className={styles.org_content_eng}>Director</div>
                                 <div className={styles.org_content_team}>
                                     진단면역팀<br/>
@@ -94,7 +90,6 @@ const Organization = () => {
                             </div>
                             <div data-aos="fade-up" className={styles.org_content}>
                                 <div className={styles.org_content_title}>분자유전부</div>
-                                <div className={styles.org_content_class}>상무이사</div>
                                 <div className={styles.org_content_eng}>Business Director</div>
                                 <div className={styles.org_content_team}>
                                     관리팀<br/>

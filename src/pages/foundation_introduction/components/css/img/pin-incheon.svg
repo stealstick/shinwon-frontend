@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="54" height="37" viewBox="0 0 54 37">
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="23" viewBox="0 0 50 23">
     <g fill="none" fill-rule="evenodd">
         <g>
             <g>
-                <path fill="#2D4C6A" stroke="#2D4C6A" stroke-width="2" d="M1 1v26.168h45.272L53 33.648V1H1z" transform="translate(-635 -942) translate(635 942.342)"/>
-                <text fill="#FFF" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" letter-spacing="1" transform="translate(-635 -942) translate(635 942.342)">
-                    <tspan x="13" y="19.658">인천</tspan>
+                <path fill="#2D4C6A" stroke="#2D4C6A" stroke-width="2" d="M1 1v21h48V1H1z" transform="translate(-79 -696) translate(79 696)"/>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="14" font-weight="bold" letter-spacing="1" transform="translate(-79 -696) translate(79 696)">
+                    <tspan x="11" y="17">인천</tspan>
                 </text>
             </g>
         </g>

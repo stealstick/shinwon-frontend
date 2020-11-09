@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="54" height="37" viewBox="0 0 54 37">
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="20" viewBox="0 0 45 20">
     <g fill="none" fill-rule="evenodd">
         <g>
             <g>
-                <path fill="#FFF" stroke="#2D4C6A" stroke-width="2" d="M1 1v26.168h45.272L53 33.648V1H1z" transform="translate(-642 -1152) translate(642 1152.342)"/>
-                <text fill="#3D3D3D" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" letter-spacing="1" transform="translate(-642 -1152) translate(642 1152.342)">
-                    <tspan x="13" y="19.658">광주</tspan>
+                <path fill="#FFF" stroke="#2D4C6A" stroke-width="2" d="M1 1v18h43V1H1z" transform="translate(-80 -916) translate(80 916)"/>
+                <text fill="#3D3D3D" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="13" font-weight="bold" letter-spacing="1" transform="translate(-80 -916) translate(80 916)">
+                    <tspan x="10" y="15">광주</tspan>
                 </text>
             </g>
         </g>

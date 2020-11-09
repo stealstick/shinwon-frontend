@@ -21,7 +21,7 @@ const Recruitment = () => {
                     </div>
                     <span className={styles.quot}>”</span>
                 </div>
-                <img data-aos="fade-up" src="../imgs/img/recruiment-1.png" alt="" className={styles.img_1}/>
+                <img data-aos="fade-up" src="../imgs/img/recruitment-1.png" alt="" className={styles.img_1}/>
                 <img data-aos="fade-up" src="../imgs/img/interview-process.png" alt="" className={styles.img}/>
             </div>
             <div className={styles.section}>

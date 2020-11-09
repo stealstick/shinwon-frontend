@@ -35,6 +35,7 @@ function Header(){
                             <Link to="/foundation/4" className="header-shown-text">조직도</Link>
                             <Link to="/foundation/5" className="header-shown-text">전국 네트워크</Link>
                             <Link to="/foundation/6" className="header-shown-text">전문의</Link>
+                            <Link to="/foundation/7" className="header-shown-text">오시는길</Link>
                         </div>
                     </div>
                     <div className="content-wrapper">
@@ -50,10 +51,10 @@ function Header(){
                         </div>
                     </div>
                     <div className="content-wrapper">
-                        <Link to="/center/1" className="content">검사센터</Link>
+                        <Link to="/center/1" className="content">검사실안내</Link>
                         <div className="header-content-shown center menu3">
-                            <Link to="/center/1" className="header-shown-text">부서별안내</Link>
-                            <Link to="/center/2" className="header-shown-text">병리과안내</Link>
+                            <Link to="/center/1" className="header-shown-text">진단검사의학부</Link>
+                            <Link to="/center/2" className="header-shown-text">병리학부</Link>
                             <Link to="/center/3" className="header-shown-text">정도관리</Link>
                         </div>
                     </div>
@@ -64,7 +65,6 @@ function Header(){
                             <Link to="/service/2" className="header-shown-text">자료실</Link>
                             <Link to="/service/3" className="header-shown-text">감염지침</Link>
                             <Link to="/service/4" className="header-shown-text">FAQ</Link>
-                            <Link to="/service/5" className="header-shown-text">오시는길</Link>
                             <Link to="/service/6" className="header-shown-text">채용공고</Link>
                         </div>
                     </div>

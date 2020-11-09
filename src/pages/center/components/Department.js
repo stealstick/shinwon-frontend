@@ -590,7 +590,7 @@ const Deparment = () => {
     return(
         <div className="body-content-sticky">
             <div className="content-title-wrapper">
-                <div className="content-title-kor">검사센터</div>
+                <div className="content-title-kor">검사실안내</div>
                 <div className="content-title-eng">LOBORATORY CENTER</div>
             </div>
             <div className="department-list-wrapper">

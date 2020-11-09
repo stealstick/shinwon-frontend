@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="54" height="37" viewBox="0 0 54 37">
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="23" viewBox="0 0 50 23">
     <g fill="none" fill-rule="evenodd">
         <g>
             <g>
-                <path fill="#2D4C6A" stroke="#2D4C6A" stroke-width="2" d="M53 1v26.168H7.728L1 33.648V1h52z" transform="translate(-819 -1050) translate(819 1050.342)"/>
-                <text fill="#FFF" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15" font-weight="bold" letter-spacing="1" transform="translate(-819 -1050) translate(819 1050.342)">
-                    <tspan x="13" y="19.658">경북</tspan>
+                <path fill="#2D4C6A" stroke="#2D4C6A" stroke-width="2" d="M49 1v21H1V1h48z" transform="translate(-253 -803) translate(253 803)"/>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="14" font-weight="bold" letter-spacing="1" transform="translate(-253 -803) translate(253 803)">
+                    <tspan x="11" y="17">경북</tspan>
                 </text>
             </g>
         </g>

@@ -9,6 +9,7 @@ import History from './components/History'
 import Doctor from './components/Doctor'
 import MissionValue from './components/MissionValue'
 import Network from './components/Network'
+import Contact from '../service/components/Contact'
 
 function Foundation(props){ 
 
@@ -28,10 +29,11 @@ function Foundation(props){
                     <FoundationSidebar selectedNum={num}/>
                     {num===1 ? <Greeting/> : 
                     num===2 ? <MissionValue/> :
-                    num===3 ? <Organization/> :
-                    num===4 ? <History/> :
+                    num===3 ? <History/> :
+                    num===4 ? <Organization/> :
                     num===5 ? <Network/> :
                     num===6 ? <Doctor/> :
+                    num===7 ? <Contact/> :
                     <Greeting/>}
                 </div>
             </div>

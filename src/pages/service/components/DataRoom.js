@@ -15,6 +15,9 @@ const DataRoom = () => {
             <div className={styles.datacontent_wrapper}>
                 <div className={styles.datacontent_title} dangerouslySetInnerHTML={{__html: title}}/>
                 <img src={img} alt="" className={styles.datacontent_img}/>
+                <div className={styles.datacontent_download_button}>
+                    <img src="../imgs/img/datacontent-download.svg" alt="" className={styles.datacontent_download_img}/>다운로드
+                </div>
             </div>
         )
     }
