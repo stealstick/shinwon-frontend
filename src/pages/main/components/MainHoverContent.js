@@ -34,10 +34,10 @@ const MainHoverContent = ({img, text, type}) => {
                 <div className={styles.hover_title}>{text}</div>
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>
-                    의료법인 신원의료재단은<br/>
-                    최고의 전문의, 박사, 임상병리사 등<br/>
-                    우수한 전문 인력들의<br/>
-                    축적된 경험을 바탕으로 정확하고<br/>
+                    의료법인 신원의료재단은
+                    최고의 전문의, 박사, 임상병리사 등
+                    우수한 전문 인력들의
+                    축적된 경험을 바탕으로 정확하고
                     신속한 검사결과를 제공합니다.
                 </div>
             </Link>

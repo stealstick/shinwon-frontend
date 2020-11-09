@@ -20,19 +20,19 @@ const CheckResult = () => {
 
     return(
         <div className={styles.container}>
-            <div data-aos="fade-up" className={styles.section}>
+            <div data-aos="fade-up" data-aos-duration="2000" className={styles.section}>
                 <SectionTitle kor="결과확인방법" eng="Check the result"/>
                 <div className={styles.top_text}>신원의료재단의 결과 확인방법입니다.</div>
             </div>
-            <div data-aos="fade-up" className={styles.type_content_wrapper}>
+            <div data-aos="fade-up" data-aos-duration="2000" className={styles.type_content_wrapper}>
                 <TypeTitle title="검사결과 조회 안내"/>
                 <div className={styles.type_content_text}>
                 1. 검사결과는 웹사이트, 스마트폰 또는 전용 프로그램을 이용하여 진행여부와 결과를 신속하게 조회 하실 수 있습니다.<br/>
 2. 로그인 계정 또는 전용프로그램 설치 안내는 당사 담당자에게 문의하여 주시기 바랍니다.
                 </div>
             </div>
-            <img data-aos="fade-up" className={styles.img} src="imgs/img/checkresult.png" alt=""/>
-            <div data-aos="fade-up" className={styles.type_content_wrapper}>
+            <img data-aos="fade-up" data-aos-duration="2000" className={styles.img} src="../imgs/img/checkresult.png" alt=""/>
+            <div data-aos="fade-up" data-aos-duration="2000" className={styles.type_content_wrapper}>
                 <TypeTitle title="검사결과 조회 방법"/>
                 <div className={styles.type_content_text}>
                 1. 검사결과는 일반검사/미생물/분자유전/조직/세포 별로 구분 조회 가능합니다.<br/>
