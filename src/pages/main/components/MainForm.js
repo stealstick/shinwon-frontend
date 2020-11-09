@@ -9,7 +9,7 @@ const MainForm = () => {
                 <div className={styles.forms_sticky}>
                     <div className={styles.forms_title}>검사결과조회</div>
                     <div className={styles.input_wrapper}>
-                        <div className={styles.input_btn}>SEARCH</div>
+                        <a href="http://61.252.130.67:200/" target="blank" className={styles.input_btn}>SEARCH</a>
                     </div>
                 </div>
             </div>

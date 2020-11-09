@@ -56,6 +56,7 @@ function Header(){
                             <Link to="/center/1" className="header-shown-text">진단검사의학부</Link>
                             <Link to="/center/2" className="header-shown-text">병리학부</Link>
                             <Link to="/center/3" className="header-shown-text">정도관리</Link>
+                            <Link to="/service/2" className="header-shown-text">인증서</Link>
                         </div>
                     </div>
                     <div className="content-wrapper content__last">

@@ -5,6 +5,8 @@ import MainHoverContent from './components/MainHoverContent'
 import styles from '../../css/Main.module.scss'
 import { Link } from 'react-router-dom'
 import CustomerService from '../../components/CustomerService'
+import FamilySite from './components/FamilySite'
+import Notice from './components/Notice'
 
 function Main() {
 
@@ -124,17 +126,12 @@ function Main() {
                     <MainHoverContent type="white" img="/imgs/img/tech-sup.svg" text="원격지원" />
                     <MainHoverContent type="gray" img="imgs/img/download.svg" text="양식다운로드" />
                 </div>
-                <div className={styles.body_site}>
-                    <div className={styles.site_text}>FAMILY SITE</div>
-                    <img src="/imgs/icons/icon-left.svg" alt="" className={styles.site_img} />
-                    <img src="/imgs/img/site-1.svg" alt="" className={styles.site_img} />
-                    <img src="/imgs/img/site-2.svg" alt="" className={styles.site_img} />
-                    <img src="/imgs/img/site-2.svg" alt="" className={styles.site_img} />
-                    <img src="/imgs/img/site-4.svg" alt="" className={styles.site_img} />
-                    <img src="/imgs/img/site-5.png" alt="" className={styles.site_img} />
-                    <img src="/imgs/img/site-6.png" alt="" className={styles.site_img} />
-                    <img src="/imgs/icons/icon-right.svg" alt="" className={styles.site_img} />
-                    <CustomerService/>
+                <div className={styles.body_sites}>
+                    <Notice/>
+                    <div className={styles.body_row}>
+                        <FamilySite/>
+                        <CustomerService/>
+                    </div>
                 </div>
             </div>
             </div>
