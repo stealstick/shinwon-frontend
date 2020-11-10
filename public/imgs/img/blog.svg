@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-1447 -670) translate(1447 670)">
+                <rect width="30" height="30" fill="#42AF48" rx="5"/>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Black, Noto Sans CJK KR" font-size="20" font-weight="700">
+                    <tspan x="8.1" y="23">B</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

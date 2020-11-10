@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import styles from './css/DataRoom.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
+import printJs from 'print-js'
+import { saveAs } from 'file-saver'
 
 const DataRoom = () => {
 
@@ -10,13 +12,30 @@ const DataRoom = () => {
     const [ currentPage, setCurrentPage ] = useState(1)
     const [ count, setCount ] = useState(0)
 
+    const printImage = (img) => {
+        printJs(img, 'image')
+    }
+
+    const saveImage = (img) => {
+        
+        
+        //saveAs(blob, 'image.png')
+    }
+
     const DataContent = ({title, img}) => {
         return(
             <div className={styles.datacontent_wrapper}>
                 <div className={styles.datacontent_title} dangerouslySetInnerHTML={{__html: title}}/>
                 <img src={img} alt="" className={styles.datacontent_img}/>
-                <div className={styles.datacontent_download_button}>
-                    <img src="../imgs/img/datacontent-download.svg" alt="" className={styles.datacontent_download_img}/>다운로드
+                <div className={styles.datacontent_download_button_wrapper}>
+                    <a href={img} target="blank" download="image.jpg" className={styles.datacontent_download_button}>
+                        <img src="../imgs/img/download-img.svg" alt="" className={styles.datacontent_download_img}/>
+                        다운로드
+                    </a>
+                    <div onClick={() => printImage(img)} className={styles.datacontent_download_button}>
+                        <img src="../imgs/img/printer.svg" alt="" className={styles.datacontent_download_img}/>
+                        인쇄
+                    </div>
                 </div>
             </div>
         )

@@ -10,7 +10,7 @@ const Notice = () => {
     const DataContent = ({title, url}) => {
         return(
             <Link className={styles.content_wrapper} to={`/service/1/${url.split("/")[4]}`}>
-                <img src="/imgs/img/new.svg" alt=""/>
+                <img src="/imgs/img/new.svg" alt="" className={styles.site_img}/>
                 <div className={styles.content_title}>{title}</div>
             </Link>
         )
@@ -28,16 +28,21 @@ const Notice = () => {
 
     return(
         <div className={styles.container}>
-            <div className={styles.title}>NOTICE</div>
-            <img src="/imgs/icons/icon-left.svg" alt="" className={styles.site_img} />
-            {data.slice(0, 3).map(post => (
-                <DataContent
-                    title={post.title}
-                    url={post.url}
-                    key={post.idx}
-                />
-            ))}
-            <img src="/imgs/icons/icon-right.svg" alt="" className={styles.site_img} />
+            <div className={styles.title_wrapper}>
+                <div className={styles.title}>NOTICE</div>
+            </div>
+            
+            <div className={styles.img_wrapper}>
+                <img src="/imgs/icons/icon-left.svg" alt="" className={styles.site_img} />
+                {data.slice(0, 3).map(post => (
+                    <DataContent
+                        title={post.title}
+                        url={post.url}
+                        key={post.idx}
+                    />
+                ))}
+                <img src="/imgs/icons/icon-right.svg" alt="" className={styles.site_img} />
+            </div>
         </div>
     )
 }

@@ -3,6 +3,7 @@ import styles from './css/Recruitment.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 
 const Recruitment = () => {
 
@@ -62,7 +63,10 @@ const Recruitment = () => {
                 </div>
             </div>
             <div className={styles.section}>
-                <SectionTitle kor="부서별 채용공고"/>
+                <div className={styles.notice_wrapper}>
+                    <div className={styles.notice_title}>부서별 채용공고</div>
+                    <Link to="/recruitment"><img src="../imgs/img/notice-job.svg" alt="" className={styles.notice_button}/></Link>
+                </div>
                 
             </div>
             <div className={styles.section}>

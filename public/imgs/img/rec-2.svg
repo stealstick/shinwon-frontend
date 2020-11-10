@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="788" height="27" viewBox="0 0 788 27">
+<svg xmlns="http://www.w3.org/2000/svg" width="753" height="27" viewBox="0 0 753 27">
     <g fill="none" fill-rule="evenodd">
         <g>
             <g>
-                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="18" font-weight="400" transform="translate(-680 -1975) translate(680 1975)">
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="18" font-weight="400" transform="translate(-680 -128) translate(680 128)">
                     <tspan x="0" y="21">1. 서류전형</tspan>
                 </text>
-                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="18" font-weight="400" transform="translate(-680 -1975) translate(680 1975)">
-                    <tspan x="216" y="21">2. 면접전형</tspan>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="18" font-weight="400" transform="translate(-680 -128) translate(680 128)">
+                    <tspan x="204" y="21">2. 면접전형</tspan>
                 </text>
-                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="18" font-weight="400" transform="translate(-680 -1975) translate(680 1975)">
-                    <tspan x="432" y="21">3. 인성검사</tspan>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="18" font-weight="400" transform="translate(-680 -128) translate(680 128)">
+                    <tspan x="408" y="21">3. 인성검사</tspan>
                 </text>
-                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="18" font-weight="400" transform="translate(-680 -1975) translate(680 1975)">
-                    <tspan x="648" y="21">4. 합격자 신체검사</tspan>
+                <text fill="#666" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="18" font-weight="400" transform="translate(-680 -128) translate(680 128)">
+                    <tspan x="613" y="21">4. 합격자 신체검사</tspan>
                 </text>
-                <path fill="#979797" fill-rule="nonzero" d="M170 6.5l14 7-14 7v-14zm-50 6v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zM386 6.5l14 7-14 7v-14zm-50 6v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zM599 6.5l14 7-14 7v-14zm-50 6v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4z" transform="translate(-680 -1975) translate(680 1975)"/>
+                <path fill="#979797" fill-rule="nonzero" d="M165 6.5l14 7-14 7v-14zm-50 6v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zM369 6.5l14 7-14 7v-14zm-50 6v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zM573 6.5l14 7-14 7v-14zm-50 6v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4zm8 0v2h-4v-2h4z" transform="translate(-680 -128) translate(680 128)"/>
             </g>
         </g>
     </g>

@@ -4,7 +4,10 @@ import styles from './css/FamilySite.module.css'
 const FamilySite = () => {
     return(
         <div className={styles.container}>
-            <div className={styles.title}>FAMILY SITE</div>
+            <div className={styles.title_wrapper}>
+                <div className={styles.title}>FAMILY SITE</div>
+            </div>
+            
             <div className={styles.img_wrapper}>
                 <img src="/imgs/icons/icon-left.svg" alt="" className={styles.site_img} />
                 <a href="http://www.mohw.go.kr/" target="blank">

@@ -3,24 +3,36 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
-    width: 1200px;
+    width: 1140px;
+}
+.title_wrapper{
+    width: 100px;
+    padding-right: 12px;
 }
 .title{
     font-size: 15px;
     color: #00396e;
     font-weight: bold;
-    padding-right: 12px;
-    width: 100px;
 }
-img{
+.site_img{
     padding: 0 12px;
+}
+.img_wrapper{
+    width: 1028px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .content_wrapper{
     display: flex;
     flex-direction: row;
     margin: 0 10px;
+    width: calc((100% - 154px) / 3);
 }
 .content_title{
     font-size: 18px;
     color: #4b4b4b;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }

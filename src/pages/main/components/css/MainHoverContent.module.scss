@@ -27,6 +27,14 @@
         margin-top: 10px;
     }
 }
+.top_container{
+    &:nth-child(1){
+        box-shadow: -10px 0px 10px #dcdcdc;
+    }
+    &:nth-child(5){
+        box-shadow: 10px 0px 10px #dcdcdc;
+    }
+}
 .gray{
     background-color: #e7e7e7;
 }
