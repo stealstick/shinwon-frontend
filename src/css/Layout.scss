@@ -111,6 +111,11 @@ a {
   align-items: center;
   width: 100vw;
   border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 9999;
 }
 .header-oval {
   height: 25px;
@@ -138,16 +143,15 @@ a {
   align-items: center;
 }
 .content-wrapper {
-  width: 109px;
+  width: 120px;
+  margin-left: 20px;
   height: auto;
   min-height: 100px;
   position: relative;
-  top: 0;
+  top: -5px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 40px;
   .header-content-shown {
     width: 140px;
     height: 0;
@@ -156,39 +160,61 @@ a {
     display: none;
   }
 }
-.content-wrapper:hover {
+.header-hover-content{
+  display: none;
+}
+.contents-left:hover {
+  .menu1:hover{
+    border-bottom: 5px solid #00284b;
+  }
+  .menu2:hover{
+    border-bottom: 5px solid #00284b;
+  }
+  .menu3:hover{
+    border-bottom: 5px solid #00284b;
+  }
+  .menu4:hover{
+    border-bottom: 5px solid #00284b;
+  }
+  .menu5:hover{
+    border-bottom: 5px solid #00284b;
+  }
+  .header-hover-content{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    position: fixed;
+    top: 125px;
+    left: 0;
+    background-color: #ffffff;
+    border-top: 1px solid #9b9b9b;
+    box-shadow: 0 4px 12px #b3b2b2;
+  }
+  .hover-content-left{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+  }
   .header-content-shown {
     display: flex;
     flex-direction: column;
-    width: 140px;
-    padding: 20px;
-    padding-top: 25px;
+    width: 120px;
+    margin-left: 20px;
     position: relative;
-    top: 25px;
-    transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-  }
-  .menu1 {
-    height: 315px;
-  }
-  .menu2 {
-    height: 315px;
-  }
-  .menu3 {
-    height: 180px;
-  }
-  .menu4 {
-    height: 225px;
+    padding-top: 25px;
+    height: 325px;
   }
   .header-shown-text {
     display: flex;
     font-family: NotoSansCJKkr;
     font-size: 16px;
+    color: #555555;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #ffffff;
     text-decoration: none;
     margin-top: 25px;
     &:nth-child(1) {
@@ -218,18 +244,6 @@ a {
   height: 100%;
   margin-right: 100px;
 }
-.service {
-  background-color: #486e99;
-}
-.center {
-  background-color: #00a5cc;
-}
-.foundation {
-  background-color: #002740;
-}
-.introduction {
-  background-color: #64a4e3;
-}
 .header-logo {
   width: 160px;
   height: auto;
@@ -241,6 +255,14 @@ a {
 .contents-none {
   display: none;
 }
+
+
+
+
+
+
+
+
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .header-logo-sticky{
     margin-right:0;

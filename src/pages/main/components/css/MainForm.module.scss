@@ -6,7 +6,7 @@
 }
 .forms{
     width: 390px;
-    height: 50%;
+    height: 42%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,7 +100,23 @@
 .forms_footer_text__last{
     border-left: 1px solid #ffffff;
 }
-
+.bottom_buttons_wrapper{
+    width: 390px;
+    display: flex;
+    flex-direction: row;
+    height: calc(16% - 32px);
+}
+.bottom_button{
+    width: calc(50% - 2px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 30px;
+    border: 1px solid #e2e2e2;
+    background-color: #f3f3f3;
+   
+}
 @media all and (min-width:768px) and (max-width:1023px){
     .body_forms{
         display: flex;

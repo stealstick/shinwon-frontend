@@ -3,9 +3,8 @@
         <g>
             <g>
                 <g>
-                    <path fill="#6083B2" d="M0 0H44V44H0z" transform="translate(-680 -728) translate(680 710) translate(0 18)"/>
-                    <path fill="#486E99" d="M0 44L44 0 44 44z" transform="translate(-680 -728) translate(680 710) translate(0 18)"/>
-                    <text fill="#FFF" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="25" font-weight="bold" transform="translate(-680 -728) translate(680 710) translate(0 18)">
+                    <path stroke="#6083B2" stroke-opacity=".3" d="M0.5 0.5H43.5V43.5H0.5z" transform="translate(-680 -728) translate(680 710) translate(0 18)"/>
+                    <text fill="#486E99" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="25" font-weight="bold" transform="translate(-680 -728) translate(680 710) translate(0 18)">
                         <tspan x="16.075" y="33">?</tspan>
                     </text>
                 </g>

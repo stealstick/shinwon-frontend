@@ -22,15 +22,25 @@ const InputForm = () => {
                     </div>
                 </div>
             </div>
-            <div className="forms-btn-wrapper">
-                <a target="blank" href="https://939.co.kr/swcl/" className="forms-btn forms-btn__gray">
+            <div className="forms-btn-wrapper forms-btn-wrapper-border">
+                <a target="blank" href="https://939.co.kr/swcl/" className="forms-btn forms-border-right forms-btn__gray">
                     <img src="../imgs/icons/icon-gear.svg" alt="" className="forms-btn-icon"/>
                     <div className="forms-btn-text">원격지원</div>
                 </a>
-                <Link to="/service/2" className="forms-btn forms-btn__blue">
+                <Link to="/service/2" className="forms-btn forms-btn__gray">
                     <img src="../imgs/icons/icon-download.svg" alt="" className="forms-btn-icon"/>
-                    <div className="forms-btn-text light">양식다운로드</div>
+                    <div className="forms-btn-text">양식다운로드</div>
                 </Link>
+            </div>
+            <div className="forms-btn-wrapper">
+                <Link to="/service/1" className="forms-btn forms-border-right forms-btn__gray">
+                    <img src="../imgs/img/new.svg" alt="" className="forms-btn-icon"/>
+                    <div className="forms-btn-text">공문</div>
+                </Link>
+                <a target="blank" href="https://blog.naver.com/junchae42" className="forms-btn forms-btn__gray">
+                    <img src="../imgs/img/blog.svg" alt="" className="forms-btn-icon"/>
+                    <div className="forms-btn-text">블로그</div>
+                </a>
             </div>
         </div>
     )
