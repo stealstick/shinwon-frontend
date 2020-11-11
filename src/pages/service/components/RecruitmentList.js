@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import styles from './css/RecruitmentList.module.css'
+import { Link } from 'react-router-dom'
 
 const RecruitmentList = () => {
 
     const [ num, setNum ] = useState(1)
     const [ recList, setRecList ] = useState([])
 
-    const RecContent = () => {
+    const RecContent = ({id}) => {
         return(
-            <div className={styles.rec_content_wrapper}>
+            <Link to={`/recruitment/${id}`} className={styles.rec_content_wrapper}>
                 <div className={styles.rec_content_left}>
                     <div className={styles.rec_content_depart}>임상화학</div>
                     <div className={styles.rec_content_title}>임상병리사 경력직 채용공고</div>
@@ -17,14 +18,14 @@ const RecruitmentList = () => {
                     <div className={styles.rec_content_date}>2020.00.00 ~ 2020.00.00</div>
                     <div className={styles.rec_content_dday}>D - 7</div>
                 </div>
-            </div>
+            </Link>
         )
     }
 
     useEffect(() => {
         const data = [1,2,3,4,5,6,7,8,9,10]
         const list = data.map(d => (
-            <RecContent/>
+            <RecContent id={d} key={d}/>
         ))
         setRecList(list)
     }, [])
@@ -41,7 +42,7 @@ const RecruitmentList = () => {
                 <div className={styles.page_desc}>의료법인 신원의료재단의 채용공고를 확인하세요.</div>
                 <div className={styles.page_box}>
                     <div className={styles.box_text}>지원서 접수는 전자메일로만 접수</div>
-                    <div className={styles.box_email}>recuruit@shinwon.org</div>
+                    <div className={styles.box_email}>recruit@shinwon.org</div>
                 </div>
                 <div className={styles.list_wrapper}>
                     <div className={styles.list_togglebar}>

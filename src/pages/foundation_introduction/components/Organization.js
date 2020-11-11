@@ -14,7 +14,7 @@ const Organization = () => {
             </div>
             <div className={styles.section}>
                 <div data-aos="fade-up" className={styles.greeting_title}>조직도</div>
-                <img src="../imgs/img/org.svg" alt="" className={styles.org_img}/>
+                <img src="../imgs/img/org-img.svg" alt="" className={styles.org_img}/>
                 {/*<div className={styles.org_wrapper}>
                     <img src="../imgs/img/ceo.svg" alt="" className={styles.org_ceo}/>
                     <img src="../imgs/img/org-oval.svg" alt="" className={styles.org_oval}/>

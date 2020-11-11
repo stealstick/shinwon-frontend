@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="740px" height="1174px" viewBox="0 0 740 1174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.125655594" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.7372928%" y1="14.2697127%" x2="96.1601305%" y2="75.1653424%" id="linearGradient-2">
+            <stop stop-color="#90A6BB" offset="0%"></stop>
+            <stop stop-color="#58728A" offset="45.9196918%"></stop>
+            <stop stop-color="#3A546C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="조직도수정" transform="translate(-633.000000, -642.000000)">
+            <g id="Group-8" transform="translate(633.000000, 642.000000)">
+                <g id="Group-7" transform="translate(14.000000, 0.000000)">
+                    <g id="Group-5" transform="translate(258.000000, 0.000000)">
+                        <circle id="Oval" stroke="#2D4C6A" stroke-width="20" fill="#FFFFFF" cx="97.5" cy="97.5" r="87.5"></circle>
+                        <path d="M97.7711372,195 C60.3279136,195 40.6758278,184.784058 25.750911,169.556975 C16.6747544,160.297065 3.54227474,148.060679 3.54227474,132.681055 C3.54227474,92.0110323 74.1047122,80.8634203 98.2867048,68.7747666 C122.468697,56.6861129 192,74.0626703 192,114.732693 C192,155.402715 157.984375,195 97.7711372,195 Z" id="Oval" fill="url(#linearGradient-1)"></path>
+                    </g>
+                    <text id="재단-이사장" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="24" font-weight="bold" fill="#3E3E3E">
+                        <tspan x="298" y="107">재단 이사장</tspan>
+                    </text>
+                    <g id="Group-3" transform="translate(0.000000, 310.000000)">
+                        <circle id="Oval" stroke="url(#linearGradient-2)" stroke-width="12" cx="72.5" cy="72.5" r="66.5"></circle>
+                        <text id="의료센터" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="22" font-weight="bold" fill="#727272">
+                            <tspan x="34" y="81">의료센터</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-3" transform="translate(283.000000, 310.000000)">
+                        <circle id="Oval" stroke="url(#linearGradient-2)" stroke-width="12" cx="72.5" cy="72.5" r="66.5"></circle>
+                        <text id="병리센터" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="22" font-weight="bold" fill="#727272">
+                            <tspan x="34" y="81">병리센터</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-3" transform="translate(567.000000, 310.000000)">
+                        <circle id="Oval" stroke="url(#linearGradient-2)" stroke-width="12" cx="72.5" cy="72.5" r="66.5"></circle>
+                        <text id="경영센터" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="22" font-weight="bold" fill="#727272">
+                            <tspan x="34" y="81">경영센터</tspan>
+                        </text>
+                    </g>
+                    <polyline id="Path-16" stroke="#D2D2D2" stroke-width="2" points="72 309.626399 72 244 639 244 639 309.626399"></polyline>
+                    <line x1="355.5" y1="195" x2="355.5" y2="243.841354" id="Path-18" stroke="#D2D2D2" stroke-width="2"></line>
+                    <line x1="355.5" y1="244" x2="356" y2="310" id="Path-18" stroke="#D2D2D2" stroke-width="2"></line>
+                </g>
+                <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="567.5" y="475.5" width="172" height="189"></rect>
+                <text id="재단사무국" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="592" y="517">재단사무국</tspan>
+                </text>
+                <text id="인사총무팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="592" y="575">인사총무팀</tspan>
+                </text>
+                <text id="재경팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="592" y="597">재경팀</tspan>
+                </text>
+                <text id="물류팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="592" y="619">물류팀</tspan>
+                </text>
+                <text id="구매팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="592" y="641">구매팀</tspan>
+                </text>
+                <text id="Executice-Director" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                    <tspan x="592" y="536">Executice Director</tspan>
+                </text>
+                <line x1="592" y1="550.5" x2="715" y2="550.5" id="Path-17" stroke="#006090" stroke-linecap="round"></line>
+                <g id="Group" transform="translate(567.000000, 673.000000)">
+                    <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="0.5" width="172" height="189"></rect>
+                    <text id="경영기획실" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="26" y="42">경영기획실</tspan>
+                    </text>
+                    <text id="법무감사팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="25" y="100">법무감사팀</tspan>
+                    </text>
+                    <text id="신사업개발팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="25" y="122">신사업개발팀</tspan>
+                    </text>
+                    <text id="특영사업팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="25" y="144">특영사업팀</tspan>
+                    </text>
+                    <text id="인력개발팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="25" y="166">인력개발팀</tspan>
+                    </text>
+                    <text id="Management-Director" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                        <tspan x="26" y="61"> Management Director</tspan>
+                    </text>
+                    <line x1="25" y1="75.5" x2="148" y2="75.5" id="Path-17" stroke="#006090" stroke-linecap="round"></line>
+                </g>
+                <g id="Group-13" transform="translate(283.000000, 651.000000)">
+                    <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="0.5" width="172" height="86"></rect>
+                    <text id="조직병리부" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="26" y="45">조직병리부</tspan>
+                    </text>
+                    <text id="Histopathology" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                        <tspan x="26" y="64">Histopathology</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="475.5" width="172" height="167"></rect>
+                <text id="전문의" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="26" y="517">전문의</tspan>
+                </text>
+                <text id="센터부원장" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="26" y="575">센터부원장</tspan>
+                </text>
+                <text id="원장" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="26" y="597">원장</tspan>
+                </text>
+                <text id="원장" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="26" y="619">원장</tspan>
+                </text>
+                <text id="Medical-Doctor" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                    <tspan x="26" y="536">Medical Doctor</tspan>
+                </text>
+                <line x1="25" y1="550.5" x2="148" y2="550.5" id="Path-17" stroke="#006090" stroke-linecap="round"></line>
+                <g id="Group-12" transform="translate(283.000000, 475.000000)">
+                    <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="0.5" width="172" height="167"></rect>
+                    <text id="전문의" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="26" y="42">전문의</tspan>
+                    </text>
+                    <text id="센터부원장" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="100">센터부원장</tspan>
+                    </text>
+                    <text id="원장" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="122">원장</tspan>
+                    </text>
+                    <text id="원장" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="144">원장</tspan>
+                    </text>
+                    <text id="Medical-Doctor" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                        <tspan x="26" y="61">Medical Doctor</tspan>
+                    </text>
+                    <line x1="25" y1="75.5" x2="148" y2="75.5" id="Path-17" stroke="#006090" stroke-linecap="round"></line>
+                </g>
+                <g id="Group-14" transform="translate(283.000000, 746.000000)">
+                    <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="0.5" width="172" height="86"></rect>
+                    <text id="세포병리부" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="26" y="45">세포병리부</tspan>
+                    </text>
+                    <text id="Cell-pathology" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                        <tspan x="26" y="64">Cell pathology</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="651.5" width="172" height="211"></rect>
+                <text id="진단검사부" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="26" y="693">진단검사부</tspan>
+                </text>
+                <text id="진단면역팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="26" y="751">진단면역팀</tspan>
+                </text>
+                <text id="진단혈액팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="26" y="773">진단혈액팀</tspan>
+                </text>
+                <text id="임상미생물팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="26" y="795">임상미생물팀</tspan>
+                </text>
+                <text id="요검경학팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="26" y="817">요검경학팀</tspan>
+                </text>
+                <text id="임상화학팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                    <tspan x="26" y="839">임상화학팀</tspan>
+                </text>
+                <text id="Director" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                    <tspan x="26" y="712">Director</tspan>
+                </text>
+                <line x1="25" y1="726.5" x2="148" y2="726.5" id="Path-17" stroke="#006090" stroke-linecap="round"></line>
+                <g id="Group-2" transform="translate(567.000000, 871.000000)">
+                    <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="0.5" width="172" height="167"></rect>
+                    <text id="사업본부" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="26" y="42">사업본부</tspan>
+                    </text>
+                    <text id="영업본부" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="100">영업본부</tspan>
+                    </text>
+                    <text id="학술/고객지원부" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="122">학술/고객지원부</tspan>
+                    </text>
+                    <text id="전국네트워크" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="144">전국네트워크</tspan>
+                    </text>
+                    <text id="Business-Director" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                        <tspan x="26" y="61">Business Director</tspan>
+                    </text>
+                    <line x1="25" y1="75" x2="148" y2="75" id="Path-17" stroke="#006090" stroke-linecap="round"></line>
+                </g>
+                <g id="Group-3" transform="translate(567.000000, 1047.000000)">
+                    <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="0.5" width="172" height="126"></rect>
+                    <text id="전산팀" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="26" y="42">전산팀</tspan>
+                    </text>
+                    <text id="운영팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="81">운영팀</tspan>
+                    </text>
+                    <text id="개발팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="103">개발팀</tspan>
+                    </text>
+                    <line x1="25" y1="58" x2="148" y2="58" id="Path-17" stroke="#006090" stroke-linecap="round"></line>
+                </g>
+                <g id="Group-4" transform="translate(0.000000, 871.000000)">
+                    <rect id="Rectangle" stroke="#D4D4D4" fill="#FFFFFF" x="0.5" y="0.5" width="172" height="189"></rect>
+                    <text id="분자유전부" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="26" y="42">분자유전부</tspan>
+                    </text>
+                    <text id="관리팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="100">관리팀</tspan>
+                    </text>
+                    <text id="STD팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="122">STD팀</tspan>
+                    </text>
+                    <text id="HPV팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="144">HPV팀</tspan>
+                    </text>
+                    <text id="T/D팀" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" fill="#515151">
+                        <tspan x="26" y="166">T/D팀</tspan>
+                    </text>
+                    <text id="Business-Director" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" font-weight="normal" fill="#515151">
+                        <tspan x="26" y="61">Business Director</tspan>
+                    </text>
+                    <line x1="26" y1="75" x2="149" y2="75" id="Path-17" stroke="#006090" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
