@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="1174" viewBox="0 0 740 1174">
+    <defs>
+        <linearGradient id="l3vdo5lmja" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".126"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-633 -642) translate(633 642) translate(14) translate(258)">
+                        <circle cx="97.5" cy="97.5" r="87.5" fill="#FFF" stroke-width="20"/>
+                        <path fill="url(#l3vdo5lmja)" d="M97.771 195c-37.443 0-57.095-10.216-72.02-25.443-9.076-9.26-22.209-21.496-22.209-36.876 0-40.67 70.563-51.818 94.745-63.906C122.469 56.686 192 74.063 192 114.733S157.984 195 97.771 195z"/>
+                    </g>
+                    <text fill="#3E3E3E" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="24" font-weight="bold" transform="translate(-633 -642) translate(633 642) translate(14)">
+                        <tspan x="298" y="107">재단 이사장</tspan>
+                    </text>
+                    <g transform="translate(-633 -642) translate(633 642) translate(14) translate(0 310)">
+                        <circle cx="72.5" cy="72.5" r="66.5" stroke-width="12"/>
+                        <text fill="#727272" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="22" font-weight="bold">
+                            <tspan x="34" y="81">의료센터</tspan>
+                        </text>
+                    </g>
+                    <g transform="translate(-633 -642) translate(633 642) translate(14) translate(283 310)">
+                        <circle cx="72.5" cy="72.5" r="66.5" stroke-width="12"/>
+                        <text fill="#727272" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="22" font-weight="bold">
+                            <tspan x="34" y="81">병리센터</tspan>
+                        </text>
+                    </g>
+                    <g transform="translate(-633 -642) translate(633 642) translate(14) translate(567 310)">
+                        <circle cx="72.5" cy="72.5" r="66.5" stroke-width="12"/>
+                        <text fill="#727272" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="22" font-weight="bold">
+                            <tspan x="34" y="81">경영센터</tspan>
+                        </text>
+                    </g>
+                    <path stroke="#D2D2D2" stroke-width="2" d="M72 309.626L72 244 639 244 639 309.626M355.5 195L355.5 243.841M355.5 244L356 310" transform="translate(-633 -642) translate(633 642) translate(14)"/>
+                </g>
+                <path fill="#FFF" stroke="#D4D4D4" d="M567.5 475.5H739.5V664.5H567.5z" transform="translate(-633 -642) translate(633 642)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="592" y="517">재단사무국</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="592" y="575">인사총무팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="592" y="597">재경팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="592" y="619">물류팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="592" y="641">구매팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="592" y="536">Executice Director</tspan>
+                </text>
+                <path stroke="#006090" stroke-linecap="round" d="M592 550.5L715 550.5" transform="translate(-633 -642) translate(633 642)"/>
+                <g>
+                    <path fill="#FFF" stroke="#D4D4D4" d="M0.5 0.5H172.5V189.5H0.5z" transform="translate(-633 -642) translate(633 642) translate(567 673)"/>
+                    <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642) translate(567 673)">
+                        <tspan x="26" y="42">경영기획실</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 673)">
+                        <tspan x="25" y="100">법무감사팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 673)">
+                        <tspan x="25" y="122">신사업개발팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 673)">
+                        <tspan x="25" y="144">특영사업팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 673)">
+                        <tspan x="25" y="166">인력개발팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642) translate(567 673)">
+                        <tspan x="26" y="61"> Management Director</tspan>
+                    </text>
+                    <path stroke="#006090" stroke-linecap="round" d="M25 75.5L148 75.5" transform="translate(-633 -642) translate(633 642) translate(567 673)"/>
+                </g>
+                <g>
+                    <path fill="#FFF" stroke="#D4D4D4" d="M0.5 0.5H172.5V86.5H0.5z" transform="translate(-633 -642) translate(633 642) translate(283 651)"/>
+                    <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642) translate(283 651)">
+                        <tspan x="26" y="45">조직병리부</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642) translate(283 651)">
+                        <tspan x="26" y="64">Histopathology</tspan>
+                    </text>
+                </g>
+                <path fill="#FFF" stroke="#D4D4D4" d="M0.5 475.5H172.5V642.5H0.5z" transform="translate(-633 -642) translate(633 642)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="517">전문의</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="575">센터부원장</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="597">원장</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="619">원장</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="536">Medical Doctor</tspan>
+                </text>
+                <path stroke="#006090" stroke-linecap="round" d="M25 550.5L148 550.5" transform="translate(-633 -642) translate(633 642)"/>
+                <g>
+                    <path fill="#FFF" stroke="#D4D4D4" d="M0.5 0.5H172.5V167.5H0.5z" transform="translate(-633 -642) translate(633 642) translate(283 475)"/>
+                    <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642) translate(283 475)">
+                        <tspan x="26" y="42">전문의</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(283 475)">
+                        <tspan x="26" y="100">센터부원장</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(283 475)">
+                        <tspan x="26" y="122">원장</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(283 475)">
+                        <tspan x="26" y="144">원장</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642) translate(283 475)">
+                        <tspan x="26" y="61">Medical Doctor</tspan>
+                    </text>
+                    <path stroke="#006090" stroke-linecap="round" d="M25 75.5L148 75.5" transform="translate(-633 -642) translate(633 642) translate(283 475)"/>
+                </g>
+                <g>
+                    <path fill="#FFF" stroke="#D4D4D4" d="M0.5 0.5H172.5V86.5H0.5z" transform="translate(-633 -642) translate(633 642) translate(283 746)"/>
+                    <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642) translate(283 746)">
+                        <tspan x="26" y="45">세포병리부</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642) translate(283 746)">
+                        <tspan x="26" y="64">Cell pathology</tspan>
+                    </text>
+                </g>
+                <path fill="#FFF" stroke="#D4D4D4" d="M0.5 651.5H172.5V862.5H0.5z" transform="translate(-633 -642) translate(633 642)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="693">진단검사부</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="751">진단면역팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="773">진단혈액팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="795">임상미생물팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="817">요검경학팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="839">임상화학팀</tspan>
+                </text>
+                <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642)">
+                    <tspan x="26" y="712">Director</tspan>
+                </text>
+                <path stroke="#006090" stroke-linecap="round" d="M25 726.5L148 726.5" transform="translate(-633 -642) translate(633 642)"/>
+                <g>
+                    <path fill="#FFF" stroke="#D4D4D4" d="M0.5 0.5H172.5V167.5H0.5z" transform="translate(-633 -642) translate(633 642) translate(567 871)"/>
+                    <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642) translate(567 871)">
+                        <tspan x="26" y="42">사업본부</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 871)">
+                        <tspan x="26" y="100">영업본부</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 871)">
+                        <tspan x="26" y="122">학술/고객지원부</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 871)">
+                        <tspan x="26" y="144">전국네트워크</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642) translate(567 871)">
+                        <tspan x="26" y="61">Business Director</tspan>
+                    </text>
+                    <path stroke="#006090" stroke-linecap="round" d="M25 75L148 75" transform="translate(-633 -642) translate(633 642) translate(567 871)"/>
+                </g>
+                <g>
+                    <path fill="#FFF" stroke="#D4D4D4" d="M0.5 0.5H172.5V126.5H0.5z" transform="translate(-633 -642) translate(633 642) translate(567 1047)"/>
+                    <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642) translate(567 1047)">
+                        <tspan x="26" y="42">전산팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 1047)">
+                        <tspan x="26" y="81">운영팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(567 1047)">
+                        <tspan x="26" y="103">개발팀</tspan>
+                    </text>
+                    <path stroke="#006090" stroke-linecap="round" d="M25 58L148 58" transform="translate(-633 -642) translate(633 642) translate(567 1047)"/>
+                </g>
+                <g>
+                    <path fill="#FFF" stroke="#D4D4D4" d="M0.5 0.5H172.5V189.5H0.5z" transform="translate(-633 -642) translate(633 642) translate(0 871)"/>
+                    <text fill="#000" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="16" font-weight="bold" transform="translate(-633 -642) translate(633 642) translate(0 871)">
+                        <tspan x="26" y="42">분자유전부</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(0 871)">
+                        <tspan x="26" y="100">관리팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(0 871)">
+                        <tspan x="26" y="122">STD팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(0 871)">
+                        <tspan x="26" y="144">HPV팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-size="12" font-weight="400" transform="translate(-633 -642) translate(633 642) translate(0 871)">
+                        <tspan x="26" y="166">T/D팀</tspan>
+                    </text>
+                    <text fill="#515151" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="10" transform="translate(-633 -642) translate(633 642) translate(0 871)">
+                        <tspan x="26" y="61">Business Director</tspan>
+                    </text>
+                    <path stroke="#006090" stroke-linecap="round" d="M26 75L149 75" transform="translate(-633 -642) translate(633 642) translate(0 871)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
