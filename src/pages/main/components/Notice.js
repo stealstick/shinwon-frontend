@@ -33,7 +33,6 @@ const Notice = () => {
             </div>
             
             <div className={styles.img_wrapper}>
-                <img src="/imgs/icons/icon-left.svg" alt="" className={styles.site_img} />
                 {data.slice(0, 3).map(post => (
                     <DataContent
                         title={post.title}
@@ -41,7 +40,6 @@ const Notice = () => {
                         key={post.idx}
                     />
                 ))}
-                <img src="/imgs/icons/icon-right.svg" alt="" className={styles.site_img} />
             </div>
         </div>
     )

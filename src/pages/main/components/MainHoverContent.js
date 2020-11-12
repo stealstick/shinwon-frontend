@@ -17,7 +17,7 @@ const MainHoverContent = ({img, text, type}) => {
                 
                 <div className={styles.hover_text}>
                     의료법인 신원의료재단에<br/>
-                    대해 안내해드립니다.
+                    대한 안내입니다.
                 </div>
             </Link>
             : text==="네트워크" ? 
@@ -34,11 +34,11 @@ const MainHoverContent = ({img, text, type}) => {
                 <div className={styles.hover_title}>{text}</div>
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>
-                    의료법인 신원의료재단은
-                    최고의 전문의, 박사, 임상병리사 등
-                    우수한 전문 인력들의
-                    축적된 경험을 바탕으로 정확하고
-                    신속한 검사결과를 제공합니다.
+                    의료법인 신원의료재단은<br/>
+                    최고 전문의, 박사, 임상병리사<br/> 
+                    등 우수한 전문인력들의 경험과<br/>
+                    기술로 정확하고 신속한 검사<br/>
+                    결과를 제공합니다.
                 </div>
             </Link>
             : text==="원격지원" ? 
@@ -46,9 +46,8 @@ const MainHoverContent = ({img, text, type}) => {
                 <div className={styles.hover_title}>{text}</div>
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>
-                    의료법인 신원의료재단이<br/>
-                    협력기관에게 원격지원을<br/>
-                    제공합니다.
+                    의료법인 신원의료재단은<br/>
+                    원격지원을 제공합니다.
                 </div>
             </a>
             :
@@ -56,8 +55,8 @@ const MainHoverContent = ({img, text, type}) => {
                 <div className={styles.hover_title}>{text}</div>
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>
-                    의료법인 신원의료재단의<br/>
-                    모든 양식을 제공하고 있습니다.
+                    의뢰서, 동의서, 인증서 등을<br/>
+                    확인할 수 있습니다.
                 </div>
             </Link>
             :

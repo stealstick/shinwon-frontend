@@ -337,7 +337,7 @@ const Deparment = () => {
             <div className="transform-div fifth hidden">
                 <div data-aos="fade-up" className="department-name">
                     <img src="../imgs/img/beaker.svg" alt="" className="department-icon"/>
-                    <div className="department-title-text">진단면역학부</div>
+                    <div className="department-title-text">요검경학부</div>
                 </div>
                 <div data-aos="fade-up" className="intro">
                     요검경학부에서 일반소변검사와 24시간 소변검사 및 분변을 이용한 여러 검사를 수행하고 있습니다.
