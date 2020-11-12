@@ -47,6 +47,7 @@ function Header(){
                         <Link to="/" className="content">R&D</Link>
                     </div>
                     <div className="header-hover-content">
+                        <div className="hover-sticky">
                         <div className="hover-content-left">
                             <div className="header-content-shown foundation" onMouseOver={() => setBorderBottom(1)} onMouseLeave={() => setBorderBottom(0)}>
                                 <Link to="/foundation/1" className="header-shown-text">인사말</Link>
@@ -80,6 +81,7 @@ function Header(){
                                 <Link to="/service/6" className="header-shown-text">채용공고</Link>
                             </div>
                             <div className="header-content-shown rnd hover5" onMouseOver={() => setBorderBottom(5)} onMouseLeave={() => setBorderBottom(0)}></div>
+                        </div>
                         </div>
                     </div>
                 </div>

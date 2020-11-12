@@ -28,7 +28,7 @@ function Main() {
                 <div className={styles.body_slide}>
                     <div className={styles.body_slide_box}>
                         <div className={styles.body_slide_bar + ' ' + styles.slide_bar_3} onClick={() => setSlider(3)}>
-                            검사센터
+                            검사실안내
                         </div>
                         <div className={slider === 3 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
                             <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider1.png')" }}>
@@ -41,7 +41,7 @@ function Main() {
                                         </div>
 
                                     <div className={styles.name}>
-                                        검사센터
+                                        검사실안내
                                         </div>
                                     <div className={styles.description}>
                                         신원의료재단 검사센터는 최첨단 진단기법과 특수검사 개발과 적용을 위해<br />

@@ -4,10 +4,10 @@
   display: flex;
   justify-content: center;
   height: 170px;
-  max-width: 1920px;
 }
 .footer-sticky {
   width: 100%;
+  max-width: 1520px;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -124,7 +124,7 @@ a {
 }
 .header-contents {
   width: 100vw;
-  max-width: 1920px;
+  max-width: 1520px;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -133,11 +133,12 @@ a {
 .contents-left {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  width: 50%;
+  justify-content: flex-start;
+  width: calc(60% - 80px);
+  margin-left: 80px;
 }
 .contents-right {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -163,6 +164,7 @@ a {
 .header-hover-content{
   display: none;
 }
+
 .contents-left:hover {
   .menu1:hover{
     border-bottom: 5px solid #00284b;
@@ -184,17 +186,23 @@ a {
     flex-direction: row;
     width: 100vw;
     position: fixed;
+    justify-content: center;
     top: 125px;
     left: 0;
     background-color: #ffffff;
     border-top: 1px solid #9b9b9b;
     box-shadow: 0 4px 12px #b3b2b2;
   }
+  .hover-sticky{
+    width: 100%;
+    max-width: 1520px;
+  }
   .hover-content-left{
     display: flex;
     flex-direction: row;
-    width: 50%;
-    justify-content: flex-end;
+    width: calc(60% - 80px);
+    margin-left: 80px;
+    justify-content: flex-start;
   }
   .header-content-shown {
     display: flex;
@@ -237,7 +245,7 @@ a {
   margin-right: 109px;
 }
 .header-logo-sticky {
-  width: 236px;
+  width: 190px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -245,7 +253,7 @@ a {
   margin-right: 100px;
 }
 .header-logo {
-  width: 160px;
+  width: 190px;
   height: auto;
   object-fit: contain;
 }
