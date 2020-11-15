@@ -60,7 +60,7 @@ function Main() {
                             검사절차
                         </div>
                         <div className={slider === 2 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
-                            <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider2.png')" }}>
+                            <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider2.png')", backgroundPosition: "right" }}>
                                 <div className={styles.white_box}>
                                     <div className={styles.sub_title}>
                                         “모든 사람이 건강한 세상”
@@ -89,7 +89,7 @@ function Main() {
                             질환별안내
                         </div>
                         <div className={slider === 1 ? styles.body_slide_card + ' ' + styles.active : styles.body_slide_card}>
-                            <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider3.png')", backgroundPosition: "right", backgroundSize: "contain", backgroundRepeat: "no-repeat", height: "200%"}}>
+                            <div className={styles.card_container} style={{ backgroundImage: "url('/imgs/img/slider3.png')", backgroundPosition: "right" }}>
                                 <div className={styles.white_box}>
                                     <div className={styles.sub_title}>
                                         모든 생명의 가치를 위한 열정의 노력
