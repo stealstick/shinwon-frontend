@@ -71,7 +71,7 @@ function Header(){
                                 <Link to="/center/1" className="header-shown-text">진단검사의학부</Link>
                                 <Link to="/center/2" className="header-shown-text">병리학부</Link>
                                 <Link to="/center/3" className="header-shown-text">정도관리</Link>
-                                <Link to="/service/2" className="header-shown-text">인증서</Link>
+                                <Link to="/center/4" className="header-shown-text">인증서</Link>
                             </div>
                             <div className="header-content-shown service hover4" onMouseOver={() => setBorderBottom(4)} onMouseLeave={() => setBorderBottom(0)}>
                                 <Link to="/service/1" className="header-shown-text">공문</Link>

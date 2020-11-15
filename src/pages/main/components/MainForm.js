@@ -28,12 +28,10 @@ const MainForm = () => {
                 <a href="https://blog.naver.com/junchae42" target="blank" className={styles.bottom_button}>
                     <img className={styles.button_left_icon} alt="" src="../imgs/img/blog.svg"/>
                     <div className={styles.button_text}>블로그</div>
-                    <img src="/imgs/icons/icon-right.svg" alt="" className={styles.icon} />
                 </a>
                 <a href="https://mail.shinwon.org/" target="blank" className={styles.bottom_button}>
                     <img className={styles.button_left_icon} alt="" src="../imgs/img/intranet.png"/>
                     <div className={styles.button_text}>인트라넷</div>
-                    <img src="/imgs/icons/icon-right.svg" alt="" className={styles.icon} />
                 </a>
             </div>
         </div>
