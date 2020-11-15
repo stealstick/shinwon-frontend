@@ -25,13 +25,13 @@ const MainForm = () => {
                 </div>
             </div>
             <div className={styles.bottom_buttons_wrapper}>
+                <a href="https://939.co.kr/swcl/" target="blank" className={styles.bottom_button}>
+                    <img className={styles.button_left_icon} alt="" src="../imgs/img/tech-sup.svg"/>
+                    <div className={styles.button_text}>원격지원</div>
+                </a>
                 <a href="https://blog.naver.com/junchae42" target="blank" className={styles.bottom_button}>
                     <img className={styles.button_left_icon} alt="" src="../imgs/img/blog.svg"/>
                     <div className={styles.button_text}>블로그</div>
-                </a>
-                <a href="https://mail.shinwon.org/" target="blank" className={styles.bottom_button}>
-                    <img className={styles.button_left_icon} alt="" src="../imgs/img/intranet.png"/>
-                    <div className={styles.button_text}>인트라넷</div>
                 </a>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import styles from './css/RecruitmentList.module.css'
 import { Link } from 'react-router-dom'
+import Footer from '../../Footer'
 
 const RecruitmentList = () => {
 
@@ -53,6 +54,7 @@ const RecruitmentList = () => {
                     {recList}
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
