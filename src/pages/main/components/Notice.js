@@ -29,7 +29,7 @@ const Notice = () => {
     return(
         <div className={styles.container}>
             <div className={styles.title_wrapper}>
-                <div className={styles.title}>NOTICE</div>
+                <Link to="/service/1" className={styles.title}>공문</Link>
             </div>
             
             <div className={styles.img_wrapper}>

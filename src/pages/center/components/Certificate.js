@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import styles from './css/DataRoom.module.scss'
+import styles from './css/Certificate.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
 import printJs from 'print-js'
 import { saveAs } from 'file-saver'
 
-const DataRoom = () => {
+const Certificate = () => {
 
     const [ posts, setPosts ] = useState([])
     const [ currentPage, setCurrentPage ] = useState(1)
@@ -90,7 +90,7 @@ const DataRoom = () => {
     ))
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/reference/?b_idx=5&page=${currentPage}`)
+        axios.get(`http://13.125.200.188:8080/reference/?b_idx=6&page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])
@@ -104,7 +104,7 @@ const DataRoom = () => {
         <div className={styles.container}>
             <div className={styles.section}>
                 <SectionTitle kor="의뢰지/동의서" eng="DATA Center"/>
-                <div className={styles.title_normal}>의료법인 신원의료재단의 의뢰지 / 동의서를 확인할 수 있습니다.</div>
+                <div className={styles.title_normal}>의료법인 신원의료재단의 인증서를 확인할 수 있습니다.</div>
                 <div className={styles.datalist_wrapper}>
                     {dataList}
                 </div>
@@ -118,4 +118,4 @@ const DataRoom = () => {
     )
 }
 
-export default DataRoom
+export default Certificate

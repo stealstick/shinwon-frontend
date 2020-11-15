@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="374" viewBox="0 0 576 374">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#F7F7F7" d="M0 0H576V374H0z" transform="translate(-633 -856) translate(633 856)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="313" y="149">-</tspan>
+                </text>
+                <path stroke="#D0D0D0" d="M69.5 42.5H506.5V211.5H69.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <path fill="#D0EBFF" stroke="#D0D0D0" d="M69.5 19.5H268.5V50.5H69.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <path fill="#076AD1" stroke="#D0D0D0" d="M89.5 60.5H217.5V89.5H89.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <text fill="#FFF" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="117" y="80">사용자 등록</tspan>
+                </text>
+                <path fill="#DBE2FC" stroke="#D0D0D0" d="M89.5 94.5H217.5V123.5H89.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="122" y="114">PC 아이디</tspan>
+                </text>
+                <text fill="#1D3D93" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="413" y="114">(숫자2자리)</tspan>
+                </text>
+                <text fill="#1D3D93" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="417" y="151">(4+4 자리)</tspan>
+                </text>
+                <text fill="#1D3D93" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="413" y="188">(숫자5자리)</tspan>
+                </text>
+                <path fill="#DBE2FC" stroke="#D0D0D0" d="M89.5 130.5H217.5V159.5H89.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="133" y="150">시디키</tspan>
+                </text>
+                <path fill="#DBE2FC" stroke="#D0D0D0" d="M226.5 94.5H309.5V123.5H226.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="245" y="114">USER_</tspan>
+                </text>
+                <path fill="#DBE2FC" stroke="#D0D0D0" d="M89.5 166.5H217.5V195.5H89.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <path fill="#FFF" stroke="#D0D0D0" d="M226.5 166.5H404.5V195.5H226.5zM226.5 130.5H309.5V159.5H226.5zM321.5 130.5H404.5V159.5H321.5zM321.5 94.5H404.5V123.5H321.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="119" y="186">거래처코드</tspan>
+                </text>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="16" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="89" y="41">클라이언트 인증양식 예</tspan>
+                </text>
+                <path stroke="#D0D0D0" d="M69.5 250.5H506.5V354.5H69.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <path fill="#D0EBFF" stroke="#D0D0D0" d="M69.5 227.5H268.5V258.5H69.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <path fill="#DBE2FC" stroke="#D0D0D0" d="M89.5 274.5H217.5V303.5H89.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <path fill="#FFF" stroke="#D0D0D0" d="M226.5 274.5H404.5V303.5H226.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="133" y="294">아이디</tspan>
+                </text>
+                <path fill="#DBE2FC" stroke="#D0D0D0" d="M89.5 310.5H217.5V339.5H89.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <path fill="#FFF" stroke="#D0D0D0" d="M226.5 310.5H404.5V339.5H226.5z" transform="translate(-633 -856) translate(633 856)"/>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="126" y="330">비밀번호</tspan>
+                </text>
+                <text fill="#000" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="16" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="89" y="249">클라이언트 로그인 예</tspan>
+                </text>
+                <text fill="#931E1D" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="279" y="295">사용자 ID</tspan>
+                </text>
+                <text fill="#931E1D" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="15" transform="translate(-633 -856) translate(633 856)">
+                    <tspan x="282" y="330">사용자 PW</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

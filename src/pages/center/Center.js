@@ -7,6 +7,7 @@ import Department from './components/Department'
 import Pathology from './components/Pathology'
 import Analysis from './components/Analysis'
 import CustomerService from '../../components/CustomerService'
+import Certificate from './components/Certificate'
 
 function Center(props){
 
@@ -27,6 +28,7 @@ function Center(props){
                     {num===1 ? <Department/> : 
                     num===2 ? <Pathology/> : 
                     num===3 ? <Analysis/> :
+                    num===4 ? <Certificate/> :
                     <Department/>}
                 </div>
             </div>

@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
-    width: 1140px;
+    width: 940px;
     height: 50px;
 }
 .title_wrapper{
@@ -20,7 +20,7 @@
     font-weight: bold;
 }
 .img_wrapper{
-    width: 1020px;
+    width: 820px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

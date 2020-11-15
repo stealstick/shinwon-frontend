@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1140px;
+    width: 940px;
     justify-content: space-between;
 }
 .title_wrapper{
@@ -23,5 +23,5 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1028px;
+    width: 828px;
 }

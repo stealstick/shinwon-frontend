@@ -27,11 +27,20 @@ const CheckResult = () => {
             <div data-aos="fade-up" data-aos-duration="2000" className={styles.type_content_wrapper}>
                 <TypeTitle title="검사결과 조회 안내"/>
                 <div className={styles.type_content_text}>
-                1. 검사결과는 웹사이트, 스마트폰 또는 전용 프로그램을 이용하여 진행여부와 결과를 신속하게 조회 하실 수 있습니다.<br/>
-2. 로그인 계정 또는 전용프로그램 설치 안내는 당사 담당자에게 문의하여 주시기 바랍니다.
+                1. 검사결과는 웹사이트, 스마트폰 또는 전용 프로그램을 이용하여 진행여부와 결과를 신속하게 조회 하실 수 있습니다.<br/><br/>
+                1) 홈페이지를 이용한 결과조회<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;[ 검사결과조회 ] -&gt; 결과조회 창으로 이동할 수 있는 링크<br/><br/>
+                2) 신원 검사결과조회 전용 프로그램을 이용한 결과조회<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;[ 신원통합메신저 다운로드 ] -&gt; 다운로드 버튼(업데이트 파일에 의해 경로가 변경될 수 있음)<br/>
                 </div>
             </div>
-            <img data-aos="fade-up" data-aos-duration="2000" className={styles.img} src="../imgs/img/checkresult.png" alt=""/>
+            <img data-aos="fade-up" data-aos-duration="2000" className={styles.img} src="../imgs/img/checkresult.svg" alt=""/>
+            <div data-aos="fade-up" data-aos-duration="2000" className={styles.type_content_wrapper}>
+                <div className={styles.type_content_text}>
+                설치 완료 후 보안에 의해 사용자 등록이 된 pc만 사용 가능.<br/>
+                인증키 (pc 아이디, 시디키, 거래처 코드), 로그인 계정은 담당자 또는 전산부에 문의 바랍니다.
+                </div>
+            </div>
             <div data-aos="fade-up" data-aos-duration="2000" className={styles.type_content_wrapper}>
                 <TypeTitle title="검사결과 조회 방법"/>
                 <div className={styles.type_content_text}>
