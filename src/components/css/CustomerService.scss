@@ -1,6 +1,8 @@
 .customerservice-container{
     display: flex;
     flex-direction: row;
+    position: absolute;
+    right: calc((100vw - 1520px)/2 + 70px);
 }
 .customerservice-icon{
     width: 52px;

@@ -103,7 +103,7 @@ const Certificate = () => {
     return(
         <div className={styles.container}>
             <div className={styles.section}>
-                <SectionTitle kor="의뢰지/동의서" eng="DATA Center"/>
+                <SectionTitle kor="인증서" eng="Certificate"/>
                 <div className={styles.title_normal}>의료법인 신원의료재단의 인증서를 확인할 수 있습니다.</div>
                 <div className={styles.datalist_wrapper}>
                     {dataList}

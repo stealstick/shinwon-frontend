@@ -75,7 +75,7 @@ function Header(){
                             </div>
                             <div className="header-content-shown service hover4" onMouseOver={() => setBorderBottom(4)} onMouseLeave={() => setBorderBottom(0)}>
                                 <Link to="/service/1" className="header-shown-text">공문</Link>
-                                <Link to="/service/2" className="header-shown-text">자료실</Link>
+                                <Link to="/service/2" className="header-shown-text">의뢰지/동의서</Link>
                                 <Link to="/service/3" className="header-shown-text">감염지침</Link>
                                 <Link to="/service/4" className="header-shown-text">FAQ</Link>
                                 <Link to="/service/6" className="header-shown-text">채용공고</Link>

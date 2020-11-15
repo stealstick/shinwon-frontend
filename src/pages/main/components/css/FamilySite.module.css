@@ -6,15 +6,13 @@
     justify-content: space-between;
 }
 .title_wrapper{
-    width: 100px;
-    padding-right: 12px;
+    width: 120px;
+    text-align: center;
 }
 .title{
     font-size: 15px;
     color: #00396e;
     font-weight: bold;
-    padding-right: 12px;
-    width: 100px;
 }
 .site-img{
     padding: 0 15px;

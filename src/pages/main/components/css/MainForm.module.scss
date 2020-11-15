@@ -18,7 +18,7 @@
     background-color: #9e9fa0;;
 }
 .forms_sticky{
-    width: 220px;
+    width: 170px;
 }
 .forms_title{
     font-size: 18px;
@@ -28,6 +28,8 @@
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
+    width: 100%;
+    text-align: center;
 }
 .input_wrapper{
     display: flex;
@@ -109,13 +111,18 @@
 .bottom_button{
     width: calc(50% - 2px);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0 10px;
     border: 1px solid #e2e2e2;
     background-color: #f3f3f3;
    
+}
+.button_left_icon{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
 @media all and (min-width:768px) and (max-width:1023px){
     .body_forms{

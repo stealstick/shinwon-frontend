@@ -13,7 +13,9 @@
         width: 80px;
         margin-bottom: 30px;
         .img{
-
+            height: 100%;
+            width: auto;
+            object-fit: contain;
         }
     }
     .text{

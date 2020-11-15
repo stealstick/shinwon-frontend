@@ -41,8 +41,8 @@ const MainHoverContent = ({img, text, type}) => {
                     결과를 제공합니다.
                 </div>
             </Link>
-            : text==="원격지원" ? 
-            <a href="https://939.co.kr/swcl/" target="blank" className={styles.hover_container}>
+            : text==="공문" ? 
+            <a href="/service/1" target="blank" className={styles.hover_container}>
                 <div className={styles.hover_title}>{text}</div>
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>
