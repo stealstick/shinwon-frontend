@@ -18,31 +18,35 @@ const History = () => {
                     <div className={styles.big_round}>2020</div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
-                        <div className={styles.row_text}>질병관리본부 메르스 및 지카바이러스 유전자 검사 실시기관 등록</div>
+                        <div className={styles.row_text}>임상적성능시험기관지정(식약청)</div>
                     </div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
-                        <div className={styles.row_text}>유한대학교 산학협력 체결</div>
+                        <div className={styles.row_text}>서울시 개원내과의사회 춘계학회 참여</div>
                     </div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
-                        <div className={styles.row_text}>(주)휴먼패스(HUMANPASS) 업무제휴</div>
+                        <div className={styles.row_text}>진단검사의학부 검사 장비 증성, 업무공간 확장</div>
                     </div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
-                        <div className={styles.row_text}>(주)JW바이오사이언스(중외) 업무제휴</div>
+                        <div className={styles.row_text}>COVID-19 유전자 진단검사기관 지정</div>
                     </div>
                     <div className={styles.big_round}>2019</div>
                     <div className={styles.row_left}>
-                        <div className={styles.row_text}>전문의 부임(진단검사, 병리과)</div>
+                        <div className={styles.row_text}>IRB(기관생명윤리위원회)개원 승인</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                     </div>
                     <div className={styles.row_left}>
-                        <div className={styles.row_text}>병리과 / 진단검사의학과 정도관리 및 수탁인증 A등급 인증</div>
+                        <div className={styles.row_text}>병리과 Tissue Process 추가 도입</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>   
                     </div>
                     <div className={styles.row_left}>
-                        <div className={styles.row_text}>분자유전학 연구소 확장 증설</div>
+                        <div className={styles.row_text}>영업부문 6개 영업소 증설(구 BML)</div>
+                        <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
+                    </div>
+                    <div className={styles.row_left}>
+                        <div className={styles.row_text}>신원의료재단 봉사단 출범(연탄나눔봉사)</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                     </div>
                     <div className={styles.big_round}>2018</div>
