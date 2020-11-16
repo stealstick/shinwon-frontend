@@ -66,7 +66,7 @@ const FAQ = () => {
         <FAQContent
             id={post.idx}
             title={post.title}
-            contents={post.contents}
+            contents={post.contents.replaceAll("/UploadFiles", "http://13.125.200.188/files")}
             key={post.idx}
         />
     ))

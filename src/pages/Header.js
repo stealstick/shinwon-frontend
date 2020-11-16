@@ -62,7 +62,7 @@ function Header(){
                                 <Link to="/introduction/1" className="header-shown-text">검사절차</Link>
                                 <Link to="/introduction/2" className="header-shown-text">검체취급</Link>
                                 <Link to="/introduction/3" className="header-shown-text">검사종류</Link>
-                                <Link to="/introduction/4" className="header-shown-text">종합검사프로필</Link>
+                                <Link to="/introduction/4" className="header-shown-text">종합검사프로파일</Link>
                                 <Link to="/introduction/5" className="header-shown-text">산전관리검사</Link>
                                 <Link to="/introduction/6" className="header-shown-text">질환별검사</Link>
                                 <Link to="/introduction/7" className="header-shown-text">결과확인방법</Link>

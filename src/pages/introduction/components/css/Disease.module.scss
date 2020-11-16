@@ -40,11 +40,13 @@
             margin-bottom: 25px;
             .test_item{
                 width: calc((100% - 4px)/ 3);
+                color: #666666;
                 height: 60px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border: 1px solid #dcdcdc;
+                font-weight: 500;
                 cursor: pointer;
                 &:nth-child(n+4){
                     border-top: none;
