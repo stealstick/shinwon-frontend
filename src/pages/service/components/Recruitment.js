@@ -27,7 +27,15 @@ const Recruitment = () => {
             </div>
             <div className={styles.section}>
                 <SectionTitle kor="전형절차"/>
-                <img data-aos="fade-up" src="../imgs/img/rec-2.svg" alt="" className={styles.rec_process}/>
+                <div className={styles.process_wrapper}>
+                    <div className={styles.process_text}>1. 서류전형</div>
+                    <div className={styles.process_text}> →</div>
+                    <div className={styles.process_text}>2. 면접전형</div>
+                    <div className={styles.process_text}> →</div>
+                    <div className={styles.process_text}>3. 인성검사</div>
+                    <div className={styles.process_text}> →</div>
+                    <div className={styles.process_text}>4. 합격자 신체검사</div>
+                </div>
             </div>
             <div className={styles.section}>
                 <SectionTitle kor="지원공통서류 / 지원방법"/>
@@ -41,7 +49,7 @@ const Recruitment = () => {
                     </div>
                     <div className={styles.rec_text_wrapper}>
                         <div className={styles.rec_text_2}>지원서 접수는 전자메일로만 접수</div>
-                        <div className={styles.rec_text_3}>recuruit@shinwon.org</div>
+                        <div className={styles.rec_text_3}>recruit@shinwon.org</div>
                     </div>
                 </div>
             </div>
@@ -58,14 +66,14 @@ const Recruitment = () => {
                     </div>
                     <div className={styles.rec_text_wrapper}>
                         <div className={styles.rec_text_2}>지원서 접수는 전자메일로만 접수</div>
-                        <div className={styles.rec_text_3}>recuruit@shinwon.org</div>
+                        <div className={styles.rec_text_3}>recruit@shinwon.org</div>
                     </div>
                 </div>
             </div>
             <div className={styles.section}>
                 <div className={styles.notice_wrapper}>
                     <div className={styles.notice_title}>부서별 채용공고</div>
-                    <Link to="/recruitment"><img src="../imgs/img/notice-job.svg" alt="" className={styles.notice_button}/></Link>
+                    <Link to="/recruitment" className={styles.notice_button}>채용 공고 확인  →</Link>
                 </div>
                 
             </div>
@@ -74,7 +82,7 @@ const Recruitment = () => {
                 <div data-aos="fade-up" className={styles.rec_wrapper}>
                     <div className={styles.rec_text}>
                     본사 인사팀 1899-1510<br/>
-전자메일 <span className={styles.emphasis}>recuruit@shinwon.org</span>
+전자메일 <span className={styles.emphasis}>recruit@shinwon.org</span>
                     </div>
                 </div>
             </div>

@@ -81,7 +81,9 @@ function Header(){
                                 <Link to="/service/4" className="header-shown-text">FAQ</Link>
                                 <Link to="/service/6" className="header-shown-text">채용공고</Link>
                             </div>
-                            <div className="header-content-shown rnd hover5" onMouseOver={() => setBorderBottom(5)} onMouseLeave={() => setBorderBottom(0)}></div>
+                            <div className="header-content-shown rnd hover5" onMouseOver={() => setBorderBottom(5)} onMouseLeave={() => setBorderBottom(0)}>
+                                <Link to="/rnd" className="header-shown-text">임상연구센터</Link>
+                            </div>
                         </div>
                         </div>
                     </div>
