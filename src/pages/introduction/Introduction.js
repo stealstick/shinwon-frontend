@@ -35,7 +35,7 @@ function Introduction(props){
                     num===5 ? <PrenatalManagement/> : 
                     num===6 ? <Disease/> : 
                     num===7 ? <CheckResult/> :
-                    num===8 ? <TestSearch/> :
+                    num===8 ? <TestSearch props={props.location.search}/> :
                     <LaboratoryProcess/>}
                 </div>
             </div>

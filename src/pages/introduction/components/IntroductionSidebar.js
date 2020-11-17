@@ -9,7 +9,7 @@ const IntroductionSidebar = ({ selectedNum }) => {
         <div className={styles.side_box_shadow}>
 
             <div className={styles.sidebar_title}>
-                <img src="../imgs/img/test-guidance-gene.svg" alt="" className={styles.sidebar_title_img} />
+                <img src={require("./css/test-guidance-gene.svg")} alt="" className={styles.sidebar_title_img} />
                 <div className={styles.sidebar_title_text}>검사안내</div>
             </div>
             <Link to="/introduction/1" className={selectedNum === 1 ? styles.sidebar_selected : styles.sidebar_content}>검사절차</Link>

@@ -10,7 +10,6 @@ const MainForm = () => {
     const onChange = (e) => {
         const { value } = e.target
         setTestName(value)
-        localStorage.setItem("test_name", value)
     }
 
     return(
@@ -30,7 +29,7 @@ const MainForm = () => {
                         <div className={styles.input_sticky}>
                             <input type="text" className={styles.input} value={testName} onChange={onChange} placeholder="검사명"/>
                         </div>
-                        <Link to="/introduction/8" className={styles.input_btn}>SEARCH</Link>
+                        <Link to={`/introduction/8/?name${testName}`} className={styles.input_btn}>SEARCH</Link>
                     </div>
                 </div>
             </div>
