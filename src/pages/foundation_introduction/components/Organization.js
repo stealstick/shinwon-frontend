@@ -9,23 +9,23 @@ const Organization = () => {
 
     return(
         <div className={styles.container}>
-            <div data-aos="fade-up" className={styles.greeting_top_wrapper}>
+            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.greeting_top_wrapper}>
                 <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
-                <div data-aos="fade-up" className={styles.greeting_title}>조직도</div>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.greeting_title}>조직도</div>
                 <img src="../imgs/img/org-img.svg" alt="" className={styles.org_img}/>
                 {/*<div className={styles.org_wrapper}>
                     <img src="../imgs/img/ceo.svg" alt="" className={styles.org_ceo}/>
                     <img src="../imgs/img/org-oval.svg" alt="" className={styles.org_oval}/>
                     <div className={styles.org_content_wrapper}>
                         <div className={styles.org_content_line}>
-                            <div data-aos="fade-up" className={styles.org_top_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_top_content}>
                                 <div className={styles.org_top_title}>경영센터</div>
                                 <div className={styles.org_top_eng}>행정원장 / 센터장</div>
                                 <div className={styles.org_top_small}>Executice Director</div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>재단사무국</div>
                                 <div className={styles.org_content_eng}>Executice Director</div>
                                 <div className={styles.org_content_team}>
@@ -35,7 +35,7 @@ const Organization = () => {
                                     구매팀
                                 </div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>경영기획실</div>
                                 <div className={styles.org_content_eng}>Management Director</div>
                                 <div className={styles.org_content_team}>
@@ -45,7 +45,7 @@ const Organization = () => {
                                     인력개발팀
                                 </div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>사업본부</div>
                                 <div className={styles.org_content_eng}>Business Director</div>
                                 <div className={styles.org_content_team}>
@@ -54,7 +54,7 @@ const Organization = () => {
                                     전국네트워크
                                 </div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>전산팀</div>
                                 <div className={styles.org_content_eng}></div>
                                 <div className={styles.org_content_team}>
@@ -64,12 +64,12 @@ const Organization = () => {
                             </div>
                         </div>
                         <div className={styles.org_content_line}>
-                            <div data-aos="fade-up" className={styles.org_top_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_top_content}>
                                 <div className={styles.org_top_title}>의료센터</div>
                                 <div className={styles.org_top_eng}>대표원장 / 센터장</div>
                                 <div className={styles.org_top_small}>Head of M.C</div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>전문의</div>
                                 <div className={styles.org_content_eng}>Medical Doctor</div>
                                 <div className={styles.org_content_team}>
@@ -78,7 +78,7 @@ const Organization = () => {
                                     원장
                                 </div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>진단검사부</div>
                                 <div className={styles.org_content_eng}>Director</div>
                                 <div className={styles.org_content_team}>
@@ -89,7 +89,7 @@ const Organization = () => {
                                     임상화학팀
                                 </div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>분자유전부</div>
                                 <div className={styles.org_content_eng}>Business Director</div>
                                 <div className={styles.org_content_team}>
@@ -101,12 +101,12 @@ const Organization = () => {
                             </div>
                         </div>
                         <div className={styles.org_content_line}>
-                            <div data-aos="fade-up" className={styles.org_top_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_top_content}>
                                 <div className={styles.org_top_title}>병리센터</div>
                                 <div className={styles.org_top_eng}>대표원장 / 센터장</div>
                                 <div className={styles.org_top_small}>Head of P.C</div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>전문의</div>
                                 <div className={styles.org_content_eng}>Medical Doctor</div>
                                 <div className={styles.org_content_team}>
@@ -115,18 +115,18 @@ const Organization = () => {
                                     원장
                                 </div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>조직병리부</div>
                                 <div className={styles.org_content_eng}>Histopathology</div>
                             </div>
-                            <div data-aos="fade-up" className={styles.org_content}>
+                            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_content}>
                                 <div className={styles.org_content_title}>세포병리부</div>
                                 <div className={styles.org_content_eng}>Cell pathology</div>
                             </div>
                         </div>
                     </div>
                 </div>*/}
-                <div data-aos="fade-up" className={styles.org_table_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_table_wrapper}>
                     <div className={styles.org_table_title}>고객지원 대표번호 &nbsp;1899-1510</div>
                     <div className={styles.org_table_sticky}>
                         <div className={styles.org_table_content}>
