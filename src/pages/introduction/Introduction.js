@@ -10,6 +10,7 @@ import LaboratoryProfile from './components/LaboratoryProfile'
 import PrenatalManagement from './components/PrenatalManagement'
 import CheckResult from './components/CheckResult'
 import Disease from './components/Disease'
+import TestSearch from './components/TestSearch'
 
 function Introduction(props){
 
@@ -33,7 +34,9 @@ function Introduction(props){
                     num===4 ? <LaboratoryProfile/> : 
                     num===5 ? <PrenatalManagement/> : 
                     num===6 ? <Disease/> : 
-                    <CheckResult/>}
+                    num===7 ? <CheckResult/> :
+                    num===8 ? <TestSearch/> :
+                    <LaboratoryProcess/>}
                 </div>
             </div>
             <InputForm/>
