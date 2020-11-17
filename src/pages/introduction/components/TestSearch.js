@@ -157,6 +157,12 @@ const TestSearch = () => {
                             </div>
                         </div>
                     </div>
+                    <div className={styles.button_wrapper}>
+                        <div className={styles.button} onClick={() => setIsSearchDetail(false)}>목록으로</div>
+                        <div className={styles.button}>
+                            <img src="../imgs/img/printer.svg" alt=""/>인쇄하기
+                        </div>
+                    </div>
                 </div>
                 :
                 <>

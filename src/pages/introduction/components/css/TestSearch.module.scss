@@ -11,6 +11,25 @@
         margin-bottom: 45px;
         width: 100%;
         .detail_wrapper{
+            .button_wrapper{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                margin-top: 20px;
+                .button{
+                    background-color: #d6d6d6;
+                    color: #333333;
+                    width: 130px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    border-radius: 6px;
+                    margin-right: 20px;
+                }
+            }
             .detail_title{
                 font-size: 18px;
                 font-weight: bold;
@@ -107,7 +126,7 @@
                     .table2_sticky{
                         display: flex;
                         flex-direction: column;
-
+                        width: 60%;
                         .table2_row{
                             height: 50px;
                             display: flex;
