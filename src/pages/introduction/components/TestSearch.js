@@ -11,6 +11,8 @@ const TestSearch = () => {
         code2: ""
     })
     const [ testing, setTesting ] = useState(null)
+    const [ isSearchDetail, setIsSearchDetail ] = useState(false)
+    const [ detailData, setDetailData ] = useState({})
 
     const { name, code1, code2 } = input
 
@@ -32,16 +34,21 @@ const TestSearch = () => {
         })
     }
 
-    const TestingContent = ({ord_cd, data1, data10, data13, data11, data17, data14}) => {
+    const changeScreen = (data) => {
+        setIsSearchDetail(true)
+        setDetailData(data)
+    }
+
+    const TestingContent = (data) => {
         return(
-            <div className={styles.testingcontent_wrapper}>
-                <div className={styles.testingcontent_ord_cd}>{ord_cd}</div>
-                <div className={styles.testingcontent_data1}>{data1}</div>
-                <div className={styles.testingcontent_data10}>{data10}</div>
-                <div className={styles.testingcontent_data13}>{data13}</div>
-                <div className={styles.testingcontent_data11}>{data11}</div>
-                <div className={styles.testingcontent_data17}>{data17}</div>
-                <div className={styles.testingcontent_data14}>{data14}</div>
+            <div className={styles.testingcontent_wrapper} onClick={() => changeScreen(data)}>
+                <div className={styles.testingcontent_ord_cd}>{data.ord_cd}</div>
+                <div className={styles.testingcontent_data1}>{data.data1}</div>
+                <div className={styles.testingcontent_data10}>{data.data10}</div>
+                <div className={styles.testingcontent_data13}>{data.data13}</div>
+                <div className={styles.testingcontent_data11}>{data.data11}</div>
+                <div className={styles.testingcontent_data17}>{data.data17}</div>
+                <div className={styles.testingcontent_data14}>{data.data14}</div>
             </div>
         )
     }
@@ -51,6 +58,108 @@ const TestSearch = () => {
             <div className={styles.section}>
                 <SectionTitle kor="검사항목조회" eng="TEST LIST SEARCH"/>
                 <div className={styles.list_title}>자동분석검사를 대폭 증강 실시하여 검사 정밀도를 한차원 높여 질 좋은 진료를 위하여 앞장서고 있습니다.</div>
+                {isSearchDetail ? 
+                <div className={styles.detail_wrapper}>
+                    <div className={styles.detail_title}>상세보기</div>
+                    <div className={styles.detail_table}>
+                        <div className={styles.detail_table_long}>
+                            <div className={styles.table_title}>검사명</div>
+                            <div className={styles.table_content}>{detailData.data1}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>검사코드</div>
+                            <div className={styles.table_content}>{detailData.ord_cd}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>검체명</div>
+                            <div className={styles.table_content}>{detailData.data3}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>검사단위</div>
+                            <div className={styles.table_content}>{detailData.data9}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>검체량</div>
+                            <div className={styles.table_content}>{detailData.data10}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>보존방법</div>
+                            <div className={styles.table_content}>{detailData.data11}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>검사요일</div>
+                            <div className={styles.table_content}>{detailData.data12}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>검사방법</div>
+                            <div className={styles.table_content}>{detailData.data13}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>검사 소요일</div>
+                            <div className={styles.table_content}>{detailData.data14}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>보험분류</div>
+                            <div className={styles.table_content}>{detailData.data15}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>비급여 코드</div>
+                            <div className={styles.table_content}>{detailData.data16}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>보험코드</div>
+                            <div className={styles.table_content}>{detailData.data17}</div>
+                        </div>
+                        <div className={styles.detail_table_short}>
+                            <div className={styles.table_title}>급여비용</div>
+                            <div className={styles.table_content}>{detailData.data18}</div>
+                        </div>
+                        <div className={styles.detail_table_long}>
+                            <div className={styles.table_title}>참고치</div>
+                            <div className={styles.table_content}>{detailData.data19}</div>
+                        </div>
+                        <div className={styles.detail_table_long}>
+                            <div className={styles.table_title}>주의사항</div>
+                            <div className={styles.table_content}>{detailData.data20}</div>
+                        </div>
+                        <div className={styles.detail_table_long}>
+                            <div className={styles.table_title}>비고</div>
+                            <div className={styles.table_content}>{detailData.data22}</div>
+                        </div>
+                    </div>
+                    <div className={styles.detail_table2}>
+                        <div className={styles.table2_top_title}>{detailData.data5}</div>
+                        <div className={styles.table2_wrapper}>
+                            <div className={styles.table2_img_wrapper}>
+                                <img src={`http://13.125.200.188/files/${detailData.data24}`} alt="" className={styles.table2_img}/>
+                            </div>
+                            <div className={styles.table2_sticky}>
+                                <div className={styles.table2_row}>
+                                    <div className={styles.table2_title}>첨가제</div>
+                                    <div className={styles.table2_content}>{detailData.data4}</div>
+                                </div>
+                                <div className={styles.table2_row}>
+                                    <div className={styles.table2_title}>해당검사</div>
+                                    <div className={styles.table2_content}>{detailData.data5}</div>
+                                </div>
+                                <div className={styles.table2_row}>
+                                    <div className={styles.table2_title}>검체량</div>
+                                    <div className={styles.table2_content}>{detailData.data6}</div>
+                                </div>
+                                <div className={styles.table2_row}>
+                                    <div className={styles.table2_title}>보존</div>
+                                    <div className={styles.table2_content}>{detailData.data7}</div>
+                                </div>
+                                <div className={styles.table2_row}>
+                                    <div className={styles.table2_title}>참고사항</div>
+                                    <div className={styles.table2_content}>{detailData.data8}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                :
+                <>
                 <div className={styles.search_wrapper}>
                     <div className={styles.search_title}>검색어를 입력 후 조회버튼을 눌러주세요.</div>
                     <div className={styles.search_row}>
@@ -91,6 +200,8 @@ const TestSearch = () => {
                         </>
                     }
                 </div>
+                </>
+                }
             </div>
         </div>
     )

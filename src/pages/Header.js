@@ -66,7 +66,7 @@ function Header(){
                                 <Link to="/introduction/5" className="header-shown-text">산전관리검사</Link>
                                 <Link to="/introduction/6" className="header-shown-text">질환별검사</Link>
                                 <Link to="/introduction/7" className="header-shown-text">결과확인방법</Link>
-                                <Link to="/introduction/8" className="header-shown-text">검사결과조회</Link>
+                                <Link to="/introduction/8" className="header-shown-text">검사항목조회</Link>
                             </div>
                             <div className="header-content-shown center hover3" onMouseOver={() => setBorderBottom(3)} onMouseLeave={() => setBorderBottom(0)}>
                                 <Link to="/center/1" className="header-shown-text">진단검사의학부</Link>
