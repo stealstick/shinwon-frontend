@@ -8,6 +8,7 @@ import Foundation from './pages/foundation_introduction/Foundation'
 import OfficialDetail from './pages/service/components/OfficialDetail'
 import RecruitmentList from './pages/service/components/RecruitmentList'
 import RecruitmentDetail from './pages/service/components/RecruitmentDetail'
+import Rnd from './pages/r&d/Rnd'
  
 function App() {
   	return (
@@ -21,6 +22,7 @@ function App() {
 				<Route exact path="/foundation/:num" component={Foundation}/>
 				<Route exact path="/recruitment" component={RecruitmentList}/>
 				<Route exact path="/recruitment/:id" component={RecruitmentDetail}/>
+				<Route exact path="/rnd" component={Rnd}/>
 			</Switch>
 		</BrowserRouter>
   	);
