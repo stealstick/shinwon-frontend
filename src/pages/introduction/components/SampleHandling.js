@@ -11,27 +11,27 @@ const SampleHandling = () => {
             <div>
                 <div className={styles.section}>
                     <SectionTitle kor="검체 채취 / 취급방법" eng="SAMPLE HANDLING"/>
-                    <div data-aos="fade-up" className={styles.text_normal}>일반원칙</div>
-                    <div data-aos="fade-up" className={styles.text_light}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.text_normal}>일반원칙</div>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.text_light}>
                         각 검체에 대한 채취 시 안내서에 기재된 검체량을 참고하여 주시기 바랍니다.<br/>
                         검체는 지정된 용기를 이용해 주시고 전용용기가 필요한 경우에는 미리 신청해 주십시오.<br/>
                         검체가 slide에 도말된 경우에는 연필로 이름과 성별, 나이를 기재해 주십시오.<br/>
                         검사물을 채취하거나 다루실 때에는 글러브, 가운 등과 같은 적절한 보호장치를 사용하시어 검사자의 안전에 유의하십시오.<br/>
                         일반 주사기를 사용하여 한 환자에서 여러종류의 검체용기에 채취해야 할 경우 다음의 순서를 따라주십시오.
                     </div>
-                    <img data-aos="fade-up" src="../imgs/img/samplehandling-progress.svg" alt="" className={styles.sample_handling_progress}/>
-                    <div data-aos="fade-up" className={styles.ref_text}>
+                    <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/samplehandling-progress.svg" alt="" className={styles.sample_handling_progress}/>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.ref_text}>
                         ※주)SST (Gel tube) 기벽에는 clot activor가 묻어있기 때문에 짧은 시간에도 강력한 clot을 형성하기 때문에<br/>
                         &nbsp;&nbsp;절대로 혈액검사용 tube (EDTA, sood, citrate)로 옮겨서는 안됩니다.
                     </div>
                 </div>
                 <div className={styles.section}>
-                    <div data-aos="fade-up" className={styles.sample_title}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.sample_title}>
                         모든 검사물 채취용기에는 반드시 환자의 인적사항을 기재하시어 확인 후 채취하십시오.<br/>
                         오염방지를 위해 채취용기의 가장자리에 가급적 검체가 묻지않게 주의해 주십시오.<br/>
                         수액주사 중인 혈관에서 채혈하시면 검사결과가 부정확하므로 검체로 적합하지 않습니다.
                     </div>
-                    <div data-aos="fade-up" className={styles.sample_list_wrapper}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.sample_list_wrapper}>
                         <img src="../imgs/samples/blood-culture.png" alt="" className={styles.sample_img}/>
                         <img src="../imgs/samples/plain-tube.png" alt="" className={styles.sample_img}/>
                         <img src="../imgs/samples/sod-citrate-tube.png" alt="" className={styles.sample_img}/>
@@ -42,7 +42,7 @@ const SampleHandling = () => {
                     </div>
                 </div>
                 <div className={styles.section}>
-                    <div data-aos="fade-up" className={styles.sample_handling_content}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.sample_handling_content}>
                         <div className={styles.sample_handling_title_wrapper}>
                             <div className={styles.rect}/>
                             <div className={styles.sample_handling_title}>채혈과 관련된 용혈의 원인</div>
@@ -65,7 +65,7 @@ const SampleHandling = () => {
                             채혈을 마친 튜브는 튜브별 특징에 맞게 mix하여야 한다.
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.sample_handling_content}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.sample_handling_content}>
                         <div className={styles.sample_handling_title_wrapper}>
                             <div className={styles.rect}/>
                             <div className={styles.sample_handling_title}>Mixing / 믹싱</div>
@@ -89,14 +89,14 @@ const SampleHandling = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.sample_handling_content}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.sample_handling_content}>
                         <div className={styles.sample_handling_title_wrapper}>
                             <div className={styles.rect}/>
                             <div className={styles.sample_handling_title}>검체채취과정</div>
                         </div>
                         <img src="../imgs/samples/sample-process.png" alt="" className={styles.sample_handling_process}/>
                     </div>
-                    <div data-aos="fade-up" className={styles.sample_handling_content}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.sample_handling_content}>
                         <div className={styles.sample_handling_title_wrapper}>
                             <div className={styles.rect}/>
                             <div className={styles.sample_handling_title}>검체 분리 및 보관</div>
@@ -128,45 +128,45 @@ const SampleHandling = () => {
                 <div className={styles.section}>
                     <SectionTitle kor="검체 용기안내" eng="SAMPLE CONTAINER INFO"/>
                     <div className={styles.sample_img3_wrapper}>
-                        <img data-aos="fade-up" src="../imgs/samples/urine.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/acd.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/bap.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/blood1.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/blood2.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/capillary.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/chlamydia.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/conical.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/cvs.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/edta1.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/edta2.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/endotoxin.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/gh-urine.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/heparin.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/naf.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/nmp22.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/oxytocin.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/plain.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/pyruvic.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/serotonin.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/sst.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/citrate.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/slide.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/slide2.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/std.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/urea.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/utm.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/inf.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/29.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/30.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/31.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/32.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/33.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/sst2.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/35.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/36.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/37.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/38.png" alt="" className={styles.sample_img3}/>
-                        <img data-aos="fade-up" src="../imgs/samples/tg.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/urine.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/acd.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/bap.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/blood1.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/blood2.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/capillary.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/chlamydia.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/conical.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/cvs.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/edta1.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/edta2.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/endotoxin.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/gh-urine.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/heparin.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/naf.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/nmp22.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/oxytocin.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/plain.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/pyruvic.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/serotonin.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/sst.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/citrate.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/slide.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/slide2.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/std.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/urea.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/utm.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/inf.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/29.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/30.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/31.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/32.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/33.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/sst2.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/35.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/36.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/37.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/38.png" alt="" className={styles.sample_img3}/>
+                        <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/samples/tg.png" alt="" className={styles.sample_img3}/>
                     </div>
                 </div>
             </div>

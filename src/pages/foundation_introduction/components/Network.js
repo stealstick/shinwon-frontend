@@ -508,10 +508,10 @@ const Network = () => {
     return(
         <div className={styles.container}>
             <div className={styles.greeting_top_wrapper}>
-                <img data-aos="fade-up" src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
+                <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
-                <div data-aos="fade-up" className={styles.network_top_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.network_top_wrapper}>
                     <img src="../imgs/img/network-pin-big.svg" alt="" className={styles.network_top_icon}/>
                     <div className={styles.network_top_text}>신원의료재단 전국네트워크 영업소 위치안내</div>
                 </div>

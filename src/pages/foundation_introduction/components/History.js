@@ -9,7 +9,7 @@ const History = () => {
 
     return(
         <div className={styles.container}>
-            <div data-aos="fade-up" className={styles.greeting_top_wrapper}>
+            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.greeting_top_wrapper}>
                 <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>

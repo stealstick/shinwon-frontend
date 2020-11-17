@@ -28,7 +28,7 @@ const PrenatalManagement = () => {
         return(
             <div className={styles.section}>
                 <SectionTitle kor="산전관리검사" eng="Prenatal Management Inspection"/>
-                    <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                         <div className={styles.prenatal_title}>산전관리란?</div>
                         <div className={styles.prenatal_text}>
                             임신중인 모성의 건강관리를 의미하여<br/>
@@ -38,7 +38,7 @@ const PrenatalManagement = () => {
                             임신중의 영양관리, 영양섭취 등을 교육하여 성숙하고 건강한 아기를 안전하게 분만하는데 목적이 있습니다.
                         </div>
                     </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="임신전 건강관리"/>
                     <div className={styles.type_content_text}>
                         여성은 임신을 하게 되면 건강 유지에 대한 이중의 책임을 지게 됩니다.<br/>
@@ -55,7 +55,7 @@ const PrenatalManagement = () => {
                         수정란이 착상되기까지는 약 일주일이 걸리며, 수정 후 266일 후 분만하게 됩니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="임신을 알리는 신호들"/>
                     <div className={styles.type_content_text}>
                         월경이 없어집니다. 호르몬의 영향에 의해 배란이 억제되기 때문입니다.<br/>
@@ -66,7 +66,7 @@ const PrenatalManagement = () => {
                         유방이 부풀고 조금 아프기도 합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="임신시 건강체크법"/>
                     <div className={styles.type_content_text}>
                         모든 약물의 복용을 중단합니다.<br/>
@@ -83,7 +83,7 @@ const PrenatalManagement = () => {
                         탄산수나 카페인 음료수는 좋지 않으므로 생수를 권해드립니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="임신의 불편감"/>
                     <div className={styles.pregnent_table_wrapper}>
                         <div className={styles.pregnent_table_content}>
@@ -149,10 +149,10 @@ const PrenatalManagement = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>산전검사항목</div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="빈혈검사"/>
                     <div className={styles.type_content_text}>
                         임신중에는 태반이나 태아 때문에 혈액량이 늘어나고<br/>
@@ -164,7 +164,7 @@ const PrenatalManagement = () => {
                         조산의 우려가 증가한다고 알려져 있습니다.	
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="혈액형검사"/>
                     <div className={styles.type_content_text}>
                         산모는 출산 전 다량의 출형에 의한 수혈사고나,<br/>
@@ -206,7 +206,7 @@ const PrenatalManagement = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="간염검사"/>
                     <div className={styles.type_content_text}>
                         간염이란 바이러스, 알코올, 약물, 자가면역대사질환 등에 의해 간에 염증이 생겨 간세포가 손상되는 상태를 말하는 것으로<br/>
@@ -221,7 +221,7 @@ const PrenatalManagement = () => {
                         더욱 악화되어 간기능까지 나빠질 수 있으므로, 임신기간 동안 충분히 휴식을 취하도록 해야 합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="간기능검사"/>
                     <div className={styles.type_content_text}>
                         간은 단백질, 알부민, 혈액응고인자, 탄수화물의 합성 및 지방의 대사, 각종 비타민의 저장,<br/>
@@ -235,7 +235,7 @@ const PrenatalManagement = () => {
                         따라서 일반인의 간수치와 비교하시면 안되고 반드시 주치의와 상의하시어 적절한 관리를 받으셔야 합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="신장기능검사"/>
                     <div className={styles.type_content_text}>
                         신장은 등쪽 허리보다 조금 위에, 척추의양 옆 좌우에 하나씩 위치하는 장기로<br/>
@@ -251,7 +251,7 @@ const PrenatalManagement = () => {
                         셋째, 임신중독증 확인, 임신 중반기 이후 소변 내 단백질 배출량을 측정하여 임신중독증 발생 여부를 예측합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="혈당검사"/>
                     <div className={styles.type_content_text}>
                         췌장에서의 인슐린 부족, 또는 인슐린 기능 부전 등에 의해 몸 안의 당대사에 장애가 생겨 <br/>
@@ -280,7 +280,7 @@ const PrenatalManagement = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="소변검사"/>
                     <div className={styles.type_content_text}>
                         소변검사는 소변을 생성하는 신장을 비롯하여 그 통로인 요관, 방광, 요도의 병변 등을 진단 할 수 있고 <br/>
@@ -290,7 +290,7 @@ const PrenatalManagement = () => {
                         비뇨기 이외의 전신적인 질환의 진단에도 소변검사가 널리 시행됩니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="매독검사"/>
                     <div className={styles.type_content_text}>
                         매독은 나선형인 Treponema palliadum 균이 원인균이며, 병소와의 접촉으로 감염되며, <br/>
@@ -305,7 +305,7 @@ const PrenatalManagement = () => {
                         매독은 심신 초기에 치료하면 태아에게 전염되지 않을 수 있으므로 조기에 발견하여 치료하는 것이 좋습니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="에이즈검사"/>
                     <div className={styles.type_content_text}>
                         정확이 에이즈를 일으키는 바이러스의 명칭은 인간면역결핍바이러스(Humanlmmunodeficiency Virus ; HIV) 이고 <br/>
@@ -323,7 +323,7 @@ const PrenatalManagement = () => {
                         집중적인 추적 관찰이 필요합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="풍진검사"/>
                     <div className={styles.type_content_text}>
                         풍진은 풍진 바이러스(rubella virus)에 의해 발생하는 급성 바이러스성 질환으로<br/>
@@ -353,7 +353,7 @@ const PrenatalManagement = () => {
         return(
             <div className={styles.section}>
                 <SectionTitle kor="임신시 위생관리와 위생" eng="Prenatal Management Inspection"/>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <div className={styles.hygiene_table_wrapper}>
                         <div className={styles.pregnent_table_content}>
                             <div className={styles.pregnent_table_title}>의복</div>
@@ -456,10 +456,10 @@ const PrenatalManagement = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>임신이 확진되면 정기적인 진단과 검사가 필요합니다.</div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="임신 중 진찰을 받는 횟수"/>
                     <div className={styles.type_content_text}>
                         <span className={styles.emphasis2}>임신 3개월</span>까지는 월 2회<br/>
@@ -468,7 +468,7 @@ const PrenatalManagement = () => {
                         <span className={styles.emphasis2}>임신 10개월(막달)</span>째는매주 1회<br/>
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="초진 시 하는 산전필수 검사"/>
                     <div className={styles.type_content_text}>
                     ① 신체계측검사 (체중,혈압)		<br/>
@@ -480,19 +480,19 @@ const PrenatalManagement = () => {
 ⑦ 초음파 (출산예정일 산정 및 태아이상 확인)	
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="바이러스 감염관련 산전 필수검사"/>
                     <div className={styles.type_content_text}>
                     임신시의 바이러스 감염은 산모는 물론 태아에게 큰 이상을 초래할 수 있으니 반드시 체크하시길 권유드립니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="Torch 검사"/>
                     <div className={styles.type_content_text}>
                     ( Rubella-lgG/lgM, CMV-lgG/lgM, hsv-LGg/lgM, Toxoplasma lgG/lgM )
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="Rubella (풍진 바이러스)"/>
                     <div className={styles.type_content_text}>
                     결혼 전, 또는 임신전에 예방유무를 확인하여야 합니다. <br/>
@@ -500,7 +500,7 @@ const PrenatalManagement = () => {
 임신 중 풍진에 감염되면 선천성 심장질환, 난청, 귀머거리, 저능아 등의 기형이 발생할 수 있습니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="CMV (거대세포 바이러스)"/>
                     <div className={styles.type_content_text}>
                     사이토메갈로 바이러스는 임신중에 산모에서 태아로 전염이 되며 감염된 태아에서 여러가지 이상이 나타납니다.<br/>
@@ -509,7 +509,7 @@ const PrenatalManagement = () => {
 장기적으로 지능저하, 청력상실, 신경근육계 이상 등을 초래할 수 있습니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="Herpes 바이러스 (허피스바이러스)"/>
                     <div className={styles.type_content_text}>
                     Herpes 바이러스 Ⅱ형이 신생아에게 감염되면 전신증상이나 국부에 증상이 나타나며 <br/>
@@ -517,17 +517,17 @@ const PrenatalManagement = () => {
 제왕절개에 의해서 분만하고 항바이러스 약제를 투여해야 합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="Toxoplasma 바이러스 (톡소플라즈마 바이러스)"/>
                     <div className={styles.type_content_text}>
                     톡소플라즈마에 감염되어 위험한 경우는 2가지가 있는데 생후 6개월 미만의 유아가 감염된 경우라면 뇌질환이나 후유증이<br/>
 있을 수 있고 임산부가 감염되었을 경우 유산을 일으킬 수 있습니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>초진~임신 20주 사이에 하는 검사 ▶ 태아기형검사</div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="Triple Marker"/>
                     <div className={styles.type_content_text}>
                     임신 15~20주째 실시하는 검사로 산모의 혈액을 채취하여 HCG, AFP, Ue3를 검사하여 <br/>
@@ -535,21 +535,21 @@ const PrenatalManagement = () => {
 기타 기형에서도 비정상적인 수치로 나타내줍니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="Quad Test (쿼드검사)"/>
                     <div className={styles.type_content_text}>
                     트리플 검사항목에 Inhibin-A라는 당단백질을 추가로 검사하여 <br/>
 다운증후군의 검출율을 80%대까지 향상시킨 특이적인 검사입니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="양수 검사 (임신 16~20주)"/>
                     <div className={styles.type_content_text}>
                     주로 염색체 이상이 의심되는 경우, 즉 트리플마커 검사 이상 발견 시, 초음파상 염색체이상의 가능성이 있는 경우 시행하며<br/>
 임산부의 나이가 35세 이상인 경우 양수검사를 권장합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="초음파검사"/>
                     <div className={styles.type_content_text}>
                     초음파 검사는 초음파를 이용하여 영상으로 태아를 볼 수 있고 사진 촬영도 가능한 장치입니다. <br/>
@@ -558,10 +558,10 @@ const PrenatalManagement = () => {
 또한 X-선과 같은 방사선 피폭의 위험성이 없고 조작이 간편한 이점이 있습니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>임신 21주~28주 사이에 하는 검사</div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="임신성 당뇨검사 (당부하검사 OGTT 50mg/dl)"/>
                     <div className={styles.type_content_text}>
                     임신성 당뇨는 내과적 당뇨와는 달리 임신 자체로 인한 호르몬대사 이상으로 나타나는 질병으로,<br/> 
@@ -569,7 +569,7 @@ const PrenatalManagement = () => {
 임신성 당뇨병으로 인한 합병증은 거대아, 기형아, 유산, 임신 중독증, 신생아 황달증, 저칼슘증, 신생아 당뇨 등이 있습니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="태아 심초음파 검사"/>
                     <div className={styles.type_content_text}>
                     임신 20주 이전의 일반 초음파 검사 이후 23~24주 사이에 이루어지는 검사로 태아의 심장 기형을 진단할 수 있습니다.<br/>
@@ -577,24 +577,24 @@ const PrenatalManagement = () => {
 초음파 검사상 다른 장기의 기형이 발견되었을 때 심장에 동반된 기형여부를 확인하기 위한 경우 시행합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>임신 29주~36주 사이에 하는 검사</div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="비자극 검사"/>
                     <div className={styles.type_content_text}>
                     임산부의 배에 도플러 초음파를 부착해 태아의 심박동수를 측정합니다.<br/>
 (태동이 느껴질 때 임산부가 스위치를 누름)			
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="태아 생물리학적 계수 검사"/>
                     <div className={styles.type_content_text}>
                     비자극 검사, 태아 호흡 운동, 태아 근 긴장도, 태아 운동성, 양수의 양 등 5가지 항목을 검사합니다.<br/>
 검사 결과가 비정상으로 나오는 경우에는 재검사 혹은 분만 등의 처방이 있어야 합니다.			
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="도플러 혈류 속도 파형 검사"/>
                     <div className={styles.type_content_text}>
                     자궁 동맥, 탯줄, 대동맥, 뇌혈관, 등과 같은 태아의 주요 활관의 혈액 공급상태를 분석해 태아의 건강상태를 확인하는 검사로<br/>
@@ -602,21 +602,21 @@ const PrenatalManagement = () => {
 발육지연태아 혹은 임신 중독증 등과 같은 고 위험 임신의 평가에 많이 시행되고 있습니다.	<br/>	
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="양수검사"/>
                     <div className={styles.type_content_text}>
                     양수 내에 들어있는 지방 성분을 분석해 태아의 폐 성숙도를 평가하여 <br/>
 산모나 태아의 건강이 위태로워 조기에 분만해야 하는 여부를 확인 합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="제대 천자"/>
                     <div className={styles.type_content_text}>
                     태아 혈액 질환, 태아 감염, 태아 빈혈, 태아 전산소증, 태아 치료 (태아 수혈 등), 염색체 이상검사 등에 사용됩니다.
                     </div>
                 </div>
                 <SectionTitle kor="임신 37주~만삭 사이에 시행하는 검사	"/>
-                <div data-aos="fade-up" className={styles.text_normal_light}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.text_normal_light}>
                 1주에 한번씩 정기적으로 진찰을 받아 태아에 이상이 있거나 <br/>
 임산부의 건강이 나빠질 가능성이 있는 경우에는 즉시 분만을 시행합니다.<br/>
 검사시에는 기본적으로 임산부의 체중&혈압&단백뇨 등을 체크하고 자궁의 높이 측정 및 태아 신음 청취 내진을 통해<br/>
@@ -633,10 +633,10 @@ const PrenatalManagement = () => {
         return(
             <div className={styles.section}>
                 <SectionTitle kor="기형아 조기진단" eng="Congenital anomaly test"/>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>기형아 조기진단 특수 검사의 종류</div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="염색체 검사"/>
                     <div className={styles.type_content_text}>
                     임산부의 혈액을 채취하여 세포의 염색체를 배양해 염색체의 구조적, 수치적 이상을 진단하는 방법입니다. <br/>
@@ -645,7 +645,7 @@ const PrenatalManagement = () => {
 부모 모두 염색체 검사를 받도록 해야 합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="4차원 입체 초음파 검사"/>
                     <div className={styles.type_content_text}>
                     일반 초음파는 태아의 단면만을 볼 수 있는 반면 4차원 입체 초음파란 태아의 입체적인 모습을 볼 수 있습니다.<br/>
@@ -654,7 +654,7 @@ const PrenatalManagement = () => {
 이 검사는 보통 임신 중기에서 말기에 시행합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="재대혈 검사"/>
                     <div className={styles.type_content_text}>
                     임신 20주 이후에 할 수 있는 검사로 초음파를 통해 태아의 위치를 보면서 혈액을 채취하여 기형을 진단합니다. <br/>
@@ -663,7 +663,7 @@ const PrenatalManagement = () => {
 일반적으로 태아 적혈구 이상, 태아 혈소판 질환, 비면역성태아수증 등의 이상이 있다고 여겨지면 실시합니다.
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="광범위 신생아 선천성 대사 이상 검사 (텐덤매스)"/>
                     <div className={styles.type_content_text}>
                     출생 후 4~6일이 지난 신생아의 혈액을 채취해 실시하는 검사로 정신박약을 예방할 수 있습니다. <br/>
@@ -680,36 +680,36 @@ const PrenatalManagement = () => {
         return(
             <div className={styles.section}>
                 <SectionTitle kor="임산부의 영양 및 태교" eng="Nutrition and prenatal education"/>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>임산부의 영양관리</div>
                 </div>
-                <div data-aos="fade-up" className={styles.text_normal_light}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.text_normal_light}>
                 임산부 영양의 목적은 건강한 임신을 유지하는 것과 태아가 정상적으로 발육과 성장할 수 있도록 하는 것,<br/>
  또한 수유 시에 모체의 건강 유지와 충분한 유즙을 생성할 수 있도록 하는데 있다.
                 </div>
-                <img data-aos="fade-up" src="../imgs/img/nutrition-1.svg" alt="" className={styles.img}/>
+                <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/nutrition-1.svg" alt="" className={styles.img}/>
                 <div className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>주의해야하는 식품</div>
                 </div>
-                <img data-aos="fade-up" src="../imgs/img/nutrition-2.svg" alt="" className={styles.img}/>
+                <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/nutrition-2.svg" alt="" className={styles.img}/>
                 <div className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>직장 임산부를 위한 식사</div>
                 </div>
-                <div data-aos="fade-up" className={styles.text_normal_light}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.text_normal_light}>
                 아침식사는 조금 더 일찍 일어나 거르지 않도록 힘쓰고 외식은 영양의 균형을 잃게 하고 염분이 맣은 음식도 많기 때문에<br/>
 손수 마련한 도시락으로 점심식사를 하도록 하는 것이 좋습니다. <br/>
 저녁식사는 아침과 도시락의 영양을 고려하여 식단을 짜도록 합니다.
                 </div>
                 <div className={styles.type_content_wrapper}>
                 </div>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>임산부의 영양관리</div>
                 </div>
-                <div data-aos="fade-up" className={styles.text_normal_light}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.text_normal_light}>
                 임산부 영양의 목적은 건강한 임신을 유지하는 것과 태아가 정상적으로 발육과 성장할 수 있도록 하는 것,<br/>
  또한 수유 시에 모체의 건강 유지와 충분한 유즙을 생성할 수 있도록 하는데 있다.
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="아기의 감수성과 집중력을 발달시키는 태교"/>
                     <div className={styles.type_content_text}>
                     감수성과 집중력을 키우는데 가장 좋은 태교는 음악태교 입니다.<br/>
@@ -732,7 +732,7 @@ const PrenatalManagement = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.type_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.type_content_wrapper}>
                     <TypeTitle title="엄마, 아빠의 대화태교"/>
                     <div className={styles.type_content_text}>
                     임신 5개월 정도가 되면 태아는 외부의 소리를 들을 수 있고 탄생 후 뱃속에서 들었던 친숙한 목소리를 기억하게 됩니다.<br/>
@@ -760,10 +760,10 @@ const PrenatalManagement = () => {
         return(
             <div className={styles.section}>
                 <SectionTitle kor="태아의 변화" eng="Fetal growth"/>
-                <div data-aos="fade-up" className={styles.prenatal_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.prenatal_wrapper}>
                     <div className={styles.prenatal_title}>임신 주수에 따른 태아의 변화</div>
                 </div>
-                <img data-aos="fade-up" src="../imgs/img/fetal-grow.svg" alt="" className={styles.img}/>
+                <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/fetal-grow.svg" alt="" className={styles.img}/>
             </div>
         )
     }

@@ -12,13 +12,13 @@ const Contact = () => {
         <div className={styles.container}>
             <div className={styles.section}>
                 <SectionTitle kor="위치안내" eng="CONTACT US"/>
-                <div data-aos="fade-up" className={styles.title_normal}>의료법인 신원의료재단으로 오시는 길 안내입니다.</div>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.title_normal}>의료법인 신원의료재단으로 오시는 길 안내입니다.</div>
                 <div className={styles.map_img_wrapper}>
                     <a target="blank" href="http://kko.to/XbBZzb3Yp">
                         <img src="../imgs/img/map-image.png" alt="" className={styles.google_map}/>
                     </a>
                 </div>
-                <div data-aos="fade-up" className={styles.address_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.address_wrapper}>
                     <div className={styles.asw}>
                         <div className={styles.address_sticky_title}>검사센터</div>
                         <div className={styles.address_sticky}>
@@ -50,12 +50,12 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.contact_title}>오시는 길</div>
-                <div data-aos="fade-up" className={styles.contact_section_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.contact_title}>오시는 길</div>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.contact_section_wrapper}>
                     <img src="../imgs/img/car.svg" alt="" className={styles.contact_icon}/>
                     <div className={styles.contact_section_text}>차량이용시</div>
                 </div>
-                <div data-aos="fade-up" className={styles.car_content}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.car_content}>
                     <div className={styles.car_content_title}>서울에서 출발</div>
                     <div className={styles.car_content_text}>
                     금천IC 방향 남부순환로 진입하여 직진 → 금천IC에서 ‘안양, 시흥대교’방면으로 우측방향 → 안양천로를 따라 1.36km 이동 →<br/>
@@ -63,7 +63,7 @@ const Contact = () => {
 우회전 하여 직진  →  전방에 보이는 e-mart 옆 목적지 도착
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.car_content}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.car_content}>
                     <div className={styles.car_content_title}>인천에서 출발</div>
                     <div className={styles.car_content_text}>
                     광명IC 방향 제2경인 고속도로 진입하여 직진 → 광명IC에서 ‘광명’방면으로 우측방향 → 광명IC입구에서 ‘서울디지털 산업단지,<br/>
@@ -71,7 +71,7 @@ const Contact = () => {
 1.43km 이동 → 가리대사거리 지나 ‘ 기아자동차’ 방면으로 우회전 → 첫 신호에서 좌회전 후 우회전 하여 e-mart 옆 목적지 도착
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.car_content}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.car_content}>
                     <div className={styles.car_content_title}>지방에서 출발</div>
                     <div className={styles.car_content_text}>
                     광명역 IC 방향 서해안 고속도로 진입 → 광명역 IC에서 ‘광명역(고속철도)’방면으로 우측 고속도로 출구 → 광명역(고속철도)지나<br/>
@@ -79,11 +79,11 @@ const Contact = () => {
 소하로를 따라 676m 이동 e-mart 앞 우회전 → 140m 이동하여 좌회전 목적지 도착
                     </div>
                 </div>
-                <div data-aos="fade-up" className={styles.contact_section_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.contact_section_wrapper}>
                     <img src="../imgs/img/subway.svg" alt="" className={styles.contact_icon}/>
                     <div className={styles.contact_section_text}>대중교통이용시</div>
                 </div>
-                <div data-aos="fade-up" className={styles.subway_content_wrapper}>
+                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.subway_content_wrapper}>
                     <div className={styles.subway_content}>
                         <div className={styles.content_sticky}>
                             <img src="../imgs/img/subway-text.svg" alt="" className={styles.icons}/>

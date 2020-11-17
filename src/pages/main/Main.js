@@ -17,7 +17,7 @@ function Main() {
         const interval = setInterval(() => {
             slider_index = slider_index % 3 + 1
             setSlider(slider_index)
-        }, 100000);
+        }, 5000);
         return () => clearInterval(interval);
     }, []);
 
