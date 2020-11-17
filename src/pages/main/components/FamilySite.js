@@ -9,7 +9,7 @@ const FamilySite = () => {
             </div>
             
             <div className={styles.img_wrapper}>
-                <img src="/imgs/icons/icon-left.svg" alt="" className={styles.site_img} />
+                <img src="/imgs/icons/icon-left.svg" alt="" className={styles.icon} />
                 <span>
                     <a href="http://www.mohw.go.kr/" target="blank">
                         <img src="/imgs/img/site-1.svg" alt="" className={styles.site_img} />
@@ -59,7 +59,7 @@ const FamilySite = () => {
                 </a>
                 </span>
                 
-                <img src="/imgs/icons/icon-right.svg" alt="" className={styles.site_img} />
+                <img src="/imgs/icons/icon-right.svg" alt="" className={styles.icon} />
             </div>
         </div>
     )

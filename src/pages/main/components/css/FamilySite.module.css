@@ -15,9 +15,14 @@
     font-weight: bold;
 }
 .site_img{
-    padding: 0 15px;
     width: 100px;
     height: 30px;
+}
+.icon{
+    
+}
+span{
+    width: 100px;
 }
 .img_wrapper{
     display: flex;
