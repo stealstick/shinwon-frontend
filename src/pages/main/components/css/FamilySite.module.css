@@ -14,12 +14,15 @@
     color: #00396e;
     font-weight: bold;
 }
-.site-img{
+.site_img{
     padding: 0 15px;
+    width: 100px;
+    height: 30px;
 }
 .img_wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 828px;
+    align-items: center;
 }
