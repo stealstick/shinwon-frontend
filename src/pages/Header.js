@@ -44,7 +44,7 @@ function Header(){
                         <Link to="/service/1" className="content" >고객서비스</Link>
                     </div>
                     <div className="content-wrapper menu5" style={num===5 ? {borderBottom: "5px solid #00284b"} : null}>
-                        <Link to="/" className="content">R&D</Link>
+                        <Link to="/rnd" className="content">R&D</Link>
                     </div>
                     <div className="header-hover-content">
                         <div className="hover-sticky">

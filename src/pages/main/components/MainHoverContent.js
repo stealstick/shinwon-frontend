@@ -26,7 +26,7 @@ const MainHoverContent = ({img, text, type}) => {
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>
                     의료법인 신원의료재단의<br/>
-                    전국적인 네트워크 현황입니다.
+                    전국 네트워크 현황입니다.
                 </div>
             </Link>
             : text==="전문의" ? 
