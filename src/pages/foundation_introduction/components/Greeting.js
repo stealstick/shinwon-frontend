@@ -48,6 +48,7 @@ const Greeting = () => {
                     </div>
                 </div>
             </div>
+            <img src="../imgs/img/anniversary.jpeg" alt="" className={styles.anniversary}/>
         </div>
     )
 }

@@ -3,10 +3,10 @@ import styles from './css/TestSearch.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
 
-const TestSearch = () => {
+const TestSearch = ({props}) => {
 
     const [ input, setInput ] = useState({
-        name: localStorage.getItem("test_name"),
+        name: props.split("=")[1],
         code1: "",
         code2: ""
     })
@@ -171,17 +171,17 @@ const TestSearch = () => {
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>검사명</div>
                         <input className={styles.search_row_input} placeholder="검사명 입력" value={name} onChange={onChange} name="name"/>
-                        <div className={styles.search_row_button} onClick={searchData}>조회</div>
+                        <div className={name==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
                     </div>
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>보험코드</div>
                         <input className={styles.search_row_input} placeholder="보험코드 입력" value={code1} onChange={onChange} name="code1"/>
-                        <div className={styles.search_row_button} onClick={searchData}>조회</div>
+                        <div className={code1==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
                     </div>
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>검사코드</div>
                         <input className={styles.search_row_input} placeholder="검사코드 입력" value={code2} onChange={onChange} name="code2"/>
-                        <div className={styles.search_row_button} onClick={searchData}>조회</div>
+                        <div className={code2==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
                     </div>
                 </div>
                 <div className={styles.result_wrapper}>
