@@ -1,0 +1,170 @@
+.container{
+    margin-left: 60px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    width: 800px;
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+        width: 100%;
+        .result_wrapper{
+            margin-top: 60px;
+            .result_title{
+                width: 100%;
+                text-align: center;
+                font-size: 18px;
+                color: #00369a;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+            .result_top_bar{
+                width: calc(100% - 40px);
+                border-top: solid 1px #d2d2d2;
+                border-bottom: solid 1px #d2d2d2;
+                height: 60px;
+                background-color: #ebf3ff;
+                display: flex;
+                flex-direction: row;
+                padding: 0 20px;
+                align-items: center;
+                .result_top_bar_content{
+                    &:nth-child(1){
+                        width: 80px;
+                        text-align: center;
+                    }
+                    &:nth-child(2){
+                        width: 239px;
+                        text-align: center;
+                    }   
+                    &:nth-child(3){
+                        width: 110px;
+                        text-align: center;
+                    }
+                    &:nth-child(4){
+                        width: 100px;
+                        text-align: center;
+                    }
+                    &:nth-child(5){
+                        width: 80px;
+                        text-align: center;
+                    }
+                    &:nth-child(6){
+                        width: 80px;
+                        text-align: center;
+                    }
+                    &:nth-child(7){
+                        width: 117px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .search_wrapper{
+            margin-top: 60px;
+            .search_title{
+                font-size: 22px;
+                font-weight: 500;
+                color: #666666;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .search_row{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: center;
+                margin-top: 15px;
+                align-items: center;
+                .search_row_name{
+                    font-size: 22px;
+                    font-weight: bold;
+                    color: #00396a;
+                    width: 100px;
+                }
+                .search_row_input{
+                    border: solid 1px #d6d6d6;
+                    outline: none;
+                    padding: 13px 20px;
+                    width: 410px;
+                    margin-right: 10px;
+                    font-family: inherit;
+                }
+                .search_row_button{
+                    width: 130px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #b1b1b1;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #ffffff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.testingcontent_wrapper{
+    border-bottom: 1px solid #d2d2d2;
+    height: 65px;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    .testingcontent_ord_cd{
+        width: 80px;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .testingcontent_data1{
+        width: 239px;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .testingcontent_data10{
+        width: 110px;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .testingcontent_data13{
+        width: 100px;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .testingcontent_data11{
+        width: 80px;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .testingcontent_data17{
+        width: 80px;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .testingcontent_data14{
+        width: 117px;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
