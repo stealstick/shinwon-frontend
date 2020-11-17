@@ -46,8 +46,8 @@ const MainHoverContent = ({img, text, type}) => {
                 <div className={styles.hover_title}>{text}</div>
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>
-                    의료법인 신원의료재단은<br/>
-                    원격지원을 제공합니다.
+                    의료법인 신원의료재단의<br/>
+                    공문을 확인 하실 수 있습니다.
                 </div>
             </a>
             :
