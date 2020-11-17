@@ -6,7 +6,7 @@ import axios from 'axios'
 const TestSearch = () => {
 
     const [ input, setInput ] = useState({
-        name: "",
+        name: localStorage.getItem("test_name"),
         code1: "",
         code2: ""
     })

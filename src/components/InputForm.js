@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './css/InputForm.scss'
 import { Link } from 'react-router-dom'
 
 const InputForm = () => {
+
+    const [ testName, setTestName ] = useState("")
+
+    const onChange = (e) => {
+        const { value } = e.target
+        setTestName(value)
+        localStorage.setItem("test_name", value)
+    }
+
     return(
         <div className="forms-wrapper">
             <div className="forms login">
@@ -17,7 +26,7 @@ const InputForm = () => {
                 <div className="forms-sticky">
                     <div className="forms-title">검사항목조회</div>
                     <div className="input-wrapper">
-                        <input type="text" className="input" placeholder="검사명"/>
+                        <input type="text" className="input" onChange={onChange} value={testName} placeholder="검사명"/>
                         <div className="input-btn">SEARCH</div>
                     </div>
                 </div>
@@ -42,6 +51,10 @@ const InputForm = () => {
                     <div className="forms-btn-text">블로그</div>
                 </a>
             </div>
+            <div className="anniversary-wrapper">
+                <img src="../imgs/img/anniversary.jpeg" alt="" className="anniversary"/>
+            </div>
+            
         </div>
     )
 }

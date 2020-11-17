@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './css/MainForm.module.scss'
 import classNames from 'classnames'
+import { Link } from 'react-router-dom'
 
 const MainForm = () => {
+
+    const [ testName, setTestName ] = useState("") 
+
+    const onChange = (e) => {
+        const { value } = e.target
+        setTestName(value)
+        localStorage.setItem("test_name", value)
+    }
+
     return(
         <div className={styles.body_forms}>
             <div className={classNames(styles.forms, styles.login)}>
@@ -18,9 +28,9 @@ const MainForm = () => {
                     <div className={styles.forms_title}>검사항목조회</div>
                     <div className={styles.input_wrapper}>
                         <div className={styles.input_sticky}>
-                            <input type="text" className={styles.input} placeholder="검사명"/>
+                            <input type="text" className={styles.input} value={testName} onChange={onChange} placeholder="검사명"/>
                         </div>
-                        <div className={styles.input_btn}>SEARCH</div>
+                        <Link to="/introduction/8" className={styles.input_btn}>SEARCH</Link>
                     </div>
                 </div>
             </div>
