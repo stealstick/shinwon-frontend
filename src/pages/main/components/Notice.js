@@ -17,7 +17,7 @@ const Notice = () => {
     }
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/board/?b_idx=1&page=1`)
+        axios.get(`https://api.shinwon.org/board/?b_idx=1&page=1`)
         .then(res => {
             setData(res.data['results'])
         })
