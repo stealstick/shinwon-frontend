@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './css/TestSearch.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
@@ -6,7 +6,7 @@ import axios from 'axios'
 const TestSearch = ({props}) => {
 
     const [ input, setInput ] = useState({
-        name: props.split("=")[1],
+        name: props==="" ? "" : props.split("=")[1],
         code1: "",
         code2: ""
     })
@@ -52,6 +52,27 @@ const TestSearch = ({props}) => {
             </div>
         )
     }
+
+    useEffect(() => {
+        if(props===""){
+            axios.get(`http://13.125.200.188:8080/testing/`)
+            .then(res => {
+                setTesting(res.data['results'])
+            })
+            .catch(err => {
+                console.log(err)
+            })
+        } else {
+            axios.get(`http://13.125.200.188:8080/testing/?data1=${props.split("=")[1]}&data17=${code1}&ord_cd=${code2}`)
+            .then(res => {
+                setTesting(res.data['results'])
+            })
+            .catch(err => {
+                console.log(err)
+            })
+        }
+        
+    }, [props])
 
     return(
         <div className={styles.container}>
@@ -131,7 +152,7 @@ const TestSearch = ({props}) => {
                         <div className={styles.table2_top_title}>{detailData.data5}</div>
                         <div className={styles.table2_wrapper}>
                             <div className={styles.table2_img_wrapper}>
-                                <img src={`http://13.125.200.188/files/${detailData.data24}`} alt="" className={styles.table2_img}/>
+                                <img src={`http://13.125.200.188/files/TestingTable/${detailData.data24}`} alt="" className={styles.table2_img}/>
                             </div>
                             <div className={styles.table2_sticky}>
                                 <div className={styles.table2_row}>

@@ -45,16 +45,34 @@ const FAQ = () => {
         />
     ))
 
-    const FAQContent = ({title, id, contents}) => {
+    const FAQContent = ({title, idx, contents, fileurl, fileurl2, fileurl3}) => {
         return(
-            <div className={styles.faq_content_wrapper} onClick={contentAnswerOn===id ? () => setContentAnswerOn(null) : () => setContentAnswerOn(id)}>
+            <div className={styles.faq_content_wrapper} onClick={contentAnswerOn===idx ? () => setContentAnswerOn(null) : () => setContentAnswerOn(idx)}>
                 <div className={styles.faq_content}>
                     <img src="../imgs/img/faq-icon.svg" alt="" className={styles.faq_icon}/>
                     <div className={styles.faq_title}>{title}</div>
                 </div>
-                {contentAnswerOn===id ? 
+                {contentAnswerOn===idx ? 
                 <div className={styles.faq_answer_wrapper}>
                     <div className={styles.faq_answer_sticky} dangerouslySetInnerHTML={{__html: contents}}/>
+                    {fileurl!=="" ? 
+                    <div className={styles.file_download_wrapper}>
+                        <div className={styles.file_text}>첨부파일</div>
+                        <a download target="blank" className={styles.file_url} href={`http://13.125.200.188/files/${fileurl}`}>다운로드</a>
+                    </div>
+                     : null}
+                    {fileurl2!=="" ? 
+                    <div className={styles.file_download_wrapper}>
+                        <div className={styles.file_text}>첨부파일</div>
+                        <a download target="blank" className={styles.file_url} href={`http://13.125.200.188/files/${fileurl2}`}>다운로드</a>
+                    </div>
+                     : null}
+                    {fileurl3!=="" ? 
+                    <div className={styles.file_download_wrapper}>
+                        <div className={styles.file_text}>첨부파일</div>
+                        <a download target="blank" className={styles.file_url} href={`http://13.125.200.188/files/${fileurl3}`}>다운로드</a> 
+                    </div>
+                    : null}
                 </div>
                 : null}
             </div>
@@ -64,8 +82,7 @@ const FAQ = () => {
 
     const currentPostsList = posts.map(post => (
         <FAQContent
-            id={post.idx}
-            title={post.title}
+            {...post}
             contents={post.contents.replaceAll("/UploadFiles", "http://13.125.200.188/files")}
             key={post.idx}
         />
