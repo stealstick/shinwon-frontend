@@ -90,7 +90,7 @@ const DataRoom = () => {
     ))
 
     useEffect(() => {
-        axios.get(`https://www.shinwon.org/reference/?b_idx=5&page=${currentPage}`)
+        axios.get(`https://api.shinwon.org/reference/?b_idx=5&page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])
