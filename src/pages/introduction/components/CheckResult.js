@@ -29,10 +29,11 @@ const CheckResult = () => {
                 <div className={styles.type_content_text}>
                 1. 검사결과는 웹사이트, 스마트폰 또는 전용 프로그램을 이용하여 진행여부와 결과를 신속하게 조회 하실 수 있습니다.<br/><br/>
                 1) 홈페이지를 이용한 결과조회<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;[ 검사결과조회 ] -&gt; 결과조회 창으로 이동할 수 있는 링크<br/><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;[ 검사결과조회 ]<br/><br/>
                 2) 신원 검사결과조회 전용 프로그램을 이용한 결과조회<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;[ 신원통합메신저 다운로드 ] -&gt; 다운로드 버튼(업데이트 파일에 의해 경로가 변경될 수 있음)<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;[ 신원통합메신저 다운로드 ]<br/>
                 </div>
+                <a className={styles.download_button} download href="http://61.252.130.67:200/SMI_SETUP.exe">다운로드</a>
             </div>
             <img data-aos="fade-up" data-aos-duration="2000" className={styles.img} src="../imgs/img/checkresult.svg" alt=""/>
             <div data-aos="fade-up" data-aos-duration="2000" className={styles.type_content_wrapper}>

@@ -33,8 +33,13 @@ const History = () => {
                         <div className={styles.row_text}>COVID-19 유전자 진단검사기관 지정</div>
                     </div>
                     <div className={styles.big_round}>2019</div>
+                    
                     <div className={styles.row_left}>
-                        <div className={styles.row_text}>IRB(기관생명윤리위원회)개원 승인</div>
+                        <div className={styles.row_text}>신원의료재단 봉사단 출범(연탄나눔봉사)</div>
+                        <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
+                    </div>
+                    <div className={styles.row_left}>
+                        <div className={styles.row_text}>영업부문 6개 영업소 증설(구 BML)</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                     </div>
                     <div className={styles.row_left}>
@@ -42,11 +47,7 @@ const History = () => {
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>   
                     </div>
                     <div className={styles.row_left}>
-                        <div className={styles.row_text}>영업부문 6개 영업소 증설(구 BML)</div>
-                        <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
-                    </div>
-                    <div className={styles.row_left}>
-                        <div className={styles.row_text}>신원의료재단 봉사단 출범(연탄나눔봉사)</div>
+                        <div className={styles.row_text}>IRB(기관생명윤리위원회)개원 승인</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                     </div>
                     <div className={styles.big_round}>2018</div>
