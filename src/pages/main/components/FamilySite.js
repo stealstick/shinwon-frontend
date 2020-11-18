@@ -5,7 +5,7 @@ const FamilySite = () => {
     return(
         <div className={styles.container}>
             <div className={styles.title_wrapper}>
-                <div className={styles.title}>패밀리 사이트</div>
+                <div className={styles.title}>관련 사이트</div>
             </div>
             
             <div className={styles.img_wrapper}>
