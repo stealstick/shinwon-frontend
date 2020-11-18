@@ -106,7 +106,7 @@ const Certificate = () => {
                 <SectionTitle kor="인증서" eng="Certificate"/>
                 <div className={styles.title_normal}>의료법인 신원의료재단의 인증서를 확인할 수 있습니다.</div>
                 <div className={styles.datalist_wrapper}>
-                    {dataList}
+                    
                 </div>
                 <div className={styles.pagenumberlist}>
                     <div className={styles.previous} onClick={() => setCurrentPage(currentPage - 1)}/>
