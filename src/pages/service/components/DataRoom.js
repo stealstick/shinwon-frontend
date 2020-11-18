@@ -85,12 +85,12 @@ const DataRoom = () => {
         <DataContent
             key={post.idx}
             title={post.title}
-            img={"http://13.125.200.188/files/" + post.file_url}
+            img={"https://www.shinwon.org/files/" + post.file_url}
         />
     ))
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/reference/?b_idx=5&page=${currentPage}`)
+        axios.get(`https://www.shinwon.org/reference/?b_idx=5&page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])

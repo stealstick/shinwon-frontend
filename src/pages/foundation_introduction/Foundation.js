@@ -36,8 +36,10 @@ function Foundation(props){
                     num===7 ? <Contact/> :
                     <Greeting/>}
                 </div>
+                <img src="../imgs/img/anniversary.jpeg" alt="" className={styles.anniversary}/>
             </div>
             <InputForm/>
+            
         </Layout>
     )
 }

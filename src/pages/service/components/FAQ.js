@@ -58,19 +58,19 @@ const FAQ = () => {
                     {fileurl!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일</div>
-                        <a download target="blank" className={styles.file_url} href={`http://13.125.200.188/files/${fileurl}`}>다운로드</a>
+                        <a download target="blank" className={styles.file_url} href={`https://www.shinwon.org/files/${fileurl}`}>다운로드</a>
                     </div>
                      : null}
                     {fileurl2!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일</div>
-                        <a download target="blank" className={styles.file_url} href={`http://13.125.200.188/files/${fileurl2}`}>다운로드</a>
+                        <a download target="blank" className={styles.file_url} href={`https://www.shinwon.org/files/${fileurl2}`}>다운로드</a>
                     </div>
                      : null}
                     {fileurl3!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일</div>
-                        <a download target="blank" className={styles.file_url} href={`http://13.125.200.188/files/${fileurl3}`}>다운로드</a> 
+                        <a download target="blank" className={styles.file_url} href={`https://www.shinwon.org/files/${fileurl3}`}>다운로드</a> 
                     </div>
                     : null}
                 </div>
@@ -83,7 +83,7 @@ const FAQ = () => {
     const currentPostsList = posts.map(post => (
         <FAQContent
             {...post}
-            contents={post.contents.replaceAll("/UploadFiles", "http://13.125.200.188/files")}
+            contents={post.contents.replaceAll("/UploadFiles", "https://www.shinwon.org/files")}
             key={post.idx}
         />
     ))
@@ -93,7 +93,7 @@ const FAQ = () => {
     }
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/board/?b_idx=3&page=${currentPage}`)
+        axios.get(`https://api.shinwon.org/board/?b_idx=3&page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])

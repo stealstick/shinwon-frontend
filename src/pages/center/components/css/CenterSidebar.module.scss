@@ -1,11 +1,12 @@
 .sidebar_title{
     width: 100%;
     height: 190px;
-    background-color: #0090af;
+    background-color: #00a5cc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('./rect.svg');
 }
 .sidebar_selected{
     width: 100%;
