@@ -195,7 +195,12 @@ const TestSearch = ({props}) => {
                         <div className={styles.table2_top_title}>{detailData.data5}</div>
                         <div className={styles.table2_wrapper}>
                             <div className={styles.table2_img_wrapper}>
+                                {detailData.data24!=="" ? 
                                 <img src={`http://13.125.200.188/files/TestingTable/${detailData.data24}`} alt="" className={styles.table2_img}/>
+                                : 
+                                <div className={styles.table2_img}/>
+                                }
+                                
                             </div>
                             <div className={styles.table2_sticky}>
                                 <div className={styles.table2_row}>
