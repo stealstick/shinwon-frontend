@@ -85,12 +85,12 @@ const Certificate = () => {
         <DataContent
             key={post.idx}
             title={post.title}
-            img={"http://13.125.200.188/files/" + post.file_url}
+            img={"https://www.shinwon.org/files/" + post.file_url}
         />
     ))
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/reference/?b_idx=7&page=${currentPage}`)
+        axios.get(`https://api.shinwon.org/reference/?b_idx=7&page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])

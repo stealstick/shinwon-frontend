@@ -70,7 +70,7 @@ const Official = () => {
     }
 
     useEffect(() => {
-        axios.get(`http://13.125.200.188:8080/board/?b_idx=1&page=${currentPage}`)
+        axios.get(`https://api.shinwon.org/board/?b_idx=1&page=${currentPage}`)
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])

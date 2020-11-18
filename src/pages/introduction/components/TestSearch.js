@@ -13,6 +13,46 @@ const TestSearch = ({props}) => {
     const [ testing, setTesting ] = useState(null)
     const [ isSearchDetail, setIsSearchDetail ] = useState(false)
     const [ detailData, setDetailData ] = useState({})
+    const [ currentPage, setCurrentPage ] = useState(1)
+    const [ count, setCount ] = useState(0)
+
+    const getPageNumber = () => {
+        var pageNum = 0
+        if(count % 20 !== 0) pageNum = count / 20 + 1
+        else if(count % 20 === 0) pageNum = count / 20
+        return pageNum
+    }
+
+    const pageNumber = []
+    for(let i=1; i<=getPageNumber(); i++){
+        pageNumber.push(i)
+    }
+    
+
+    const PageNumContent = ({num}) => {
+        return(
+            <span className={num===currentPage ? styles.pagenum_selected : styles.pagenum_wrapper} onClick={() => paginate(num)}>
+                <div className={styles.pagenum}>{num}</div>
+            </span>
+        )
+    }
+
+    const pageNumberList = pageNumber.filter(num => {
+        if(currentPage>=10){
+            return currentPage-8<=num && num<=currentPage+1
+        } else {
+            return num<=10
+        }
+    }).map(num => (
+        <PageNumContent
+            key={num}
+            num={num}
+        />
+    ))
+
+    const paginate = (number) => {
+        setCurrentPage(number)
+    }
 
     const { name, code1, code2 } = input
 
@@ -25,9 +65,10 @@ const TestSearch = ({props}) => {
     }
 
     const searchData = () => {
-        axios.get(`http://13.125.200.188:8080/testing/?data1=${name}&data17=${code1}&ord_cd=${code2}`)
+        axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}&page=${currentPage}`)
         .then(res => {
-            setTesting(res.data['results'])
+            setTesting(res.data)
+            setCount(res.data.length)
         })
         .catch(err => {
             console.log(err)
@@ -55,24 +96,26 @@ const TestSearch = ({props}) => {
 
     useEffect(() => {
         if(props===""){
-            axios.get(`http://13.125.200.188:8080/testing/`)
+            axios.get(`https://api.shinwon.org/testing/?page=${currentPage}`)
             .then(res => {
                 setTesting(res.data['results'])
+                setCount(res.data['count'])
             })
             .catch(err => {
                 console.log(err)
             })
         } else {
-            axios.get(`http://13.125.200.188:8080/testing/?data1=${props.split("=")[1]}&data17=${code1}&ord_cd=${code2}`)
+            axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}`)
             .then(res => {
-                setTesting(res.data['results'])
+                setTesting(res.data)
+                setCount(res.data.length)
             })
             .catch(err => {
                 console.log(err)
             })
         }
         
-    }, [props])
+    }, [props, currentPage])
 
     return(
         <div className={styles.container}>
@@ -224,6 +267,11 @@ const TestSearch = ({props}) => {
                                     key={test.ord_cd}
                                 />
                             ))}
+                            <div className={styles.pagenumberlist}>
+                                <div className={styles.previous} onClick={() => setCurrentPage(currentPage - 1)}/>
+                                {pageNumberList}
+                                <div className={styles.next} onClick={() => setCurrentPage(currentPage + 1)}/>
+                            </div>
                         </>
                     }
                 </div>
