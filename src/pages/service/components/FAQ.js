@@ -83,7 +83,7 @@ const FAQ = () => {
     const currentPostsList = posts.map(post => (
         <FAQContent
             {...post}
-            contents={post.contents.replaceAll("/UploadFiles", "https://www.shinwon.org/files")}
+            contents={post.contents.replace(/\/UploadFiles/gi, "https://www.shinwon.org/files")}
             key={post.idx}
         />
     ))
