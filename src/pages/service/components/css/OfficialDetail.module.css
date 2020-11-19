@@ -348,6 +348,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .file_title_wrapper{
     display: flex;

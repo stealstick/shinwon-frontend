@@ -59,13 +59,12 @@ function OfficialDetail(props){
                             <div className={styles.detail_contents_wrapper}>
                                 <div dangerouslySetInnerHTML={{__html:data.contents}}/>
                             </div>
-                            {data.fileurl!=="" ?
+                            {data.fileurl!==null ?
                             <div className={styles.file_download_wrapper}>
                                 <div className={styles.file_title_wrapper}>
                                     <div className={styles.file_title}>첨부파일</div>
-                                    <div className={styles.file_filename}>{data.fileurl}</div>
                                 </div>
-                                <div className={styles.file_download_button}>다운로드</div>
+                                <a download href={data.fileurl} target="blank" className={styles.file_download_button}>다운로드</a>
                             </div>
                             : null}
                             <div className={styles.list_btn_wrapper}>
