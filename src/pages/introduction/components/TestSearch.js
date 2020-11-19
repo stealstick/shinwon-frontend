@@ -67,8 +67,8 @@ const TestSearch = ({props}) => {
     const searchData = () => {
         axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}&page=${currentPage}`)
         .then(res => {
-            setTesting(res.data)
-            setCount(res.data.length)
+            setTesting(res.data['data'])
+            console.log(res.data['count'])
         })
         .catch(err => {
             console.log(err)
@@ -107,8 +107,8 @@ const TestSearch = ({props}) => {
         } else {
             axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}`)
             .then(res => {
-                setTesting(res.data)
-                setCount(res.data.length)
+                setTesting(res.data['data'])
+                setCount(res.data['count'])
             })
             .catch(err => {
                 console.log(err)
