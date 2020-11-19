@@ -12,7 +12,8 @@ function OfficialDetail(props){
     useEffect(() => {
         axios.get(`https://api.shinwon.org/board/${props.match.params.officialid}/`)
         .then(res => {
-            res.data.contents = res.data.contents.replace("/UploadFiles", "https://www.shinwon.org/files")
+            res.data.contents = res.data.contents.replaceAll("/UploadFiles", "https://www.shinwon.org/files")
+            res.data.contents = res.data.contents.replaceAll("http", "https")
             setData(res.data)
 
         })
