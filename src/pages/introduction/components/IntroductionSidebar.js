@@ -19,7 +19,7 @@ const IntroductionSidebar = ({ selectedNum }) => {
             <Link to="/introduction/5" className={selectedNum === 5 ? styles.sidebar_selected : styles.sidebar_content}>산전관리검사</Link>
             <Link to="/introduction/6" className={selectedNum === 6 ? styles.sidebar_selected : styles.sidebar_content}>질환별검사</Link>
             <Link to="/introduction/7" className={selectedNum === 7 ? styles.sidebar_selected : styles.sidebar_content}>결과확인방법</Link>
-            <Link to="/introduction/8" className={selectedNum === 8 ? styles.sidebar_selected : styles.sidebar_content}>검사항목조회</Link>
+            <a href="https://www.shinwon.org/introduction/8" className={selectedNum === 8 ? styles.sidebar_selected : styles.sidebar_content}>검사항목조회</a>
         </div>
         </div>
 
