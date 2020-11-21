@@ -9,12 +9,12 @@ const Organization = () => {
 
     return(
         <div className={styles.container}>
-            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.greeting_top_wrapper}>
+            <div className={styles.greeting_top_wrapper}>
                 <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
                 <div data-aos="fade-up"  data-aos-duration="2000" className={styles.greeting_title}>조직도</div>
-                <img src="../imgs/img/org-img.svg" alt="" className={styles.org_img}/>
+                <img  data-aos="fade-up"  data-aos-duration="2000"  src="../imgs/img/org-img.svg" alt="" className={styles.org_img}/>
                 {/*<div className={styles.org_wrapper}>
                     <img src="../imgs/img/ceo.svg" alt="" className={styles.org_ceo}/>
                     <img src="../imgs/img/org-oval.svg" alt="" className={styles.org_oval}/>
@@ -126,31 +126,31 @@ const Organization = () => {
                         </div>
                     </div>
                 </div>*/}
-                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_table_wrapper}>
-                    <div className={styles.org_table_title}>고객지원 대표번호 &nbsp;1899-1510</div>
+                <div className={styles.org_table_wrapper}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.org_table_title}>고객지원 대표번호 &nbsp;1899-1510</div>
                     <div className={styles.org_table_sticky}>
-                        <div className={styles.org_table_content}>
+                        <div  data-aos="fade-up"  data-aos-duration="2000"  className={styles.org_table_content}>
                             <div className={styles.table_title}>업무내용</div>
                             <div className={styles.table_text}>일반행정, 인사, 재무</div>
                             <div className={styles.table_text}>영업부서 총괄</div>
                             <div className={styles.table_text}>전산업무 관련</div>
                             <div className={styles.table_text}>검사 관련 문의</div>
                         </div>
-                        <div className={styles.org_table_content}>
+                        <div data-aos="fade-up"  data-aos-duration="2000"  className={styles.org_table_content}>
                             <div className={styles.table_title}>담당 부서</div>
                             <div className={styles.table_text}>경영관리부</div>
                             <div className={styles.table_text}>영업 본부</div>
                             <div className={styles.table_text}>전산부</div>
                             <div className={styles.table_text}>고객지원부</div>
                         </div>
-                        <div className={styles.org_table_content}>
+                        <div data-aos="fade-up"  data-aos-duration="2000"  className={styles.org_table_content}>
                             <div className={styles.table_title}>전화번호</div>
                             <div className={styles.table_text}>내선 104 ~ 106</div>
                             <div className={styles.table_text}>내선 201 ~ 202</div>
                             <div className={styles.table_text}>내선 502 , 500</div>
                             <div className={styles.table_text}>내선 702 , 700</div>
                         </div>
-                        <div className={styles.org_table_content}>
+                        <div data-aos="fade-up"  data-aos-duration="2000"  className={styles.org_table_content}>
                             <div className={styles.table_title}>팩스번호</div>
                             <div className={styles.table_text}>02-801-5100</div>
                             <div className={styles.table_text}>02-801-5100</div>

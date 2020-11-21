@@ -10,7 +10,7 @@ const Doctor = () => {
     return(
         <div className={styles.container}>
             <div className={styles.greeting_top_wrapper}>
-                <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
+                <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
                 <div data-aos="fade-up"  data-aos-duration="2000" className={styles.greeting_title}>전문의 소개</div>

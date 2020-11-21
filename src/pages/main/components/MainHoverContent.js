@@ -42,14 +42,14 @@ const MainHoverContent = ({img, text, type}) => {
                 </div>
             </Link>
             : text==="공문" ? 
-            <a href="/service/1" target="blank" className={styles.hover_container}>
+            <Link to="/service/1" className={styles.hover_container}>
                 <div className={styles.hover_title}>{text}</div>
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>
                     의료법인 신원의료재단의<br/>
                     공문을 확인 하실 수 있습니다.
                 </div>
-            </a>
+            </Link>
             :
             <Link to="/service/2" className={styles.hover_container}>
                 <div className={styles.hover_title}>{text}</div>
