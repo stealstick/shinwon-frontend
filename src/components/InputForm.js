@@ -4,12 +4,21 @@ import { Link } from 'react-router-dom'
 
 const InputForm = () => {
 
-    const [ testName, setTestName ] = useState("")
+    const [ input, setInput ] = useState({
+        data1: "",
+        data17: "",
+        ord_cd: ""
+    })
 
     const onChange = (e) => {
-        const { value } = e.target
-        setTestName(value)
+        const { name, value } = e.target
+        setInput({
+            ...input,
+            [name]: value
+        })
     }
+
+    const { data1, data17, ord_cd } = input
 
     return(
         <div className="forms-wrapper">
@@ -25,8 +34,10 @@ const InputForm = () => {
                 <div className="forms-sticky">
                     <div className="forms-title">검사항목조회</div>
                     <div className="input-wrapper">
-                        <input type="text" className="input" onChange={onChange} value={testName} placeholder="검사명"/>
-                        <Link to={`/introduction/8/?name=${testName}`} className="input-btn">SEARCH</Link>
+                        <input type="text" className="input" onChange={onChange} value={data1} name="data1" placeholder="검사명"/>
+                        <input type="text" className="input" onChange={onChange} value={data17} name="data17" placeholder="보험코드"/>
+                        <input type="text" className="input" onChange={onChange} value={ord_cd} name="ord_cd" placeholder="검사코드"/>
+                        <Link to={`/introduction/8/?data1=${data1}&data17=${data17}&ord_cd=${ord_cd}`} className="input-btn">SEARCH</Link>
                     </div>
                 </div>
             </div>

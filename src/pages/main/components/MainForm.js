@@ -5,12 +5,21 @@ import { Link } from 'react-router-dom'
 
 const MainForm = () => {
 
-    const [ testName, setTestName ] = useState("") 
+    const [ input, setInput ] = useState({
+        data1: "",
+        data17: "",
+        ord_cd: ""
+    })
 
     const onChange = (e) => {
-        const { value } = e.target
-        setTestName(value)
+        const { name, value } = e.target
+        setInput({
+            ...input,
+            [name]: value
+        })
     }
+
+    const { data1, data17, ord_cd } = input
 
     return(
         <div className={styles.body_forms}>
@@ -27,9 +36,11 @@ const MainForm = () => {
                     <div className={styles.forms_title}>검사항목조회</div>
                     <div className={styles.input_wrapper}>
                         <div className={styles.input_sticky}>
-                            <input type="text" className={styles.input} value={testName} onChange={onChange} placeholder="검사명"/>
+                            <input type="text" className={styles.input} value={data1} name="data1" onChange={onChange} placeholder="검사명"/>
+                            <input type="text" className={styles.input} value={data17} name="data17" onChange={onChange} placeholder="보험코드"/>
+                            <input type="text" className={styles.input} value={ord_cd} name="ord_cd" onChange={onChange} placeholder="검사코드"/>
                         </div>
-                        <Link to={`/introduction/8/?name${testName}`} className={styles.input_btn}>SEARCH</Link>
+                        <Link to={`/introduction/8/?data1=${data1}&data17=${data17}&ord_cd=${ord_cd}`} className={styles.input_btn}>SEARCH</Link>
                     </div>
                 </div>
             </div>
