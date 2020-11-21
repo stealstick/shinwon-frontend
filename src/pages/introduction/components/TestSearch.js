@@ -196,7 +196,7 @@ const TestSearch = ({props}) => {
                         <div className={styles.table2_wrapper}>
                             <div className={styles.table2_img_wrapper}>
                                 {detailData.data24!=="" ? 
-                                <img src={`https://www.shinwon.org/files/TestingTable/${detailData.data24}`} alt="" className={styles.table2_img}/>
+                                <img src={`https://api.shinwon.org/media/TestingTable/${detailData.data24}`} alt="" className={styles.table2_img}/>
                                 : 
                                 <div className={styles.table2_img}/>
                                 }
