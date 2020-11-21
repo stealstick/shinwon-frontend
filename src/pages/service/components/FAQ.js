@@ -47,8 +47,8 @@ const FAQ = () => {
 
     const FAQContent = ({title, idx, contents, fileurl, fileurl2, fileurl3}) => {
         return(
-            <div className={styles.faq_content_wrapper} onClick={contentAnswerOn===idx ? () => setContentAnswerOn(null) : () => setContentAnswerOn(idx)}>
-                <div className={styles.faq_content}>
+            <div className={styles.faq_content_wrapper}>
+                <div className={styles.faq_content} onClick={contentAnswerOn===idx ? () => setContentAnswerOn(null) : () => setContentAnswerOn(idx)}>
                     <img src="../imgs/img/faq-icon.svg" alt="" className={styles.faq_icon}/>
                     <div className={styles.faq_title}>{title}</div>
                 </div>

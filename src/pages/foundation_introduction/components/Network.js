@@ -508,7 +508,7 @@ const Network = () => {
     return(
         <div className={styles.container}>
             <div className={styles.greeting_top_wrapper}>
-                <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
+                <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
                 <div data-aos="fade-up"  data-aos-duration="2000" className={styles.network_top_wrapper}>
@@ -516,7 +516,7 @@ const Network = () => {
                     <div className={styles.network_top_text}>신원의료재단 전국네트워크 영업소 위치안내</div>
                 </div>
                 <div className={styles.network_content_wrapper}>
-                    <div className={styles.network_map_wrapper}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.network_map_wrapper}>
                         <div className={styles.network_map_sticky}>
                             <div onClick={() => setArea("서울")} className={styles.pin_seoul + " " + styles.pin}/>
                             <div onClick={() => setArea("강원")} className={styles.pin_gangwon + " " + styles.pin}/>
@@ -537,7 +537,7 @@ const Network = () => {
                         </div>
                         
                     </div>
-                    <div className={styles.network_area_wrapper}>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className={styles.network_area_wrapper}>
                         <div className={styles.network_area_title_wrapper}>
                             <div className={styles.network_area_title}>{area}지역</div>
                             <div className={styles.network_area_subtitle}>

@@ -9,12 +9,13 @@ const History = () => {
 
     return(
         <div className={styles.container}>
-            <div data-aos="fade-up"  data-aos-duration="2000" className={styles.greeting_top_wrapper}>
+            <div className={styles.greeting_top_wrapper}>
                 <img src="../imgs/img/greeting-top.png" alt="" className={styles.greeting_top_img}/>
             </div>
             <div className={styles.section}>
                 <div className={styles.history_wrapper}>
                     <div className={styles.divider}/>
+                    <div data-aos="fade-up"  data-aos-duration="2000">
                     <div className={styles.big_round}>2020</div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
@@ -32,6 +33,8 @@ const History = () => {
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                         <div className={styles.row_text}>COVID-19 유전자 진단검사기관 지정</div>
                     </div>
+                    </div>
+                    <div data-aos="fade-up"  data-aos-duration="2000">
                     <div className={styles.big_round}>2019</div>
                     
                     <div className={styles.row_left}>
@@ -50,6 +53,8 @@ const History = () => {
                         <div className={styles.row_text}>IRB(기관생명윤리위원회)개원 승인</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                     </div>
+                    </div>
+                    <div data-aos="fade-up"  data-aos-duration="2000">
                     <div className={styles.big_round}>2018</div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
@@ -75,6 +80,8 @@ const History = () => {
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                         <div className={styles.row_text}>㈜ 한국기업데이터 기술 역량 우수기업 인증</div>
                     </div>
+                    </div>
+                    <div data-aos="fade-up"  data-aos-duration="2000">
                     <div className={styles.big_round}>2017</div>
                     <div className={styles.row_left}>
                         <div className={styles.row_text}>전문의 부임(진단검사, 병리과)</div>
@@ -88,6 +95,8 @@ const History = () => {
                         <div className={styles.row_text}>분자유전학 연구소 확장 증설</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                     </div>
+                    </div>
+                    <div data-aos="fade-up"  data-aos-duration="2000">
                     <div className={styles.big_round}>2016</div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
@@ -105,6 +114,8 @@ const History = () => {
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                         <div className={styles.row_text}>(주)JW바이오사이언스(중외) 업무제휴</div>
                     </div>
+                    </div>
+                    <div data-aos="fade-up"  data-aos-duration="2000">
                     <div className={styles.big_round}>2015</div>
                     <div className={styles.row_left}>
                         <div className={styles.row_text}>행정, 사무국, 광명 본사 통합</div>
@@ -118,6 +129,8 @@ const History = () => {
                         <div className={styles.row_text}>(주)마이크로젠(MACROGEN) 업무제휴</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                     </div>
+                    </div>
+                    <div data-aos="fade-up"  data-aos-duration="2000">
                     <div className={styles.big_round}>
                         <div className={styles.two_line_text}>2010</div>
                         <div className={styles.two_line_flow}>~</div>
@@ -171,6 +184,8 @@ const History = () => {
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                         <div className={styles.row_text}>(주) 미애로 네트워크 MOU 체결</div>
                     </div>
+                    </div>
+                    <div data-aos="fade-up"  data-aos-duration="2000">
                     <div className={styles.big_round}>
                         <div className={styles.two_line_text}>2005</div>
                         <div className={styles.two_line_flow}>~</div>
@@ -248,6 +263,8 @@ const History = () => {
                         <div className={styles.row_text}>로슈 진단 업무 제휴 체결</div>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
                     </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
