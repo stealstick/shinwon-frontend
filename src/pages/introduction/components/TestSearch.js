@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react'
 import styles from './css/TestSearch.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
+import queryString from 'query-string'
 
 const TestSearch = ({props}) => {
 
     const [ input, setInput ] = useState({
-        name: props==="" ? "" : props.split("=")[1],
-        code1: "",
-        code2: ""
+        name: props==="" ? "" : queryString.parse(props).data1,
+        code1: props==="" ? "" : queryString.parse(props).data17,
+        code2: props==="" ? "" : queryString.parse(props).ord_cd
     })
     const [ testing, setTesting ] = useState(null)
     const [ isSearchDetail, setIsSearchDetail ] = useState(false)
