@@ -85,7 +85,7 @@ const Certificate = () => {
         <DataContent
             key={post.idx}
             title={post.title}
-            img={"https://www.shinwon.org/files/" + post.file_url}
+            img={"https://api.shinwon.org/media/" + post.file_url}
         />
     ))
 
