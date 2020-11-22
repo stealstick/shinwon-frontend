@@ -29,7 +29,7 @@ const DataRoom = () => {
                     <img src={img} alt="" className={styles.datacontent_img}/>
                 </div>
                 <div className={styles.datacontent_download_button_wrapper}>
-                    <a href={img} target="blank" download="image.jpg" className={styles.datacontent_download_button}>
+                    <a href={img} target="blank" download className={styles.datacontent_download_button}>
                         <img src="../imgs/img/download-img.svg" alt="" className={styles.datacontent_download_img}/>
                         다운로드
                     </a>
