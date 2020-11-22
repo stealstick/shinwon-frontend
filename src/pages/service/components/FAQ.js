@@ -58,19 +58,19 @@ const FAQ = () => {
                     {fileurl!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일</div>
-                        <a download target="blank" className={styles.file_url} href={`https://www.shinwon.org/files/${fileurl}`}>다운로드</a>
+                        <a download target="blank" className={styles.file_url} href={`https://api.shinwon.org/media/${fileurl}`}>다운로드</a>
                     </div>
                      : null}
                     {fileurl2!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일</div>
-                        <a download target="blank" className={styles.file_url} href={`https://www.shinwon.org/files/${fileurl2}`}>다운로드</a>
+                        <a download target="blank" className={styles.file_url} href={`https://api.shinwon.org/media/${fileurl2}`}>다운로드</a>
                     </div>
                      : null}
                     {fileurl3!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일</div>
-                        <a download target="blank" className={styles.file_url} href={`https://www.shinwon.org/files/${fileurl3}`}>다운로드</a> 
+                        <a download target="blank" className={styles.file_url} href={`https://api.shinwon.org/media/${fileurl3}`}>다운로드</a> 
                     </div>
                     : null}
                 </div>
