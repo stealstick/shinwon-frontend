@@ -4,6 +4,7 @@ import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
 import Layout from '../../Layout'
 import { Link } from 'react-router-dom'
+import download from 'downloadjs'
 
 function OfficialDetail(props){
 
@@ -26,8 +27,8 @@ function OfficialDetail(props){
         })
     }, [props.match.params.officialid])
 
-    const getFilename = (path) => {
-        console.log(path)
+    const downloadFile = (file) => {
+        download(file)
     }
 
     return(
@@ -74,7 +75,7 @@ function OfficialDetail(props){
                                     <div className={styles.file_title}>첨부파일</div>
                                     {data.filename}
                                 </div>
-                                <a download href={data.fileurl} target="blank" className={styles.file_download_button}>다운로드</a>
+                                <a onClick={() => downloadFile(data.fileurl)} className={styles.file_download_button}>다운로드</a>
                             </div>
                             : null}
                             {data.fileurl2!=="" && data.fileurl2!==null ?
@@ -83,7 +84,7 @@ function OfficialDetail(props){
                                     <div className={styles.file_title}>첨부파일</div>
                                     {data.filename2}
                                 </div>
-                                <a download href={data.fileurl2} target="blank" className={styles.file_download_button}>다운로드</a>
+                                <a onClick={() => downloadFile(data.fileurl2)} className={styles.file_download_button}>다운로드</a>
                             </div>
                             : null}
                             {data.fileurl3!=="" && data.fileurl3!==null ?
@@ -92,7 +93,7 @@ function OfficialDetail(props){
                                     <div className={styles.file_title}>첨부파일</div>
                                     {data.filename3}
                                 </div>
-                                <a download href={data.fileurl3} target="blank" className={styles.file_download_button}>다운로드</a>
+                                <a onClick={() => downloadFile(data.fileurl3)} className={styles.file_download_button}>다운로드</a>
                             </div>
                             : null}
                             <div className={styles.list_btn_wrapper}>
