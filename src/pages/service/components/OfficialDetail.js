@@ -4,7 +4,6 @@ import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
 import Layout from '../../Layout'
 import { Link } from 'react-router-dom'
-import download from 'downloadjs'
 
 function OfficialDetail(props){
 
@@ -28,7 +27,27 @@ function OfficialDetail(props){
     }, [props.match.params.officialid])
 
     const downloadFile = (file) => {
-        download(file)
+        const res = axios.get(file, {
+            headers: {
+                responseType: 'arraybuffer'
+            }
+        })
+        const url = window.URL.createObjectURL(new Blob([res.data]));
+        const link = document.createElement('a');
+        const contentDisposition = res.headers['content-disposition']; // 파일 이름
+        let fileName = 'unknown';
+        if (contentDisposition) {
+            const [ fileNameMatch ] = contentDisposition.split(';').filter(str => str.includes('filename'));
+            if (fileNameMatch)
+  	            [ , fileName ] = fileNameMatch.split('=');
+        }
+        link.href = url;
+        link.setAttribute('download', `${fileName}`);
+        link.style.cssText = 'display:none';
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+
     }
 
     return(
@@ -75,7 +94,7 @@ function OfficialDetail(props){
                                     <div className={styles.file_title}>첨부파일</div>
                                     {data.filename}
                                 </div>
-                                <a onClick={() => downloadFile(data.fileurl)} className={styles.file_download_button}>다운로드</a>
+                                <div onClick={() => downloadFile(data.fileurl)} className={styles.file_download_button}>다운로드</div>
                             </div>
                             : null}
                             {data.fileurl2!=="" && data.fileurl2!==null ?
@@ -84,7 +103,7 @@ function OfficialDetail(props){
                                     <div className={styles.file_title}>첨부파일</div>
                                     {data.filename2}
                                 </div>
-                                <a onClick={() => downloadFile(data.fileurl2)} className={styles.file_download_button}>다운로드</a>
+                                <div onClick={() => downloadFile(data.fileurl2)} className={styles.file_download_button}>다운로드</div>
                             </div>
                             : null}
                             {data.fileurl3!=="" && data.fileurl3!==null ?
@@ -93,7 +112,7 @@ function OfficialDetail(props){
                                     <div className={styles.file_title}>첨부파일</div>
                                     {data.filename3}
                                 </div>
-                                <a onClick={() => downloadFile(data.fileurl3)} className={styles.file_download_button}>다운로드</a>
+                                <div onClick={() => downloadFile(data.fileurl3)} className={styles.file_download_button}>다운로드</div>
                             </div>
                             : null}
                             <div className={styles.list_btn_wrapper}>
