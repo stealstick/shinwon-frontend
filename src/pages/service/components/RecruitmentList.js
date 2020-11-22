@@ -12,12 +12,12 @@ const RecruitmentList = () => {
         return(
             <Link to={`/recruitment/${id}`} className={styles.rec_content_wrapper}>
                 <div className={styles.rec_content_left}>
-                    <div className={styles.rec_content_depart}>임상화학</div>
-                    <div className={styles.rec_content_title}>임상병리사 경력직 채용공고</div>
+                    <div className={styles.rec_content_depart}></div>
+                    <div className={styles.rec_content_title}></div>
                 </div>
                 <div className={styles.rec_content_right}>
-                    <div className={styles.rec_content_date}>2020.00.00 ~ 2020.00.00</div>
-                    <div className={styles.rec_content_dday}>D - 7</div>
+                    <div className={styles.rec_content_date}></div>
+                    <div className={styles.rec_content_dday}></div>
                 </div>
             </Link>
         )
@@ -34,9 +34,9 @@ const RecruitmentList = () => {
     return(
         <div className={styles.container}>
             <div className={styles.header}>
-                <div className={styles.header_sticky}>
+                <Link to="/" className={styles.header_sticky}>
                     <img src="../imgs/img/logo.png" alt="" className={styles.logo}/>
-                </div>
+                </Link>
             </div>
             <div className={styles.body_container}>
                 <div className={styles.page_title}>채용공고</div>

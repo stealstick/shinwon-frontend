@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './css/RecruitmentDetail.module.css'
+import { Link } from 'react-router-dom'
+import Footer from '../../Footer'
 
 const RecruitmentDetail = () => {
 
@@ -15,9 +17,9 @@ const RecruitmentDetail = () => {
     return(
         <div className={styles.container}>
             <div className={styles.header}>
-                <div className={styles.header_sticky}>
+                <Link to="/" className={styles.header_sticky}>
                     <img src="../imgs/img/logo.png" alt="" className={styles.logo}/>
-                </div>
+                </Link>
             </div>
             <div className={styles.body_container}>
                 <div className={styles.page_title}>채용공고</div>
@@ -46,7 +48,11 @@ const RecruitmentDetail = () => {
                 <SubTitle title="전형절차"/>
                 <SubTitle title="기타사항"/>
                 <SubTitle title="문의"/>
+                <div className={styles.button_wrapper}>
+                    <Link to="/recruitment" className={styles.button}>목록으로</Link>
+                </div>
             </div>
+            <Footer/>
         </div>
     )
 }
