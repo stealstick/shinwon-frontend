@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './css/InputForm.scss'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 
 const InputForm = () => {
 
@@ -16,6 +16,14 @@ const InputForm = () => {
             ...input,
             [name]: value
         })
+    }
+
+    const history = useHistory()
+
+    const onKeyPress = (e) => {
+        if(e.key==='Enter'){
+            history.push(`/introduction/8/?data1=${data1}&data17=${data17}&ord_cd=${ord_cd}`)
+        }
     }
 
     const { data1, data17, ord_cd } = input
@@ -34,9 +42,9 @@ const InputForm = () => {
                 <div className="forms-sticky">
                     <div className="forms-title">검사항목조회</div>
                     <div className="input-wrapper">
-                        <input type="text" className="input" onChange={onChange} value={data1} name="data1" placeholder="검사명"/>
-                        <input type="text" className="input" onChange={onChange} value={data17} name="data17" placeholder="보험코드"/>
-                        <input type="text" className="input" onChange={onChange} value={ord_cd} name="ord_cd" placeholder="검사코드"/>
+                        <input type="text" className="input" onChange={onChange} value={data1} name="data1" onKeyPress={onKeyPress} placeholder="검사명"/>
+                        <input type="text" className="input" onChange={onChange} value={data17} name="data17" onKeyPress={onKeyPress} placeholder="보험코드"/>
+                        <input type="text" className="input" onChange={onChange} value={ord_cd} name="ord_cd" onKeyPress={onKeyPress} placeholder="검사코드"/>
                         <Link to={`/introduction/8/?data1=${data1}&data17=${data17}&ord_cd=${ord_cd}`} className="input-btn">SEARCH</Link>
                     </div>
                 </div>

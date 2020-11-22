@@ -65,6 +65,12 @@ const TestSearch = ({props}) => {
         })
     }
 
+    const onKeyPress = (e) => {
+        if(e.key==='Enter'){
+            searchData()
+        }
+    } 
+
     const searchData = () => {
         axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}&page=${currentPage}`)
         .then(res => {
@@ -240,17 +246,17 @@ const TestSearch = ({props}) => {
                     <div className={styles.search_title}>검색어를 입력 후 조회버튼을 눌러주세요.</div>
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>검사명</div>
-                        <input className={styles.search_row_input} placeholder="검사명 입력" value={name} onChange={onChange} name="name"/>
+                        <input className={styles.search_row_input} placeholder="검사명 입력" onKeyPress={onKeyPress} value={name} onChange={onChange} name="name"/>
                         <div className={name==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
                     </div>
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>보험코드</div>
-                        <input className={styles.search_row_input} placeholder="보험코드 입력" value={code1} onChange={onChange} name="code1"/>
+                        <input className={styles.search_row_input} placeholder="보험코드 입력" onKeyPress={onKeyPress} value={code1} onChange={onChange} name="code1"/>
                         <div className={code1==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
                     </div>
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>검사코드</div>
-                        <input className={styles.search_row_input} placeholder="검사코드 입력" value={code2} onChange={onChange} name="code2"/>
+                        <input className={styles.search_row_input} placeholder="검사코드 입력" onKeyPress={onKeyPress} value={code2} onChange={onChange} name="code2"/>
                         <div className={code2==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
                     </div>
                 </div>

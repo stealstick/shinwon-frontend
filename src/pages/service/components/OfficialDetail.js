@@ -14,13 +14,21 @@ function OfficialDetail(props){
         .then(res => {
             res.data.contents = res.data.contents.replace(/\/UploadFiles/gi, "https://api.shinwon.org/media")
             res.data.contents = res.data.contents.replace(/http:\/\/13.125.200.188:8080/gi, "https://api.shinwon.org")
+            if(res.data.fileurl!==null) res.data.filename = decodeURIComponent(res.data.fileurl.split("/").slice(-1)[0]) 
+            if(res.data.fileurl2!==null) res.data.filename2 = decodeURIComponent(res.data.fileurl2.split("/").slice(-1)[0])
+            if(res.data.fileurl3!==null) res.data.filename3 = decodeURIComponent(res.data.fileurl2.split("/").slice(-1)[0])
             setData(res.data)
+            console.log(res.data)
 
         })
         .catch(err => {
             console.log(err)
         })
     }, [props.match.params.officialid])
+
+    const getFilename = (path) => {
+        console.log(path)
+    }
 
     return(
         <Layout>
@@ -59,12 +67,32 @@ function OfficialDetail(props){
                             <div className={styles.detail_contents_wrapper}>
                                 <div dangerouslySetInnerHTML={{__html:data.contents}}/>
                             </div>
+                            
                             {data.fileurl!==null ?
                             <div className={styles.file_download_wrapper}>
                                 <div className={styles.file_title_wrapper}>
                                     <div className={styles.file_title}>첨부파일</div>
+                                    {data.filename}
                                 </div>
                                 <a download href={data.fileurl} target="blank" className={styles.file_download_button}>다운로드</a>
+                            </div>
+                            : null}
+                            {data.fileurl2!==null ?
+                            <div className={styles.file_download_wrapper}>
+                                <div className={styles.file_title_wrapper}>
+                                    <div className={styles.file_title}>첨부파일</div>
+                                    {data.filename2}
+                                </div>
+                                <a download href={data.fileurl2} target="blank" className={styles.file_download_button}>다운로드</a>
+                            </div>
+                            : null}
+                            {data.fileurl3!==null ?
+                            <div className={styles.file_download_wrapper}>
+                                <div className={styles.file_title_wrapper}>
+                                    <div className={styles.file_title}>첨부파일</div>
+                                    {data.filename3}
+                                </div>
+                                <a download href={data.fileurl3} target="blank" className={styles.file_download_button}>다운로드</a>
                             </div>
                             : null}
                             <div className={styles.list_btn_wrapper}>
