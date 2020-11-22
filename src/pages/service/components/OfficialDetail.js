@@ -68,7 +68,7 @@ function OfficialDetail(props){
                                 <div dangerouslySetInnerHTML={{__html:data.contents}}/>
                             </div>
                             
-                            {data.fileurl!==null ?
+                            {data.fileurl!=="" && data.fileurl!==null ?
                             <div className={styles.file_download_wrapper}>
                                 <div className={styles.file_title_wrapper}>
                                     <div className={styles.file_title}>첨부파일</div>
@@ -77,7 +77,7 @@ function OfficialDetail(props){
                                 <a download href={data.fileurl} target="blank" className={styles.file_download_button}>다운로드</a>
                             </div>
                             : null}
-                            {data.fileurl2!==null ?
+                            {data.fileurl2!=="" && data.fileurl2!==null ?
                             <div className={styles.file_download_wrapper}>
                                 <div className={styles.file_title_wrapper}>
                                     <div className={styles.file_title}>첨부파일</div>
@@ -86,7 +86,7 @@ function OfficialDetail(props){
                                 <a download href={data.fileurl2} target="blank" className={styles.file_download_button}>다운로드</a>
                             </div>
                             : null}
-                            {data.fileurl3!==null ?
+                            {data.fileurl3!=="" && data.fileurl3!==null ?
                             <div className={styles.file_download_wrapper}>
                                 <div className={styles.file_title_wrapper}>
                                     <div className={styles.file_title}>첨부파일</div>
