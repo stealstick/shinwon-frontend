@@ -45,6 +45,22 @@ const FAQ = () => {
         />
     ))
 
+    const downloadFile = (file) => {
+        axios({
+            url: 'https://api.shinwon.org/media/' + file,
+            method: 'GET',
+            responseType: 'blob',
+        }).then((response) => {
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', file);
+            document.body.appendChild(link);
+            link.click();
+        });
+
+    }
+
     const FAQContent = ({title, idx, contents, fileurl, fileurl2, fileurl3}) => {
         return(
             <div className={styles.faq_content_wrapper}>
@@ -58,19 +74,19 @@ const FAQ = () => {
                     {fileurl!==null && fileurl!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일 {decodeURIComponent(fileurl.split("/").slice(-1)[0])}</div>
-                        <a download target="blank" className={styles.file_url} href={`https://api.shinwon.org/media/${fileurl}`}>다운로드</a>
+                        <div onClick={() => downloadFile(`https://api.shinwon.org/media/${fileurl}`)} className={styles.file_url}>다운로드</div>
                     </div>
                      : null}
                     {fileurl2!==null && fileurl2!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일 {decodeURIComponent(fileurl2.split("/").slice(-1)[0])}</div>
-                        <a download target="blank" className={styles.file_url} href={`https://api.shinwon.org/media/${fileurl2}`}>다운로드</a>
+                        <div onClick={() => downloadFile(`https://api.shinwon.org/media/${fileurl}`)} className={styles.file_url}>다운로드</div>
                     </div>
                      : null}
                     {fileurl3!==null && fileurl3!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일 {decodeURIComponent(fileurl3.split("/").slice(-1)[0])}</div>
-                        <a download target="blank" className={styles.file_url} href={`https://api.shinwon.org/media/${fileurl3}`}>다운로드</a> 
+                        <div onClick={() => downloadFile(`https://api.shinwon.org/media/${fileurl}`)} className={styles.file_url}>다운로드</div> 
                     </div>
                     : null}
                 </div>

@@ -3,8 +3,6 @@ import styles from './css/DataRoom.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
 import printJs from 'print-js'
-import { saveAs } from 'file-saver'
-import download from 'downloadjs'
 
 const DataRoom = () => {
 
@@ -17,7 +15,19 @@ const DataRoom = () => {
     }
 
     const downloadFile = (file) => {
-        download(file)
+        axios({
+            url: 'https://api.shinwon.org/media/' + file,
+            method: 'GET',
+            responseType: 'blob',
+        }).then((response) => {
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', file);
+            document.body.appendChild(link);
+            link.click();
+        });
+
     }
 
     const DataContent = ({title, img}) => {
