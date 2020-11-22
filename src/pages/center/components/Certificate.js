@@ -3,7 +3,6 @@ import styles from './css/Certificate.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
 import printJs from 'print-js'
-import { saveAs } from 'file-saver'
 
 const Certificate = () => {
 
@@ -15,10 +14,20 @@ const Certificate = () => {
         printJs(img, 'image')
     }
 
-    const saveImage = (img) => {
-        
-        
-        //saveAs(blob, 'image.png')
+    const downloadFile = (file) => {
+        axios({
+            url: 'https://api.shinwon.org/media/' + file,
+            method: 'GET',
+            responseType: 'blob',
+        }).then((response) => {
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', file);
+            document.body.appendChild(link);
+            link.click();
+        });
+
     }
 
     const DataContent = ({title, img}) => {
@@ -29,10 +38,10 @@ const Certificate = () => {
                     <img src={img} alt="" className={styles.datacontent_img}/>
                 </div>
                 <div className={styles.datacontent_download_button_wrapper}>
-                    <a href={img} target="blank" download className={styles.datacontent_download_button}>
+                    <div onClick={() => downloadFile(img)} className={styles.datacontent_download_button}>
                         <img src="../imgs/img/download-img.svg" alt="" className={styles.datacontent_download_img}/>
                         다운로드
-                    </a>
+                    </div>
                     <div onClick={() => printImage(img)} className={styles.datacontent_download_button}>
                         <img src="../imgs/img/printer.svg" alt="" className={styles.datacontent_download_img}/>
                         인쇄

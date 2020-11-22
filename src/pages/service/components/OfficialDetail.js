@@ -18,7 +18,6 @@ function OfficialDetail(props){
             if(res.data.fileurl2!==null) res.data.filename2 = decodeURIComponent(res.data.fileurl2.split("/").slice(-1)[0])
             if(res.data.fileurl3!==null) res.data.filename3 = decodeURIComponent(res.data.fileurl2.split("/").slice(-1)[0])
             setData(res.data)
-            console.log(res.data)
 
         })
         .catch(err => {
@@ -27,26 +26,18 @@ function OfficialDetail(props){
     }, [props.match.params.officialid])
 
     const downloadFile = (file) => {
-        const res = axios.get(file, {
-            headers: {
-                responseType: 'arraybuffer'
-            }
-        })
-        const url = window.URL.createObjectURL(new Blob([res.data]));
-        const link = document.createElement('a');
-        const contentDisposition = res.headers['content-disposition']; // 파일 이름
-        let fileName = 'unknown';
-        if (contentDisposition) {
-            const [ fileNameMatch ] = contentDisposition.split(';').filter(str => str.includes('filename'));
-            if (fileNameMatch)
-  	            [ , fileName ] = fileNameMatch.split('=');
-        }
-        link.href = url;
-        link.setAttribute('download', `${fileName}`);
-        link.style.cssText = 'display:none';
-        document.body.appendChild(link);
-        link.click();
-        link.remove();
+        axios({
+            url: 'https://api.shinwon.org/media/' + file,
+            method: 'GET',
+            responseType: 'blob',
+        }).then((response) => {
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', file);
+            document.body.appendChild(link);
+            link.click();
+        });
 
     }
 
