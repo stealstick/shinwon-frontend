@@ -46,18 +46,61 @@ const FAQ = () => {
     ))
 
     const downloadFile = (file) => {
-        axios({
-            url: file,
-            method: 'GET',
-            responseType: 'blob',
-        }).then((response) => {
-            const url = window.URL.createObjectURL(new Blob([response.data]));
-            const link = document.createElement('a');
-            link.href = url;
-            link.setAttribute('download', file.split("/").slice(-1)[0]);
-            document.body.appendChild(link);
-            link.click();
-        });
+        var browserName = undefined;
+        var userAgent = navigator.userAgent;
+
+        switch (true) {
+            case /Trident|MSIE/.test(userAgent):
+                browserName = 'ie';
+                break;
+
+            case /Edge/.test(userAgent):
+                browserName = 'edge';
+                break;
+
+            case /Chrome/.test(userAgent):
+                browserName = 'chrome';
+                break;
+
+            case /Safari/.test(userAgent):
+                browserName = 'safari';
+                break;
+
+            case /Firefox/.test(userAgent):
+                browserName = 'firefox';
+                break;
+
+            case /Opera/.test(userAgent):
+                browserName = 'opera';
+                break;
+
+            default:
+                browserName = 'unknown';
+        }
+
+        if (browserName === 'ie' || browserName === 'edge') {
+
+            //ie11
+            var _window = window.open(file, "_blank");
+            _window.document.close();
+            _window.document.execCommand('SaveAs', true, file.split("/").slice(-1)[0] || file)
+            _window.close();
+        } else {
+            axios({
+                url: file,
+                method: 'GET',
+                responseType: 'blob',
+            }).then((response) => {
+                const url = window.URL.createObjectURL(new Blob([response.data]));
+                const link = document.createElement('a');
+                link.href = url;
+                link.setAttribute('download', file.split("/").slice(-1)[0]);
+                document.body.appendChild(link);
+                link.click();
+            });
+        }
+
+        
 
     }
 
