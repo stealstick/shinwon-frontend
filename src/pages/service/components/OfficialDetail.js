@@ -60,7 +60,6 @@ function OfficialDetail(props){
                             <Link to="/service/2" className={styles.sidebar_content}>자료실</Link>
                             <Link to="/service/3" className={styles.sidebar_content}>감염지침</Link>
                             <Link to="/service/4" className={styles.sidebar_content}>FAQ</Link>
-                            <Link to="/service/5" className={styles.sidebar_content}>오시는길</Link>
                             <Link to="/service/6" className={styles.sidebar_content}>채용공고</Link>
                         </div>
                     </div>
