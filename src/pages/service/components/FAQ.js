@@ -80,13 +80,13 @@ const FAQ = () => {
                     {fileurl2!==null && fileurl2!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일 {decodeURIComponent(fileurl2.split("/").slice(-1)[0])}</div>
-                        <div onClick={() => downloadFile(`https://api.shinwon.org/media/${fileurl}`)} className={styles.file_url}>다운로드</div>
+                        <div onClick={() => downloadFile(`https://api.shinwon.org/media/${fileurl2}`)} className={styles.file_url}>다운로드</div>
                     </div>
                      : null}
                     {fileurl3!==null && fileurl3!=="" ? 
                     <div className={styles.file_download_wrapper}>
                         <div className={styles.file_text}>첨부파일 {decodeURIComponent(fileurl3.split("/").slice(-1)[0])}</div>
-                        <div onClick={() => downloadFile(`https://api.shinwon.org/media/${fileurl}`)} className={styles.file_url}>다운로드</div> 
+                        <div onClick={() => downloadFile(`https://api.shinwon.org/media/${fileurl3}`)} className={styles.file_url}>다운로드</div> 
                     </div>
                     : null}
                 </div>
