@@ -134,6 +134,10 @@
   z-index: 999;
   position: relative;
   top: -75px;
+  background-image: url("./shadow.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: (174px * 5.5);
 }
 .list_content {
   width: 228px;
