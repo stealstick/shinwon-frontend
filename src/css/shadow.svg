@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1013" height="256" viewBox="0 0 1013 256">
+    <defs>
+        <filter id="paqlm70aea" width="111.7%" height="165.1%" x="-5.9%" y="-32.5%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="18"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#272727">
+            <path d="M499 701H1422V867H499z" filter="url(#paqlm70aea)" transform="translate(-454 -656)"/>
+        </g>
+    </g>
+</svg>
