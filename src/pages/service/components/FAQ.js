@@ -47,7 +47,7 @@ const FAQ = () => {
 
     const downloadFile = (file) => {
         axios({
-            url: 'https://api.shinwon.org/media/' + file,
+            url: file,
             method: 'GET',
             responseType: 'blob',
         }).then((response) => {
