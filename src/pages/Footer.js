@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer(){
     return(
@@ -14,9 +15,9 @@ function Footer(){
                     
                     </div>
                     <div className="footer-bottom-wrapper">
-                        <div className="footer-bottom-text">개인정보취급방침</div>
-                        <div className="footer-bottom-text">위치안내</div>
-                        <div className="footer-bottom-text">사이트맵</div>
+                        <Link to="/personal" className="footer-bottom-text">개인정보취급방침</Link>
+                        <Link to="/foundation/7" className="footer-bottom-text">위치안내</Link>
+                        <Link to="/sitemap" className="footer-bottom-text">사이트맵</Link>
                     
                     </div>
                 </div>

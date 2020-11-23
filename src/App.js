@@ -9,6 +9,8 @@ import OfficialDetail from './pages/service/components/OfficialDetail'
 import RecruitmentList from './pages/service/components/RecruitmentList'
 import RecruitmentDetail from './pages/service/components/RecruitmentDetail'
 import Rnd from './pages/r&d/Rnd'
+import Personal from './pages/Personal'
+import Sitemap from './pages/Sitemap'
  
 function App() {
   	return (
@@ -23,6 +25,8 @@ function App() {
 				<Route exact path="/recruitment" component={RecruitmentList}/>
 				<Route exact path="/recruitment/:id" component={RecruitmentDetail}/>
 				<Route exact path="/rnd" component={Rnd}/>
+				<Route exact path="/personal" component={Personal}/>
+				<Route exact path="/sitemap" component={Sitemap}/>
 			</Switch>
 		</BrowserRouter>
   	);
