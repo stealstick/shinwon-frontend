@@ -130,17 +130,17 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  width: calc(60% - 80px);
+  width: calc(70% - 80px);
   margin-left: 80px;
 }
 .contents-right {
-  width: 40%;
+  width: 30%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .content-wrapper {
-  width: 120px;
+  width: 160px;
   margin-left: 20px;
   height: auto;
   min-height: 100px;
@@ -177,6 +177,7 @@ a {
   .menu5:hover{
     border-bottom: 5px solid #00284b;
   }
+
   .header-hover-content{
     display: flex;
     flex-direction: row;
@@ -196,19 +197,31 @@ a {
   .hover-content-left{
     display: flex;
     flex-direction: row;
-    width: calc(60% - 80px);
+    width: calc(70% - 80px);
     margin-left: 80px;
     justify-content: flex-start;
   }
   .header-content-shown {
     display: flex;
     flex-direction: column;
-    width: 115px;
-    margin-left: 10px;
+    width: 117px;
+    margin-left: 48px;
     position: relative;
     padding-top: 25px;
     height: 375px;
     padding-left: 15px;
+    &:nth-child(1){
+      width: 111px;
+      margin-left: 54px;
+    }
+    &:nth-child(2){
+      width: 111px;
+      margin-left: 54px;
+    }
+    &:nth-child(5){
+      width: 98px;
+      margin-left: 67px;
+    }
   }
   .header-shown-text {
     display: flex;
