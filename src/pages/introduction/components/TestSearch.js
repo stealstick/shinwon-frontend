@@ -72,7 +72,8 @@ const TestSearch = ({props}) => {
     } 
 
     const searchData = () => {
-        axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}&page=${currentPage}`)
+        var ord_cd = code2.replace(/(^0+)/, "");
+        axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${ord_cd}&page=${currentPage}`)
         .then(res => {
             setTesting(res.data['data'])
             console.log(res.data['count'])
@@ -87,10 +88,15 @@ const TestSearch = ({props}) => {
         setDetailData(data)
     }
 
+    function numberPad(n, width) {
+        n = n + '';
+        return n.length >= width ? n : new Array(width - n.length + 1).join('0') + n;
+    }
+
     const TestingContent = (data) => {
         return(
             <div className={styles.testingcontent_wrapper} onClick={() => changeScreen(data)}>
-                <div className={styles.testingcontent_ord_cd}>{data.ord_cd}</div>
+                <div className={styles.testingcontent_ord_cd}>{numberPad(data.ord_cd, 5)}</div>
                 <div className={styles.testingcontent_data1}>{data.data1}</div>
                 <div className={styles.testingcontent_data10}>{data.data10}</div>
                 <div className={styles.testingcontent_data13}>{data.data13}</div>
@@ -139,7 +145,7 @@ const TestSearch = ({props}) => {
                         </div>
                         <div className={styles.detail_table_short}>
                             <div className={styles.table_title}>검사코드</div>
-                            <div className={styles.table_content}>{detailData.ord_cd}</div>
+                            <div className={styles.table_content}>{numberPad(detailData.ord_cd, 5)}</div>
                         </div>
                         <div className={styles.detail_table_short}>
                             <div className={styles.table_title}>검체명</div>
