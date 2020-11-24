@@ -47,7 +47,7 @@ const DataRoom = () => {
                 browserName = 'unknown';
         }
 
-        var expUrl = /^http[s]?\:\/\//i;
+        var expUrl = /^http[s]?\/\//i;
         var isUrl = expUrl.test(file);
 
         if (browserName === 'ie' || browserName === 'edge') {
