@@ -78,16 +78,19 @@ const FAQ = () => {
                 browserName = 'unknown';
         }
 
+        var expUrl = /^http[s]?\:\/\//i;
+        var isUrl = expUrl.test(file);
+
         if (browserName === 'ie' || browserName === 'edge') {
 
             //ie11
-            var _window = window.open(file, "_blank");
+            var _window = window.open(isUrl ? file : 'https://api.shinwon.org/media/' + file, "_blank");
             _window.document.close();
             _window.document.execCommand('SaveAs', true, file.split("/").slice(-1)[0] || file)
             _window.close();
         } else {
             axios({
-                url: file,
+                url: isUrl ? file : 'https://api.shinwon.org/media/' + file,
                 method: 'GET',
                 responseType: 'blob',
             }).then((response) => {
