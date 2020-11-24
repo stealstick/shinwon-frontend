@@ -5,6 +5,7 @@ import { EditorState, convertToRaw } from 'draft-js'
 import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 import draftToHtml from 'draftjs-to-html'
 import axios from 'axios'
+import './editor.css'
 
 function Admin(){
     const [ isAdmin, setIsAdmin ] = useState(false)
