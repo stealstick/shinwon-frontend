@@ -31,7 +31,6 @@
     
 }
 .download_button{
-    width: 130px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -39,10 +38,13 @@
     color: #ffffff;
     background-color: #00396a;
     border-radius: 6px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
     margin-left: 40px;
+    padding: 0 20px;
+    width: fit-content;
+    margin-bottom: 20px;
 }
 .type_content_wrapper{
     margin-top: 35px;
