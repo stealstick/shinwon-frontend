@@ -67,18 +67,15 @@
             max-height: 326px;
         }
         .img9{
-            max-height: 226px;
+            max-height: 324px;
         }
         .img10{
             max-height: 324px;
         }
         .img11{
-            max-height: 225px;
-        }
-        .img12{
             max-height: 300px;
         }
-        .img13{
+        .img12{
             max-height: 330px;
         }
         .doctor_img{
@@ -86,10 +83,6 @@
             width: 100%;
             height: auto;
             object-fit: contain;
-            &:nth-child(3){
-                
-            }
-           
         }
     }
 }
