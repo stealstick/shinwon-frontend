@@ -108,7 +108,7 @@ const TestSearch = ({props}) => {
     }
 
     useEffect(() => {
-            axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}`)
+            axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}&page=${currentPage}`)
             .then(res => {
                 setTesting(res.data['data'])
                 setCount(res.data['count'])
