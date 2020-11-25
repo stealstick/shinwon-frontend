@@ -34,7 +34,11 @@ const CheckResult = () => {
                 2) 신원 검사결과조회 전용 프로그램을 이용한 결과조회<br/>
                 <a className={styles.download_button} download href="http://61.252.130.67:200/SMI_SETUP.exe">다운로드</a>
                 </div>
-                
+                <div className={styles.note}>NOTE</div>
+                <div className={styles.note_text}>
+                2) 결과 조회 전용 프로그램의 다운로드시 크롬브라우저로 접속할 경우 다운로드방법은 해당 다운로드버튼에 마우스우측을 누르고<br/>
+“ 다른 이름으로 링크저장 ”을 통해 다운로드 할 수 있습니다. 구글크롬의  HTTP에서 파일다운로드 차단 정책으로 임시조치이며 수정시 note는 삭제됩니다.
+                </div>
             </div>
             <img data-aos="fade-up" data-aos-duration="2000" className={styles.img} src="../imgs/img/checkresult.svg" alt=""/>
             <div data-aos="fade-up" data-aos-duration="2000" className={styles.type_content_wrapper}>
