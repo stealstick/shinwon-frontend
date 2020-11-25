@@ -108,16 +108,6 @@ const TestSearch = ({props}) => {
     }
 
     useEffect(() => {
-        if(props===""){
-            axios.get(`https://api.shinwon.org/testing/?page=${currentPage}`)
-            .then(res => {
-                setTesting(res.data['results'])
-                setCount(res.data['count'])
-            })
-            .catch(err => {
-                console.log(err)
-            })
-        } else {
             axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}`)
             .then(res => {
                 setTesting(res.data['data'])
@@ -126,7 +116,6 @@ const TestSearch = ({props}) => {
             .catch(err => {
                 console.log(err)
             })
-        }
         
     }, [props, currentPage])
 
@@ -199,7 +188,7 @@ const TestSearch = ({props}) => {
                             <div className={styles.table_title}>주의사항</div>
                             <div className={styles.table_content}>{detailData.data20}</div>
                         </div>
-                        <div className={styles.detail_table_long}>
+                        <div className={styles.detail_table_long_warn}>
                             <div className={styles.table_title}>비고</div>
                             <div className={styles.table_content}>{detailData.data22}</div>
                         </div>
