@@ -41,7 +41,7 @@ function Header(){
                         <Link to="/center/1" className="content">검사실안내</Link>
                     </div>
                     <div className="content-wrapper  menu4" style={num===4 ? {borderBottom: "5px solid #00284b"} : null}>
-                        <Link to="/service/1" className="content" >고객서비스</Link>
+                        <Link to="/service/1/?page=1" className="content" >고객서비스</Link>
                     </div>
                     <div className="content-wrapper menu5" style={num===5 ? {borderBottom: "5px solid #00284b"} : null}>
                         <Link to="/rnd" className="content">R&D</Link>

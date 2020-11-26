@@ -17,15 +17,8 @@ const TestSearch = ({props}) => {
     const [ currentPage, setCurrentPage ] = useState(1)
     const [ count, setCount ] = useState(0)
 
-    const getPageNumber = () => {
-        var pageNum = 0
-        if(count % 20 !== 0) pageNum = count / 20 + 1
-        else if(count % 20 === 0) pageNum = count / 20
-        return pageNum
-    }
-
     const pageNumber = []
-    for(let i=1; i<=getPageNumber(); i++){
+    for(let i=1; i<=count; i++){
         pageNumber.push(i)
     }
     
