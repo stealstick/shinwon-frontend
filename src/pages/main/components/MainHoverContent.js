@@ -42,7 +42,7 @@ const MainHoverContent = ({img, text, type}) => {
                 </div>
             </Link>
             : text==="공문" ? 
-            <Link to="/service/1" className={styles.hover_container}>
+            <Link to="/service/1/?page=1" className={styles.hover_container}>
                 <div className={styles.hover_title}>{text}</div>
                 <div className={styles.hover_separator}/>
                 <div className={styles.hover_text}>

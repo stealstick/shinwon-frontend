@@ -60,7 +60,7 @@ const InputForm = () => {
                 </Link>
             </div>
             <div className="forms-btn-wrapper">
-                <Link to="/service/1" className="forms-btn forms-border-right forms-btn__gray">
+                <Link to="/service/1/?page=1" className="forms-btn forms-border-right forms-btn__gray">
                     <img src={require("./css/new.svg")} alt="" className="forms-btn-icon"/>
                     <div className="forms-btn-text">공문</div>
                 </Link>

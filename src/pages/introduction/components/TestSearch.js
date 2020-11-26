@@ -3,6 +3,8 @@ import styles from './css/TestSearch.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
 import queryString from 'query-string'
+import printJS from 'print-js'
+import html2canvas from 'html2canvas'
 
 const TestSearch = ({props}) => {
 
@@ -100,6 +102,10 @@ const TestSearch = ({props}) => {
         )
     }
 
+    const PrintTest = () => {
+        printJS('print', 'html')
+    }
+
     useEffect(() => {
         searchData()
         
@@ -111,8 +117,9 @@ const TestSearch = ({props}) => {
                 <SectionTitle kor="검사항목조회" eng="TEST LIST SEARCH"/>
                 <div className={styles.list_title}>자동분석검사를 대폭 증강 실시하여 검사 정밀도를 한차원 높여 질 좋은 진료를 위하여 앞장서고 있습니다.</div>
                 {isSearchDetail ? 
-                <div className={styles.detail_wrapper}>
+                <div className={styles.detail_wrapper} >
                     <div className={styles.detail_title}>상세보기</div>
+                    <div id="print">
                     <div className={styles.detail_table}>
                         <div className={styles.detail_table_long}>
                             <div className={styles.table_title}>검사명</div>
@@ -184,7 +191,7 @@ const TestSearch = ({props}) => {
                         <div className={styles.table2_wrapper}>
                             <div className={styles.table2_img_wrapper}>
                                 {detailData.data24!=="" ? 
-                                <img src={`https://api.shinwon.org/media/TestingTable/${detailData.data24}`} alt="" className={styles.table2_img}/>
+                                <img crossOrigin="anonymous" src={`https://api.shinwon.org/media/TestingTable/${detailData.data24}`} alt="" className={styles.table2_img}/>
                                 : 
                                 <div className={styles.table2_img}/>
                                 }
@@ -214,9 +221,10 @@ const TestSearch = ({props}) => {
                             </div>
                         </div>
                     </div>
+                    </div>
                     <div className={styles.button_wrapper}>
                         <div className={styles.button} onClick={() => setIsSearchDetail(false)}>목록으로</div>
-                        <div className={styles.button}>
+                        <div className={styles.button} onClick={() => PrintTest()}>
                             <img src="../imgs/img/printer.svg" alt=""/>인쇄하기
                         </div>
                     </div>
