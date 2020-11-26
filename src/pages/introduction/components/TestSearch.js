@@ -72,11 +72,11 @@ const TestSearch = ({props}) => {
     } 
 
     const searchData = () => {
-        var ord_cd = code2.replace(/(^0+)/, "");
+        var ord_cd = code2==="" ? 1 : code2
         axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${ord_cd}&page=${currentPage}`)
         .then(res => {
             setTesting(res.data['data'])
-            console.log(res.data['count'])
+            setCount(res.data['count'])
         })
         .catch(err => {
             console.log(err)
@@ -108,14 +108,7 @@ const TestSearch = ({props}) => {
     }
 
     useEffect(() => {
-            axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${code2}&page=${currentPage}`)
-            .then(res => {
-                setTesting(res.data['data'])
-                setCount(res.data['count'])
-            })
-            .catch(err => {
-                console.log(err)
-            })
+        searchData()
         
     }, [props, currentPage])
 

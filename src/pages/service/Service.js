@@ -22,11 +22,11 @@ function Service(props){
         <Layout>
             <div className={styles.body}>
                 <div className={styles.body_top_bg_wrapper}>
-                    <img src="../imgs/img/service.png" alt="" className={styles.body_top_bg}/>
+                    <img src={require("./components/css/foundation.png")} alt="" className={styles.body_top_bg}/>
                 </div>
                 <div className={styles.body_contents}>
                     <ServiceSidebar selectedNum={num}/>
-                    {num===1 ? <Official/> : 
+                    {num===1 ? <Official props={props.location}/> : 
                     num===2 ? <DataRoom/> : 
                     num===3 ? <BloodCollection/> :
                     num===4 ? <FAQ/> :

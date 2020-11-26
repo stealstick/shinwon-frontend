@@ -2,13 +2,16 @@ import React, { useState, useEffect } from 'react'
 import styles from './css/Official.module.scss'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
+import queryString from 'query-string'
 
-const Official = () => {
+const Official = ({props}) => {
 
     const [ posts, setPosts ] = useState([])
-    const [ currentPage, setCurrentPage ] = useState(1)
+    const [ currentPage, setCurrentPage ] = useState(Number(queryString.parse(props.search).page))
     const [ count, setCount ] = useState(0)
+
+    const history = useHistory()
 
     const getPageNumber = () => {
         var pageNum = 0
@@ -67,6 +70,7 @@ const Official = () => {
 
     const paginate = (number) => {
         setCurrentPage(number)
+        history.push(`/service/1/?page=${number}`)
     }
 
     useEffect(() => {

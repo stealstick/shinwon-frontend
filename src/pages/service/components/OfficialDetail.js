@@ -3,11 +3,13 @@ import styles from './css/OfficialDetail.module.css'
 import SectionTitle from '../../../components/SectionTitle'
 import axios from 'axios'
 import Layout from '../../Layout'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
+import ServiceSidebar from './ServiceSidebar'
 
 function OfficialDetail(props){
 
     const [ data, setData ] = useState({})
+    const history = useHistory()
 
     useEffect(() => {
         axios.get(`https://api.shinwon.org/board/${props.match.params.officialid}/`)
@@ -90,25 +92,11 @@ function OfficialDetail(props){
         <Layout>
             <div className={styles.body}>
                 <div className={styles.body_top_bg_wrapper}>
-                    <img src="../../imgs/img/foundation.png" alt="" className={styles.body_top_bg}/>
+                    <img src={require("./css/foundation.png")} alt="" className={styles.body_top_bg}/>
                 </div>
                 
                 <div className={styles.body_contents}>
-                    <>
-                    <div className={styles.sidebar}>
-                        <div className={styles.side_box_shadow}>
-                            <div className={styles.sidebar_title}>
-                                <img src="../../imgs/img/foundation-sidebar.png" alt="" className={styles.sidebar_title_img}/>
-                                <div className={styles.sidebar_title_text}>고객서비스</div>
-                            </div>
-                            <Link to="/service/1" className={styles.sidebar_selected}>공문</Link>
-                            <Link to="/service/2" className={styles.sidebar_content}>자료실</Link>
-                            <Link to="/service/3" className={styles.sidebar_content}>감염지침</Link>
-                            <Link to="/service/4" className={styles.sidebar_content}>FAQ</Link>
-                            <Link to="/service/6" className={styles.sidebar_content}>채용공고</Link>
-                        </div>
-                    </div>
-                    </>
+                    <ServiceSidebar/>
                     <div className={styles.container}>
                         <div className={styles.section}>
                             <SectionTitle kor="공문" eng="Official"/>
@@ -151,7 +139,7 @@ function OfficialDetail(props){
                             </div>
                             : null}
                             <div className={styles.list_btn_wrapper}>
-                                <Link to="/service/1" className={styles.list_btn}>목록</Link>
+                                <div onClick={() => history.goBack()} className={styles.list_btn}>목록</div>
                             </div>
                         </div>
                     </div>
