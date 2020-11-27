@@ -11,7 +11,8 @@ const Certificate = () => {
     const [ count, setCount ] = useState(0)
 
     const printImage = (img) => {
-        printJs(img, 'image')
+        var isUrl = img.indexOf("http")>-1
+        printJs(isUrl ? img : 'https://api.shinwon.org/media/' + img, 'image')
     }
 
     const downloadFile = (file) => {
