@@ -24,11 +24,6 @@ const RecruitmentList = () => {
     }
 
     useEffect(() => {
-        const data = [1,2,3,4,5,6,7,8,9,10]
-        const list = data.map(d => (
-            <RecContent id={d} key={d}/>
-        ))
-        setRecList(list)
     }, [])
 
     return(
@@ -50,8 +45,9 @@ const RecruitmentList = () => {
                         <div onClick={() => setNum(1)} className={num===1 ? styles.list_toggle_text_selected : styles.list_toggle_text}>전체</div>
                         <div onClick={() => setNum(2)} className={num===2 ? styles.list_toggle_text_selected : styles.list_toggle_text}>상시</div>
                     </div>
-                    <div className={styles.list_title_bar}></div>
-                    {recList}
+                    {recList.length ? <><div className={styles.list_title_bar}></div>{recList}</> : <><div className={styles.none_text}>현재 진행중인 공고가 없습니다.</div><div className={styles.list_title_bar}></div></>}
+                    
+                    
                 </div>
             </div>
             <Footer/>

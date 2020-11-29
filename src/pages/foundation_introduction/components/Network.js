@@ -30,13 +30,13 @@ const Network = () => {
             <div className={styles.network_area_content}>
                 <div className={styles.network_area_content_title}>&nbsp;&nbsp;강남영업소</div>
                 <div className={styles.network_area_content_bold}>연락처: 
-                    <span className={styles.network_area_content_text}>사무실 02-3414-8102 팩스 02-3414-8101</span>
+                    <span className={styles.network_area_content_text}>사무실 031-751-1815, 031-751-1840 팩스 031-751-1816</span>
                 </div>
                 <div className={styles.network_area_content_bold}>우편번호:
                     <span className={styles.network_area_content_text}>06376</span>
                 </div>
                 <div className={styles.network_area_content_bold}>주소:
-                    <span className={styles.network_area_content_text}>서울시 강남구 새곡동 616외1필지 강남드림하이오피스텔 614호</span>
+                    <span className={styles.network_area_content_text}>경기도 성남시 수정구 위례서일로 30 307호</span>
                 </div>
                 <div className={styles.network_area_content_bold}>담당지역:
                     <span className={styles.network_area_content_text}>서울 전 지역</span>
@@ -117,21 +117,6 @@ const Network = () => {
                     <span className={styles.network_area_content_text}>서울 북서부 지역, 고양시</span>
                 </div>
             </div>
-            <div className={styles.network_area_content}>
-                <div className={styles.network_area_content_title}>&nbsp;&nbsp;남부영업소</div>
-                <div className={styles.network_area_content_bold}>연락처: 
-                    <span className={styles.network_area_content_text}>사무실 031-751-1840 팩스 031-751-1816</span>
-                </div>
-                <div className={styles.network_area_content_bold}>우편번호:
-                    <span className={styles.network_area_content_text}>13119</span>
-                </div>
-                <div className={styles.network_area_content_bold}>주소:
-                    <span className={styles.network_area_content_text}>경기도 성남시 수정구 북정로20번길 22 1층</span>
-                </div>
-                <div className={styles.network_area_content_bold}>담당지역:
-                    <span className={styles.network_area_content_text}>서울 남동부 지역, 하남시, 성남시, 수원시</span>
-                </div>
-            </div>
         </div>
         )
     }
@@ -203,7 +188,7 @@ const Network = () => {
                         <span className={styles.network_area_content_text}>경기도 부천시 중동로 248번길 38 메트로폴리스2차 A동 208호</span>
                     </div>
                     <div className={styles.network_area_content_bold}>담당지역:
-                        <span className={styles.network_area_content_text}>부천시, 경기 안양시, 군포시, 안산시, 인천</span>
+                        <span className={styles.network_area_content_text}>부천시, 김포시, 인천 일부</span>
                     </div>
                 </div>
                 <div className={styles.network_area_content}>
@@ -505,6 +490,36 @@ const Network = () => {
         )
     }
 
+    const Gwangju = () => {
+        return(
+            <div className={styles.network_area_contents}>
+                <div className={styles.network_area_content}>
+                    <div className={styles.network_area_content_title}>&nbsp;&nbsp;지역영업소 준비중입니다.</div>
+                </div>
+            </div>
+        )
+    }
+    
+    const Jeonnam = () => {
+        return(
+            <div className={styles.network_area_contents}>
+                <div className={styles.network_area_content}>
+                    <div className={styles.network_area_content_title}>&nbsp;&nbsp;지역영업소 준비중입니다.</div>
+                </div>
+            </div>
+        )
+    }
+
+    const Jeju = () => {
+        return(
+            <div className={styles.network_area_contents}>
+                <div className={styles.network_area_content}>
+                    <div className={styles.network_area_content_title}>&nbsp;&nbsp;지역영업소 준비중입니다.</div>
+                </div>
+            </div>
+        )
+    }
+
     return(
         <div className={styles.container}>
             <div className={styles.greeting_top_wrapper}>
@@ -557,7 +572,10 @@ const Network = () => {
                         area==="충북" ? <Chungbuk/> :
                         area==="충남" ? <Chungnam/> :
                         area==="강원" ? <Gangwon/> :
-                        area==="전북" ? <Jeonbuk/> : null}
+                        area==="전북" ? <Jeonbuk/> : 
+                        area==="전남" ? <Jeonnam/> :
+                        area==="광주" ? <Gwangju/> : 
+                        area==="제주" ? <Jeju/> : null}
                         
                     </div>
                 </div>
