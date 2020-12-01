@@ -12,6 +12,8 @@ import Rnd from './pages/r&d/Rnd'
 import Personal from './pages/Personal'
 import Sitemap from './pages/Sitemap'
 import Admin from './pages/admin/Admin'
+import AddReference from './pages/admin/AddRefernce'
+import AddRecruitment from './pages/admin/AddRecruitment'
  
 function App() {
   	return (
@@ -29,6 +31,8 @@ function App() {
 				<Route exact path="/personal" component={Personal}/>
 				<Route exact path="/sitemap" component={Sitemap}/>
 				<Route exact path="/admin" component={Admin}/>
+				<Route exact path="/addreference" component={AddReference}/>
+				<Route exact path="/addrecruitment" component={AddRecruitment}/>
 			</Switch>
 		</BrowserRouter>
   	);

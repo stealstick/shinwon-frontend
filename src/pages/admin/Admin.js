@@ -6,6 +6,8 @@ import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 import draftToHtml from 'draftjs-to-html'
 import axios from 'axios'
 import './editor.css'
+import { Link } from 'react-router-dom'
+import LinkContent from './LinkContent'
 
 function Admin(){
     const [ isAdmin, setIsAdmin ] = useState(false)
@@ -20,7 +22,8 @@ function Admin(){
         reg_id: "",
         reg_name: "",
         b_idx: 1,
-        idx: ""
+        idx: "",
+        regdate: ""
     })
     const onChange = (e) => {
         const { name, value } = e.target
@@ -29,7 +32,7 @@ function Admin(){
             [name]: value
         })
     }
-    const { title, email, fileurl, fileurl2, fileurl3, reg_id, reg_name, b_idx, idx } = input
+    const { title, email, fileurl, fileurl2, fileurl3, reg_id, reg_name, b_idx, idx, regdate } = input
 
     const handleLogin = () => {
         if(password==="admin"){
@@ -90,7 +93,7 @@ function Admin(){
 
     const handleUpload = () => {
         const editorHtml = draftToHtml(convertToRaw(editorState.getCurrentContent()))
-        axios.post("https://api.shinwon.org/board/", ({
+        axios.post(`https://api.shinwon.org/board/`, ({
             title: title,
             email: email,
             fileurl: fileurl,
@@ -101,10 +104,20 @@ function Admin(){
             b_idx: b_idx,
             contents: editorHtml,
             idx: Number(idx),
-            regdate: getCurrentTime()
+            regdate: regdate
         }))
         .then(res => {
-            console.log(res)
+            setInput({
+                title: "",
+                email: "",
+                fileurl: "",
+                fileurl2: "",
+                fileurl3: "",
+                reg_id: "",
+                reg_name: "",
+                b_idx: 1,
+                idx: ""
+            })
         })
         .catch(err => {
             console.log(err)
@@ -115,6 +128,8 @@ function Admin(){
         <>
             {isAdmin ? 
                 <div className={styles.editor_container}>
+                    <LinkContent/>
+                    <div className={styles.title}>공문, FAQ 업로드</div>
                     <input onChange={onChange} value={title} name="title" placeholder="제목" className={styles.input}/>
                     <input onChange={onChange} value={email} name="email" placeholder="이메일(선택)" className={styles.input}/>
                     <input onChange={onChange} value={fileurl} name="fileurl" placeholder="첨부파일1(선택)" className={styles.input}/>
@@ -122,11 +137,10 @@ function Admin(){
                     <input onChange={onChange} value={fileurl3} name="fileurl3" placeholder="첨부파일3(선택)"  className={styles.input}/>
                     <input onChange={onChange} value={reg_id} name="reg_id" placeholder="등록 ID(admin)"  className={styles.input}/>
                     <input onChange={onChange} value={reg_name} name="reg_name" placeholder="등록자(관리자)"  className={styles.input}/>
+                    <input onChange={onChange} value={regdate} name="regdate" placeholder="입력 날짜"  className={styles.input}/>
                     <input onChange={onChange} value={idx} name="idx" placeholder="idx" className={styles.input}/>
                     <select onChange={onChange} name="b_idx">
                         <option value={1}>공문</option>
-                        <option value={7}>인증서</option>
-                        <option value={5}>의뢰지/동의서</option>
                         <option value={3}>FAQ</option>
                     </select>
                     <div className={styles.editor_wrapper}>

@@ -6,6 +6,11 @@
     justify-content: center;
     flex-direction: column;
 }
+.title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
 .login_input{
     padding: 20px;
     font-size: 20px;
@@ -65,4 +70,21 @@ select{
     font-size: 18px;
     padding: 20px;
     margin-bottom: 30px;
+}
+
+.linkcontent_wrapper{
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.linkcontent{
+    background-color: #00396a;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 15px;
 }
