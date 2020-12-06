@@ -26,7 +26,7 @@ function App() {
 				<Route exact path="/service/:num/:officialid" component={OfficialDetail}/>
 				<Route exact path="/foundation/:num" component={Foundation}/>
 				<Route exact path="/recruitment" component={RecruitmentList}/>
-				<Route exact path="/recruitment/:id" component={RecruitmentDetail}/>
+				<Route exact path="/recruitment/:title" component={RecruitmentDetail}/>
 				<Route exact path="/rnd" component={Rnd}/>
 				<Route exact path="/personal" component={Personal}/>
 				<Route exact path="/sitemap" component={Sitemap}/>

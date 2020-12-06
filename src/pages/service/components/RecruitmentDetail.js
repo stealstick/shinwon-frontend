@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './css/RecruitmentDetail.module.css'
 import { Link } from 'react-router-dom'
 import Footer from '../../Footer'
+import axios from 'axios'
 
-const RecruitmentDetail = () => {
+function RecruitmentDetail(props){
 
     const SubTitle = ({title}) => {
         return(
@@ -13,6 +14,18 @@ const RecruitmentDetail = () => {
             </div>
         )
     }
+
+    const [ data, setData ] = useState({})
+
+    useEffect(() => {
+        axios.get(`https://api.shinwon.org/recruit/?title=${props.match.params.title}`)
+        .then(res => {
+            setData(res.data['results'][0])
+        })
+        .catch(err => {
+            console.log(err)
+        })
+    }, [props.match])
 
     return(
         <div className={styles.container}>
@@ -31,11 +44,11 @@ const RecruitmentDetail = () => {
                 <div className={styles.page_table}>
                     <div className={styles.table_row}>
                         <div className={styles.row_title}>공고명</div>
-                        <div className={styles.row_text_bold}>임상병리사 경력직 채용공고</div>
+                        <div className={styles.row_text_bold}>{data.title}</div>
                     </div>
                     <div className={styles.table_row}>
                         <div className={styles.row_title}>기간</div>
-                        <div className={styles.row_text_bold}>2020.00.00 ~ 2020.00.00</div>
+                        <div className={styles.row_text_bold}>{data.start_period} ~ {data.end_period}</div>
                     </div>
                     <div className={styles.table_row}>
                         <div className={styles.row_title}>이메일주소</div>
@@ -44,10 +57,15 @@ const RecruitmentDetail = () => {
                 </div>
                 <div className={styles.page_title_big}>임상병리사 경력직 채용공고</div>
                 <SubTitle title="모집분야 및 자격요건"/>
+                {data.field_title}
                 <SubTitle title="지원방법"/>
+                
                 <SubTitle title="전형절차"/>
+                {data.progress}
                 <SubTitle title="기타사항"/>
+                {data.etc}
                 <SubTitle title="문의"/>
+                {data.inquiry}
                 <div className={styles.button_wrapper}>
                     <Link to="/recruitment" className={styles.button}>목록으로</Link>
                 </div>

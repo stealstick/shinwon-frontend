@@ -8,7 +8,8 @@ function AddRecruitment(){
     const [ password, setPassword ] = useState("")
     const [ input, setInput ] = useState({
         title: "",
-        period: "",
+        start_period: "",
+        end_period: "",
         field_title: "",
         field_sector: "",
         progress: "",
@@ -22,7 +23,7 @@ function AddRecruitment(){
             [name]: value
         })
     }
-    const { title, period, field_sector,  field_title, progress, etc, inquiry } = input
+    const { title, start_period, end_period, field_sector, field_title, progress, etc, inquiry } = input
 
     useEffect(() => {
         if(sessionStorage.getItem("admin")==="admin"){
@@ -42,9 +43,10 @@ function AddRecruitment(){
     }
 
     const handleUpload = () => {
-        axios.post(`https://api.shinwon.org/recruitment/`, ({
+        axios.post(`https://api.shinwon.org/recruit/`, ({
             title: title,
-            period: period,
+            start_period: start_period,
+            end_period: end_period,
             field_sector: field_sector,
             field_title: field_title,
             progress: progress,
@@ -54,12 +56,13 @@ function AddRecruitment(){
         .then(res => {
             setInput({
                 title: "",
-        period: "",
-        field_title: "",
-        field_sector: "",
-        progress: "",
-        etc: "",
-        inquiry: ""
+                start_period: "",
+                end_period: "",
+                field_title: "",
+                field_sector: "",
+                progress: "",
+                etc: "",
+                inquiry: ""
             })
         })
         .catch(err => {
@@ -85,7 +88,8 @@ function AddRecruitment(){
                     <LinkContent/>
                     <div className={styles.title}>인증서/의뢰지/동의서</div>
                     <input onChange={onChange} value={title} name="title" placeholder="공고명" className={styles.input}/>
-                    <input onChange={onChange} value={period} name="period" placeholder="기간" className={styles.input}/>
+                    <input onChange={onChange} value={start_period} name="start_period" placeholder="모집 시작 날짜" className={styles.input}/>
+                    <input onChange={onChange} value={end_period} name="end_period" placeholder="모집 완료 날짜" className={styles.input}/>
                     <input onChange={onChange} value={field_title} name="field_title" placeholder="모집분야"  className={styles.input}/>
                     <input onChange={onChange} value={field_sector} name="field_sector" placeholder="모집부문"  className={styles.input}/>
                     <input onChange={onChange} value={progress} name="progress" placeholder="지원절차"  className={styles.input}/>
