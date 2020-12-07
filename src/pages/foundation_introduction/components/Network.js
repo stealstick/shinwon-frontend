@@ -43,7 +43,7 @@ const Network = () => {
                 </div>
             </div>
             <div className={styles.network_area_content}>
-                <div className={styles.network_area_content_title}>&nbsp;&nbsp;강북영업소</div>
+                <div className={styles.network_area_content_title}>&nbsp;&nbsp;강북1영업소</div>
                 <div className={styles.network_area_content_bold}>연락처: 
                     <span className={styles.network_area_content_text}>사무실 02-936-3330 팩스 02-936-9397</span>
                 </div>
@@ -55,6 +55,37 @@ const Network = () => {
                 </div>
                 <div className={styles.network_area_content_bold}>담당지역:
                     <span className={styles.network_area_content_text}>서울 강북 지역, 의정부시, 포천시, 남양주시, 구리시</span>
+                </div>
+            </div>
+            
+            <div className={styles.network_area_content}>
+                <div className={styles.network_area_content_title}>&nbsp;&nbsp;강북2영업소</div>
+                <div className={styles.network_area_content_bold}>연락처: 
+                    <span className={styles.network_area_content_text}>사무실 02-971-0010 팩스 02-972-0130</span>
+                </div>
+                <div className={styles.network_area_content_bold}>우편번호:
+                    <span className={styles.network_area_content_text}>01905</span>
+                </div>
+                <div className={styles.network_area_content_bold}>주소:
+                    <span className={styles.network_area_content_text}>서울시 노원구 월계동 321-2번지 희성프라자 302호</span>
+                </div>
+                <div className={styles.network_area_content_bold}>담당지역:
+                    <span className={styles.network_area_content_text}>서울 전 지역</span>
+                </div>
+            </div>
+            <div className={styles.network_area_content}>
+                <div className={styles.network_area_content_title}>&nbsp;&nbsp;강북3영업소</div>
+                <div className={styles.network_area_content_bold}>연락처: 
+                    <span className={styles.network_area_content_text}>사무실 02-3296-6333 팩스 02-3296-6335</span>
+                </div>
+                <div className={styles.network_area_content_bold}>우편번호:
+                    <span className={styles.network_area_content_text}>01905</span>
+                </div>
+                <div className={styles.network_area_content_bold}>주소:
+                    <span className={styles.network_area_content_text}>서울시 노원구 월계동 321-2번지 희성프라자 408호</span>
+                </div>
+                <div className={styles.network_area_content_bold}>담당지역:
+                    <span className={styles.network_area_content_text}>동대문구, 중랑구, 성동구, 광진구일부, 노원구일부, 남양주시, 구리시</span>
                 </div>
             </div>
             <div className={styles.network_area_content}>
@@ -70,21 +101,6 @@ const Network = () => {
                 </div>
                 <div className={styles.network_area_content_bold}>담당지역:
                     <span className={styles.network_area_content_text}>서울 남동부 지역, 하남시, 성남시, 수원시</span>
-                </div>
-            </div>
-            <div className={styles.network_area_content}>
-                <div className={styles.network_area_content_title}>&nbsp;&nbsp;북부영업소</div>
-                <div className={styles.network_area_content_bold}>연락처: 
-                    <span className={styles.network_area_content_text}>사무실 02-971-0010 팩스 02-972-0130</span>
-                </div>
-                <div className={styles.network_area_content_bold}>우편번호:
-                    <span className={styles.network_area_content_text}>01905</span>
-                </div>
-                <div className={styles.network_area_content_bold}>주소:
-                    <span className={styles.network_area_content_text}>서울시 노원구 월계동 321-2번지 희성프라자 302호</span>
-                </div>
-                <div className={styles.network_area_content_bold}>담당지역:
-                    <span className={styles.network_area_content_text}>서울 전 지역</span>
                 </div>
             </div>
             <div className={styles.network_area_content}>

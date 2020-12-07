@@ -115,9 +115,11 @@ function Admin(){
                 fileurl3: "",
                 reg_id: "",
                 reg_name: "",
+                regdate: "",
                 b_idx: 1,
                 idx: ""
             })
+            setEditorState(editorState.createEmpty())
         })
         .catch(err => {
             console.log(err)
