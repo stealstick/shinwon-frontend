@@ -32,7 +32,7 @@ const CheckResult = () => {
                 1) 홈페이지를 이용한 결과조회<br/>
                 <a href="http://61.252.130.67:200/" className={styles.download_button} target="blank">검사결과조회 바로가기</a>
                 2) 신원 검사결과조회 전용 프로그램을 이용한 결과조회<br/>
-                <a href="http://api.shinwon.org/media/SMI_SETUP.exe" download className={styles.download_button}>다운로드</a>
+                <a href="https://api.shinwon.org/media/SMI_SETUP.exe" download className={styles.download_button}>다운로드</a>
                 </div>
             </div>
             <img data-aos="fade-up" data-aos-duration="2000" className={styles.img} src="../imgs/img/checkresult.svg" alt=""/>
