@@ -45,10 +45,11 @@ function Main() {
             return  year + '-' + month + '-' + day;       //'-' 추가하여 yyyy-mm-dd 형태 생성 가능
         }
         var today = new Date()
+        localStorage.setItem("popup_display_none", "")
         axios.get(`https://api.shinwon.org/popup/?end_date=${getFormatDate(today)}`)
         .then(res => {
-            var non_popups = localStorage.getItem("popup_display_none").split("-") || ""
-            setPopups(res.data['results'].filter(popup => non_popups.indexOf(popup.idx)!==-1))
+            var non_popups = localStorage.getItem("popup_display_none").split("-")
+            setPopups(res.data['results'].filter(popup => non_popups.indexOf(popup.idx)===-1))
         })
         .catch(err => {
             console.log(err)
