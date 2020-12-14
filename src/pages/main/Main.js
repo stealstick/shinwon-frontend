@@ -7,10 +7,24 @@ import { Link } from 'react-router-dom'
 import CustomerService from '../../components/CustomerService'
 import FamilySite from './components/FamilySite'
 import Notice from './components/Notice'
+import axios from 'axios'
 
 function Main() {
 
+    const PopupContent = ({file_url, p_height, p_width, onDeleteClick}) => {
+        var isUrl = file_url.indexOf("http")>-1
+        return(
+            <div style={{position: "fixed", top: "20px", left: "20px", zIndex: "99999"}}>
+                <img src={isUrl ? file_url : `https://api.shinwon.org/media/${file_url}`} style={{height: p_height+"px", width: p_width+"px"}} alt=""/>
+                <div style={{width: "100%", backgroundColor: "#ffffff", display: "flex", justifyContent: "flex-end", padding: "5px 0px", position: "relative", bottom: "5px"}}>
+                    <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onDeleteClick}>팝업 지우기</div>
+                </div>
+            </div>
+        )
+    }
+
     const [slider, setSlider] = useState(1)
+    const [ popups, setPopups ] = useState([])
 
     useEffect(() => {
         let slider_index = 1
@@ -21,8 +35,37 @@ function Main() {
         return () => clearInterval(interval);
     }, []);
 
+    useEffect(() => {
+        function getFormatDate(date){
+            var year = date.getFullYear();              //yyyy
+            var month = (1 + date.getMonth());          //M
+            month = month >= 10 ? month : '0' + month;  //month 두자리로 저장
+            var day = date.getDate();                   //d
+            day = day >= 10 ? day : '0' + day;          //day 두자리로 저장
+            return  year + '-' + month + '-' + day;       //'-' 추가하여 yyyy-mm-dd 형태 생성 가능
+        }
+        var today = new Date()
+        axios.get(`https://api.shinwon.org/popup/?end_date=${getFormatDate(today)}`)
+        .then(res => {
+            var non_popups = localStorage.getItem("popup_display_none").split("-") || ""
+            setPopups(res.data['results'].filter(popup => non_popups.indexOf(popup.idx)!==-1))
+        })
+        .catch(err => {
+            console.log(err)
+        })
+    }, [])
+
+    const deletePopup = (idx) => {
+        var non_popups = localStorage.getItem("popup_display_none")
+        localStorage.setItem("popup_display_none", non_popups+"-"+idx)
+        setPopups(popups.filter(popup => popup.idx!==idx))
+    }
+
     return (
         <Layout>
+            {popups.map(popup => (
+                <PopupContent {...popup} key={popup.idx} onDeleteClick={() => deletePopup(popup.idx)}/>
+            ))}
             <div className={styles.body_wrapper}>
             <div className={styles.body_upper}>
                 <div className={styles.body_slide}>

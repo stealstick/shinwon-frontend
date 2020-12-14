@@ -14,6 +14,7 @@ import Sitemap from './pages/Sitemap'
 import Admin from './pages/admin/Admin'
 import AddReference from './pages/admin/AddRefernce'
 import AddRecruitment from './pages/admin/AddRecruitment'
+import AddPopup from './pages/admin/AddPopup'
  
 function App() {
   	return (
@@ -33,6 +34,7 @@ function App() {
 				<Route exact path="/admin" component={Admin}/>
 				<Route exact path="/addreference" component={AddReference}/>
 				<Route exact path="/addrecruitment" component={AddRecruitment}/>
+				<Route exact path="/addpopup" component={AddPopup}/>
 			</Switch>
 		</BrowserRouter>
   	);

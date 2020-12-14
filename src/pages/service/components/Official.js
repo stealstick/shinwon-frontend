@@ -47,6 +47,10 @@ const Official = ({props}) => {
             num={num}
         />
     ))
+    const paginate = (number) => {
+        setCurrentPage(number)
+        history.push(`/service/1/?page=${number}`)
+    }
 
     const OfficialContent = ({id, title, date, url}) => {
         return(
@@ -68,10 +72,7 @@ const Official = ({props}) => {
         />
     ))
 
-    const paginate = (number) => {
-        setCurrentPage(number)
-        history.push(`/service/1/?page=${number}`)
-    }
+    
 
     useEffect(() => {
         axios.get(`https://api.shinwon.org/board/?b_idx=1&page=${currentPage}`)
