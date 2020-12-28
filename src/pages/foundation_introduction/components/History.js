@@ -27,7 +27,7 @@ const History = () => {
                     </div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>
-                        <div className={styles.row_text}>진단검사의학부 검사 장비 증성, 업무공간 확장</div>
+                        <div className={styles.row_text}>진단검사의학부 검사 장비 증설, 업무공간 확장</div>
                     </div>
                     <div className={styles.row_right}>
                         <img src={require('./css/small-round.svg')} alt="" className={styles.small_round}/>

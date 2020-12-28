@@ -276,23 +276,6 @@ Potassium, Chloride, Creatinine, Urea, Glucose, Leukocytes, Inorganic, Phosphate
 - 검사가 끝난 검체는 검사결과의 재 검사 등 기타의 사유로 일정기관보관 후 폐기물 관리법에 따라 폐기한다. <br/>
 &nbsp;&nbsp;(혈청:7일, 일반 혈액 검체:3일)	
                 </div>
-                <div data-aos="fade-up"  data-aos-duration="2000" className={styles.tips_wrapper}>
-                    <div className={styles.tips_text_bold}>
-                    ▶ 주의 : 보관 검체로 검사 진행된 항목의 경우 보관 상태에 따라 결과 값에 영향을 줄 수 있으므로 <br/>
-                 <span data-aos="fade-up"  data-aos-duration="2000" className={styles.mg_lft_50}>이점을 의뢰의료기관 담당자에게 알려 적절한 조치를 취하게 한다.</span><br/>
-                    <br/>
-                    <span className={styles.mg_lft_50}>* 채혈 후 반드시 분리 보관해야 하는 검사 항목</span>
-                    </div>
-                    <div className={styles.tips_items_wrapper}>
-                        <div className={styles.tips_item}>FDF(B1613)</div>
-                        <div className={styles.tips_item}>ACTH(C3590)</div>
-                        <div className={styles.tips_item}>Renin(C7360)</div>
-                        <div className={styles.tips_item}>Aldosterol(C7358)</div>
-                        <div className={styles.tips_item}>BNP(CZ204)</div>
-                        <div className={styles.tips_item}>ADH(C7365)</div>
-                        <div className={styles.tips_item}>Lupus anticoagulant(B1711, B1712006)</div>
-                    </div>
-                </div>
                 </div>
                 <SectionTitle/>
                 <div data-aos="fade-up"  data-aos-duration="2000" className={styles.section_title}>감염관리 지침</div>
