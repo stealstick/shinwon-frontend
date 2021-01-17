@@ -11,20 +11,39 @@ import axios from 'axios'
 
 function Main() {
 
-    const PopupContent = ({file_url, p_height, p_width, onDeleteClick}) => {
+    const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick}) => {
         var isUrl = file_url.indexOf("http")>-1
         return(
             <div style={{position: "fixed", top: "20px", left: "20px", zIndex: "99999"}}>
-                <img src={isUrl ? file_url : `https://api.shinwon.org/media/${file_url}`} style={{height: p_height+"px", width: p_width+"px"}} alt=""/>
-                <div style={{width: "100%", backgroundColor: "#ffffff", display: "flex", justifyContent: "flex-end", padding: "5px 0px", position: "relative", bottom: "5px"}}>
-                    <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onDeleteClick}>팝업 지우기</div>
+                <div style={{width: "100%", backgroundColor: "#ffffff", display: "flex", justifyContent: "space-between", padding: "5px 0px", position: "relative", bottom: "5px"}}>
+                    <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onCloseClick}>그만보기</div>
+                    <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onDeleteClick}>일주일간 보지않기</div>
                 </div>
+                <img src={isUrl ? file_url : `https://api.shinwon.org/media/${file_url}`} style={{height: p_height+"px", width: p_width+"px"}} alt=""/>
+                
             </div>
         )
     }
 
     const [slider, setSlider] = useState(1)
     const [ popups, setPopups ] = useState([])
+
+    function getFormatDate(date){
+        var year = date.getFullYear();              //yyyy
+        var month = (1 + date.getMonth());          //M
+        month = month >= 10 ? month : '0' + month;  //month 두자리로 저장
+        var day = date.getDate();                   //d
+        day = day >= 10 ? day : '0' + day;          //day 두자리로 저장
+        return  year + '-' + month + '-' + day;       //'-' 추가하여 yyyy-mm-dd 형태 생성 가능
+    }
+
+    function setCookie(name, value, expireDays){
+        var today = new Date()
+        today.setDate(today.getDate() + expireDays)
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + today.toGMTString() + ";"
+    }
+
+
 
     useEffect(() => {
         let slider_index = 1
@@ -36,20 +55,13 @@ function Main() {
     }, []);
 
     useEffect(() => {
-        function getFormatDate(date){
-            var year = date.getFullYear();              //yyyy
-            var month = (1 + date.getMonth());          //M
-            month = month >= 10 ? month : '0' + month;  //month 두자리로 저장
-            var day = date.getDate();                   //d
-            day = day >= 10 ? day : '0' + day;          //day 두자리로 저장
-            return  year + '-' + month + '-' + day;       //'-' 추가하여 yyyy-mm-dd 형태 생성 가능
-        }
+        let cookieData = document.cookie
+        console.log(cookieData)
         var today = new Date()
         localStorage.setItem("popup_display_none", "")
         axios.get(`https://api.shinwon.org/popup/?end_date=${getFormatDate(today)}`)
         .then(res => {
-            var non_popups = localStorage.getItem("popup_display_none").split("-")
-            setPopups(res.data['results'].filter(popup => non_popups.indexOf(popup.idx)===-1))
+            setPopups(res.data['results'].filter(popup => cookieData.indexOf(popup.idx)===-1))
         })
         .catch(err => {
             console.log(err)
@@ -57,15 +69,18 @@ function Main() {
     }, [])
 
     const deletePopup = (idx) => {
-        var non_popups = localStorage.getItem("popup_display_none")
-        localStorage.setItem("popup_display_none", non_popups+"-"+idx)
+        setCookie(idx, idx, 7)
+        setPopups(popups.filter(popup => popup.idx!==idx))
+    }
+
+    const closePopup = (idx) => {
         setPopups(popups.filter(popup => popup.idx!==idx))
     }
 
     return (
         <Layout>
             {popups.map(popup => (
-                <PopupContent {...popup} key={popup.idx} onDeleteClick={() => deletePopup(popup.idx)}/>
+                <PopupContent {...popup} key={popup.idx} onDeleteClick={() => deletePopup(popup.idx)} onCloseClick={() => closePopup(popup.idx)}/>
             ))}
             <div className={styles.body_wrapper}>
             <div className={styles.body_upper}>

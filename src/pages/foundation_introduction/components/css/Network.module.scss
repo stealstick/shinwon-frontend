@@ -105,8 +105,9 @@
                     .pin_chungnam{
                         position: absolute;
                         cursor: pointer;
-                        top: 130px;
-                        left: 110px;
+                        
+                        top: 150px;
+                        left: 10px;
                         background-image: url("./img/pin-chungnam-empty.svg");
                         &:hover{
                             background-image: url("./img/pin-chungnam.svg");
@@ -115,8 +116,8 @@
                     .pin_chungbuk{
                         position: absolute;
                         cursor: pointer;
-                        top: 150px;
-                        left: 10px;
+                        top: 130px;
+                        left: 110px;
                         background-image: url("./img/pin-chungbuk-empty.svg");
                         &:hover{
                             background-image: url("./img/pin-chungbuk.svg");

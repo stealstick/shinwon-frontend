@@ -51,7 +51,7 @@ const Network = () => {
                     <span className={styles.network_area_content_text}>01905</span>
                 </div>
                 <div className={styles.network_area_content_bold}>주소:
-                    <span className={styles.network_area_content_text}>서울시 노원구 월계동 321-2번지 희성프라자 305호</span>
+                    <span className={styles.network_area_content_text}>서울시 노원구 월계동 321-2번지 희성프라자 213호</span>
                 </div>
                 <div className={styles.network_area_content_bold}>담당지역:
                     <span className={styles.network_area_content_text}>서울 강북 지역, 의정부시, 포천시, 남양주시, 구리시</span>
@@ -394,7 +394,7 @@ const Network = () => {
                 <div className={styles.network_area_content}>
                     <div className={styles.network_area_content_title}>&nbsp;&nbsp;충주영업소</div>
                     <div className={styles.network_area_content_bold}>연락처: 
-                        <span className={styles.network_area_content_text}>사무실 043-853-4701 팩스 043-843-4701</span>
+                        <span className={styles.network_area_content_text}>사무실 043-241-2441 팩스 043-843-4701</span>
                     </div>
                     <div className={styles.network_area_content_bold}>우편번호:
                         <span className={styles.network_area_content_text}>27356</span>
