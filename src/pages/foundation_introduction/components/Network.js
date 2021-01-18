@@ -394,7 +394,7 @@ const Network = () => {
                 <div className={styles.network_area_content}>
                     <div className={styles.network_area_content_title}>&nbsp;&nbsp;충주영업소</div>
                     <div className={styles.network_area_content_bold}>연락처: 
-                        <span className={styles.network_area_content_text}>사무실 043-241-2441 팩스 043-843-4701</span>
+                        <span className={styles.network_area_content_text}>사무실 043-853-4701 팩스 043-843-4701</span>
                     </div>
                     <div className={styles.network_area_content_bold}>우편번호:
                         <span className={styles.network_area_content_text}>27356</span>
@@ -409,7 +409,7 @@ const Network = () => {
                 <div className={styles.network_area_content}>
                     <div className={styles.network_area_content_title}>&nbsp;&nbsp;청주영업소</div>
                     <div className={styles.network_area_content_bold}>연락처: 
-                        <span className={styles.network_area_content_text}>사무실 010-8836-2441 팩스 043-241-2441</span>
+                        <span className={styles.network_area_content_text}>사무실 043-241-2441 팩스 043-241-2441</span>
                     </div>
                     <div className={styles.network_area_content_bold}>우편번호:
                         <span className={styles.network_area_content_text}>27356</span>
