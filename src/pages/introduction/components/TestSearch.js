@@ -174,11 +174,11 @@ const TestSearch = ({props}) => {
                             <div className={styles.table_title}>급여비용</div>
                             <div className={styles.table_content}>{detailData.data18}</div>
                         </div>
-                        <div className={styles.detail_table_long}>
+                        <div className={styles.detail_table_long} style={{height: "70px"}}>
                             <div className={styles.table_title}>참고치</div>
                             <div className={styles.table_content}>{detailData.data19}</div>
                         </div>
-                        <div className={styles.detail_table_long_warn}>
+                        <div className={styles.detail_table_long_warn} style={{height: "120px"}}>
                             <div className={styles.table_title}>주의사항</div>
                             <div className={styles.table_content}>{detailData.data20}</div>
                         </div>
