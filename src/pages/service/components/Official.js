@@ -64,7 +64,7 @@ const Official = ({props}) => {
 
     const currentPostsList = posts.map(post => (
         <OfficialContent
-            id={post.idx}
+            id={post.pk}
             title={post.title}
             date={post.regdate}
             key={post.idx}
@@ -79,6 +79,7 @@ const Official = ({props}) => {
         .then(res => {
             setPosts(res.data['results'])
             setCount(res.data['count'])
+            console.log(res.data['results'][0])
         })
         .catch(err => {
             console.log(err)
