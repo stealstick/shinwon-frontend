@@ -13,7 +13,7 @@ function AddReference(){
         reg_name: "",
         regdate: "",
         b_idx: 1,
-        idx: ""
+        idx: 0
     })
     const onChange = (e) => {
         const { name, value } = e.target
@@ -48,7 +48,7 @@ function AddReference(){
             reg_id: reg_id,
             reg_name: reg_name,
             b_idx: b_idx,
-            idx: Number(idx),
+            idx: idx,
             regdate: regdate
         }))
         .then(res => {
@@ -89,7 +89,7 @@ function AddReference(){
                     <input onChange={onChange} value={reg_id} name="reg_id" placeholder="등록 ID(admin)"  className={styles.input}/>
                     <input onChange={onChange} value={reg_name} name="reg_name" placeholder="등록자(관리자)"  className={styles.input}/>
                     <input onChange={onChange} value={regdate} name="regdate" placeholder="입력 날짜"  className={styles.input}/>
-                    <input onChange={onChange} value={idx} name="idx" placeholder="idx" className={styles.input}/>
+                    {/*<input onChange={onChange} value={idx} name="idx" placeholder="idx" className={styles.input}/>*/}
                     <select onChange={onChange} name="b_idx">
                         <option value={7}>인증서</option>
                         <option value={5}>의뢰지/동의서</option>
