@@ -64,9 +64,11 @@ function AddRecruitment(){
                 etc: "",
                 inquiry: ""
             })
+            alert("업로드 완료")
         })
         .catch(err => {
             console.log(err)
+            alert("업로드 실패")
         }) 
     }
 

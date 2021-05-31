@@ -1,14 +1,12 @@
 import React, { useState } from 'react'
 import './css/InputForm.scss'
 import { Link, useHistory } from 'react-router-dom'
+import { useRecoilState } from 'recoil'
+import { searchAtom } from '../store'
 
 const InputForm = () => {
 
-    const [ input, setInput ] = useState({
-        data1: "",
-        data17: "",
-        ord_cd: ""
-    })
+    const [ input, setInput ] = useRecoilState(searchAtom)
 
     const onChange = (e) => {
         const { name, value } = e.target
@@ -22,11 +20,11 @@ const InputForm = () => {
 
     const onKeyPress = (e) => {
         if(e.key==='Enter'){
-            history.push(`/introduction/8/?data1=${data1}&data17=${data17}&ord_cd=${ord_cd}`)
+            history.push(`/introduction/8/?data1=${name}&data17=${code1}&ord_cd=${code2}`)
         }
     }
 
-    const { data1, data17, ord_cd } = input
+    const { code1, code2, name } = input
 
     return(
         <div className="forms-wrapper">
@@ -42,10 +40,10 @@ const InputForm = () => {
                 <div className="forms-sticky">
                     <div className="forms-title">검사항목조회</div>
                     <div className="input-wrapper">
-                        <input type="text" className="input" onChange={onChange} value={data1} name="data1" onKeyPress={onKeyPress} placeholder="검사명"/>
-                        <input type="text" className="input" onChange={onChange} value={data17} name="data17" onKeyPress={onKeyPress} placeholder="보험코드"/>
-                        <input type="text" className="input" onChange={onChange} value={ord_cd} name="ord_cd" onKeyPress={onKeyPress} placeholder="검사코드"/>
-                        <Link to={`/introduction/8/?data1=${data1}&data17=${data17}&ord_cd=${ord_cd}`} className="input-btn">SEARCH</Link>
+                        <input type="text" className="input" onChange={onChange} value={name} name="name" onKeyPress={onKeyPress} placeholder="검사명"/>
+                        <input type="text" className="input" onChange={onChange} value={code1} name="code1" onKeyPress={onKeyPress} placeholder="보험코드"/>
+                        <input type="number" className="input" onChange={onChange} value={code2} name="code2" onKeyPress={onKeyPress} placeholder="검사코드"/>
+                        <Link to={`/introduction/8/?data1=${name}&data17=${code1}&ord_cd=${code2}`} className="input-btn">SEARCH</Link>
                     </div>
                 </div>
             </div>

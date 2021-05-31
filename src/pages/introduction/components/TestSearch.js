@@ -5,14 +5,13 @@ import axios from 'axios'
 import queryString from 'query-string'
 import printJS from 'print-js'
 import html2canvas from 'html2canvas'
+import { useHistory } from 'react-router-dom'
+import { useRecoilState } from 'recoil'
+import { searchAtom } from '../../../store'
 
 const TestSearch = ({props}) => {
 
-    const [ input, setInput ] = useState({
-        name: props==="" ? "" : queryString.parse(props).data1,
-        code1: props==="" ? "" : queryString.parse(props).data17,
-        code2: props==="" ? "" : queryString.parse(props).ord_cd
-    })
+    const [ input, setInput ] = useRecoilState(searchAtom)
     const [ testing, setTesting ] = useState(null)
     const [ isSearchDetail, setIsSearchDetail ] = useState(false)
     const [ detailData, setDetailData ] = useState({})
@@ -23,6 +22,8 @@ const TestSearch = ({props}) => {
     for(let i=1; i<=count; i++){
         pageNumber.push(i)
     }
+
+    const history = useHistory()
     
 
     const PageNumContent = ({num}) => {
@@ -62,21 +63,9 @@ const TestSearch = ({props}) => {
 
     const onKeyPress = (e) => {
         if(e.key==='Enter'){
-            searchData()
+            history.push(`/introduction/8/?data1=${name}&data17=${code1}&ord_cd=${code2}`)
         }
     } 
-
-    const searchData = () => {
-        var ord_cd = code2==="" ? 1 : code2
-        axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${ord_cd}&page=${currentPage}`)
-        .then(res => {
-            setTesting(res.data['data'])
-            setCount(res.data['count'])
-        })
-        .catch(err => {
-            console.log(err)
-        })
-    }
 
     const changeScreen = (data) => {
         setIsSearchDetail(true)
@@ -107,8 +96,20 @@ const TestSearch = ({props}) => {
     }
 
     useEffect(() => {
-        searchData()
-        
+        setInput({
+            name: !props ? "" : queryString.parse(props).data1,
+            code1: !props ? "" : queryString.parse(props).data17,
+            code2: !props ? "" : queryString.parse(props).ord_cd
+        })
+        var ord_cd = code2==="" ? 1 : code2
+        axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${ord_cd}&page=${currentPage}`)
+        .then(res => {
+            setTesting(res.data['data'])
+            setCount(res.data['count'])
+        })
+        .catch(err => {
+            console.log(err)
+        })
     }, [props, currentPage])
 
     return(
@@ -237,17 +238,17 @@ const TestSearch = ({props}) => {
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>검사명</div>
                         <input className={styles.search_row_input} placeholder="검사명 입력" onKeyPress={onKeyPress} value={name} onChange={onChange} name="name"/>
-                        <div className={name==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
+                        <div className={name==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={() => history.push(`/introduction/8/?data1=${name}&data17=${code1}&ord_cd=${code2==="" ? 1 : code2}`)}>조회</div>
                     </div>
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>보험코드</div>
                         <input className={styles.search_row_input} placeholder="보험코드 입력" onKeyPress={onKeyPress} value={code1} onChange={onChange} name="code1"/>
-                        <div className={code1==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
+                        <div className={code1==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={() => history.push(`/introduction/8/?data1=${name}&data17=${code1}&ord_cd=${code2==="" ? 1 : code2}`)}>조회</div>
                     </div>
                     <div className={styles.search_row}>
                         <div className={styles.search_row_name}>검사코드</div>
-                        <input className={styles.search_row_input} placeholder="검사코드 입력" onKeyPress={onKeyPress} value={code2} onChange={onChange} name="code2"/>
-                        <div className={code2==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={searchData}>조회</div>
+                        <input className={styles.search_row_input} placeholder="검사코드 입력" onKeyPress={onKeyPress} value={code2} onChange={onChange} type="number" name="code2"/>
+                        <div className={code2==="" ? styles.search_row_button : styles.search_row_button + " " + styles.active} onClick={() => history.push(`/introduction/8/?data1=${name}&data17=${code1}&ord_cd=${code2==="" ? 1 : code2}`)}>조회</div>
                     </div>
                 </div>
                 <div className={styles.result_wrapper}>
