@@ -104,7 +104,7 @@ const TestSearch = ({props}) => {
         var ord_cd = code2==="" ? 1 : code2
         axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${ord_cd}&page=${currentPage}`)
         .then(res => {
-            setTesting(res.data['data'])
+            setTesting(res.data['data'].filter(el => String(el.ord_cd).indexOf(String(code2))!==-1))
             setCount(res.data['count'])
         })
         .catch(err => {
