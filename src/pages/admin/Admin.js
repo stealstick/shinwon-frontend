@@ -78,17 +78,20 @@ function Admin(){
         if(sessionStorage.getItem("admin")==="admin"){
             setIsAdmin(true)
         }
+        console.log(getCurrentTime())
     }, [])
 
     const getCurrentTime = () => {
         var date = new Date()
         var year = date.getFullYear()
-        var month = date.getMonth()
+        var month = date.getMonth() + 1
         var day = date.getDate()
         var hour = date.getHours()
         var minute = date.getMinutes()
         var second = date.getSeconds()
-        return year+"/"+month+1+"/"+day+" "+hour+":"+minute+":"+second
+        if(month < 10){ month = '0' + month }
+        if(day < 10){ day = '0' + day }
+        return year+"/"+month+"/"+day+" "+hour+":"+minute+":"+second
     }
 
     const handleUpload = () => {
