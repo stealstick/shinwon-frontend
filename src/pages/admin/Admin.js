@@ -19,8 +19,8 @@ function Admin(){
         fileurl: "",
         fileurl2: "",
         fileurl3: "",
-        reg_id: "",
-        reg_name: "",
+        reg_id: "admin",
+        reg_name: "관리자",
         b_idx: 1,
         idx: "",
         regdate: ""
@@ -104,7 +104,7 @@ function Admin(){
             b_idx: b_idx,
             contents: editorHtml,
             idx: Number(idx),
-            regdate: regdate
+            regdate: getCurrentTime()
         }))
         .then(res => {
             setInput({
@@ -133,14 +133,9 @@ function Admin(){
                     <LinkContent/>
                     <div className={styles.title}>공문, FAQ 업로드</div>
                     <input onChange={onChange} value={title} name="title" placeholder="제목" className={styles.input}/>
-                    <input onChange={onChange} value={email} name="email" placeholder="이메일(선택)" className={styles.input}/>
                     <input onChange={onChange} value={fileurl} name="fileurl" placeholder="첨부파일1(선택)" className={styles.input}/>
                     <input onChange={onChange} value={fileurl2} name="fileurl2" placeholder="첨부파일2(선택)"  className={styles.input}/>
                     <input onChange={onChange} value={fileurl3} name="fileurl3" placeholder="첨부파일3(선택)"  className={styles.input}/>
-                    <input onChange={onChange} value={reg_id} name="reg_id" placeholder="등록 ID(admin)"  className={styles.input}/>
-                    <input onChange={onChange} value={reg_name} name="reg_name" placeholder="등록자(관리자)"  className={styles.input}/>
-                    <input onChange={onChange} value={regdate} name="regdate" placeholder="입력 날짜"  className={styles.input}/>
-                    <input onChange={onChange} value={idx} name="idx" placeholder="idx" className={styles.input}/>
                     <select onChange={onChange} name="b_idx">
                         <option value={1}>공문</option>
                         <option value={3}>FAQ</option>
