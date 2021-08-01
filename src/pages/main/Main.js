@@ -59,13 +59,13 @@ function Main() {
         console.log(cookieData)
         var today = new Date()
         localStorage.setItem("popup_display_none", "")
-        axios.get(`https://api.shinwon.org/popup/?end_date=${getFormatDate(today)}`)
+        /*axios.get(`https://api.shinwon.org/popup/?end_date=${getFormatDate(today)}`)
         .then(res => {
             setPopups(res.data['results'].filter(popup => cookieData.indexOf(popup.idx)===-1))
         })
         .catch(err => {
             console.log(err)
-        })
+        })*/
     }, [])
 
     const deletePopup = (idx) => {
