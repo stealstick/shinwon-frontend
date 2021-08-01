@@ -123,9 +123,11 @@ function Admin(){
                 idx: ""
             })
             setEditorState(editorState.createEmpty())
+            alert("성공적으로 업로드되었습니다.")
         })
         .catch(err => {
             console.log(err)
+            alert("업로드에 실패했습니다.")
         }) 
     }
     
