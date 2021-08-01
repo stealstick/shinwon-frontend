@@ -4,6 +4,20 @@ import { Link } from 'react-router-dom'
 import Footer from '../../Footer'
 import axios from 'axios'
 
+const RecContent = ({title, start_period, end_period, field_title}) => {
+    return(
+        <Link to={`/recruitment/${title}`} className={styles.rec_content_wrapper}>
+            <div className={styles.rec_content_left}>
+                <div className={styles.rec_content_title}>{title}</div>
+            </div>
+            <div className={styles.rec_content_right}>
+                <div className={styles.rec_content_date}>{start_period}~{end_period}</div>
+                <div className={styles.rec_content_dday}></div>
+            </div>
+        </Link>
+    )
+}
+
 const RecruitmentList = () => {
 
     const [ num, setNum ] = useState(1)
@@ -15,21 +29,6 @@ const RecruitmentList = () => {
         var month = date.getMonth() + 1
         var day = date.getDate()
         return year+"-"+month+"-"+day
-    }
-
-    const RecContent = ({title, start_period, end_period, field_title}) => {
-        return(
-            <Link to={`/recruitment/${title}`} className={styles.rec_content_wrapper}>
-                <div className={styles.rec_content_left}>
-                    <div className={styles.rec_content_depart}>{field_title}</div>
-                    <div className={styles.rec_content_title}>{title}</div>
-                </div>
-                <div className={styles.rec_content_right}>
-                    <div className={styles.rec_content_date}>{start_period}~{end_period}</div>
-                    <div className={styles.rec_content_dday}></div>
-                </div>
-            </Link>
-        )
     }
 
     useEffect(() => {

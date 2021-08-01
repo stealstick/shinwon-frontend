@@ -39,7 +39,6 @@ function RecruitmentDetail(props){
                 <div className={styles.page_desc}>의료법인 신원의료재단의 채용공고를 확인하세요.</div>
                 <div className={styles.page_box}>
                     <div className={styles.box_text}>지원서 접수는 채용공고상 전자메일로만 접수</div>
-                    <div className={styles.box_email}>recruit@shinwon.org</div>
                 </div>
                 <div className={styles.page_table}>
                     <div className={styles.table_row}>
