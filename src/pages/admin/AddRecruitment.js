@@ -14,7 +14,9 @@ function AddRecruitment(){
         field_sector: "",
         progress: "",
         etc: "",
-        inquiry: ""
+        inquiry: "",
+        method: "",
+        document: ""
     })
     const onChange = (e) => {
         const { name, value } = e.target
@@ -23,7 +25,7 @@ function AddRecruitment(){
             [name]: value
         })
     }
-    const { title, start_period, end_period, field_sector, field_title, progress, etc, inquiry } = input
+    const { title, start_period, end_period, field_sector, field_title, progress, etc, inquiry, method, document } = input
 
     useEffect(() => {
         if(sessionStorage.getItem("admin")==="admin"){
@@ -51,7 +53,9 @@ function AddRecruitment(){
             field_title: field_title,
             progress: progress,
             etc: etc,
-            inquiry: inquiry
+            inquiry: inquiry,
+            document: document,
+            method: method
         }))
         .then(res => {
             setInput({
@@ -62,7 +66,9 @@ function AddRecruitment(){
                 field_sector: "",
                 progress: "",
                 etc: "",
-                inquiry: ""
+                inquiry: "",
+                method: "",
+                document: ""
             })
             alert("업로드 완료")
         })
@@ -88,13 +94,14 @@ function AddRecruitment(){
             {isAdmin ? 
                 <div className={styles.editor_container}>
                     <LinkContent/>
-                    <div className={styles.title}>인증서/의뢰지/동의서</div>
+                    <div className={styles.title}>채용공고</div>
                     <input onChange={onChange} value={title} name="title" placeholder="공고명" className={styles.input}/>
                     <input onChange={onChange} value={start_period} name="start_period" placeholder="모집 시작 날짜" className={styles.input}/>
                     <input onChange={onChange} value={end_period} name="end_period" placeholder="모집 완료 날짜" className={styles.input}/>
-                    <input onChange={onChange} value={field_title} name="field_title" placeholder="모집분야"  className={styles.input}/>
-                    <input onChange={onChange} value={field_sector} name="field_sector" placeholder="모집부문"  className={styles.input}/>
-                    <input onChange={onChange} value={progress} name="progress" placeholder="지원절차"  className={styles.input}/>
+                    <input onChange={onChange} value={field_title} name="field_title" placeholder="모집분야 및 자격요건"  className={styles.input}/>
+                    <input onChange={onChange} value={method} name="method" placeholder="지원방법"  className={styles.input}/>
+                    <input onChange={onChange} value={document} name="document" placeholder="제출서류 및 기간"  className={styles.input}/>
+                    <input onChange={onChange} value={progress} name="progress" placeholder="전형절차"  className={styles.input}/>
                     <input onChange={onChange} value={etc} name="etc" placeholder="기타" className={styles.input}/>
                     <input onChange={onChange} value={inquiry} name="inquiry" placeholder="문의" className={styles.input}/>
                     <div className={styles.upload_button_wrapper}>

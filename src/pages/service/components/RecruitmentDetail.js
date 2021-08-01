@@ -38,7 +38,7 @@ function RecruitmentDetail(props){
                 <div className={styles.page_title}>채용공고</div>
                 <div className={styles.page_desc}>의료법인 신원의료재단의 채용공고를 확인하세요.</div>
                 <div className={styles.page_box}>
-                    <div className={styles.box_text}>지원서 접수는 전자메일로만 접수</div>
+                    <div className={styles.box_text}>지원서 접수는 채용공고상 전자메일로만 접수</div>
                     <div className={styles.box_email}>recruit@shinwon.org</div>
                 </div>
                 <div className={styles.page_table}>
@@ -50,22 +50,20 @@ function RecruitmentDetail(props){
                         <div className={styles.row_title}>기간</div>
                         <div className={styles.row_text_bold}>{data.start_period} ~ {data.end_period}</div>
                     </div>
-                    <div className={styles.table_row}>
-                        <div className={styles.row_title}>이메일주소</div>
-                        <div className={styles.row_text_bold}>recruit@shinwon.org</div>
-                    </div>
                 </div>
-                <div className={styles.page_title_big}>임상병리사 경력직 채용공고</div>
+                <div className={styles.page_title_big}>모집부문 및 상세내용</div>
                 <SubTitle title="모집분야 및 자격요건"/>
-                {data.field_title}
+                <div className={styles.line_break}>{data.field_title}</div>
                 <SubTitle title="지원방법"/>
-                
+                <div className={styles.line_break}>{data.method}</div>
+                <SubTitle title="제출서류 및 기간"/>
+                <div className={styles.line_break}>{data.document}</div>
                 <SubTitle title="전형절차"/>
-                {data.progress}
+                <div className={styles.line_break}>{data.progress}</div>
                 <SubTitle title="기타사항"/>
-                {data.etc}
+                <div className={styles.line_break}>{data.etc}</div>
                 <SubTitle title="문의"/>
-                {data.inquiry}
+                <div className={styles.line_break}>{data.inquiry}</div>
                 <div className={styles.button_wrapper}>
                     <Link to="/recruitment" className={styles.button}>목록으로</Link>
                 </div>

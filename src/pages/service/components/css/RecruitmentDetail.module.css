@@ -148,3 +148,6 @@
     align-items: center;
     justify-content: center;
 }
+.line_break{
+    white-space: pre-line;
+}
