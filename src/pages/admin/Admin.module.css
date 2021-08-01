@@ -50,6 +50,15 @@
     padding: 20px;
     margin-bottom: 30px;
 }
+.textarea{
+    font-family: inherit;
+    font-size: 18px;
+    width: calc(100% - 20px);
+    padding: 20px;
+    margin-bottom: 30px;
+    resize: none;
+    height: 4rem;
+}
 .upload_button_wrapper{
     width: 100%;
     display: flex;

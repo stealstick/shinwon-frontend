@@ -98,11 +98,11 @@ function AddRecruitment(){
                     <input onChange={onChange} value={title} name="title" placeholder="공고명" className={styles.input}/>
                     <input onChange={onChange} value={start_period} name="start_period" placeholder="모집 시작 날짜" className={styles.input}/>
                     <input onChange={onChange} value={end_period} name="end_period" placeholder="모집 완료 날짜" className={styles.input}/>
-                    <input onChange={onChange} value={field_title} name="field_title" placeholder="모집분야 및 자격요건"  className={styles.input}/>
-                    <input onChange={onChange} value={method} name="method" placeholder="지원방법"  className={styles.input}/>
-                    <input onChange={onChange} value={document} name="document" placeholder="제출서류 및 기간"  className={styles.input}/>
-                    <input onChange={onChange} value={progress} name="progress" placeholder="전형절차"  className={styles.input}/>
-                    <input onChange={onChange} value={etc} name="etc" placeholder="기타" className={styles.input}/>
+                    <textarea onChange={onChange} value={field_title} name="field_title" placeholder="모집분야 및 자격요건"  className={styles.textarea}/>
+                    <textarea onChange={onChange} value={method} name="method" placeholder="지원방법"  className={styles.textarea}/>
+                    <textarea onChange={onChange} value={document} name="document" placeholder="제출서류 및 기간"  className={styles.textarea}/>
+                    <textarea onChange={onChange} value={progress} name="progress" placeholder="전형절차"  className={styles.textarea}/>
+                    <textarea onChange={onChange} value={etc} name="etc" placeholder="기타" className={styles.textarea}/>
                     <input onChange={onChange} value={inquiry} name="inquiry" placeholder="문의" className={styles.input}/>
                     <div className={styles.upload_button_wrapper}>
                         <div className={styles.upload_button} onClick={handleUpload}>업로드</div>
