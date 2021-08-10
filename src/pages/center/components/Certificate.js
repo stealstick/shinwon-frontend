@@ -10,94 +10,6 @@ const Certificate = () => {
     const [ currentPage, setCurrentPage ] = useState(1)
     const [ count, setCount ] = useState(0)
 
-    const printImage = (img) => {
-        var isUrl = img.indexOf("http")>-1
-        printJs(isUrl ? img : 'https://api.shinwon.org/media/' + img, 'image')
-    }
-
-    const downloadFile = (file) => {
-        var browserName = undefined;
-        var userAgent = navigator.userAgent;
-
-        switch (true) {
-            case /Trident|MSIE/.test(userAgent):
-                browserName = 'ie';
-                break;
-
-            case /Edge/.test(userAgent):
-                browserName = 'edge';
-                break;
-
-            case /Chrome/.test(userAgent):
-                browserName = 'chrome';
-                break;
-
-            case /Safari/.test(userAgent):
-                browserName = 'safari';
-                break;
-
-            case /Firefox/.test(userAgent):
-                browserName = 'firefox';
-                break;
-
-            case /Opera/.test(userAgent):
-                browserName = 'opera';
-                break;
-
-            default:
-                browserName = 'unknown';
-        }
-
-        
-        var isUrl = file.indexOf("http")>-1
-
-        if (browserName === 'ie' || browserName === 'edge') {
-
-            //ie11
-            var _window = window.open(isUrl ? file : 'https://api.shinwon.org/media/' + file, "_blank");
-            _window.document.close();
-            _window.document.execCommand('SaveAs', true, file.split("/").slice(-1)[0] || file)
-            _window.close();
-        } else {
-            axios({
-                url: isUrl ? file : 'https://api.shinwon.org/media/' + file,
-                method: 'GET',
-                responseType: 'blob',
-            }).then((response) => {
-                const url = window.URL.createObjectURL(new Blob([response.data]));
-                const link = document.createElement('a');
-                link.href = url;
-                link.setAttribute('download', file.split("/").slice(-1)[0]);
-                document.body.appendChild(link);
-                link.click();
-            });
-        }
-
-        
-
-    }
-
-    const DataContent = ({title, img}) => {
-        return(
-            <div className={styles.datacontent_wrapper}>
-                <div className={styles.datacontent_title} dangerouslySetInnerHTML={{__html: title}}/>
-                <div className={styles.datacontent_img_wrapper}>
-                    <img src={img} alt="" className={styles.datacontent_img}/>
-                </div>
-                <div className={styles.datacontent_download_button_wrapper}>
-                    <div onClick={() => downloadFile(img)} className={styles.datacontent_download_button}>
-                        <img src="../imgs/img/download-img.svg" alt="" className={styles.datacontent_download_img}/>
-                        다운로드
-                    </div>
-                    <div onClick={() => printImage(img)} className={styles.datacontent_download_button}>
-                        <img src="../imgs/img/printer.svg" alt="" className={styles.datacontent_download_img}/>
-                        인쇄
-                    </div>
-                </div>
-            </div>
-        )
-    }
-
     const getPageNumber = () => {
         var pageNum = 0
         if(count % 20 !== 0) pageNum = count / 20 + 1
@@ -175,3 +87,91 @@ const Certificate = () => {
 }
 
 export default Certificate
+
+const printImage = (img) => {
+    var isUrl = img.indexOf("http")>-1
+    printJs(isUrl ? img : 'https://api.shinwon.org/media/' + img, 'image')
+}
+
+const downloadFile = (file) => {
+    var browserName = undefined;
+    var userAgent = navigator.userAgent;
+
+    switch (true) {
+        case /Trident|MSIE/.test(userAgent):
+            browserName = 'ie';
+            break;
+
+        case /Edge/.test(userAgent):
+            browserName = 'edge';
+            break;
+
+        case /Chrome/.test(userAgent):
+            browserName = 'chrome';
+            break;
+
+        case /Safari/.test(userAgent):
+            browserName = 'safari';
+            break;
+
+        case /Firefox/.test(userAgent):
+            browserName = 'firefox';
+            break;
+
+        case /Opera/.test(userAgent):
+            browserName = 'opera';
+            break;
+
+        default:
+            browserName = 'unknown';
+    }
+
+    
+    var isUrl = file.indexOf("http")>-1
+
+    if (browserName === 'ie' || browserName === 'edge') {
+
+        //ie11
+        var _window = window.open(isUrl ? file : 'https://api.shinwon.org/media/' + file, "_blank");
+        _window.document.close();
+        _window.document.execCommand('SaveAs', true, file.split("/").slice(-1)[0] || file)
+        _window.close();
+    } else {
+        axios({
+            url: isUrl ? file : 'https://api.shinwon.org/media/' + file,
+            method: 'GET',
+            responseType: 'blob',
+        }).then((response) => {
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', file.split("/").slice(-1)[0]);
+            document.body.appendChild(link);
+            link.click();
+        });
+    }
+
+    
+
+}
+
+const DataContent = ({title, img}) => {
+    return(
+        <div className={styles.datacontent_wrapper}>
+            <div className={styles.datacontent_title} dangerouslySetInnerHTML={{__html: title}}/>
+            <div className={styles.datacontent_img_wrapper}>
+                <img src={img} alt="" className={styles.datacontent_img}/>
+            </div>
+            <div className={styles.datacontent_download_button_wrapper}>
+                <div onClick={() => downloadFile(img)} className={styles.datacontent_download_button}>
+                    <img src="../imgs/img/download-img.svg" alt="" className={styles.datacontent_download_img}/>
+                    다운로드
+                </div>
+                <div onClick={() => printImage(img)} className={styles.datacontent_download_button}>
+                    <img src="../imgs/img/printer.svg" alt="" className={styles.datacontent_download_img}/>
+                    인쇄
+                </div>
+            </div>
+        </div>
+    )
+}

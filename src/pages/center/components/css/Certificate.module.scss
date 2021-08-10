@@ -25,6 +25,7 @@
             flex-wrap: wrap;
             margin-top: 40px;
             justify-content: flex-start;
+            column-gap: calc(80px / 3);
         }
         .top_type_wrapper{
             display: flex;
