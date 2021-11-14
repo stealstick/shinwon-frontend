@@ -65,7 +65,7 @@ function Main() {
         localStorage.setItem("popup_display_none", "")
         axios.get(`https://api.shinwon.org/popup/?e_date=${getFormatDate(today)}`)
         .then(res => {
-            setPopups(res.data['results'].filter(popup => cookieData.indexOf(popup.idx)===-1))
+            setPopups(res.data['results'].filter(popup => cookieData.split('; ').indexOf(popup.idx)===-1))
         })
         .catch(err => {
             console.log(err)
