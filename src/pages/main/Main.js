@@ -60,7 +60,7 @@ function Main() {
 
     useEffect(() => {
         let cookieData = document.cookie
-        console.log(cookieData)
+        console.log(cookieData.split('; '))
         var today = new Date()
         localStorage.setItem("popup_display_none", "")
         axios.get(`https://api.shinwon.org/popup/?e_date=${getFormatDate(today)}`)
