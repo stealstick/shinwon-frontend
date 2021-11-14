@@ -16,7 +16,8 @@ function AddPopup(){
         use_y_n: "Y",
         reg_id: "admin",
         idx: "",
-        regdate: ""
+        regdate: "",
+        link: ""
     })
     const onChange = (e) => {
         const { name, value } = e.target
@@ -25,7 +26,7 @@ function AddPopup(){
             [name]: value
         })
     }
-    const { title, s_date, e_date, p_height, p_width, file_url, use_y_n, reg_id, idx } = input
+    const { title, s_date, e_date, p_height, p_width, file_url, use_y_n, reg_id, idx, link } = input
 
     useEffect(() => {
         if(sessionStorage.getItem("admin")==="admin"){
@@ -61,7 +62,8 @@ function AddPopup(){
                 use_y_n: "Y",
                 reg_id: "admin",
                 idx: 0,
-                regdate: ""
+                regdate: "",
+                link: ""
             })
             alert("업로드 완료")
         })
@@ -94,6 +96,7 @@ function AddPopup(){
                     <input onChange={onChange} value={p_height} name="p_height" placeholder="높이(픽셀)"  className={styles.input}/>
                     <input onChange={onChange} value={p_width} name="p_width" placeholder="너비(픽셀)"  className={styles.input}/>
                     <input onChange={onChange} value={file_url} name="file_url" placeholder="이미지 이름"  className={styles.input}/>
+                    <input onChange={onChange} value={link} name="link" placeholder="동영상 링크" className={styles.input}/>
                     <input onChange={onChange} value={use_y_n} name="use_y_n" placeholder="use_y_n" className={styles.input}/>
                     <input onChange={onChange} value={idx} name="idx" placeholder="idx" className={styles.input}/>
                     <div className={styles.upload_button_wrapper}>

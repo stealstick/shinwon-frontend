@@ -9,7 +9,7 @@ import FamilySite from './components/FamilySite'
 import Notice from './components/Notice'
 import axios from 'axios'
 
-const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick}) => {
+const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick, link}) => {
     var isUrl = file_url.indexOf("http")>-1
     return(
         <div style={{position: "fixed", top: "20px", left: "20px", zIndex: "99999"}}>
@@ -17,7 +17,11 @@ const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick}
                 <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onCloseClick}>그만보기</div>
                 <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onDeleteClick}>일주일간 보지않기</div>
             </div>
-            <img src={isUrl ? file_url : `https://api.shinwon.org/media/${file_url}`} style={{height: p_height+"px", width: p_width+"px"}} alt=""/>
+            {link ? (
+                <iframe src={link} width={p_width} height={p_height}/>
+            ) : (
+                <img src={isUrl ? file_url : `https://api.shinwon.org/media/${file_url}`} style={{height: p_height+"px", width: p_width+"px"}} alt=""/>
+            )}
             
         </div>
     )
@@ -59,13 +63,13 @@ function Main() {
         console.log(cookieData)
         var today = new Date()
         localStorage.setItem("popup_display_none", "")
-        /*axios.get(`https://api.shinwon.org/popup/?end_date=${getFormatDate(today)}`)
+        axios.get(`https://api.shinwon.org/popup/?end_date=${getFormatDate(today)}`)
         .then(res => {
             setPopups(res.data['results'].filter(popup => cookieData.indexOf(popup.idx)===-1))
         })
         .catch(err => {
             console.log(err)
-        })*/
+        })
     }, [])
 
     const deletePopup = (idx) => {
@@ -79,9 +83,9 @@ function Main() {
 
     return (
         <Layout>
-            {/*popups.map(popup => (
+            {popups.map(popup => (
                 <PopupContent {...popup} key={popup.idx} onDeleteClick={() => deletePopup(popup.idx)} onCloseClick={() => closePopup(popup.idx)}/>
-            ))*/}
+            ))}
             <div className={styles.body_wrapper}>
             <div className={styles.body_upper}>
                 <div className={styles.body_slide}>
