@@ -18,7 +18,7 @@ const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick,
                 <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onDeleteClick}>일주일간 보지않기</div>
             </div>
             {link ? (
-                <iframe src={link} width={p_width} height={p_height}/>
+                <iframe src={link} width={p_width} height={p_height} allowFullScreen/>
             ) : (
                 <img src={isUrl ? file_url : `https://api.shinwon.org/media/${file_url}`} style={{height: p_height+"px", width: p_width+"px"}} alt=""/>
             )}
