@@ -10,7 +10,7 @@ import Notice from './components/Notice'
 import axios from 'axios'
 
 const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick, link}) => {
-    var isUrl = file_url.indexOf("http")>-1
+    var isUrl = file_url ? file_url.indexOf("http")>-1 : false
     return(
         <div style={{position: "fixed", top: "20px", left: "20px", zIndex: "99999"}}>
             <div style={{width: "100%", backgroundColor: "#ffffff", display: "flex", justifyContent: "space-between", padding: "5px 0px", position: "relative", bottom: "5px"}}>
@@ -65,11 +65,7 @@ function Main() {
         localStorage.setItem("popup_display_none", "")
         axios.get(`https://api.shinwon.org/popup/?e_date=${getFormatDate(today)}`)
         .then(res => {
-            if(cookieData){
-                setPopups(res.data['results'].filter(popup => cookieData.indexOf(popup.idx)===-1))    
-            } else {
-                setPopups(res.data['results'])
-            }
+            setPopups(res.data['results'].filter(popup => cookieData.indexOf(popup.idx)===-1))    
         })
         .catch(err => {
             console.log(err)
