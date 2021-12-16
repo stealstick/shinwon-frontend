@@ -28,7 +28,7 @@
                 &:nth-child(1){
                     margin-left: 0;
                 }
-                &:nth-last-child(){
+                &:nth-last-child(1){
                     margin-right: 0;
                 }
             }
@@ -99,7 +99,7 @@
                 height: 54px;
                 display: flex;
                 flex-direction: row;
-                &:nth-last-child(){
+                &:nth-last-child(1){
                     border-bottom: none;
                 }
                 .method_table_title{
@@ -145,7 +145,7 @@
                 height: 75px;
                 width: 100%;
                 border-bottom: 1px solid #dcdcdc;
-                &:nth-last-child(){
+                &:nth-last-child(1){
                     border-bottom: 0;
                 }
                 .collection_table_title{
