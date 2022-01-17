@@ -17,10 +17,12 @@ const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick,
                 <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onCloseClick}>그만보기</div>
                 <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onDeleteClick}>일주일간 보지않기</div>
             </div>
-            {link ? (
-                <iframe src={link} width={p_width} height={p_height} allowFullScreen/>
+            {file_url ? (
+                <a href={link} target='_blank'>
+                    <img src={isUrl ? file_url : `https://api.shinwon.org/media/${file_url}`} style={{width: p_width+"px", objectFit: 'cover'}} alt=""/>
+                </a>
             ) : (
-                <img src={isUrl ? file_url : `https://api.shinwon.org/media/${file_url}`} style={{height: p_height+"px", width: p_width+"px"}} alt=""/>
+                <iframe src={link} width={p_width} height={p_height} allowFullScreen/>
             )}
             
         </div>
