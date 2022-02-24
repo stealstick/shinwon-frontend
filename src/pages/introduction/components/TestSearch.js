@@ -116,8 +116,7 @@ const TestSearch = ({props}) => {
         <div className={styles.container}>
             <div className={styles.section}>
                 <SectionTitle kor="검사항목조회" eng="TEST LIST SEARCH"/>
-                <div className={styles.list_title}>자동분석검사를 대폭 증강 실시하여 검사 정밀도를 한차원 높여 질 좋은 진료를 위하여 앞장서고 있습니다.</div>
-                <div className={styles.year}>현재 안내 중인 수가는 2020년도 입니다.</div>
+                <div className={styles.list_title}>자동분석검사를 대폭 증강 실시하여 검사 정밀도를 한차원 높여 질 좋은 진료를 위하여 앞장서고 있습니다.<br/>현재 적용된 수가는 2022년 수가입니다.</div>
                 {isSearchDetail ? 
                 <div className={styles.detail_wrapper} >
                     <div className={styles.detail_title}>상세보기</div>
