@@ -9,10 +9,10 @@ import FamilySite from './components/FamilySite'
 import Notice from './components/Notice'
 import axios from 'axios'
 
-const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick, link}) => {
+const PopupContent = ({file_url, p_height, p_width, onDeleteClick, onCloseClick, link, index}) => {
     var isUrl = file_url ? file_url.indexOf("http")>-1 : false
     return(
-        <div style={{position: "fixed", top: "20px", left: "20px", zIndex: "99999"}}>
+        <div style={{zIndex: "99999"}}>
             <div style={{width: "100%", backgroundColor: "#ffffff", display: "flex", justifyContent: "space-between", padding: "5px 0px", position: "relative", bottom: "5px"}}>
                 <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onCloseClick}>그만보기</div>
                 <div style={{fontSize: "16px", cursor: "pointer", marginRight: "10px"}} onClick={onDeleteClick}>일주일간 보지않기</div>
@@ -85,9 +85,11 @@ function Main() {
 
     return (
         <Layout>
-            {popups.map(popup => (
-                <PopupContent {...popup} key={popup.idx} onDeleteClick={() => deletePopup(popup.idx)} onCloseClick={() => closePopup(popup.idx)}/>
-            ))}
+            <div className={styles.popupContainer}>
+                {popups.map((popup, index) => (
+                    <PopupContent {...popup} index={index} key={popup.idx} onDeleteClick={() => deletePopup(popup.idx)} onCloseClick={() => closePopup(popup.idx)}/>
+                ))}
+            </div>
             <div className={styles.body_wrapper}>
             <div className={styles.body_upper}>
                 <div className={styles.body_slide}>

@@ -1,3 +1,11 @@
+.popupContainer {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  z-index: 999999;
+}
+
 .main {
   width: 100vw;
 }
