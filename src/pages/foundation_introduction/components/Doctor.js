@@ -27,6 +27,7 @@ const Doctor = () => {
                 <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/doctor11.png" alt="" className={styles.doctor_img + " " + styles.img11}/>
                 <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/doctor12.png" alt="" className={styles.doctor_img + " " + styles.img12}/>
                 <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/doctor14.png" alt="" className={styles.doctor_img + " " + styles.img14}/>
+                <img data-aos="fade-up"  data-aos-duration="2000" src="../imgs/img/doctor15.jpeg" alt="" className={styles.doctor_img + " " + styles.img15}/>
             </div>
         </div>
     )
