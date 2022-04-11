@@ -105,13 +105,16 @@ const TestSearch = ({props}) => {
     }
 
     useEffect(() => {
+        const qName = queryString.parse(props).data1
+        const qCode1 = queryString.parse(props).data17
+        const qCode2 = queryString.parse(props).ord_cd
         setInput({
-            name: !props ? "" : queryString.parse(props).data1,
-            code1: !props ? "" : queryString.parse(props).data17,
-            code2: !props ? "" : queryString.parse(props).ord_cd
+            name: !props ? "" : qName,
+            code1: !props ? "" : qCode1,
+            code2: !props ? "" : qCode2
         })
         var ord_cd = code2
-        axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${name}&data17=${code1}&ord_cd=${ord_cd}&page=${currentPage}`)
+        axios.get(`https://api.shinwon.org/testing/search_testing/?data1=${qName}&data17=${qCode1}&ord_cd=${qCode2}&page=${currentPage}`)
         .then(res => {
             setTesting(res.data['data'].filter(el => String(el.ord_cd).indexOf(String(code2))!==-1))
             setCount(res.data['count'])
