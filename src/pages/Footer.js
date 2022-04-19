@@ -18,7 +18,7 @@ function Footer(){
                         <Link to="/personal" className="footer-bottom-text">개인정보취급방침</Link>
                         <Link to="/foundation/7" className="footer-bottom-text">위치안내</Link>
                         <Link to="/sitemap" className="footer-bottom-text">사이트맵</Link>
-                    
+                        <a href="https://api.shinwon.org/admin/login/" target='_blank' className="footer-bottom-text">관리자 페이지</a>
                     </div>
                 </div>
                 <div className="footer-right">
